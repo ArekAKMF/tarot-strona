@@ -1,13 +1,13 @@
 import type { InferGetStaticPropsType, GetStaticProps } from "next";
-import { PageTitle } from "@/components/pageTitle";
-import { WithSubnavigation } from "@/components/navigation";
-import { Cards } from "@/components/cards";
-import { Hero } from "@/components/hero";
-import { Checkerboard } from "@/components/checkerboard";
-import { GamesTypeContainer } from "@/components/gamesTypeContainer";
+import { PageTitle } from "@/app/components/pageTitle";
+import { WithSubnavigation } from "@/app/components/navigation";
+import { Cards } from "@/app/components/cards";
+import { Hero } from "@/app/components/hero";
+import { Checkerboard } from "@/app/components/checkerboard";
+import { GamesTypeContainer } from "@/app/components/gamesTypeContainer";
 import { SimpleGrid, Container, Grid, Wrap, Heading } from "@chakra-ui/react";
 
-import { gamesType, horoscop } from "../utils/gamestype";
+import { gamesType, horoscop } from "./utils/gamestype";
 
 export const getStaticProps: GetStaticProps<{
   response: any;

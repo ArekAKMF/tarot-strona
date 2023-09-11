@@ -1,8 +1,8 @@
 import { extendTheme } from "@chakra-ui/react";
-import colorsTheme from "@/theme/colorsTheme";
-import buttonTheme from "@/theme/buttonTheme";
-import headingTheme from "@/theme/headingTheme";
-import linkTheme from "@/theme/linkTheme";
+import colorsTheme from "./colorsTheme";
+import buttonTheme from "./buttonTheme";
+import headingTheme from "./headingTheme";
+import linkTheme from "./linkTheme";
 
 import { Montserrat } from "next/font/google";
 import { Open_Sans } from "next/font/google";
