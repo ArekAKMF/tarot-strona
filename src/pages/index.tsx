@@ -1,29 +1,21 @@
 import type { InferGetStaticPropsType, GetStaticProps } from "next";
-import { PageTitle } from "@/app/components/pageTitle";
-import { WithSubnavigation } from "@/app/components/navigation";
-import { Cards } from "@/app/components/cards";
-import { Hero } from "@/app/components/hero";
-import { Checkerboard } from "@/app/components/checkerboard";
-import { GamesTypeContainer } from "@/app/components/gamesTypeContainer";
+import { PageTitle } from "@/components/pageTitle";
+import { WithSubnavigation } from "@/components/navigation";
+import { Cards } from "@/components/cards";
+import { Hero } from "@/components/hero";
+import { Checkerboard } from "@/components/checkerboard";
+import { GamesTypeContainer } from "@/components/gamesTypeContainer";
 import { SimpleGrid, Container, Grid, Wrap, Heading } from "@chakra-ui/react";
 
-import { gamesType, horoscop } from "./utils/gamestype";
+import { gamesType, horoscop } from "@/utils/gameTypes";
 
-export const getStaticProps: GetStaticProps<{
-  response: any;
-}> = async () => {
-  const response = {};
-  return { props: { response } };
-};
 
-export default function Home({
-  response,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function Home() {
   return (
     <>
       <WithSubnavigation />
       <Container maxW="8xl">
-        <Hero title="Karta Dnia" description="disudisudisuiduddsu wifp ofdfoidpoqiqifpodifdipodaiopif"  />
+        <Hero title="Karta Dnia" description="disudisudisuiduddsu wifp ofdfoidpoqiqifpodifdipodaiopif" />
         <PageTitle
           title="Krajowy System e-Faktur (KSeF)"
           description="Krajowy System e-Faktur to platforma do wystawiania i otrzymywania faktur drogą elektroniczną. Korzystaj z aplikacji KSeF i środowiska testowego, sprawdź pytania i odpowiedzi."

@@ -1,4 +1,3 @@
-'use client'
 import {
   Container,
   Text,
@@ -10,20 +9,20 @@ import {
   Box,
   Grid,
 } from "@chakra-ui/react";
-import { PageTitle } from "@/app/components/pageTitle";
-import { WithSubnavigation } from "@/app/components/navigation";
+import { PageTitle } from "@/components/pageTitle";
+import { WithSubnavigation } from "@/components/navigation";
 import { useRouter } from "next/router";
 
 import React, { useState, useEffect } from "react";
 import Head from "next/head";
 
-import { Cards } from "@/app/components/cards";
-import { Hero } from "@/app/components/hero";
-import { Breadcrumbs } from "@/app/components/breadcrumb";
-import { Checkerboard } from "@/app/components/checkerboard";
+import { Cards } from "@/components/cards";
+import { Hero } from "@/components/hero";
+import { Breadcrumbs } from "@/components/breadcrumb";
+import { Checkerboard } from "@/components/checkerboard";
 
-import { gamesType, horoscop } from "../../utils/gamestype";
-import { cards as cardslist } from "../../utils/cards";
+import { gamesType, horoscop } from "@/utils/gameTypes";
+import { cards as cardslist } from "@/utils/cards";
 
 export default function Home() {
   const [activeElement, setActiveElement] = useState<any>({});
