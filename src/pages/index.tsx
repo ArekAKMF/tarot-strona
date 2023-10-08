@@ -29,17 +29,18 @@ export default function Home() {
           return (
             <GamesTypeContainer
               key={index}
-              image="https://bit.ly/dan-abramov"
+              index={index}
+              image="../../3-karty.jpg"
               title={el.name}
               desc={el.descshort}
-              url={"/rozklad/" + el.url}
+              url={"/wrozba/" + el.url}
               bg={el.background}
             />
           );
         })}
       </SimpleGrid>
       <Container maxW="8xl">
-        <Grid
+        {/* <Grid
           templateColumns={["2", "2", "repeat(3, 1fr)"]}
           gap={6}
           alignItems="center"
@@ -51,31 +52,7 @@ export default function Home() {
             description="Opis"
             url="/"
           />
-          <Cards
-            image="https://bit.ly/dan-abramov"
-            title="opis"
-            description="Opis"
-            url="/"
-          />
-          <Cards
-            image="https://bit.ly/dan-abramov"
-            title="opis"
-            description="Opis"
-            url="/templates"
-          />
-          <Cards
-            image="https://bit.ly/dan-abramov"
-            title="opis"
-            description="Opis"
-            url="/templates"
-          />
-          <Cards
-            image="https://bit.ly/dan-abramov"
-            title="opis"
-            description="Opis"
-            url="/templates"
-          />
-        </Grid>
+        </Grid> */}
 
         <Heading as="h2" variant="sectionTitle">
           Karta dnia dla znaków zodiaku
@@ -86,7 +63,7 @@ export default function Home() {
             return (
               <Checkerboard
                 key={index}
-                image="assets/ryby.svg"
+                image="../../logo-biale.png"
                 title={el.name}
                 url={`/znak/${el.name.toLowerCase()}`}
               />

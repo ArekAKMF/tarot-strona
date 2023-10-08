@@ -493,7 +493,7 @@ export const cards = [
     love: [
       "Karta As Różdżek w kontekście miłości symbolizuje początek nowych możliwości, rozwój uczuć lub zaangażowanie emocjonalne. Oznacza pojawienie się nowej osoby w twoim życiu lub rozwinięcie istniejącego związku. To znak, że przynosić nadzieję, ekscytację i inspirację w dziedzinie miłości. Bądź otwarty na nowe emocje i relacje.",
     ],
-    healt: [
+    health: [
       "Karta As Różdżek w kontekście zdrowia symbolizuje początek poprawy zdrowia lub odkrycie nowych metod leczenia. Oznacza potencjał do transformacji i regeneracji. To znak, że Twoje zdrowie może się poprawić lub możesz znaleźć nowe ścieżki zdrowia i dobrostanu. Bądź otwarty na nowe możliwości i poszukaj zdrowia na różnych poziomach.",
     ],
     jobs: [
@@ -514,7 +514,7 @@ export const cards = [
     love: [
       "Karta Dwójka Różdżek w kontekście miłości symbolizuje partnerstwo, współpracę lub równowagę w relacji. Oznacza harmonię, wzajemne wsparcie i wzrost w związku. To znak, że twoje związki mogą się rozwijać i rosnąć poprzez wspólną pracę i komunikację. Bądź gotowy na współpracę i działanie w partnerstwie.",
     ],
-    healt: [
+    health: [
       "Karta Dwójka Różdżek w kontekście zdrowia symbolizuje równowagę, harmonię lub potrzebę współpracy w celu poprawy zdrowia. Oznacza, że ​​zdrowie może wymagać zastosowania holistycznego podejścia, uwzględniającego zarówno ciało, umysł, jak i ducha. To znak, że równowaga i współpraca mogą przynieść poprawę stanu zdrowia.",
     ],
     jobs: [
@@ -535,7 +535,7 @@ export const cards = [
     love: [
       "Karta Trójka Różdżek w kontekście miłości symbolizuje rozwój, ekspansję lub możliwość rozwoju nowej relacji. Oznacza, że ​​twoje relacje mają potencjał do rozkwitu i rozbudowy. To znak, że powinieneś być otwarty na nowe doświadczenia miłosne i gotowy na rozwój emocjonalny.",
     ],
-    healt: [
+    health: [
       "Karta Trójka Różdżek w kontekście zdrowia symbolizuje postęp, wzrost lub potrzebę rozwoju zdrowia. Oznacza, że ​​twoje zdrowie może rozwijać się pozytywnie i osiągać nowe poziomy. To znak, że powinieneś podjąć działania, które wspierają twój rozwój fizyczny, emocjonalny i duchowy.",
     ],
     jobs: [
@@ -556,7 +556,7 @@ export const cards = [
     love: [
       "Karta Czwórka Różdżek w kontekście miłości symbolizuje stabilność, fundamenty lub poczucie bezpieczeństwa w relacji. Oznacza, że twoja relacja opiera się na solidnych podstawach i zapewnia ci poczucie bezpieczeństwa emocjonalnego. To znak, że twoje relacje mogą rozwijać się w stabilny i trwały sposób.",
     ],
-    healt: [
+    health: [
       "Karta Czwórka Różdżek w kontekście zdrowia symbolizuje stabilność, równowagę lub potrzebę dbałości o zdrowie. Oznacza, że twoje zdrowie jest na dobrej drodze do utrzymania stabilności i równowagi. To znak, że powinieneś kontynuować praktyki zdrowego stylu życia i dbać o swoje ciało i umysł.",
     ],
     jobs: [
@@ -577,7 +577,7 @@ export const cards = [
     love: [
       "Karta Piątka Różdżek w kontekście miłości symbolizuje trudności, konflikty lub wyzwania w relacji. Oznacza, że twoja relacja może być obecnie napięta lub napotyka trudności. To jednak nie oznacza, że wszystko jest stracone. Ta karta zachęca do otwartego i szczerego komunikowania się z partnerem oraz do podejmowania działań mających na celu rozwiązanie problemów i przezwyciężenie trudności.",
     ],
-    healt: [
+    health: [
       "Karta Piątka Różdżek w kontekście zdrowia symbolizuje trudności, utratę równowagi lub potrzebę przezwyciężenia wyzwań zdrowotnych. Oznacza, że możesz obecnie napotykać trudności zdrowotne lub emocjonalne. Ta karta zachęca do poszukiwania wsparcia, podejmowania działań mających na celu poprawę zdrowia i utrzymanie optymistycznego podejścia do wyzwań.",
     ],
     jobs: [
@@ -598,7 +598,7 @@ export const cards = [
     love: [
       "Karta Szóstka Różdżek w kontekście miłości symbolizuje hojność, współdzielenie i obfitość w relacji. Oznacza, że twoja relacja może być pełna wzajemnej troski, wsparcia i hojności. Ta karta zachęca do dzielenia się miłością i doświadczeniami z partnerem oraz do doceniania obfitości, która jest obecna w twoim życiu uczuciowym.",
     ],
-    healt: [
+    health: [
       "Karta Szóstka Różdżek w kontekście zdrowia symbolizuje poprawę, regenerację i obfitość zdrowotną. Oznacza, że obecnie cieszysz się lepszym zdrowiem lub jesteś na drodze do pełnego wyzdrowienia. Ta karta zachęca do dbania o swoje zdrowie, kontynuowania zdrowych nawyków i czerpania radości z dobrej kondycji fizycznej i psychicznej.",
     ],
     jobs: [
@@ -619,7 +619,7 @@ export const cards = [
     love: [
       "Karta Siódemka Różdżek w kontekście miłości symbolizuje sukces, wytrwałość i stabilność w relacji. Oznacza, że twoja miłość jest mocna i trwała, a wasza relacja rozwija się w pozytywnym kierunku. Ta karta zachęca do kontynuowania wysiłków na rzecz relacji, budowania zaufania i dążenia do stabilności emocjonalnej.",
     ],
-    healt: [
+    health: [
       "Karta Siódemka Różdżek w kontekście zdrowia symbolizuje stabilizację, wytrwałość i ochronę zdrowia. Oznacza, że obecnie cieszysz się stabilnym zdrowiem lub masz zdolność do przetrwania i regeneracji. Ta karta zachęca do dbania o swoje zdrowie, utrzymania równowagi i podjęcia działań mających na celu ochronę i wzmocnienie organizmu.",
     ],
     jobs: [
@@ -640,7 +640,7 @@ export const cards = [
     love: [
       "Karta Ósemka Różdżek w kontekście miłości symbolizuje sprawiedliwość, równowagę i obfitość. Oznacza, że w relacji panuje harmonia i sprawiedliwość, a obie strony otrzymują równą miarę miłości i wsparcia. Ta karta zachęca do utrzymania równowagi emocjonalnej, dbania o potrzeby partnera i czerpania radości z obfitości miłości.",
     ],
-    healt: [
+    health: [
       "Karta Ósemka Różdżek w kontekście zdrowia symbolizuje równowagę, harmonię i dobre samopoczucie. Oznacza, że obecnie cieszysz się dobrą kondycją fizyczną i emocjonalną oraz utrzymaniem równowagi w życiu. Ta karta zachęca do kontynuowania zdrowych nawyków, dbania o równowagę w życiu i czerpania radości z dobrej kondycji.",
     ],
     jobs: [
@@ -661,7 +661,7 @@ export const cards = [
     love: [
       "Karta Dziewiątka Różdżek w kontekście miłości symbolizuje dążenie do celu, wytrwałość i zdeterminowanie. Oznacza, że w relacji będziesz skoncentrowany na osiągnięciu długoterminowych celów i będziesz gotów podjąć wszelkie wysiłki, aby zbudować trwałe fundamenty miłości. Ta karta zachęca do poświęcenia czasu i energii na rozwój relacji oraz osiągnięcie stabilności emocjonalnej.",
     ],
-    healt: [
+    health: [
       "Karta Dziewiątka Różdżek w kontekście zdrowia symbolizuje wytrwałość, celowość i zdeterminowanie. Oznacza, że obecnie jesteś zdeterminowany, aby poprawić swoje zdrowie i osiągnąć swoje zdrowotne cele. Ta karta zachęca do konsekwentnego podejścia do zdrowego stylu życia, regularnej aktywności fizycznej i dążenia do równowagi w ciele i umyśle.",
     ],
     jobs: [
@@ -682,7 +682,7 @@ export const cards = [
     love: [
       "Karta Dziesiątka Różdżek w kontekście miłości symbolizuje pełnię, sukces i zakończenie. Oznacza to, że w relacji możesz doświadczać spełnienia emocjonalnego i osiągnąć sukces w miłości. Ta karta zachęca do cieszenia się pełnią miłości i doceniania osiągniętych rezultatów.",
     ],
-    healt: [
+    health: [
       "Karta Dziesiątka Różdżek w kontekście zdrowia symbolizuje satysfakcję, zdrowie i zakończenie. Oznacza to, że obecnie możesz cieszyć się dobrym stanem zdrowia i osiągniętymi celami zdrowotnymi. Ta karta zachęca do doceniania swojego zdrowia i kontynuowania zdrowego stylu życia.",
     ],
     jobs: [
@@ -703,7 +703,7 @@ export const cards = [
     love: [
       "Karta Walet Różdżek w kontekście miłości symbolizuje młodość, ożywienie i początki. Oznacza to, że w relacji może pojawić się nowa energia, entuzjazm i możliwość rozwoju. Ta karta zachęca do otwartości na nowe doświadczenia miłosne i eksploracji uczuć.",
     ],
-    healt: [
+    health: [
       "Karta Walet Różdżek w kontekście zdrowia symbolizuje energię, witalność i młodość. Oznacza to, że obecnie cieszysz się dobrym zdrowiem, pełnym życiem i siłą do podejmowania działań. Ta karta zachęca do dbania o swoje ciało i wykorzystania swojej energii w pozytywny sposób.",
     ],
     jobs: [
@@ -724,7 +724,7 @@ export const cards = [
     love: [
       "Karta Rycerz Różdżek w kontekście miłości symbolizuje aktywność, poświęcenie i determinację. Oznacza to, że w relacji może pojawić się energiczny partner gotowy do podejmowania działań i angażowania się w związek. Ta karta zachęca do działania i przejawiania odwagi w miłości.",
     ],
-    healt: [
+    health: [
       "Karta Rycerz Różdżek w kontekście zdrowia symbolizuje energię, witalność i determinację. Oznacza to, że obecnie cieszysz się dobrym zdrowiem i siłą do podejmowania wyzwań. Ta karta zachęca do aktywności fizycznej, podejmowania rygorystycznych treningów lub wyzwań zdrowotnych.",
     ],
     jobs: [
@@ -745,7 +745,7 @@ export const cards = [
     love: [
       "Karta Królowa Różdżek w kontekście miłości symbolizuje niezależność, pewność siebie i zdolność do zarządzania. Oznacza to, że jesteś silną, dominującą postacią w relacji lub może pojawić się partner o tych cechach. Ta karta zachęca do wykorzystania swojej mocy i pewności siebie w budowaniu zdrowego i zrównoważonego związku.",
     ],
-    healt: [
+    health: [
       "Karta Królowa Różdżek w kontekście zdrowia symbolizuje dobrą kondycję fizyczną, niezależność i samodyscyplinę. Oznacza to, że jesteś w stanie samodzielnie dbać o swoje zdrowie i podejmować odpowiednie działania. Ta karta zachęca do świadomego podejścia do zdrowego stylu życia i dbania o siebie.",
     ],
     jobs: [
@@ -766,7 +766,7 @@ export const cards = [
     love: [
       "Karta Król Różdżek w kontekście miłości symbolizuje pewność siebie, władzę i odpowiedzialność. Oznacza to, że jesteś gotów objąć przywództwo w relacji i podejmować decyzje. Ta karta może wskazywać na pojawienie się partnera, który ma silną osobowość i dominujący charakter. Ta karta zachęca do wykorzystania swojej władzy i zaradności w budowaniu zdrowego związku.",
     ],
-    healt: [
+    health: [
       "Karta Król Różdżek w kontekście zdrowia symbolizuje dobrą kondycję fizyczną, władzę i kontrolę nad swoim zdrowiem. Oznacza to, że jesteś silny i samodzielny w dbaniu o swoje zdrowie. Ta karta zachęca do odpowiedzialnego podejścia do swojego stanu zdrowia i podejmowania decyzji służących jego poprawie.",
     ],
     jobs: [
@@ -787,7 +787,7 @@ export const cards = [
     love: [
       "Karta As Pucharów w kontekście miłości symbolizuje nowe emocje, potencjał uczuciowy i początek związku lub głębszych relacji emocjonalnych. Oznacza to, że możesz oczekiwać na pojawienie się nowego partnera lub rozwinięcie istniejącego związku na głębszym poziomie. Ta karta zachęca do otwarcia się na miłość i połączenia emocjonalne.",
     ],
-    healt: [
+    health: [
       "Karta As Pucharów w kontekście zdrowia symbolizuje emocjonalne zdrowie i dobre samopoczucie. Oznacza to, że jesteś w harmonii z sobą i posiadasz silne wsparcie emocjonalne. Ta karta zachęca do dbania o swoje emocje i relacje, które przyczyniają się do Twojego zdrowia i dobrostanu.",
     ],
     jobs: [
@@ -808,7 +808,7 @@ export const cards = [
     love: [
       "Karta Dwójka Pucharów w kontekście miłości symbolizuje harmonię i współpracę w związku. Oznacza to, że istnieje dobry związek emocjonalny i wzajemne wsparcie między partnerami. Ta karta zachęca do budowania głębszych więzi emocjonalnych i troski o wspólne cele.",
     ],
-    healt: [
+    health: [
       "Karta Dwójka Pucharów w kontekście zdrowia symbolizuje harmonię emocjonalną i dobre samopoczucie. Oznacza to, że jesteś w dobrym stanie zdrowia psychicznego i czerpiesz radość z harmonijnych relacji. Ta karta zachęca do dbania o swoje emocje i tworzenia pozytywnych więzi z innymi.",
     ],
     jobs: [
@@ -829,7 +829,7 @@ export const cards = [
     love: [
       "Karta Trójka Pucharów w kontekście miłości symbolizuje obfitość emocjonalną i szczęście w związku. Oznacza to, że twoje relacje są pełne miłości, radości i harmonii. Ta karta zachęca do doceniania i pielęgnowania bliskości w związku oraz dzielenia się emocjami z partnerem.",
     ],
-    healt: [
+    health: [
       "Karta Trójka Pucharów w kontekście zdrowia symbolizuje dobre samopoczucie emocjonalne i harmonię ciała i umysłu. Oznacza to, że twoje zdrowie psychiczne i emocjonalne jest w dobrym stanie, co przekłada się na dobre samopoczucie ogólne. Ta karta zachęca do dbania o równowagę emocjonalną i troski o siebie.",
     ],
     jobs: [
@@ -850,7 +850,7 @@ export const cards = [
     love: [
       "Karta Czwórka Pucharów w kontekście miłości symbolizuje stabilność emocjonalną i poczucie bezpieczeństwa w związku. Oznacza to, że masz solidne fundamenty emocjonalne i bliską więź z partnerem. Ta karta zachęca do budowania zaufania i długotrwałego związku.",
     ],
-    healt: [
+    health: [
       "Karta Czwórka Pucharów w kontekście zdrowia symbolizuje harmonię ciała i umysłu oraz dobre samopoczucie emocjonalne. Oznacza to, że masz równowagę w sferze zdrowia i odczuwasz satysfakcję z własnego samopoczucia. Ta karta zachęca do kontynuowania zdrowych nawyków i dbania o siebie.",
     ],
     jobs: [
@@ -871,7 +871,7 @@ export const cards = [
     love: [
       "Karta Piątka Pucharów w kontekście miłości może oznaczać trudności, rozczarowanie lub stratę w związku. Może to wskazywać na konflikty, smutek lub brak satysfakcji w relacji. Ta karta zachęca do skonfrontowania się z emocjami i poszukiwania rozwiązań, aby odzyskać równowagę.",
     ],
-    healt: [
+    health: [
       "Karta Piątka Pucharów w kontekście zdrowia może oznaczać obniżenie nastroju, smutek lub utratę energii. Może to wskazywać na trudności emocjonalne lub problemy zdrowotne, które mogą wpływać na samopoczucie. Ta karta zachęca do poszukiwania wsparcia i odnowy emocjonalnej.",
     ],
     jobs: [
@@ -892,7 +892,7 @@ export const cards = [
     love: [
       "Karta Szóstka Pucharów w kontekście miłości symbolizuje obfitość emocjonalną, szczęście i dawanie miłości. Może to oznaczać harmonię i zadowolenie w związku, wzajemne wsparcie oraz radość płynącą z bliskości i intymności. Ta karta zachęca do wyrażania miłości i doceniania relacji.",
     ],
-    healt: [
+    health: [
       "Karta Szóstka Pucharów w kontekście zdrowia oznacza dobre samopoczucie emocjonalne, równowagę i satysfakcję. Może to wskazywać na zdrowe relacje i harmonię w sferze emocjonalnej. Ta karta zachęca do dbania o swoje emocje i czerpania radości z życia.",
     ],
     jobs: [
@@ -913,7 +913,7 @@ export const cards = [
     love: [
       "Karta Siódemka Pucharów w kontekście miłości symbolizuje wzajemne zaufanie, lojalność i budowanie trwałej więzi emocjonalnej. Może to oznaczać głębokie uczucia i stabilność w związku. Ta karta zachęca do otwartości i szczerości w relacjach.",
     ],
-    healt: [
+    health: [
       "Karta Siódemka Pucharów w kontekście zdrowia oznacza emocjonalną równowagę i wewnętrzną satysfakcję. Może to wskazywać na dobre samopoczucie psychiczne oraz korzystne rezultaty w terapii lub pracy nad sobą. Ta karta zachęca do dbania o swoje emocje i zdrowie psychiczne.",
     ],
     jobs: [
@@ -935,7 +935,7 @@ export const cards = [
     love: [
       "Karta Ósemka Pucharów w kontekście miłości symbolizuje obfitość uczuć, miłość i harmonię w związku. Może to oznaczać głębokie zaangażowanie emocjonalne i satysfakcję z relacji partnerskiej. Ta karta zachęca do dzielenia się miłością i hojnością wobec drugiej osoby.",
     ],
-    healt: [
+    health: [
       "Karta Ósemka Pucharów w kontekście zdrowia oznacza dobre samopoczucie psychiczne i emocjonalne. Może to wskazywać na uzdrowienie wewnętrzne, odkrycie równowagi i harmonii. Ta karta zachęca do dbania o swoje emocje i zdrowie psychiczne.",
     ],
     jobs: [
@@ -957,7 +957,7 @@ export const cards = [
     love: [
       "Karta Dziewiątka Pucharów w kontekście miłości symbolizuje stabilność emocjonalną i harmonię w związku. Może to oznaczać długotrwałe i zrównoważone uczucia, pełne zrozumienia i wsparcia. Ta karta zachęca do budowania trwałej relacji opartej na zaufaniu i głębokim połączeniu emocjonalnym.",
     ],
-    healt: [
+    health: [
       "Karta Dziewiątka Pucharów w kontekście zdrowia oznacza dobre samopoczucie psychiczne i emocjonalne. Może to wskazywać na równowagę i stabilność emocjonalną, które są korzystne dla zdrowia. Ta karta zachęca do dbania o swoje emocje i czerpania radości z życia.",
     ],
     jobs: [
@@ -978,7 +978,7 @@ export const cards = [
     love: [
       "Karta Dziesiątka Pucharów w kontekście miłości symbolizuje pełnię i szczęście emocjonalne w związku. Oznacza to głębokie zadowolenie i spełnienie w relacji. Może to także wskazywać na radość płynącą z miłości i harmonijnego partnerstwa. Ta karta zachęca do celebracji miłości i doceniania szczęścia, jakie przynosi.",
     ],
-    healt: [
+    health: [
       "Karta Dziesiątka Pucharów w kontekście zdrowia oznacza doskonałe samopoczucie i pełnię emocji. Może to wskazywać na zdrowie psychiczne, równowagę i satysfakcję z życia. Ta karta zachęca do dbania o swoje emocje i czerpania radości z doświadczania pełni życia.",
     ],
     jobs: [
@@ -999,7 +999,7 @@ export const cards = [
     love: [
       "Karta Walet Pucharów w kontekście miłości symbolizuje nowe emocje, romantyzm i zaloty. Może to wskazywać na pojawienie się młodzieńczego uczucia, zauroczenia lub miłości na pierwszy rzut oka. Ta karta zachęca do wyrażania swoich emocji i otwarcia na nowe romantyczne możliwości.",
     ],
-    healt: [
+    health: [
       "Karta Walet Pucharów w kontekście zdrowia oznacza czułość emocjonalną i wrażliwość. Może to wskazywać na potrzebę pielęgnowania swojego stanu emocjonalnego i opieki nad swoim zdrowiem psychicznym. Ta karta zachęca do samopielegnacji i dbania o swoje emocje.",
     ],
     jobs: [
@@ -1020,7 +1020,7 @@ export const cards = [
     love: [
       "Karta Rycerz Pucharów w kontekście miłości symbolizuje romantyzm, poświęcenie i oddanie. Oznacza to, że osoba lub sytuacja związana z romantycznymi uczuciami może wkroczyć do twojego życia. Ta karta zachęca do głębokiego połączenia emocjonalnego i gotowości do poświęceń dla miłości.",
     ],
-    healt: [
+    health: [
       "Karta Rycerz Pucharów w kontekście zdrowia oznacza wrażliwość emocjonalną i intuicję. Może to wskazywać na potrzebę słuchania swoich emocji i potrzeb w kwestii zdrowia. Ta karta zachęca do troski o swoje emocje i intuicyjnego podejścia do opieki nad sobą.",
     ],
     jobs: [
@@ -1041,7 +1041,7 @@ export const cards = [
     love: [
       "Karta Królowa Pucharów w kontekście miłości symbolizuje dojrzałość emocjonalną, empatię i troskę. Oznacza to, że w relacjach partnerskich jesteś gotowy do wyrażania swoich uczuć, wspierania i opieki nad drugą osobą. Ta karta zachęca do wykorzystania swojej intuicji i empatii w miłości.",
     ],
-    healt: [
+    health: [
       "Karta Królowa Pucharów w kontekście zdrowia oznacza harmonię emocjonalną i troskę o siebie. Może to wskazywać na potrzebę opieki nad swoim ciałem, umysłem i duszą. Ta karta zachęca do dbania o swoje emocje i podejścia do zdrowia z empatią i troską.",
     ],
     jobs: [
@@ -1062,7 +1062,7 @@ export const cards = [
     love: [
       "Karta Król Pucharów w kontekście miłości symbolizuje dojrzałość emocjonalną, stabilność i hojność. Oznacza to, że w relacjach partnerskich jesteś gotowy do ofiarowania miłości, wsparcia i hojności drugiej osobie. Ta karta zachęca do budowania trwałych i harmonijnych związków.",
     ],
-    healt: [
+    health: [
       "Karta Król Pucharów w kontekście zdrowia oznacza stabilność emocjonalną i dobre samopoczucie. Może to wskazywać na harmonię w ciele, umyśle i duszy oraz na potrzebę dbania o swoje emocje i zdrowie psychiczne. Ta karta zachęca do troski o siebie i wykorzystania swoich zasobów w celu osiągnięcia równowagi.",
     ],
     jobs: [
@@ -1083,7 +1083,7 @@ export const cards = [
     love: [
       "Karta As Mieczy w kontekście miłości symbolizuje nowe początki, przełomy i jasność myśli. Oznacza to, że w sferze uczuć możesz oczekiwać świeżego podejścia, klarowności i intelektualnego zrozumienia. Ta karta zachęca do otwartości na nowe możliwości i szukania prawdy w relacjach.",
     ],
-    healt: [
+    health: [
       "Karta As Mieczy w kontekście zdrowia oznacza ostrość umysłu, logiczne myślenie i jasność w podejmowaniu decyzji. Może to wskazywać na konieczność krytycznego myślenia i analizowania swojego stanu zdrowia. Ta karta zachęca do świadomego podejścia do swojego ciała i umysłu.",
     ],
     jobs: [
@@ -1104,7 +1104,7 @@ export const cards = [
     love: [
       "Karta Dwójka Mieczy w kontekście miłości symbolizuje decyzje, wybory i równowagę intelektualną. Oznacza to, że w sferze uczuć może pojawić się konieczność dokonania wyboru lub podjęcia decyzji dotyczącej relacji. Ta karta zachęca do równowagi emocjonalnej i logicznego podejścia do związków.",
     ],
-    healt: [
+    health: [
       "Karta Dwójka Mieczy w kontekście zdrowia oznacza potrzebę równowagi i harmonii między ciałem a umysłem. Może to wskazywać na konieczność znalezienia równowagi emocjonalnej i mentalnej dla utrzymania dobrego zdrowia. Ta karta zachęca do świadomości swojego stanu zdrowia i poszukiwania równowagi.",
     ],
     jobs: [
@@ -1125,7 +1125,7 @@ export const cards = [
     love: [
       "Karta Trójka Mieczy w kontekście miłości może oznaczać konflikty, trudności i rozczarowanie w związku. Może wskazywać na trudne decyzje, konfrontacje lub konflikty, które mogą mieć wpływ na relację. Ta karta zachęca do szczerego i otwartego dialogu oraz poszukiwania rozwiązań w trudnych sytuacjach.",
     ],
-    healt: [
+    health: [
       "Karta Trójka Mieczy w kontekście zdrowia może sygnalizować konflikty, stres i trudności emocjonalne, które mogą wpływać na stan zdrowia. Może wskazywać na potrzebę rozwiązania trudności emocjonalnych, pracy nad rozładowaniem stresu i znalezienia równowagi. Ta karta zachęca do otwartości na pomoc i wsparcie oraz szukania rozwiązań.",
     ],
     jobs: [
@@ -1146,7 +1146,7 @@ export const cards = [
     love: [
       "Karta Czwórka Mieczy w kontekście miłości może oznaczać konflikty, rozdźwięk i brak harmonii w relacji. Może wskazywać na trudności w porozumieniu się, zranienia emocjonalne lub trudne sytuacje, które wpływają na związek. Ta karta zachęca do szczerego komunikowania się, rozwiązywania konfliktów i budowania zaufania.",
     ],
-    healt: [
+    health: [
       "Karta Czwórka Mieczy w kontekście zdrowia może sygnalizować stres, obciążenie emocjonalne i brak równowagi. Może wskazywać na konflikty wewnętrzne, które wpływają na stan zdrowia i samopoczucie. Ta karta zachęca do opieki nad sobą, szukania wsparcia i równowagi emocjonalnej.",
     ],
     jobs: [
@@ -1167,7 +1167,7 @@ export const cards = [
     love: [
       "Karta Piątka Mieczy w kontekście miłości może oznaczać zdradę, konflikt i rozstanie. Może wskazywać na bolesne sytuacje, które prowadzą do rozpadu relacji lub uczucia zranienia i zawodu. Ta karta zachęca do szczerego przeanalizowania sytuacji i podejmowania decyzji, które będą służyć własnemu dobru.",
     ],
-    healt: [
+    health: [
       "Karta Piątka Mieczy w kontekście zdrowia może sygnalizować stres, utratę energii i trudności emocjonalne. Może wskazywać na konflikty wewnętrzne, które wpływają negatywnie na zdrowie i samopoczucie. Ta karta zachęca do troski o siebie, szukania wsparcia i podejmowania działań mających na celu poprawę stanu zdrowia.",
     ],
     jobs: [
@@ -1188,7 +1188,7 @@ export const cards = [
     love: [
       "Karta Szóstka Mieczy w kontekście miłości może oznaczać zakończenie trudności i wyjście z toksycznej relacji. Może wskazywać na wyzwolenie i odzyskanie wolności po okresie walki i konfliktu. Ta karta zachęca do nauki na doświadczeniach i otwarcia się na nowe, zdrowe relacje.",
     ],
-    healt: [
+    health: [
       "Karta Szóstka Mieczy w kontekście zdrowia może sygnalizować poprawę stanu emocjonalnego i mentalnego. Może wskazywać na wyjście z toksycznych sytuacji, które wpływały negatywnie na zdrowie. Ta karta zachęca do dbania o swoje dobre samopoczucie i podejmowania działań, które przyczynią się do poprawy zdrowia.",
     ],
     jobs: [
@@ -1209,7 +1209,7 @@ export const cards = [
     love: [
       "Karta Siódemka Mieczy w kontekście miłości może oznaczać konflikty, kłótnie i trudności w relacji. Może wskazywać na napięcia i niezgodności, które wymagają rozwiązania. Ta karta zachęca do otwartego i szczerego komunikowania się oraz szukania kompromisów w związku.",
     ],
-    healt: [
+    health: [
       "Karta Siódemka Mieczy w kontekście zdrowia może sygnalizować stres, napięcie i trudności emocjonalne. Może wskazywać na potrzebę rozwiązania konfliktów i negatywnych sytuacji, które wpływają negatywnie na zdrowie. Ta karta zachęca do poszukiwania wsparcia i podejmowania działań mających na celu łagodzenie stresu.",
     ],
     jobs: [
@@ -1231,7 +1231,7 @@ export const cards = [
     love: [
       "Karta Ósemka Mieczy w kontekście miłości może oznaczać zakończenie trudnego okresu i uwolnienie od negatywnych wzorców. Może wskazywać na rozstanie, zranienie emocjonalne lub trudności w relacji. Ta karta zachęca do akceptacji zmian i skupienia na samorealizacji.",
     ],
-    healt: [
+    health: [
       "Karta Ósemka Mieczy w kontekście zdrowia może symbolizować stan wyczerpania emocjonalnego lub psychicznego. Może wskazywać na potrzebę odpoczynku, regeneracji i uwolnienia się od stresujących sytuacji. Ta karta zachęca do dbania o swoje zdrowie psychiczne i emocjonalne.",
     ],
     jobs: [
@@ -1252,7 +1252,7 @@ export const cards = [
     love: [
       "Karta Dziewiątka Mieczy w kontekście miłości może oznaczać koniec trudnego związku lub relacji. Może wskazywać na uczucie zdrady, oszustwa lub bólu emocjonalnego. Ta karta zachęca do oczyszczenia z przeszłości i otwarcia się na nowe, zdrowsze relacje.",
     ],
-    healt: [
+    health: [
       "Karta Dziewiątka Mieczy w kontekście zdrowia może symbolizować stres, lęki i traumy emocjonalne. Może wskazywać na potrzebę wsparcia terapeutycznego lub pracy nad wyleczeniem emocjonalnym. Ta karta zachęca do dbania o swoje zdrowie psychiczne i emocjonalne.",
     ],
     jobs: [
@@ -1273,7 +1273,7 @@ export const cards = [
     love: [
       "Karta Dziesiątka Mieczy w kontekście miłości może oznaczać koniec trudnego związku lub relacji. Przynosi przesłanie o zakończeniu, rozstaniu lub rozpadzie uczucia. Może być również sygnałem, że nadszedł czas na uwolnienie się od negatywnych wzorców i toksycznych związków, aby zrobić miejsce dla nowych możliwości i odbudowy.",
     ],
-    healt: [
+    health: [
       "Karta Dziesiątka Mieczy w kontekście zdrowia może symbolizować stan kryzysowy, wyczerpanie emocjonalne lub trudności zdrowotne. Może wskazywać na potrzebę pilnej opieki medycznej lub wsparcia terapeutycznego. Ta karta zachęca do udzielenia sobie pomocy, szukania wsparcia i podejmowania działań mających na celu poprawę stanu zdrowia.",
     ],
     jobs: [
@@ -1294,7 +1294,7 @@ export const cards = [
     love: [
       "Karta Walet Mieczy w kontekście miłości może oznaczać młodą osobę wpływającą na twoje życie uczuciowe. Może symbolizować flirt, początek nowego romansu lub intrygującą relację. Ta karta zachęca do otwartości na nowe doświadczenia miłosne i ciekawości wobec potencjalnych partnerów.",
     ],
-    healt: [
+    health: [
       "Karta Walet Mieczy w kontekście zdrowia może wskazywać na młody wiek, energię i żywiołowość. Może oznaczać dynamiczny okres, aktywność fizyczną lub szybkie reakcje na zmiany zdrowotne. Ta karta zachęca do dbania o swoje ciało, rozwijania zdrowych nawyków i podejmowania działań mających na celu utrzymanie dobrego stanu zdrowia.",
     ],
     jobs: [
@@ -1316,7 +1316,7 @@ export const cards = [
     love: [
       "Karta Rycerz Mieczy w kontekście miłości symbolizuje dynamiczne i intelektualne podejście do relacji. Może wskazywać na pojawienie się nowej osoby o żywym umyśle i pełnej energii, która wnosi nowe perspektywy i inspiracje. Ta karta zachęca do komunikacji, logicznego myślenia i działania w związku.",
     ],
-    healt: [
+    health: [
       "Karta Rycerz Mieczy w kontekście zdrowia może wskazywać na potrzebę podejścia racjonalnego i logicznego do spraw zdrowotnych. Może symbolizować konieczność konsultacji z ekspertem, badania diagnostyczne lub szukanie odpowiednich informacji. Ta karta zachęca do podejmowania świadomych decyzji i podejścia analitycznego do zdrowia.",
     ],
     jobs: [
@@ -1337,7 +1337,7 @@ export const cards = [
     love: [
       "Karta Królowa Mieczy w kontekście miłości symbolizuje inteligencję, ostrość umysłu i jasność w relacjach. Osoba reprezentowana przez tę kartę może być intelektualna, praktyczna i logiczna. Może wskazywać na potrzebę komunikacji i wyrażania swoich potrzeb w związku. Ta karta zachęca do rozwijania swojej inteligencji emocjonalnej i podejmowania mądrych decyzji w miłości.",
     ],
-    healt: [
+    health: [
       "Karta Królowa Mieczy w kontekście zdrowia może oznaczać potrzebę podejścia intelektualnego do spraw zdrowotnych. Może wskazywać na konieczność zgłębienia informacji, konsultacji z profesjonalistami medycznymi i podejmowania świadomych decyzji dotyczących zdrowia. Ta karta zachęca do podejścia rozsądnego i racjonalnego w dbaniu o swoje zdrowie.",
     ],
     jobs: [
@@ -1358,7 +1358,7 @@ export const cards = [
     love: [
       "Karta Król Mieczy w kontekście miłości oznacza silną, mądrą i dominującą energię męską. Może wskazywać na pojawienie się stabilnego i odpowiedzialnego partnera lub na rozwinięcie się intelektualnej relacji. Ta karta symbolizuje również umiejętność podejmowania trudnych decyzji i wykorzystywania logicznego podejścia w związkach.",
     ],
-    healt: [
+    health: [
       "Karta Król Mieczy w kontekście zdrowia wskazuje na potrzebę korzystania z intelektualnych i analitycznych umiejętności w celu poprawy stanu zdrowia. Może oznaczać konieczność konsultacji z ekspertami medycznymi, podejmowania decyzji opartych na faktach oraz konsekwentnego stosowania się do zaleceń lekarzy.",
     ],
     jobs: [
@@ -1401,7 +1401,7 @@ export const cards = [
     love: [
       "Karta Dwójka Pentagramów w kontekście miłości symbolizuje harmonię, równowagę i partnerstwo. Przynosi przesłanie o potrzebie współpracy, kompromisu i budowania stabilnych fundamentów w związku. Ta karta może wskazywać na rozwój relacji i wzajemne wsparcie, które prowadzą do wzrostu uczucia.",
     ],
-    healt: [
+    health: [
       "Karta Dwójka Pentagramów w kontekście zdrowia odzwierciedla potrzebę dbania o równowagę i harmonię. Może wskazywać na konieczność utrzymania zdrowego stylu życia, zrównoważonej diety i aktywności fizycznej. Ta karta zachęca do dbałości o ciało i umysł, aby osiągnąć stan równowagi i dobre samopoczucie.",
     ],
     jobs: [
@@ -1422,7 +1422,7 @@ export const cards = [
     love: [
       "Karta Trójka Pentagramów w kontekście miłości oznacza początek stabilnej i ziemskiej relacji. Może symbolizować budowę solidnego fundamentu uczuciowego, zaufania i współpracy. Ta karta zachęca do inwestowania czasu i energii w rozwój związku oraz dbałości o materialne i praktyczne aspekty relacji.",
     ],
-    healt: [
+    health: [
       "Karta Trójka Pentagramów w kontekście zdrowia może oznaczać dobre zdrowie fizyczne i emocjonalne. Przynosi przesłanie o potrzebie dbałości o równowagę między ciałem a umysłem oraz o utrzymanie zdrowego stylu życia. Ta karta zachęca do regularnych rutyn i praktyk, które promują dobre samopoczucie.",
     ],
     jobs: [
@@ -1464,7 +1464,7 @@ export const cards = [
     love: [
       "Karta Piątka Pentagramów w kontekście miłości może oznaczać trudności i niepewność w związku. Może wskazywać na poczucie osamotnienia, braku wsparcia lub rozłąkę. Ta karta zachęca do otwarcia się na pomoc i komunikację, aby przezwyciężyć trudności i odbudować więź z partnerem.",
     ],
-    healt: [
+    health: [
       "Karta Piątka Pentagramów w kontekście zdrowia może symbolizować okres choroby, osłabienia lub trudności zdrowotne. Może wskazywać na potrzebę opieki medycznej lub wsparcia. Ta karta zachęca do dbania o swoje zdrowie i szukania pomocy tam, gdzie jest to konieczne.",
     ],
     jobs: [
@@ -1485,7 +1485,7 @@ export const cards = [
     love: [
       "Karta Szóstka Pentagramów w kontekście miłości symbolizuje potrzebę równowagi i wzajemnej troski w związku. Przynosi przesłanie o konieczności współpracy, wsparcia i dzielenia się obowiązkami. Ta karta podkreśla znaczenie dbania o siebie i partnera, aby utrzymać harmonię i stabilność w relacji.",
     ],
-    healt: [
+    health: [
       "Karta Szóstka Pentagramów w kontekście zdrowia przynosi przesłanie o znalezieniu równowagi i harmonii w sferze zdrowia. Może wskazywać na konieczność dbania o swoje ciało i umysł poprzez zdrowe nawyki żywieniowe, regularną aktywność fizyczną i praktyki relaksacyjne. Ta karta zachęca do dbania o siebie i tworzenia zdrowych rutyn.",
     ],
     jobs: [
@@ -1506,7 +1506,7 @@ export const cards = [
     love: [
       "Karta Siódemka Pentagramów w kontekście miłości symbolizuje pracę nad związkiem lub relacją. Może wskazywać na potrzebę inwestowania czasu, wysiłku i uwagi w rozwój miłości. Ta karta zachęca do budowania stabilności i równowagi w relacji oraz do doceniania i pielęgnowania nawzajem.",
     ],
-    healt: [
+    health: [
       "Karta Siódemka Pentagramów w kontekście zdrowia może oznaczać potrzebę zwrócenia uwagi na swoje ciało i zdrowie. Może wskazywać na konieczność dokonania zmian w stylu życia, aby poprawić swoje samopoczucie. Ta karta zachęca do regularnej opieki nad sobą i podejmowania działań mających na celu wzmacnianie zdrowia.",
     ],
     jobs: [
@@ -1527,7 +1527,7 @@ export const cards = [
     love: [
       "Karta Ósemka Pentagramów w kontekście miłości oznacza wzrost stabilności i zabezpieczenia w relacji. Może wskazywać na rozwój i wzmacnianie więzi partnerskiej. Ta karta zachęca do inwestowania czasu, uwagi i wysiłku w relację, aby osiągnąć długotrwałe i trwałe związki.",
     ],
-    healt: [
+    health: [
       "Karta Ósemka Pentagramów w kontekście zdrowia symbolizuje stan równowagi i stabilności zdrowotnej. Może oznaczać, że twoje wysiłki w zakresie opieki nad sobą przynoszą rezultaty. Ta karta zachęca do kontynuowania zdrowych nawyków, dbania o siebie i utrzymania równowagi fizycznej i emocjonalnej.",
     ],
     jobs: [
@@ -1548,7 +1548,7 @@ export const cards = [
     love: [
       "Karta Dziewiątka Pentagramów w kontekście miłości symbolizuje stabilność, dobrobyt i zadowolenie w związku. Przynosi przesłanie o osiągnięciu harmonii i pełni w relacji. Może być znakiem wzajemnego wsparcia, dobrej komunikacji i wspólnego budowania przyszłości.",
     ],
-    healt: [
+    health: [
       "Karta Dziewiątka Pentagramów w kontekście zdrowia oznacza dobre samopoczucie, zdrowie i stabilność. Przynosi przesłanie o osiągnięciu równowagi i harmonii w sferze zdrowotnej. Może być znakiem długotrwałej dbałości o swoje ciało i umysł oraz korzystania z korzystnych praktyk zdrowotnych.",
     ],
     jobs: [
@@ -1569,7 +1569,7 @@ export const cards = [
     love: [
       "Karta Dziesiątka Pentagramów w kontekście miłości oznacza obfitość, stabilność i spełnienie w relacji. Przynosi przesłanie o harmonii, satysfakcji i wzajemnym wsparciu. Może symbolizować również sukces materialny, który przekłada się na szczęście i zadowolenie w związku.",
     ],
-    healt: [
+    health: [
       "Karta Dziesiątka Pentagramów w kontekście zdrowia symbolizuje dobre zdrowie, pełnię energii i poczucie witalności. Przynosi przesłanie o osiągnięciu równowagi i stabilności w sferze zdrowia. Ta karta zachęca do dbania o swoje ciało i umysł oraz cieszenia się dobrym stanem zdrowia.",
     ],
     jobs: [
@@ -1590,7 +1590,7 @@ export const cards = [
     love: [
       "Karta Walet Pentagramów w kontekście miłości symbolizuje młodość, entuzjazm i nowe początki. Może wskazywać na pojawienie się nowej osoby w Twoim życiu lub rozwój uczucia w istniejącym związku. Ta karta zachęca do eksplorowania miłości i czerpania radości z romantycznych odkryć.",
     ],
-    healt: [
+    health: [
       "Karta Walet Pentagramów w kontekście zdrowia może oznaczać energię i witalność. Może wskazywać na pozytywne zmiany w stanie zdrowia lub potrzebę dbania o swoje ciało i kondycję fizyczną. Ta karta zachęca do aktywności fizycznej, zdrowego stylu życia i pielęgnowania swojego dobrego samopoczucia.",
     ],
     jobs: [
@@ -1611,7 +1611,7 @@ export const cards = [
     love: [
       "Karta Rycerz Pentagramów w kontekście miłości symbolizuje nowe romansy, namiętność i energię. Może oznaczać pojawienie się nowej osoby w Twoim życiu lub dynamiczną zmianę w istniejącym związku. Ta karta zachęca do eksploracji uczuć, odwagi w działaniu i gotowości na przyjęcie nowych doświadczeń miłosnych.",
     ],
-    healt: [
+    health: [
       "Karta Rycerz Pentagramów w kontekście zdrowia może oznaczać energię, siłę witalną i dynamiczne działanie. Może sugerować konieczność aktywności fizycznej, dbania o kondycję i podejmowania wyzwań zdrowotnych. Ta karta zachęca do podejmowania działań mających na celu poprawę zdrowia i dostrzeżenie korzyści wynikających z aktywnego stylu życia.",
     ],
     jobs: [
@@ -1632,7 +1632,7 @@ export const cards = [
     love: [
       "Karta Królowa Pentagramów w kontekście miłości symbolizuje stabilność, obfitość i opiekę w związku. Przynosi przesłanie o dojrzałym podejściu do relacji, trosce o partnera i tworzeniu harmonijnego środowiska. Ta karta zachęca do okazywania hojności, ciepła i wzajemnego wsparcia w miłości.",
     ],
-    healt: [
+    health: [
       "Karta Królowa Pentagramów w kontekście zdrowia reprezentuje dbałość o swoje ciało, zdrowy styl życia i dobre samopoczucie. Przynosi przesłanie o potrzebie równowagi, odpowiedniej diety i regularnej aktywności fizycznej. Ta karta zachęca do troski o swoje zdrowie i długoterminowego planowania w celu utrzymania dobrej kondycji.",
     ],
     jobs: [
@@ -1653,7 +1653,7 @@ export const cards = [
     love: [
       "Karta Król Pentagramów w kontekście miłości symbolizuje stabilność, pewność siebie i zaufanie w związku. Przynosi przesłanie o dojrzałej miłości, solidności i odpowiedzialności. Może oznaczać pojawienie się partnera, który jest niezależny, praktyczny i lojalny. Ta karta zachęca do budowania trwałych i harmonijnych relacji.",
     ],
-    healt: [
+    health: [
       "Karta Król Pentagramów w kontekście zdrowia jest oznaką zdrowia i witalności. Przynosi przesłanie o konieczności dbania o swoje ciało i dobrą kondycję. Może wskazywać na potrzebę podejmowania zdrowych nawyków i praktykujących samodyscyplinę. Ta karta zachęca do aktywności fizycznej i dbałości o swoje dobre samopoczucie.",
     ],
     jobs: [

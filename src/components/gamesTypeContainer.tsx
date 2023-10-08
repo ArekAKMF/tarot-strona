@@ -16,6 +16,7 @@ interface GamesTypeContainerProps {
   url: string;
   desc: string;
   bg: string;
+  index: number
 }
 
 export const GamesTypeContainer = ({
@@ -24,22 +25,25 @@ export const GamesTypeContainer = ({
   url,
   desc,
   bg,
+  index
 }: GamesTypeContainerProps) => {
   return (
     <Box
       margin="0"
       padding="0"
       width="100%"
+
       background={bg}
     >
       <Flex
         display="flex"
-        flexDirection="row"
+        flexDirection={index % 2 ? "row-reverse" : "row"}
         alignItems="center"
-        justifyContent="center"
+        justifyContent="flex-start"
         maxW="6xl"
         flexWrap="nowrap"
         margin="0 auto"
+        height="500px"
       >
         <Box>
           <Image
@@ -49,8 +53,8 @@ export const GamesTypeContainer = ({
             alignItems="center"
             justifyContent="center"
             padding="8px"
-            width="500px"
-            height="200px"
+            width={["auto", "auto", "auto", "500px", "500px", "500px"]}
+            height="500px"
           />
         </Box>
         <Box>
@@ -67,7 +71,7 @@ export const GamesTypeContainer = ({
               marginBottom="0.5em"
               padding="0 0 0 10px"
             >
-              <Link href={url} title={title} variant="empty">
+              <Link href={url} title={title} variant="link">
                 {title}
               </Link>
             </Heading>

@@ -27,11 +27,13 @@ export const Cards = ({
       borderColor="#E7E9EC"
       overflow="hidden"
       padding="24px"
-      background="linear-gradient(22deg, rgba(255,255,255,1) 12%, rgba(222,226,230,1) 100%)"
+      background="#fff"
       marginBottom="30px"
       _hover={{
-        background: "#fff",
-      }}
+        background: "linear-gradient(22deg, rgba(255,255,255,1) 12%, rgba(222,226,230,1) 100%)"
+      }
+      }
+      className={`animate__animated animate__bounce animate__delay-2s`}
     >
       <CardHeader marginTop="0" marginBottom="24px" padding="0">
         <Heading
@@ -46,11 +48,12 @@ export const Cards = ({
       </CardHeader>
       <Text>{desc}</Text>
       <Image
-        src={image}
+        src="../../logo-biale.png"
         alt="Dan Abramov"
         objectFit="cover"
         alignItems="center"
         justifyContent="center"
+        mix-blendmode="color-burn"
       />
       <CardHeader marginTop="24px" marginBottom="24px" padding="0">
         <Heading
@@ -66,6 +69,6 @@ export const Cards = ({
       <CardBody padding="10px 0">
         <Text>{description}</Text>
       </CardBody>
-    </Card>
+    </Card >
   );
 };

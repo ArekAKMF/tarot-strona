@@ -6,12 +6,12 @@ import {
   Text,
   Image,
   useColorModeValue,
-  useDisclosure,
   Link,
 } from "@chakra-ui/react";
 
+import Logo from '@/images/index'
+
 export const WithSubnavigation = () => {
-  const { isOpen, onToggle } = useDisclosure();
 
   return (
     <Box>
@@ -35,10 +35,10 @@ export const WithSubnavigation = () => {
             padding="0"
           >
             <Image
-              src="https://bit.ly/dan-abramov"
+              src="../../logo-biale.png"
               width="80px"
               padding="0 5px"
-              alt="Dan Abramov"
+              alt="Tarot mistyczny logo"
               objectFit="cover"
             />
           </Link>

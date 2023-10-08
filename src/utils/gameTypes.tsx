@@ -25,7 +25,7 @@ export const gamesType = [
     },
     {
       type: "2",
-      name: "Układ Krzyza",
+      name: "Układ Krzyża",
       desc: "Układ Krzyża w Tarocie jest jednym z najpopularniejszych układów rozkładu kart, który dostarcza wskazówek i odpowiedzi na konkretne pytania lub sytuacje. Składa się z pięciu kart ułożonych w formie krzyża, z jedną kartą na środku i czterema kartami otaczającymi ją. ",
       url: "/uklad-krzyza",
       cardCount : 5,
@@ -111,7 +111,7 @@ export const gamesType = [
         "Układ kalendarza tarota to układ, który pomaga zrozumieć i przewidzieć energię i wydarzenia dla każdego miesiąca w roku. Wykorzystuje karty tarota, aby odkryć wpływ poszczególnych miesięcy na nasze życie i dostarczyć wskazówek dotyczących harmonii, rozwoju i transformacji na przestrzeni całego roku.",
       url: "/uklad-kalendarza",
       cardCount : 13,
-      background:"orient",
+      background:"#aaa",
       cardDesc: [
         {
           name: "Ogólny wpływ na osobę",

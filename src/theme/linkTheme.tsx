@@ -90,6 +90,19 @@ const linkTheme = defineStyleConfig({
         textDecoration: "none!important",
       },
     },
+
+    link: {
+      backgroundColor: "transparent",
+      padding:0,
+      margin:0,
+      fontSize: "0.875em",
+    },
+    singLink:{
+      padding:0,
+      margin:0,
+      color: "primaryBgColorHover",
+      fontSize:"30px"
+    }
   },
 
   defaultProps: {
