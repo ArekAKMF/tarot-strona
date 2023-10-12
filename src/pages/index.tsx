@@ -15,7 +15,15 @@ export default function Home() {
     <>
       <WithSubnavigation />
       <Container maxW="8xl">
-        <Hero title="Karta Dnia" description="disudisudisuiduddsu wifp ofdfoidpoqiqifpodifdipodaiopif" />
+        <Hero title="Karta Dnia" description="
+        
+        Witaj w fascynującym świecie Tarota - tajemniczej sztuki odczytywania kart, która jest zarówno źródłem mądrości, jak i inspiracją do odkrywania mistycyzmu. Nasza strona zaprasza Cię do głębokiej podróży przez karty Tarota, gdzie archetypy, symbole i intuicja łączą się w jedno, by rzucić światło na przeszłość, teraźniejszość i przyszłość.
+
+Tarot to narzędzie, które przekracza granice czasu i przestrzeni. To magiczne karty, które pomagają nam lepiej zrozumieć siebie i otaczający nas świat. Jako przewodnicy na tej mistycznej drodze, jesteśmy tutaj, by pomóc Ci odkryć ukryte tajemnice swojego życia oraz lepiej zrozumieć to, co przynosi przyszłość.
+
+Przyjrzyj się uważnie kartom, zgłębiaj ich znaczenie, a w miarę jak poznasz tę sztukę, zobaczysz, jak można ją wykorzystać do przewidywania przyszłości. Tarot to lustrzane odbicie twojego wnętrza i mistyczna mapa, która pomoże Ci w nawigowaniu przez nieznane lądy.
+        
+        " />
         <PageTitle
           title="Krajowy System e-Faktur (KSeF)"
           description="Krajowy System e-Faktur to platforma do wystawiania i otrzymywania faktur drogą elektroniczną. Korzystaj z aplikacji KSeF i środowiska testowego, sprawdź pytania i odpowiedzi."
@@ -30,7 +38,7 @@ export default function Home() {
             <GamesTypeContainer
               key={index}
               index={index}
-              image="../../3-karty.jpg"
+              image="../../image.png"
               title={el.name}
               desc={el.descshort}
               url={"/wrozba/" + el.url}

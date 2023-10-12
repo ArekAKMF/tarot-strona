@@ -5,6 +5,7 @@ import {
   Highlight,
   Wrap,
   Link,
+  Box,
 } from "@chakra-ui/react";
 import { PageTitle } from "@/components/pageTitle";
 import { WithSubnavigation } from "@/components/navigation";
@@ -90,7 +91,7 @@ export default function Home() {
           na dzień {actualDate}
         </Heading>
 
-        <Text fontSize="lg" padding="10px 0">
+        <Text fontSize="lg" padding="10px 0" marginBottom="20px">
           {selectedCard?.day}
         </Text>
 
@@ -132,9 +133,15 @@ export default function Home() {
         </Text>
 
 
-        <Heading as="h2" variant="sectionTitle">
-          Zamów własne czytanie
-        </Heading>
+        <Box marginTop="40px">
+          <Heading as="h2" variant="sectionTitle">
+            Zamów własne czytanie
+          </Heading>
+
+        </Box>
+
+
+
       </Container>
     </>
   );

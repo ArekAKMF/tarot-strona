@@ -48,7 +48,7 @@ export const Cards = ({
       </CardHeader>
       <Text>{desc}</Text>
       <Image
-        src="../../logo-biale.png"
+        src="../../image.png"
         alt="Dan Abramov"
         objectFit="cover"
         alignItems="center"
