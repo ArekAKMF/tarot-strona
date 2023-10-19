@@ -101,7 +101,9 @@ const linkTheme = defineStyleConfig({
       padding:0,
       margin:0,
       color: "primaryBgColorHover",
-      fontSize:"30px"
+      fontSize:"32px",
+      lineHeight: "32px",
+      fontWeight:"bold"
     }
   },
 

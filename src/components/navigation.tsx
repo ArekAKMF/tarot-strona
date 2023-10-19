@@ -9,10 +9,9 @@ import {
   Link,
 } from "@chakra-ui/react";
 
-import Logo from '@/images/index'
+import Logo from "@/images/index";
 
 export const WithSubnavigation = () => {
-
   return (
     <Box>
       <Flex
@@ -26,6 +25,7 @@ export const WithSubnavigation = () => {
         align={"center"}
         justifyContent="center"
         alignItems="center"
+        marginBottom="10px"
       >
         <Box>
           <Link
@@ -50,7 +50,13 @@ export const WithSubnavigation = () => {
             textDecoration="none!important"
             padding="0"
           >
-            <Text align="center" justifyContent="center" alignItems="center">
+            <Text
+              align="center"
+              justifyContent="center"
+              alignItems="center"
+              fontSize="40px"
+              fontWeight="bold"
+            >
               Tarot Mistyczny
             </Text>
           </Link>

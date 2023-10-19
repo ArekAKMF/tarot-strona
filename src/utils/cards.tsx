@@ -20,6 +20,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "0",
+    url: "blazen",
   },
 
   {
@@ -43,6 +44,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "I",
+    url: "czarownik",
   },
   {
     name: "Najwyższa Kapłanka",
@@ -65,6 +67,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "II",
+    url: "najwyzsza-kaplanka",
   },
   {
     name: "Cesarzowa",
@@ -87,6 +90,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "III",
+    url: "cesarzowa",
   },
   {
     name: "Cesarz",
@@ -109,6 +113,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "IV",
+    url: "cesarz",
   },
   {
     name: "Najwyższy Kapłan",
@@ -131,6 +136,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "V",
+    url: "najwyzsza-kaplanka",
   },
   {
     name: "Kochankowie",
@@ -153,6 +159,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "VI",
+    url: "kochankowie",
   },
   {
     name: "Rydwan",
@@ -175,6 +182,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "VII",
+    url: "rydwan",
   },
   {
     name: "Moc",
@@ -197,6 +205,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "VIII",
+    url: "moc",
   },
 
   {
@@ -220,6 +229,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "IX",
+    url: "pustelnik",
   },
   {
     name: "Koło Fortuny",
@@ -242,6 +252,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "X",
+    url: "kolo-fortuny",
   },
   {
     name: "Sprawiedliwość",
@@ -264,6 +275,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "XI",
+    url: "sprawiedliwosc",
   },
   {
     name: "Wisielec",
@@ -286,6 +298,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "XII",
+    url: "wisielec",
   },
   {
     name: "Śmierć",
@@ -308,6 +321,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "XIII",
+    url: "smierc",
   },
   {
     name: "Umiar",
@@ -330,6 +344,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "XIV",
+    url: "umiar",
   },
   {
     name: "Diabeł",
@@ -352,6 +367,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "XV",
+    url: "diabel",
   },
   {
     name: "Wieża",
@@ -374,6 +390,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "XVI",
+    url: "wieza",
   },
 
   {
@@ -397,6 +414,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "XVII",
+    url: "gwiazda",
   },
 
   {
@@ -420,6 +438,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "XVIII",
+    url: "ksiezyc",
   },
   {
     name: "Słońce",
@@ -442,6 +461,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "XIX",
+    url:"slonce"
   },
 
   {
@@ -465,6 +485,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "XX",
+    url:"sad"
   },
   {
     name: "Świat",
@@ -487,6 +508,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "XXI",
+    url:"swiat"
   },
   {
     name: "As Różdżek",
@@ -508,6 +530,7 @@ export const cards = [
     images: ["as-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
+    url:"as-rozdzek"
   },
   {
     name: "Dwójka Różdżek",
@@ -529,6 +552,7 @@ export const cards = [
     images: ["2-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
+    url:"2-rozdzek"
   },
   {
     name: "Trójka Różdżek",
@@ -550,6 +574,7 @@ export const cards = [
     images: ["3-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
+    url:"3-rozdzek"
   },
   {
     name: "Czwórka Różdżek",
@@ -571,6 +596,7 @@ export const cards = [
     images: ["4-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
+    url:"4-rozdzek"
   },
   {
     name: "Piątka Różdżek",
@@ -592,6 +618,7 @@ export const cards = [
     images: ["5-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
+    url:"5-rozdzek"
   },
   {
     name: "Szóstka Różdżek",
@@ -613,6 +640,7 @@ export const cards = [
     images: ["6-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
+    url:"6-rozdzek"
   },
   {
     name: "Siódemka Różdżek",
@@ -634,6 +662,7 @@ export const cards = [
     images: ["7-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
+    url:"7-rozdzek"
   },
   {
     name: "Ósemka Różdżek",
@@ -655,6 +684,7 @@ export const cards = [
     images: ["8-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
+    url:"8-rozdzek"
   },
   {
     name: "Dziewiątka Różdżek",
@@ -676,6 +706,7 @@ export const cards = [
     images: ["9-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
+    url:"9-rozdzek"
   },
   {
     name: "Dziesiątka Różdżek",
@@ -697,6 +728,7 @@ export const cards = [
     images: ["10-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
+    url:"10-rozdzek"
   },
   {
     name: "Walet Różdżek",
@@ -718,6 +750,7 @@ export const cards = [
     images: ["walet-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
+    url:"walet-rozdzek"
   },
   {
     name: "Rycerz Różdżek",
@@ -736,9 +769,10 @@ export const cards = [
     day: [
       "Karta Rycerz Różdżek przynosi aktywność, determinację i dążenie do celu na dany dzień. Może to być czas, w którym musisz podjąć działania, przezwyciężyć przeszkody i angażować się w pełni. Ta karta zachęca do wykorzystania swojej energii, śmiałości i zaangażowania w bieżące sprawy.",
     ],
-    images: ["rycerz-rozdzek.jpg"],
+    images: ["rycerz-rozdzki.jpg"],
     logo: [""],
     cardType: "2",
+    url:"rycerz-rozdzek"
   },
   {
     name: "Królowa Różdżek",
@@ -760,6 +794,7 @@ export const cards = [
     images: ["krolowa-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
+    url:"krolowa-rozdzek"
   },
   {
     name: "Król Różdżek",
@@ -781,6 +816,7 @@ export const cards = [
     images: ["krol-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
+    url:"krol-rozdzek"
   },
   {
     name: "As Pucharów",
@@ -802,6 +838,7 @@ export const cards = [
     images: ["as-pucharow.jpg"],
     logo: [""],
     cardType: "2",
+    url:"as-pucharow"
   },
   {
     name: "Dwójka Pucharów",
@@ -823,6 +860,7 @@ export const cards = [
     images: ["2-pucharow.jpg"],
     logo: [""],
     cardType: "2",
+    url:"2-pucharow"
   },
   {
     name: "Trójka Pucharów",
@@ -844,6 +882,7 @@ export const cards = [
     images: ["3-pucharow.jpg"],
     logo: [""],
     cardType: "2",
+    url:"3-pucharow"
   },
   {
     name: "Czwórka Pucharów",
@@ -865,6 +904,7 @@ export const cards = [
     images: ["4-pucharow.jpg"],
     logo: [""],
     cardType: "2",
+    url:"4-pucharow"
   },
   {
     name: "Piątka Pucharów",
@@ -886,6 +926,7 @@ export const cards = [
     images: ["5-pucharow.jpg"],
     logo: [""],
     cardType: "2",
+    url:"5-pucharow"
   },
   {
     name: "Szóstka Pucharów",
@@ -907,6 +948,7 @@ export const cards = [
     images: ["6-pucharow.jpg"],
     logo: [""],
     cardType: "2",
+    url:"6-pucharow"
   },
   {
     name: "Siódemka Pucharów",
@@ -928,6 +970,7 @@ export const cards = [
     images: ["7-pucharow.jpg"],
     logo: [""],
     cardType: "2",
+    url:"7-pucharow"
   },
 
   {
@@ -950,6 +993,7 @@ export const cards = [
     images: ["8-pucharow.jpg"],
     logo: [""],
     cardType: "2",
+    url:"8-pucharow"
   },
 
   {
@@ -972,6 +1016,7 @@ export const cards = [
     images: ["9-pucharow.jpg"],
     logo: [""],
     cardType: "2",
+    url:"9-pucharow"
   },
   {
     name: "Dziesiątka Pucharów",
@@ -993,6 +1038,7 @@ export const cards = [
     images: ["10-pucharow.jpg"],
     logo: [""],
     cardType: "2",
+    url:"10-pucharow"
   },
   {
     name: "Walet Pucharów",
@@ -1014,6 +1060,7 @@ export const cards = [
     images: ["walet-pucharow.jpg"],
     logo: [""],
     cardType: "2",
+    url:"walet-pucharow"
   },
   {
     name: "Rycerz Pucharów",
@@ -1035,6 +1082,7 @@ export const cards = [
     images: ["rycerz-pucharow.jpg"],
     logo: [""],
     cardType: "2",
+    url:"rycerz-pucharow"
   },
   {
     name: "Królowa Pucharów",
@@ -1056,6 +1104,7 @@ export const cards = [
     images: ["krolowa-pucharow.jpg"],
     logo: [""],
     cardType: "2",
+    url:"krolowa-pucharow"
   },
   {
     name: "Król Pucharów",
@@ -1077,6 +1126,7 @@ export const cards = [
     images: ["krol-pucharow.jpg"],
     logo: [""],
     cardType: "2",
+    url:"krol-pucharow"
   },
   {
     name: "As Mieczy",
@@ -1098,6 +1148,7 @@ export const cards = [
     images: ["as-mieczy.jpg"],
     logo: [""],
     cardType: "2",
+    url:"as-mieczy"
   },
   {
     name: "Dwójka Mieczy",
@@ -1119,6 +1170,7 @@ export const cards = [
     images: ["2-mieczy.jpg"],
     logo: [""],
     cardType: "2",
+    url:"2-mieczy"
   },
   {
     name: "Trójka Mieczy",
@@ -1140,6 +1192,7 @@ export const cards = [
     images: ["3-mieczy.jpg"],
     logo: [""],
     cardType: "2",
+    url:"3-mieczy"
   },
   {
     name: "Czwórka Mieczy",
@@ -1161,6 +1214,7 @@ export const cards = [
     images: ["4-mieczy.jpg"],
     logo: [""],
     cardType: "2",
+    url:"4-mieczy"
   },
   {
     name: "Piątka Mieczy",
@@ -1182,6 +1236,7 @@ export const cards = [
     images: ["5-mieczy.jpg"],
     logo: [""],
     cardType: "2",
+    url:"5-mieczy"
   },
   {
     name: "Szóstka Mieczy",
@@ -1203,6 +1258,7 @@ export const cards = [
     images: ["6-mieczy.jpg"],
     logo: [""],
     cardType: "2",
+    url:"6-mieczy"
   },
   {
     name: "Siódemka Mieczy",
@@ -1224,6 +1280,7 @@ export const cards = [
     images: ["7-mieczy.jpg"],
     logo: [""],
     cardType: "2",
+    url:"7-mieczy"
   },
 
   {
@@ -1246,6 +1303,7 @@ export const cards = [
     images: ["8-mieczy.jpg"],
     logo: [""],
     cardType: "2",
+    url:"8-mieczy"
   },
   {
     name: "Dziewiątka Mieczy",
@@ -1267,6 +1325,7 @@ export const cards = [
     images: ["9-mieczy.jpg"],
     logo: [""],
     cardType: "2",
+    url:"9-mieczy"
   },
   {
     name: "Dziesiątka Mieczy",
@@ -1288,6 +1347,7 @@ export const cards = [
     images: ["10-mieczy.jpg"],
     logo: [""],
     cardType: "2",
+    url:"10-mieczy"
   },
   {
     name: "Walet Mieczy",
@@ -1309,6 +1369,7 @@ export const cards = [
     images: ["walet-mieczy.jpg"],
     logo: [""],
     cardType: "2",
+    url:"walet-mieczy"
   },
 
   {
@@ -1331,6 +1392,7 @@ export const cards = [
     images: ["rycerz-mieczy.jpg"],
     logo: [""],
     cardType: "2",
+    url:"rycerz-mieczy"
   },
   {
     name: "Królowa Mieczy",
@@ -1352,6 +1414,7 @@ export const cards = [
     images: ["krolowa-mieczy.jpg"],
     logo: [""],
     cardType: "2",
+    url:"krolowa-mieczy"
   },
   {
     name: "Król Mieczy",
@@ -1373,6 +1436,7 @@ export const cards = [
     images: ["krol-mieczy.jpg"],
     logo: [""],
     cardType: "2",
+    url:"krol-mieczy"
   },
   {
     name: "As Pentagramów",
@@ -1394,6 +1458,7 @@ export const cards = [
     images: ["as-pentagram.jpg"],
     logo: [""],
     cardType: "2",
+    url:"as-pentagram"
   },
 
   {
@@ -1416,6 +1481,7 @@ export const cards = [
     images: ["2-pentagram.jpg"],
     logo: [""],
     cardType: "2",
+    url:"2-pentagram"
   },
   {
     name: "Trójka Pentagramów",
@@ -1437,6 +1503,7 @@ export const cards = [
     images: ["3-pentagram.jpg"],
     logo: [""],
     cardType: "2",
+    url:"3-pentagram"
   },
   {
     name: "Czwórka Pentagramów",
@@ -1458,6 +1525,7 @@ export const cards = [
     images: ["4-pentagram.jpg"],
     logo: [""],
     cardType: "2",
+    url:"4-pentagram"
   },
   {
     name: "Piątka Pentagramów",
@@ -1479,6 +1547,7 @@ export const cards = [
     images: ["5-pentagram.jpg"],
     logo: [""],
     cardType: "2",
+    url:"5-pentagram"
   },
   {
     name: "Szóstka Pentagramów",
@@ -1500,6 +1569,7 @@ export const cards = [
     images: ["6-pentagram.jpg"],
     logo: [""],
     cardType: "2",
+    url:"6-pentagram"
   },
   {
     name: "Siódemka Pentagramów",
@@ -1521,6 +1591,7 @@ export const cards = [
     images: ["7-pentagram.jpg"],
     logo: [""],
     cardType: "2",
+    url:"7-pentagram"
   },
   {
     name: "Ósemka Pentagramów",
@@ -1542,6 +1613,7 @@ export const cards = [
     images: ["8-pentagram.jpg"],
     logo: [""],
     cardType: "2",
+    url:"8-pentagram"
   },
   {
     name: "Dziewiątka Pentagramów",
@@ -1563,6 +1635,7 @@ export const cards = [
     images: ["9-pentagram.jpg"],
     logo: [""],
     cardType: "2",
+    url:"9-pentagram"
   },
   {
     name: "Dziesiątka Pentagramów",
@@ -1584,6 +1657,7 @@ export const cards = [
     images: ["10-pentagram.jpg"],
     logo: [""],
     cardType: "2",
+    url:"10-pentagram"
   },
   {
     name: "Walet Pentagramów",
@@ -1605,6 +1679,7 @@ export const cards = [
     images: ["walet-pentagram.jpg"],
     logo: [""],
     cardType: "2",
+    url:"walet-pentagram"
   },
   {
     name: "Rycerz Pentagramów",
@@ -1626,6 +1701,7 @@ export const cards = [
     images: ["rycerz-pentagram.jpg"],
     logo: [""],
     cardType: "2",
+    url:"rucerz-pentagram"
   },
   {
     name: "Królowa Pentagramów",
@@ -1647,6 +1723,7 @@ export const cards = [
     images: ["krolowa-pentagram.jpg"],
     logo: [""],
     cardType: "2",
+    url:"krolowa-pentagram"
   },
   {
     name: "Król Pentagramów",
@@ -1668,5 +1745,6 @@ export const cards = [
     images: ["krol-pentagram.jpg"],
     logo: [""],
     cardType: "2",
+    url:"krol-pentagram"
   },
 ];
