@@ -20,6 +20,8 @@ export const Cards = ({
   card,
   url,
 }: CardsProps) => {
+
+  console.log(image, 'image')
   return (
     <Card
       maxW="lg"
@@ -48,8 +50,8 @@ export const Cards = ({
       </CardHeader>
       <Text>{desc}</Text>
       <Image
-        src="../../image.png"
-        alt="Dan Abramov"
+        src={'../../karty/' + image}
+        alt={card}
         objectFit="cover"
         alignItems="center"
         justifyContent="center"

@@ -1,17 +1,9 @@
 import {
   Container,
-  Text,
-  Heading,
-  Highlight,
-  Wrap,
-  Link,
   Button,
   Box,
   Grid,
-  Divider,
   Alert,
-  AlertIcon,
-  AlertTitle,
   AlertDescription,
 } from "@chakra-ui/react";
 import { PageTitle } from "@/components/pageTitle";
@@ -22,9 +14,6 @@ import React, { useState, useEffect } from "react";
 import Head from "next/head";
 
 import { Cards } from "@/components/cards";
-import { Hero } from "@/components/hero";
-import { Breadcrumbs } from "@/components/breadcrumb";
-import { Checkerboard } from "@/components/checkerboard";
 
 import { gamesType, horoscop } from "@/utils/gameTypes";
 import { cards as cardslist } from "@/utils/cards";
@@ -69,10 +58,10 @@ export default function Home() {
 
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Rozkład {activeElement?.name}</title>
         <meta name="description" content={activeElement?.descshort} />
-      </Head>
+      </Head> */}
       <WithSubnavigation />
       <Container maxW="8xl">
         <PageTitle
@@ -115,7 +104,7 @@ export default function Home() {
           {activeElement &&
             selectedCard.map((el: any, index: number) => (
               <Cards
-                image="https://bit.ly/dan-abramov"
+                image={el.images[0]}
                 title={activeElement?.cardDesc[index].name}
                 card={selectedCard[index]?.name}
                 desc={el.descshort}

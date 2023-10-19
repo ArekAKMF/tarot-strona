@@ -16,7 +16,7 @@ export const cards = [
     day: [
       "Karta Błazen przynosi spontaniczność i radość na dany dzień. To czas, aby eksplorować nowe możliwości, być kreatywnym i otwartym na przygody. Pamiętaj, że życie jest pełne niespodzianek i szans, które czekają na Ciebie. Dziś skoncentruj się na odkrywaniu nowych ścieżek i cieszeniu się każdą chwilą.",
     ],
-    images: [""],
+    images: ["blazen.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "0",
@@ -39,7 +39,7 @@ export const cards = [
     day: [
       "Karta Czarownik przynosi manipulację i kontrolę na dany dzień. To czas, aby być czujnym i uważać na toksyczne relacje lub sytuacje, które mogą mieć negatywny wpływ na Twoje życie. Pamiętaj, że Twoja wolność i autonomia są ważne, dlatego trzymaj się z dala od manipulacyjnych wpływów. Dziś skoncentruj się na ochronie swojej integralności i niezależności.",
     ],
-    images: [""],
+    images: ["czarownik.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "I",
@@ -61,7 +61,7 @@ export const cards = [
     day: [
       "Karta Najwyższa Kapłanka przynosi intuicję i duchowość na dany dzień. To czas, aby słuchać swojego wewnętrznego głosu, kontemplować i poszukiwać głębszych znaczeń. Pamiętaj, że wewnętrzna mądrość jest Twoim przewodnikiem. Dziś skoncentruj się na rozwijaniu swojej intuicji i poszukiwaniu duchowego spełnienia.",
     ],
-    images: [""],
+    images: ["kaplanka.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "II",
@@ -83,7 +83,7 @@ export const cards = [
     day: [
       "Karta Cesarzowa przynosi obfitość i opiekę na dany dzień. To czas, aby zadbać o harmonię i stabilność w swoim życiu. Pamiętaj, że masz w sobie siłę i zdolności do osiągnięcia sukcesu. Dziś skoncentruj się na stworzeniu przestrzeni pełnej obfitości i miłości.",
     ],
-    images: [""],
+    images: ["cesarzowa.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "III",
@@ -105,7 +105,7 @@ export const cards = [
     day: [
       "Karta Cesarz przynosi władzę i stabilność na dany dzień. To czas, aby objąć przywództwo i podejmować decyzje z pewnością siebie. Pamiętaj, że masz w sobie siłę i zdolności do osiągnięcia sukcesu. Dziś skoncentruj się na organizacji i strukturze w swoim życiu.",
     ],
-    images: [""],
+    images: ["cesarz.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "IV",
@@ -127,7 +127,7 @@ export const cards = [
     day: [
       "Karta Najwyższy Kapłan przynosi duchowość i wiedzę na dany dzień. To czas, aby rozwijać swoją wewnętrzną mądrość i słuchać głosu swojej intuicji. Pamiętaj, że Twoja duchowość może przynieść Ci głębokie zrozumienie i harmonię. Dziś skoncentruj się na połączeniu z wewnętrzną mądrością i poszukiwaniu głębszych znaczeń w życiu.",
     ],
-    images: [""],
+    images: ["kaplan.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "V",
@@ -149,7 +149,7 @@ export const cards = [
     day: [
       "Karta Kochankowie przynosi miłość i harmonię na dany dzień. To czas, aby docenić bliskość i głębokie związki w swoim życiu. Pamiętaj, że miłość może przynieść radość i satysfakcję. Dziś skoncentruj się na budowaniu i pielęgnowaniu bliskich relacji.",
     ],
-    images: [""],
+    images: ["kochankowie.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "VI",
@@ -171,7 +171,7 @@ export const cards = [
     day: [
       "Karta Rydwan przynosi energię i determinację na dany dzień. To czas, aby być aktywnym i podejmować działania w celu osiągnięcia swoich celów. Pamiętaj, że Twoje wysiłki przynoszą rezultaty. Dziś skoncentruj się na postępie i podążaj za swoimi pasjami.",
     ],
-    images: [""],
+    images: ["rydwan.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "VII",
@@ -193,7 +193,7 @@ export const cards = [
     day: [
       "Karta Moc przynosi siłę i odwagę na dany dzień. To czas, aby być pewnym siebie i asertywnym w dążeniu do swoich celów. Pamiętaj, że masz w sobie wewnętrzną moc do osiągnięcia pozytywnych zmian. Dziś skoncentruj się na rozwijaniu swojej pewności siebie i podejmowaniu zdecydowanych działań.",
     ],
-    images: [""],
+    images: ["moc.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "VIII",
@@ -216,7 +216,7 @@ export const cards = [
     day: [
       "Karta Pustelnik przynosi potrzebę samotności i refleksji na dany dzień. To czas, aby poświęcić czas na zgłębianie swoich potrzeb i pragnień. Pamiętaj, że samotność może być wartościowym elementem rozwoju osobistego. Dziś skoncentruj się na spokoju i kontemplacji.",
     ],
-    images: [""],
+    images: ["pustelink.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "IX",
@@ -238,7 +238,7 @@ export const cards = [
     day: [
       "Karta Koło Fortuny przynosi zmiany i cykliczność na dany dzień. To czas, aby być elastycznym i gotowym na przemiany. Pamiętaj, że niektóre rzeczy mogą się zmieniać, ale to również otwiera nowe możliwości. Dziś skoncentruj się na akceptacji zmian i adaptacji do nowych sytuacji.",
     ],
-    images: [""],
+    images: ["kolofortuny.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "X",
@@ -260,7 +260,7 @@ export const cards = [
     day: [
       "Karta Sprawiedliwość przynosi równowagę i sprawiedliwość na dany dzień. To czas, aby podążać za zasadami etycznymi i moralnymi oraz traktować innych w sposób uczciwy. Dziś skoncentruj się na budowaniu harmonii i równowagi we wszystkich sferach życia.",
     ],
-    images: [""],
+    images: ["sprawiedliwosc.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "XI",
@@ -282,7 +282,7 @@ export const cards = [
     day: [
       "Karta Wisielec przynosi poświęcenie i odstąpienie od kontroli na dany dzień. To czas, aby zaakceptować trudności i zmierzyć się z nimi z pokorą i cierpliwością. Dziś skoncentruj się na duchowej transformacji i otwarciu się na nowe możliwości.",
     ],
-    images: [""],
+    images: ["wisielec.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "XII",
@@ -304,7 +304,7 @@ export const cards = [
     day: [
       "Karta Śmierć przynosi transformację i zakończenie na dany dzień. To czas, aby uwolnić się od starych nawyków, przekonań i sytuacji, które nie przynoszą korzyści. Dziś skoncentruj się na odkrywaniu nowych możliwości i otwarciu na transformację.",
     ],
-    images: [""],
+    images: ["smierc.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "XIII",
@@ -326,7 +326,7 @@ export const cards = [
     day: [
       "Karta Umiar przynosi równowagę i umiar na dany dzień. To czas, aby znaleźć złoty środek i dokonywać wyważonych wyborów. Dziś skoncentruj się na harmonii i równowadze we wszystkich sferach swojego życia.",
     ],
-    images: [""],
+    images: ["umiar.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "XIV",
@@ -348,7 +348,7 @@ export const cards = [
     day: [
       "Karta Diabeł przynosi pokusy i pułapki na dany dzień. To czas, aby być czujnym i unikać sytuacji, które mogą wprowadzić Cię w negatywne spirale. Dziś skoncentruj się na silnym podejściu i podejmuj świadome wybory, które służą Twojemu dobru.",
     ],
-    images: [""],
+    images: ["diabel.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "XV",
@@ -370,7 +370,7 @@ export const cards = [
     day: [
       "Karta Wieża przynosi zburzenie i zmiany na dany dzień. To czas, aby przetrzeć nowe ścieżki, uwolnić się od ograniczeń i otworzyć się na nowe możliwości. Dziś skoncentruj się na transformacji i oczyszczeniu, które prowadzą do większego rozwoju i spełnienia.",
     ],
-    images: [""],
+    images: ["wieza.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "XVI",
@@ -393,7 +393,7 @@ export const cards = [
     day: [
       "Karta Gwiazda przynosi nadzieję i inspirację na dany dzień. To czas, aby otworzyć się na nowe możliwości, spełniać swoje pragnienia i dążyć do marzeń. Dziś skoncentruj się na pozytywnych aspektach życia i uwierz, że wszystko jest możliwe.",
     ],
-    images: [""],
+    images: ["gwiazda.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "XVII",
@@ -416,7 +416,7 @@ export const cards = [
     day: [
       "Karta Księżyc przynosi tajemnicę i intuicję na dany dzień. To czas, aby zaufać swojej wewnętrznej mądrości, zgłębiać swoje emocje i odkrywać ukryte aspekty życia. Dziś skoncentruj się na swojej intuicji i pozwól sobie na eksplorację wewnętrznego światła.",
     ],
-    images: [""],
+    images: ["ksiezyc.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "XVIII",
@@ -438,7 +438,7 @@ export const cards = [
     day: [
       "Karta Słońce przynosi radość i optymizm na dany dzień. To czas, aby cieszyć się życiem, być autentycznym i świecić jak słońce. Dziś skoncentruj się na pozytywnych aspektach życia i pozwól swojemu wnętrzu świecić pełnym blaskiem.",
     ],
-    images: [""],
+    images: ["slonce.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "XIX",
@@ -461,7 +461,7 @@ export const cards = [
     day: [
       "Karta Sąd przynosi moment oceny i wyboru na dany dzień. To czas, aby spojrzeć na swoje działania z perspektywy konsekwencji i podjąć odpowiednie decyzje. Dziś zastanów się, co jest dla Ciebie ważne i jakie działania będą najlepsze dla Twojego dobra.",
     ],
-    images: [""],
+    images: ["sad.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "XX",
@@ -483,7 +483,7 @@ export const cards = [
     day: [
       "Karta Świat przynosi moment spełnienia i osiągnięcia na dany dzień. To czas, aby docenić swoje wysiłki i celebrować sukcesy. Dziś zatrzymaj się na chwilę, aby spojrzeć na swoje życie z perspektywy pełni i zadowolenia. Ciesz się tym, co masz i otwórz się na nowe doświadczenia.",
     ],
-    images: [""],
+    images: ["swiat.jpg"],
     logo: [""],
     cardType: "1",
     cardId: "XXI",
@@ -505,7 +505,7 @@ export const cards = [
     day: [
       "Karta As Różdżek przynosi nowe możliwości, kreatywność i inspirację na dany dzień. To czas, aby wykorzystać swoje talenty i zdolności, podjąć nowe wyzwania i rozwijać się na różnych płaszczyznach życia. Dziś bądź otwarty na nowe pomysły, przygody i szanse.",
     ],
-    images: [""],
+    images: ["as-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -526,7 +526,7 @@ export const cards = [
     day: [
       "Karta Dwójka Różdżek przynosi równowagę, współpracę i potrzebę wzajemnego wsparcia na dany dzień. To czas, aby negocjować, komunikować się i budować relacje z innymi. Dziś bądź gotowy na wspólną pracę i działania, które przynoszą korzyści zarówno tobie, jak i innym.",
     ],
-    images: [""],
+    images: ["2-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -547,7 +547,7 @@ export const cards = [
     day: [
       "Karta Trójka Różdżek przynosi rozwój, postęp i możliwość rozwoju na dany dzień. To czas, aby otworzyć się na nowe możliwości, zdobywać nowe umiejętności i działać w kierunku osiągnięcia swoich celów. Dziś bądź gotowy na pozytywne zmiany i rozwój w różnych aspektach życia.",
     ],
-    images: [""],
+    images: ["3-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -568,7 +568,7 @@ export const cards = [
     day: [
       "Karta Czwórka Różdżek przynosi stabilność, równowagę i poczucie bezpieczeństwa na dany dzień. To czas, aby docenić stabilność i fundamenty, na których opierasz swoje życie. Dziś ciesz się spokojem i bezpieczeństwem, które zapewniają ci solidne podstawy. Bądź wdzięczny za to, co masz.",
     ],
-    images: [""],
+    images: ["4-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -589,7 +589,7 @@ export const cards = [
     day: [
       "Karta Piątka Różdżek przynosi trudności, konflikty lub wyzwania na dany dzień. Może być to czas pełen frustracji lub niepewności. Ta karta zachęca do pozytywnego podejścia, poszukiwania rozwiązań i wytrwałości w dążeniu do celów. Pamiętaj, że każda trudność może być okazją do nauki i rozwoju.",
     ],
-    images: [""],
+    images: ["5-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -610,7 +610,7 @@ export const cards = [
     day: [
       "Karta Szóstka Różdżek przynosi hojność, sukces i obfitość na dany dzień. Może być to czas pełen radości, sukcesów i wzrostu. Ta karta zachęca do dzielenia się swoją obfitością z innymi, doceniania małych rzeczy i czerpania radości z każdego momentu.",
     ],
-    images: [""],
+    images: ["6-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -631,7 +631,7 @@ export const cards = [
     day: [
       "Karta Siódemka Różdżek przynosi stabilność, wytrwałość i sukces na dany dzień. Może być to czas, w którym możesz polegać na swojej determinacji i zdolności do przetrwania. Ta karta zachęca do trzymania się swoich zasad, kontynuowania wysiłków i dążenia do sukcesu.",
     ],
-    images: [""],
+    images: ["7-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -652,7 +652,7 @@ export const cards = [
     day: [
       "Karta Ósemka Różdżek przynosi harmonię, równowagę i obfitość na dany dzień. Może być to czas, w którym możesz cieszyć się spokojem i stabilnością. Ta karta zachęca do kontynuowania działań z umiarem, dbania o równowagę w życiu i czerpania radości z obfitości, która cię otacza.",
     ],
-    images: [""],
+    images: ["8-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -673,7 +673,7 @@ export const cards = [
     day: [
       "Karta Dziewiątka Różdżek przynosi wytrwałość, dążenie do celu i determinację na dany dzień. Może to być czas, w którym będziesz skoncentrowany na realizacji swoich zadań i nieustannie dążył do osiągnięcia zamierzonych rezultatów. Ta karta zachęca do konsekwentnego działania, utrzymania motywacji i nieustannej determinacji.",
     ],
-    images: [""],
+    images: ["9-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -694,7 +694,7 @@ export const cards = [
     day: [
       "Karta Dziesiątka Różdżek przynosi pełnię, spełnienie i zakończenie na dany dzień. Może to być czas, w którym możesz cieszyć się sukcesami, osiągnięciami i spełnieniem swoich zadań. Ta karta zachęca do doceniania każdego momentu, celebracji sukcesów i dzielenia się radością z innymi.",
     ],
-    images: [""],
+    images: ["10-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -715,7 +715,7 @@ export const cards = [
     day: [
       "Karta Walet Różdżek przynosi energię, ożywienie i nowe możliwości na dany dzień. Może to być czas, w którym możesz wykorzystać swoją kreatywność, zdobyć nowe umiejętności lub zainicjować nowe projekty. Ta karta zachęca do pozytywnego podejścia do dnia i wykorzystania jego potencjału.",
     ],
-    images: [""],
+    images: ["walet-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -736,7 +736,7 @@ export const cards = [
     day: [
       "Karta Rycerz Różdżek przynosi aktywność, determinację i dążenie do celu na dany dzień. Może to być czas, w którym musisz podjąć działania, przezwyciężyć przeszkody i angażować się w pełni. Ta karta zachęca do wykorzystania swojej energii, śmiałości i zaangażowania w bieżące sprawy.",
     ],
-    images: [""],
+    images: ["rycerz-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -757,7 +757,7 @@ export const cards = [
     day: [
       "Karta Królowa Różdżek przynosi niezależność, pewność siebie i zdolność do zarządzania na dany dzień. Może to być czas, w którym powinnaś być liderem, podejmować decyzje i wykorzystać swoje umiejętności organizacyjne. Ta karta zachęca do pełnego wykorzystania swojej mocy i władzy.",
     ],
-    images: [""],
+    images: ["krolowa-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -778,7 +778,7 @@ export const cards = [
     day: [
       "Karta Król Różdżek przynosi pewność siebie, władzę i kontrolę na dany dzień. Może to być czas, w którym będziesz podejmować decyzje i działać jako lider. Ta karta zachęca do wykorzystania swojego autorytetu i umiejętności zarządzania w ciągu dnia.",
     ],
-    images: [""],
+    images: ["krol-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -799,7 +799,7 @@ export const cards = [
     day: [
       "Karta As Pucharów przynosi nowe emocje, inspirację i możliwości na dany dzień. Może to być czas, w którym będziesz doświadczać głębszych emocji, twórczych impulsów lub połączeń z innymi ludźmi. Ta karta zachęca do otwarcia się na nowe możliwości i czerpania radości z życia.",
     ],
-    images: [""],
+    images: ["as-pucharow.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -820,7 +820,7 @@ export const cards = [
     day: [
       "Karta Dwójka Pucharów przynosi harmonię i spokój na dany dzień. Może to być czas, w którym będziesz cieszyć się dobrymi relacjami z innymi ludźmi i doświadczać wzajemnego wsparcia. Ta karta zachęca do czerpania radości z harmonijnych relacji i tworzenia pozytywnych doświadczeń.",
     ],
-    images: [""],
+    images: ["2-pucharow.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -841,7 +841,7 @@ export const cards = [
     day: [
       "Karta Trójka Pucharów przynosi radość i obfitość na dany dzień. Może to być czas pełen miłości, radości i satysfakcji. Ta karta zachęca do dzielenia się pozytywnymi emocjami z innymi i czerpania przyjemności z obecnych chwil.",
     ],
-    images: [""],
+    images: ["3-pucharow.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -862,7 +862,7 @@ export const cards = [
     day: [
       "Karta Czwórka Pucharów przynosi stabilność emocjonalną i poczucie bezpieczeństwa na dany dzień. Może to być czas pełen spokoju, harmonii i zadowolenia. Ta karta zachęca do cieszenia się chwilą i doceniania stabilności w życiu.",
     ],
-    images: [""],
+    images: ["4-pucharow.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -883,7 +883,7 @@ export const cards = [
     day: [
       "Karta Piątka Pucharów przynosi trudności emocjonalne lub rozczarowanie na dany dzień. Może to być czas, w którym będziesz musiał zmierzyć się z trudnościami i negatywnymi emocjami. Ta karta zachęca do cierpliwości, samorefleksji i szukania wsparcia.",
     ],
-    images: [""],
+    images: ["5-pucharow.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -904,7 +904,7 @@ export const cards = [
     day: [
       "Karta Szóstka Pucharów przynosi radość, obfitość i harmonię na dany dzień. To czas, w którym możesz cieszyć się pozytywnymi emocjami i doświadczać satysfakcji. Ta karta zachęca do doceniania i dzielenia się dobrem z innymi.",
     ],
-    images: [""],
+    images: ["6-pucharow.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -925,7 +925,7 @@ export const cards = [
     day: [
       "Karta Siódemka Pucharów przynosi harmonię, spokój i radość na dany dzień. To czas, w którym możesz cieszyć się dobrym samopoczuciem i zadowoleniem z życia. Ta karta zachęca do celebracji i podziękowania za wszystkie pozytywne doświadczenia.",
     ],
-    images: [""],
+    images: ["7-pucharow.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -947,7 +947,7 @@ export const cards = [
     day: [
       "Karta Ósemka Pucharów przynosi radość, obfitość i harmonię na dany dzień. To czas, w którym możesz odczuwać satysfakcję i zadowolenie z tego, co masz i osiągnąłeś. Ta karta zachęca do wdzięczności i celebracji obfitości w swoim życiu.",
     ],
-    images: [""],
+    images: ["8-pucharow.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -969,7 +969,7 @@ export const cards = [
     day: [
       "Karta Dziewiątka Pucharów przynosi poczucie zadowolenia, radości i obfitości na dany dzień. To czas, w którym możesz cieszyć się swoimi osiągnięciami i korzystać z dobrobytu w swoim życiu. Ta karta zachęca do celebracji i wdzięczności za obfitość.",
     ],
-    images: [""],
+    images: ["9-pucharow.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -990,7 +990,7 @@ export const cards = [
     day: [
       "Karta Dziesiątka Pucharów przynosi poczucie spełnienia i obfitości na dany dzień. To czas, w którym możesz cieszyć się życiem, dostrzegać piękno wokół siebie i doceniać wszystkie dobre rzeczy, które się wydarzają. Ta karta zachęca do celebracji i wdzięczności za pełnię dnia.",
     ],
-    images: [""],
+    images: ["10-pucharow.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1011,7 +1011,7 @@ export const cards = [
     day: [
       "Karta Walet Pucharów przynosi świeżość i entuzjazm na dany dzień. To czas, w którym możesz czerpać radość z prostych przyjemności, wyrażać swoje emocje i być otwartym na nowe doświadczenia. Ta karta zachęca do odkrywania świata wokół siebie i cieszenia się młodzieńczym duchem.",
     ],
-    images: [""],
+    images: ["walet-pucharow.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1032,7 +1032,7 @@ export const cards = [
     day: [
       "Karta Rycerz Pucharów przynosi romantyczny i wrażliwy nastrój na dany dzień. To czas, w którym możesz odczuwać głębokie emocje i oddanie wobec innych. Ta karta zachęca do wyrażania swojej miłości i troski wobec bliskich.",
     ],
-    images: [""],
+    images: ["rycerz-pucharow.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1053,7 +1053,7 @@ export const cards = [
     day: [
       "Karta Królowa Pucharów przynosi atmosferę troski, empatii i harmonii na dany dzień. To czas, w którym możesz wykazać się współczuciem i wyjątkową opieką wobec innych. Ta karta zachęca do niesienia wsparcia i troski w swoim otoczeniu.",
     ],
-    images: [""],
+    images: ["krolowa-pucharow.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1074,7 +1074,7 @@ export const cards = [
     day: [
       "Karta Król Pucharów przynosi atmosferę dojrzałości emocjonalnej, stabilności i hojności na dany dzień. To czas, w którym możesz wykazać się odpowiedzialnością, wspierającymi działaniami i hojnością wobec innych. Ta karta zachęca do budowania trwałych relacji i dzielenia się dobrem.",
     ],
-    images: [""],
+    images: ["krol-pucharow.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1095,7 +1095,7 @@ export const cards = [
     day: [
       "Karta As Mieczy przynosi atmosferę nowych początków, jasności myśli i intelektualnej aktywności na dany dzień. To czas, w którym możesz oczekiwać nowych inspiracji, kreatywności i intelektualnego wzrostu. Ta karta zachęca do świadomego podejścia i korzystania z mocy umysłu.",
     ],
-    images: [""],
+    images: ["as-mieczy.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1116,7 +1116,7 @@ export const cards = [
     day: [
       "Karta Dwójka Mieczy przynosi atmosferę wyborów, równowagi i analizy na dany dzień. To czas, w którym musisz dokonać wyboru lub znaleźć równowagę między różnymi aspektami życia. Ta karta zachęca do rozważnego podejścia, zrównoważenia emocji i logicznego myślenia.",
     ],
-    images: [""],
+    images: ["2-mieczy.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1137,7 +1137,7 @@ export const cards = [
     day: [
       "Karta Trójka Mieczy przynosi atmosferę konfliktów, trudności i wyzwań na dany dzień. To czas, w którym możesz napotkać trudności, konfrontacje lub nieporozumienia. Ta karta zachęca do zachowania spokoju, szczerego dialogu i poszukiwania konstruktywnych rozwiązań.",
     ],
-    images: [""],
+    images: ["3-mieczy.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1158,7 +1158,7 @@ export const cards = [
     day: [
       "Karta Czwórka Mieczy przynosi atmosferę konfliktów, rozdźwięku i trudności na dany dzień. To czas, w którym możesz napotkać wyzwania, konfrontacje lub nieporozumienia. Ta karta zachęca do zachowania spokoju, refleksji i szukania konstruktywnych rozwiązań.",
     ],
-    images: [""],
+    images: ["4-mieczy.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1179,7 +1179,7 @@ export const cards = [
     day: [
       "Karta Piątka Mieczy przynosi atmosferę konfliktów, zdrady i trudności na dany dzień. To czas, w którym możesz doświadczyć emocjonalnego rozczarowania lub poczucia utraty. Ta karta zachęca do akceptacji zmian, szukania wsparcia i kierowania się własnym dobrem.",
     ],
-    images: [""],
+    images: ["5-mieczy.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1200,7 +1200,7 @@ export const cards = [
     day: [
       "Karta Szóstka Mieczy przynosi atmosferę wyzwolenia i zakończenia trudności na dany dzień. To czas, w którym możesz poczuć ulgę i odczuć poprawę sytuacji. Ta karta zachęca do wykorzystania tego momentu, celebracji osiągnięć i kierowania się ku przyszłości z optymizmem.",
     ],
-    images: [""],
+    images: ["6-mieczy.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1221,7 +1221,7 @@ export const cards = [
     day: [
       "Karta Siódemka Mieczy przynosi atmosferę napięcia i konfliktów na dany dzień. To czas, w którym możesz napotkać trudności i wyzwania. Ta karta zachęca do zachowania spokoju, analizy sytuacji i podejmowania rozważnych decyzji.",
     ],
-    images: [""],
+    images: ["7-mieczy.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1243,7 +1243,7 @@ export const cards = [
     day: [
       "Karta Ósemka Mieczy przynosi energię zakończenia i uwolnienia na dany dzień. To czas, w którym możesz pozbyć się przeszłości, porzucić negatywne myśli i skupić się na przyszłości. Ta karta zachęca do podjęcia działań mających na celu rozwój i osobistą transformację.",
     ],
-    images: [""],
+    images: ["8-mieczy.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1264,7 +1264,7 @@ export const cards = [
     day: [
       "Karta Dziewiątka Mieczy przynosi energię trudności i wyzwań na dany dzień. To czas, w którym możesz się czuć przytłoczony, ale ważne jest, aby nie tracić nadziei i szukać sposobów radzenia sobie z trudnościami. Ta karta zachęca do odwagi, refleksji i szukania wsparcia wśród bliskich.",
     ],
-    images: [""],
+    images: ["9-mieczy.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1285,7 +1285,7 @@ export const cards = [
     day: [
       "Karta Dziesiątka Mieczy przynosi energię zakończenia i transformacji na dany dzień. Może być czasem refleksji nad przeszłością i uwolnienia się od toksycznych elementów swojego życia. Ta karta zachęca do podjęcia działań, które pomogą Ci zakończyć pewne sytuacje i otworzyć nowe drzwi.",
     ],
-    images: [""],
+    images: ["10-mieczy.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1306,7 +1306,7 @@ export const cards = [
     day: [
       "Karta Walet Mieczy przynosi energię młodości, odkrywania i eksploracji na dany dzień. Może być czasem na poznawanie nowych rzeczy, rozwijanie umiejętności i świeże spojrzenie na świat. Ta karta zachęca do aktywności umysłowej, zdobywania wiedzy i otwartości na nowe możliwości.",
     ],
-    images: [""],
+    images: ["walet-mieczy.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1328,7 +1328,7 @@ export const cards = [
     day: [
       "Karta Rycerz Mieczy przynosi energię działania, pośpiechu i odkrywania nowych możliwości na dany dzień. Może być czasem intensywnego myślenia, podejmowania szybkich decyzji i podejścia logicznego do problemów. Ta karta zachęca do odwagi i gotowości do zmierzenia się z wyzwaniami.",
     ],
-    images: [""],
+    images: ["rycerz-mieczy.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1349,7 +1349,7 @@ export const cards = [
     day: [
       "Karta Królowa Mieczy przynosi energię intelektualną, ostry umysł i jasność myśli na dany dzień. Może być czasem do rozwiązywania problemów, podejmowania decyzji opartych na logice i skupiania się na efektywności. Ta karta zachęca do wykorzystania swojej inteligencji i umiejętności analitycznych w celu osiągnięcia sukcesu.",
     ],
-    images: [""],
+    images: ["krolowa-mieczy.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1370,7 +1370,7 @@ export const cards = [
     day: [
       "Karta Król Mieczy przynosi energię logicznego myślenia i podejmowania decyzji na dany dzień. Jest to czas koncentracji, analizy i rozwiązywania problemów. Ta karta zachęca do wykorzystania swojego intelektu i zdolności analitycznych do osiągania celów.",
     ],
-    images: [""],
+    images: ["krol-mieczy.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1391,7 +1391,7 @@ export const cards = [
     day: [
       "Karta As Pentagramów przynosi energię nowych początków i potencjału na dany dzień. Może być czasem, aby skoncentrować się na swoich celach, inwestować w swoje umiejętności i planować przyszłość. Ta karta zachęca do podejmowania inicjatywy i wykorzystywania okazji, które pojawiają się na Twojej drodze.",
     ],
-    images: [""],
+    images: ["as-pentagram.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1413,7 +1413,7 @@ export const cards = [
     day: [
       "Karta Dwójka Pentagramów przynosi energię harmonii i równowagi na dany dzień. Może być czasem poświęconym na znalezienie równowagi w życiu, zarówno w sferze zawodowej, jak i osobistej. Ta karta zachęca do planowania i organizacji dnia, aby zapewnić harmonijne działanie i satysfakcję.",
     ],
-    images: [""],
+    images: ["2-pentagram.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1434,7 +1434,7 @@ export const cards = [
     day: [
       "Karta Trójka Pentagramów przynosi energię postępu i sukcesu na dany dzień. To doskonały czas, aby skoncentrować się na realizacji celów, zwiększeniu swojej produktywności i cieszeniu się osiągnięciami. Ta karta zachęca do działania z determinacją i umiejętnością przekształcania swoich planów w rzeczywistość.",
     ],
-    images: [""],
+    images: ["3-pentagram.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1455,7 +1455,7 @@ export const cards = [
     day: [
       "Karta Czwórka Pentagramów przynosi energię stabilności, harmonii i zabezpieczenia na dany dzień. To dobry czas na zarządzanie swoimi finansami, dbanie o swoje zasoby i budowanie stabilnych fundamentów w różnych obszarach życia.",
     ],
-    images: [""],
+    images: ["4-pentagram.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1476,7 +1476,7 @@ export const cards = [
     day: [
       "Karta Piątka Pentagramów przynosi energię trudności i niedostatku na dany dzień. Może być czasem wyzwań finansowych, emocjonalnych lub materialnych. Ta karta zachęca do opanowania sytuacji, koncentracji na potrzebach podstawowych i szukania sposobów na pokonanie przeszkód.",
     ],
-    images: [""],
+    images: ["5-pentagram.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1497,7 +1497,7 @@ export const cards = [
     day: [
       "Karta Szóstka Pentagramów przynosi energię harmonii i równowagi na dany dzień. Może być czasem obfitości i satysfakcji z osiągnięć oraz dzielenia się swoimi sukcesami z innymi. Ta karta zachęca do podjęcia praktyk, które pomogą Ci utrzymać równowagę i harmonię w różnych sferach życia.",
     ],
-    images: [""],
+    images: ["6-pentagram.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1518,7 +1518,7 @@ export const cards = [
     day: [
       "Karta Siódemka Pentagramów przynosi energię pracy, rozwijania umiejętności i długotrwałego wysiłku na dany dzień. Jest to czas, aby poświęcić uwagę swoim celom, podejmować kroki w kierunku ich osiągnięcia i doceniać postępy, jakie osiągasz. Ta karta zachęca do wytrwałości i cierpliwości w dążeniu do sukcesu.",
     ],
-    images: [""],
+    images: ["7-pentagram.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1539,7 +1539,7 @@ export const cards = [
     day: [
       "Karta Ósemka Pentagramów przynosi energię stabilności i obfitości na dany dzień. Może być czasem, w którym cieszysz się rezultatami swoich wysiłków i doceniasz osiągnięcia. Ta karta zachęca do kontynuowania pracy w zgodzie z własnymi wartościami i celebrowania małych sukcesów.",
     ],
-    images: [""],
+    images: ["8-pentagram.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1560,7 +1560,7 @@ export const cards = [
     day: [
       "Karta Dziewiątka Pentagramów przynosi energię stabilności, obfitości i samodoskonalenia na dany dzień. Może być czasem, w którym możesz cieszyć się owocami swojej pracy i czerpać satysfakcję z osiągniętych rezultatów. Ta karta zachęca do kontynuowania wysiłku i dbałości o równowagę w różnych obszarach życia.",
     ],
-    images: [""],
+    images: ["9-pentagram.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1581,7 +1581,7 @@ export const cards = [
     day: [
       "Karta Dziesiątka Pentagramów przynosi energię stabilności i obfitości na dany dzień. To czas, aby docenić i cieszyć się zasobami, które masz. Ta karta zachęca do podzielenia się swoim dobrobytem z innymi i wykorzystania go do stworzenia pozytywnych zmian w swoim życiu.",
     ],
-    images: [""],
+    images: ["10-pentagram.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1602,7 +1602,7 @@ export const cards = [
     day: [
       "Karta Walet Pentagramów przynosi energię młodości, odkrywania i zaangażowania na dany dzień. Może być czasem nowych początków, kreatywności i eksploracji. Ta karta zachęca do podejmowania działania, poszukiwania nowych możliwości i czerpania radości z życia.",
     ],
-    images: [""],
+    images: ["walet-pentagram.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1623,7 +1623,7 @@ export const cards = [
     day: [
       "Karta Rycerz Pentagramów przynosi energię aktywnego i produktywnego dnia. Może być czasem, aby skupić się na swoich celach, podjąć działania i skorzystać z możliwości, które napotkasz. Ta karta zachęca do wykorzystania swojej energii i determinacji, aby przynieść pozytywne rezultaty.",
     ],
-    images: [""],
+    images: ["rycerz-pentagram.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1644,7 +1644,7 @@ export const cards = [
     day: [
       "Karta Królowa Pentagramów przynosi energię stabilności i obfitości na dany dzień. To czas koncentracji na zadaniach, zarządzaniu finansami i dbałości o swoje zasoby. Ta karta zachęca do planowania, organizacji i czerpania korzyści z pracy nad osiągnięciem długoterminowych celów.",
     ],
-    images: [""],
+    images: ["krolowa-pentagram.jpg"],
     logo: [""],
     cardType: "2",
   },
@@ -1665,7 +1665,7 @@ export const cards = [
     day: [
       "Karta Król Pentagramów przynosi energię stabilności i dobrobytu na dany dzień. Może być czasem koncentracji na swoich celach materialnych, zarządzania finansami i inwestowania w swoje przyszłe zabezpieczenie. Ta karta zachęca do podejmowania pragmatycznych decyzji i korzystania z okazji, które się pojawiają.",
     ],
-    images: [""],
+    images: ["krol-pentagram.jpg"],
     logo: [""],
     cardType: "2",
   },

@@ -1,7 +1,6 @@
 import type { InferGetStaticPropsType, GetStaticProps } from "next";
 import { PageTitle } from "@/components/pageTitle";
 import { WithSubnavigation } from "@/components/navigation";
-import { Cards } from "@/components/cards";
 import { Hero } from "@/components/hero";
 import { Checkerboard } from "@/components/checkerboard";
 import { GamesTypeContainer } from "@/components/gamesTypeContainer";
@@ -48,19 +47,6 @@ Przyjrzyj się uważnie kartom, zgłębiaj ich znaczenie, a w miarę jak poznasz
         })}
       </SimpleGrid>
       <Container maxW="8xl">
-        {/* <Grid
-          templateColumns={["2", "2", "repeat(3, 1fr)"]}
-          gap={6}
-          alignItems="center"
-          justifyContent="center"
-        >
-          <Cards
-            image="https://bit.ly/dan-abramov"
-            title="opis"
-            description="Opis"
-            url="/"
-          />
-        </Grid> */}
 
         <Heading as="h2" variant="sectionTitle">
           Karta dnia dla znaków zodiaku
@@ -78,28 +64,6 @@ Przyjrzyj się uważnie kartom, zgłębiaj ich znaczenie, a w miarę jak poznasz
             );
           })}
         </Wrap>
-
-        {/* <Flex
-          alignItems="center"
-          justifyContent="flex-start"
-          flexWrap="wrap"
-          gap="1"
-        >
-          {horoscop.map((el: any, index: number) => {
-            return (
-              <Checkerboard
-                key={index}
-                image="https://bit.ly/dan-abramov"
-                title={el.name}
-                url="/"
-              />
-            );
-          })}
-        </Flex> */}
-        {/* </Container> */}
-        {/* <Container> */}
-
-        {/* </Container> */}
       </Container>
     </>
   );
