@@ -6,7 +6,6 @@ import { useGameType } from "@/hooks/useGameType";
 
 export default function Home() {
   const game = useGameType();
-
   return (
     <>
       <WithSubnavigation />
@@ -21,7 +20,6 @@ export default function Home() {
         <SingGames
           title={game.horoscope.name}
           description={game.horoscope.desc}
-          sing={game.horoscope}
         />
       )}
     </>

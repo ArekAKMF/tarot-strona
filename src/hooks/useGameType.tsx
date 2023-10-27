@@ -2,7 +2,6 @@
 
 import { useMemo } from "react";
 import { useRouter } from "next/router";
-
 import { gamesType, horoscop } from "@/utils/gameTypes";
 
 export const useGameType = () => {
