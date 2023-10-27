@@ -134,7 +134,7 @@ export default function Home() {
           />
         </Flex>
 
-        <SimpleGrid columns={3} spacing={5}>
+        {/* <SimpleGrid columns={3} spacing={5}>
           <Checkerboard
             image="https://bit.ly/dan-abramov"
             title="opis"
@@ -158,7 +158,7 @@ export default function Home() {
             title="opis"
             url="/"
           />
-        </SimpleGrid>
+        </SimpleGrid> */}
 
         <Box p="20">
           <Link variant="primary">Wybierz</Link>
