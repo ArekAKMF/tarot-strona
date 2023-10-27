@@ -111,7 +111,7 @@ export default function Home() {
           Narzędzia dla Krajowego Systemu e-Faktur
         </Heading>
 
-        <Flex
+        {/* <Flex
           alignItems="center"
           justifyContent="flex-start"
           flexWrap="wrap"
@@ -132,7 +132,7 @@ export default function Home() {
             title="opis"
             description="Opis"
           />
-        </Flex>
+        </Flex> */}
 
         {/* <SimpleGrid columns={3} spacing={5}>
           <Checkerboard
