@@ -8,6 +8,7 @@ interface PageTitleProps {
   description: string;
   card?: boolean;
   seotitle?: string;
+  disableTitle?: boolean;
 }
 
 export const PageTitle = ({
@@ -16,8 +17,8 @@ export const PageTitle = ({
   description,
   card = false,
   seotitle = "",
+  disableTitle = false,
 }: PageTitleProps) => {
-
   return (
     <>
       <Head>
@@ -25,11 +26,16 @@ export const PageTitle = ({
         <meta name="description" content={description} />
       </Head>
       <Box marginBottom="1.5em" paddingTop="2em" paddingBottom="2em">
-        <Heading as="h1" variant="pageTitle" textAlign="center">
-          {title}
-          {subtitle}
-        </Heading>
-        <Divider margin="1rem 0" />
+        {!disableTitle && (
+          <>
+            <Heading as="h1" variant="pageTitle" textAlign="center">
+              {title}
+              {subtitle}
+            </Heading>
+            <Divider margin="1rem 0" />
+          </>
+        )}
+
         <Text
           fontSize={{
             base: "1.125em",

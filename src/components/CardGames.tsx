@@ -11,10 +11,11 @@ import { PageTitle } from "@/components/pageTitle";
 import React, { useState } from "react";
 import { Cards } from "@/components/cards";
 import { cards as cardslist } from "@/utils/cards";
+import { useData } from "@/hooks/useData";
 
 export default function CardGames({ title, description, gameType }: any) {
   let cartToTest = cardslist;
-  const [cardTemp, setCardTemp] = useState<any>(cardslist);
+  const [cardTemp, setCardTemp] = useState<any>(useData().allCards);
   const [selectedCard, setSelectedCard] = useState<any>([]);
 
   const generateGameCards = () => {
@@ -77,7 +78,6 @@ export default function CardGames({ title, description, gameType }: any) {
             card={el.name}
             desc={""}
             description={el.desc[0]}
-            url="/"
             key={index}
           />
         ))}

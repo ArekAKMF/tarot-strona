@@ -7,7 +7,7 @@ export const gamesType = [
         "Układ 3 kart tarota jest prostym, ale skutecznym narzędziem do uzyskania wglądu w konkretne pytanie lub sytuację. Składający się z trzech kart, układ ten oferuje perspektywę przeszłości, teraźniejszości i przyszłości, umożliwiając odczytanie dynamicznych elementów i ewolucji w życiu osoby pytającej.",
       url: "/uklad-3-kart",
       cardCount : 3,
-      background:"red",
+      background:"#A5D0CE",
       cardDesc: [
         {
           name: "Przeszłość",
@@ -29,7 +29,7 @@ export const gamesType = [
       desc: "Układ Krzyża w Tarocie jest jednym z najpopularniejszych układów rozkładu kart, który dostarcza wskazówek i odpowiedzi na konkretne pytania lub sytuacje. Składa się z pięciu kart ułożonych w formie krzyża, z jedną kartą na środku i czterema kartami otaczającymi ją. ",
       url: "/uklad-krzyza",
       cardCount : 5,
-      background:"green",
+      background:"#0B7A94",
       descshort:
         "Układ krzyża tarota to popularna metoda wróżenia, składająca się z czterech kart ułożonych na krzyżu. Ten układ umożliwia analizę przeszłości, teraźniejszości, przeszkód i potencjalnej przyszłości, dostarczając głębszych spostrzeżeń i wskazówek dotyczących pytania czy sytuacji.",
       cardDesc: [
@@ -64,7 +64,7 @@ export const gamesType = [
         "Układ podkowy w tarocie jest układem składającym się z siedmiu kart, ułożonych w kształt podkowy. Reprezentuje on potencjał, szczęście i pomyślność. Jest symbolem harmonii, obfitości i dobrych okoliczności, zachęcając do optymizmu i ufności w przyszłość.",
       url: "/uklad-podkowy",
       cardCount : 7,
-      background:"purple",
+      background:"#A06671",
       cardDesc: [
         {
           name: "Początek szczęścia",
@@ -111,7 +111,7 @@ export const gamesType = [
         "Układ kalendarza tarota to układ, który pomaga zrozumieć i przewidzieć energię i wydarzenia dla każdego miesiąca w roku. Wykorzystuje karty tarota, aby odkryć wpływ poszczególnych miesięcy na nasze życie i dostarczyć wskazówek dotyczących harmonii, rozwoju i transformacji na przestrzeni całego roku.",
       url: "/uklad-kalendarza",
       cardCount : 13,
-      background:"#aaa",
+      background:"#2A3155",
       cardDesc: [
         {
           name: "Ogólny wpływ na osobę",

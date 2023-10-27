@@ -2,11 +2,47 @@ import { Container, Text, Heading, Link } from "@chakra-ui/react";
 import { PageTitle } from "@/components/pageTitle";
 
 import React, { useState, useEffect } from "react";
-import { gamesType, horoscop } from "@/utils/gameTypes";
 import { cards } from "@/utils/cards";
 
-export default function SingGames({ title, description, sing }: any) {
-  const [selectedCard, setSelectedCard] = useState({
+import {
+  getFirestore,
+  doc,
+  setDoc,
+  collection,
+  getDocs,
+  getDoc,
+  onSnapshot,
+} from "firebase/firestore";
+import db from "@/firebase/config";
+
+import { useData } from '@/hooks/useData'
+
+const getDataTest = async () => {
+  const querySnapshot = await getDocs(collection(db, "karty"));
+  const dataList: any = [];
+  querySnapshot.forEach((doc) => {
+    dataList.push(doc.data());
+  });
+
+  console.log(dataList, "dataList");
+
+  //   const unsub = onSnapshot(doc(db, "karty"), (doc) => {
+  //     console.log("Current data: ", doc.data());
+  // });
+};
+
+const setDataDay = async () => {
+  // const querySnapshot = await setDoc(collection(db, "karty"));
+  // querySnapshot.forEach((doc) => {
+  //   console.log(doc.data(), 'DATA')
+  // });
+};
+
+export default function SingGames({ title, description }: any) {
+
+  const data = useData();
+
+  const [selectedCard, setSelectedCard] = useState<any>({
     name: "",
     desc: [],
     love: [],
@@ -26,12 +62,15 @@ export default function SingGames({ title, description, sing }: any) {
   const actualDay = getDate();
 
   useEffect(() => {
-    if (sing) {
-      const cardRandom = Math.floor(Math.random() * cards.length + 1);
-      cards[cardRandom];
-      setSelectedCard(cards[cardRandom]);
+    if (data) {
+      const cardRandom = Math.floor(Math.random() * data.allCards.length + 1);
+      setSelectedCard(data.allCards[cardRandom]);
     }
-  }, [cards]);
+  }, [data]);
+
+  useEffect(() => {
+    const entries = getDataTest();
+  });
 
   return (
     <Container maxW="8xl">

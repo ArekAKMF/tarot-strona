@@ -2,8 +2,8 @@ import { PageTitle } from "@/components/pageTitle";
 import { WithSubnavigation } from "@/components/navigation";
 import { Container } from "@chakra-ui/react";
 import GameTypesView from "@/components/GameTypesView";
-import SingTypeView from '@/components/SingTypeView'
-import OwnFortune from '@/components/ownFortune'
+import SingTypeView from "@/components/SingTypeView";
+import OwnFortune from "@/components/ownFortune";
 
 export default function Home() {
   return (
@@ -17,6 +17,7 @@ export default function Home() {
           Tarot to narzędzie, które przekracza granice czasu i przestrzeni. To magiczne karty, które pomagają nam lepiej zrozumieć siebie i otaczający nas świat. Jako przewodnicy na tej mistycznej drodze, jesteśmy tutaj, by pomóc Ci odkryć ukryte tajemnice swojego życia oraz lepiej zrozumieć to, co przynosi przyszłość.
           Przyjrzyj się uważnie kartom, zgłębiaj ich znaczenie, a w miarę jak poznasz tę sztukę, zobaczysz, jak można ją wykorzystać do przewidywania przyszłości. Tarot to lustrzane odbicie twojego wnętrza i mistyczna mapa, która pomoże Ci w nawigowaniu przez nieznane lądy.
               "
+          disableTitle={true}
         />
       </Container>
       <GameTypesView />

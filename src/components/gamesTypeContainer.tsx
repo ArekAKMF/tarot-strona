@@ -2,12 +2,8 @@ import React from "react";
 import { Heading, Image, Link } from "@chakra-ui/react";
 import {
   Box,
-  Card,
-  CardHeader,
-  CardBody,
   Flex,
   Text,
-  Stack,
 } from "@chakra-ui/react";
 
 interface GamesTypeContainerProps {
@@ -45,7 +41,7 @@ export const GamesTypeContainer = ({
         margin="0 auto"
         height="500px"
       >
-        <Box>
+        <Box    width={["auto", "auto", "500px", "500px", "500px", "500px"]}>
           <Image
             src={image}
             alt="Dan Abramov"
@@ -53,7 +49,7 @@ export const GamesTypeContainer = ({
             alignItems="center"
             justifyContent="center"
             padding="8px"
-            width={["auto", "auto", "auto", "500px", "500px", "500px"]}
+            width={["auto", "auto", "500px", "500px", "500px", "500px"]}
             height="500px"
           />
         </Box>
@@ -76,7 +72,7 @@ export const GamesTypeContainer = ({
               </Link>
             </Heading>
             <Box>
-              <Text fontSize="lg" padding="10px">
+              <Text fontSize="lg" padding="10px" color="#fff" textShadow="1px 1px #a0a0a0">
                 {desc}
               </Text>
             </Box>

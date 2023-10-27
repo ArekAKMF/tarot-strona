@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Text, Heading, Image, Link } from "@chakra-ui/react";
-import { Card, CardHeader, CardBody, CardFooter } from "@chakra-ui/react";
+import { Text, Heading, Image } from "@chakra-ui/react";
+import { Card, CardHeader, CardBody } from "@chakra-ui/react";
 
 interface CardsProps {
   image: string;
@@ -9,7 +9,6 @@ interface CardsProps {
   desc?: string;
   card?: string;
   description: string;
-  url: string;
 }
 
 export const Cards = ({
@@ -18,10 +17,7 @@ export const Cards = ({
   desc,
   description,
   card,
-  url,
 }: CardsProps) => {
-
-  console.log(image, 'image')
   return (
     <Card
       maxW="lg"
