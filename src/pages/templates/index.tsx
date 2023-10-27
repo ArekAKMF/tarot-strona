@@ -84,31 +84,26 @@ export default function Home() {
             image="https://bit.ly/dan-abramov"
             title="opis"
             description="Opis"
-            url="/"
           />
           <Cards
             image="https://bit.ly/dan-abramov"
             title="opis"
             description="Opis"
-            url="/"
           />
           <Cards
             image="https://bit.ly/dan-abramov"
             title="opis"
             description="Opis"
-            url="/templates"
           />
           <Cards
             image="https://bit.ly/dan-abramov"
             title="opis"
             description="Opis"
-            url="/templates"
           />
           <Cards
             image="https://bit.ly/dan-abramov"
             title="opis"
             description="Opis"
-            url="/templates"
           />
         </Flex>
 
@@ -126,19 +121,16 @@ export default function Home() {
             image="https://bit.ly/dan-abramov"
             title="opis"
             description="Opis"
-            url="/"
           />
           <Cards
             image="https://bit.ly/dan-abramov"
             title="opis"
             description="Opis"
-            url="/"
           />
           <Cards
             image="https://bit.ly/dan-abramov"
             title="opis"
             description="Opis"
-            url="/templates"
           />
         </Flex>
 
