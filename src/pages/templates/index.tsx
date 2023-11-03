@@ -74,7 +74,7 @@ export default function Home() {
           Informacje o Krajowym Systemie e-Faktur
         </Heading>
 
-        <Flex
+        {/* <Flex
           alignItems="center"
           justifyContent="flex-start"
           flexWrap="wrap"
@@ -105,7 +105,7 @@ export default function Home() {
             title="opis"
             description="Opis"
           />
-        </Flex>
+        </Flex> */}
 
         <Heading as="h2" variant="sectionTitle">
           Narzędzia dla Krajowego Systemu e-Faktur

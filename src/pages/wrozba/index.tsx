@@ -19,6 +19,13 @@ export default function Home() {
     <>
       <WithSubnavigation />
       <Container maxW="8xl">
+      <PageTitle
+        title={
+          "Wróżba na zamówienie"
+        }
+        description="sssiii"
+        seotitle={"Karta dnia tarot dla znaku zodiaku "}
+      />
         <Heading as="h2" variant="sectionTitle">
           Zamów własne czytanie
         </Heading>

@@ -1,5 +1,5 @@
 import { Checkerboard } from "@/components/checkerboard";
-import { Container, Wrap, Heading } from "@chakra-ui/react";
+import { Container, Flex, Heading } from "@chakra-ui/react";
 import { horoscop } from "@/utils/gameTypes";
 
 export default function SingTypeView() {
@@ -9,18 +9,26 @@ export default function SingTypeView() {
         Karta dnia dla znaków zodiaku
       </Heading>
 
-      <Wrap spacing="10px 5px" justify="center">
+      <Flex flexWrap="wrap" justifyContent="center">
         {horoscop.map((el: any, index: number) => {
+          const currentDate = () => {
+            const cd = new Date();
+            var day = cd.getDate();
+            var month = cd.getMonth() + 1;
+            var year = cd.getFullYear();
+            return day + "-" + month + "-" + year;
+          };
+
           return (
             <Checkerboard
               key={index}
               image="../../logo-biale.png"
               title={el.name}
-              url={`/${el.name.toLowerCase()}`}
+              url={`/${el.url.toLowerCase()}-${currentDate()}`}
             />
           );
         })}
-      </Wrap>
+      </Flex>
     </Container>
   );
 }

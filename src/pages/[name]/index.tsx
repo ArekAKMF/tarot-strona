@@ -20,6 +20,8 @@ export default function Home() {
         <SingGames
           title={game.horoscope.name}
           description={game.horoscope.desc}
+          currentDate={game.currentDate}
+          section={game.horoscope.section}
         />
       )}
     </>

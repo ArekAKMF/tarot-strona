@@ -9,8 +9,6 @@ import {
   Link,
 } from "@chakra-ui/react";
 
-import Logo from "@/images/index";
-
 export const WithSubnavigation = () => {
   return (
     <Box>

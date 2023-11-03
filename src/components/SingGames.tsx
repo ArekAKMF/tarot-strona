@@ -12,12 +12,15 @@ import {
   getDocs,
   getDoc,
   onSnapshot,
+  query,
+  where,
+  or,
 } from "firebase/firestore";
 import db from "@/firebase/config";
 
-import { useData } from '@/hooks/useData'
+import { useData } from "@/hooks/useData";
 
-const getDataTest = async () => {
+const getDataTest = async (currentDate: string) => {
   const querySnapshot = await getDocs(collection(db, "karty"));
   const dataList: any = [];
   querySnapshot.forEach((doc) => {
@@ -38,8 +41,12 @@ const setDataDay = async () => {
   // });
 };
 
-export default function SingGames({ title, description }: any) {
-
+export default function SingGames({
+  title,
+  description,
+  currentDate,
+  section,
+}: any) {
   const data = useData();
 
   const [selectedCard, setSelectedCard] = useState<any>({
@@ -52,25 +59,46 @@ export default function SingGames({ title, description }: any) {
     day: [],
   });
 
-  const getDate = () => {
-    const date = new Date();
-    return (
-      date.getDate() + "-" + (date.getMonth() + 1) + "-" + date.getFullYear()
-    );
+  const addValue = async (newCard: any) => {
+    const saveData = Object.assign({}, newCard, { data: currentDate });
+    await setDoc(collection(db, "karty"), {
+      ...saveData,
+    });
   };
 
-  const actualDay = getDate();
+  const updateValue = async (currentDate: any, section: any) => {
+    const q = query(
+      collection(db, "karty"),
+      or(where("sing", "==", section), where("data", "==", currentDate))
+    );
+
+    const querySnapshot2 = await getDocs(q);
+    querySnapshot2.forEach((doc) => {
+      const id = doc.data().karta;
+      if (!id) {
+        const cardRandom = Math.floor(Math.random() * data.allCards.length + 1);
+        const newCard = data.allCards[cardRandom];
+        addValue(newCard);
+        setSelectedCard(newCard);
+      } else {
+        setSelectedCard(data.allCards[id]);
+      }
+    });
+  };
 
   useEffect(() => {
     if (data) {
-      const cardRandom = Math.floor(Math.random() * data.allCards.length + 1);
-      setSelectedCard(data.allCards[cardRandom]);
+      updateValue(currentDate, section);
     }
-  }, [data]);
+  }, [data, updateValue, currentDate, section]);
 
-  useEffect(() => {
-    const entries = getDataTest();
-  });
+  // useEffect(() => {
+  //   const entries = getDataTest(currentDate);
+  // }, [currentDate]);
+
+  // if(!currentDate){
+  //   window.location = '/'
+  // }
 
   return (
     <Container maxW="8xl">
@@ -81,7 +109,7 @@ export default function SingGames({ title, description }: any) {
           " dla znaku zodiaku " +
           title
         }
-        subtitle={" na dzień " + actualDay}
+        subtitle={" na dzień " + currentDate + "r."}
         description={description}
         seotitle={"Karta dnia tarot dla znaku zodiaku " + title}
       />

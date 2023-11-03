@@ -172,50 +172,62 @@ export const gamesType = [
   export const horoscop = [
     {
       name: "Baran",
+      url: "baran",
       desc: "Baran to pierwszy znak zodiaku. Osoby urodzone pod tym znakiem są zwykle odważne, dynamiczne i pełne energii. Mają silną osobowość i dążą do osiągania celów.",
     },
     {
       name: "Byk",
+      url: "byk",
       desc: "Byk to stabilny i praktyczny znak zodiaku. Osoby urodzone pod tym znakiem są wytrwałe, niezależne i mają silne poczucie wartości. Są lojalne i wiernie trzymają się swoich przekonań.",
     },
     {
       name: "Bliźnięta",
+      url: "bliznieta",
       desc: "Bliźnięta to znak zodiaku pełen zróżnicowania. Osoby urodzone pod tym znakiem są inteligentne, towarzyskie i ciekawskie. Mają żywą wyobraźnię i lubią nawiązywać kontakty z innymi ludźmi.",
     },
     {
       name: "Rak",
+      url: "rak",
       desc: "Rak to znak zodiaku pełen emocji. Osoby urodzone pod tym znakiem są wrażliwe, opiekuńcze i przywiązane do rodziny. Mają dobrze rozwiniętą intuicję i potrafią czytać uczucia innych.",
     },
     {
       name: "Lew",
+      url: "lew",
       desc: "Lew to znak zodiaku pełen pewności siebie i siły. Osoby urodzone pod tym znakiem są odważne, hojne i kreatywne. Mają naturalny dar przywództwa i zwykle przyciągają uwagę innych.",
     },
     {
       name: "Panna",
+      url: "panna",
       desc: "Panna to znak zodiaku skupiony na szczegółach. Osoby urodzone pod tym znakiem są praktyczne, dokładne i poukładane. Mają zdolności analityczne i dbają o porządek w swoim otoczeniu.",
     },
     {
       name: "Waga",
+      url: "waga",
       desc: "Waga to znak zodiaku dążący do harmonii i równowagi. Osoby urodzone pod tym znakiem są sprawiedliwe, towarzyskie i zdolne do kompromisów. Mają umiejętność oceny sytuacji i rozstrzygania sporów.",
     },
     {
       name: "Skorpion",
+      url: "skorpion",
       desc: "Skorpion to znak zodiaku pełen tajemniczości i pasji. Osoby urodzone pod tym znakiem są zdecydowane, odważne i intensywne. Mają silną intuicję i potrafią odczytać ukryte intencje innych.",
     },
     {
       name: "Strzelec",
+      url: "strzelec",
       desc: "Strzelec to znak zodiaku pełen optymizmu i poszukiwania przygód. Osoby urodzone pod tym znakiem są entuzjastyczne, niezależne i szczere. Mają silne przekonania i dążą do rozwoju duchowego.",
     },
     {
       name: "Koziorożec",
+      url: "koziorozec",
       desc: "Koziorożec to znak zodiaku zdeterminowany i ambitny. Osoby urodzone pod tym znakiem są praktyczne, odpowiedzialne i zorganizowane. Mają umiejętność planowania i osiągania sukcesów.",
     },
     {
       name: "Wodnik",
+      url: "wodnik",
       desc: "Wodnik to znak zodiaku pełen oryginalności i niezależności. Osoby urodzone pod tym znakiem są towarzyskie, nowatorskie i humanitarne. Mają silne przekonania i dążą do zmiany świata na lepsze.",
     },
     {
       name: "Ryby",
+      url: "ryby",
       desc: "Ryby to znak zodiaku pełen wrażliwości i empatii. Osoby urodzone pod tym znakiem są intuicyjne, kreatywne i romantyczne. Mają zdolność do odczuwania emocji innych i są zwykle oddane dla bliskich.",
     },
   ];

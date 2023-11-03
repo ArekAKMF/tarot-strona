@@ -11,6 +11,7 @@ export const useGameType = () => {
   let gameId: any;
   let horoscope: any;
   let layoutCard: any;
+  let currentDate: any;
 
   if (router) {
     if (router?.asPath) {
@@ -25,8 +26,19 @@ export const useGameType = () => {
       });
 
       if (!selectedGame) {
+        let selected = gt;
+        if (gt.includes("-")) {
+          const day =
+            parseInt(gt.split("-")[1]) < 10
+              ? "0" + gt.split("-")[1]
+              : gt.split("-")[1];
+
+          selected = gt.split("-")[0];
+          currentDate = day + "-" + gt.split("-")[2] + "-" + gt.split("-")[3];
+        }
+
         horoscope = horoscop.find((el) => {
-          if (el.name.toLocaleLowerCase() === gt) {
+          if (el.name.toLocaleLowerCase() === selected) {
             layoutCard = 2;
             return el;
           }
@@ -40,7 +52,8 @@ export const useGameType = () => {
       selectedGame,
       horoscope,
       layoutCard,
-      sg: gamesType?.filter((item: any, index: number) => {
+      currentDate,
+      sg: gamesType?.filter((item: any) => {
         if (gameId !== "") {
           if (item.type == gameId) {
             return item;
@@ -48,5 +61,5 @@ export const useGameType = () => {
         }
       }),
     };
-  }, [gameId, horoscope, layoutCard, selectedGame]);
+  }, [gameId, horoscope, layoutCard, selectedGame, currentDate]);
 };
