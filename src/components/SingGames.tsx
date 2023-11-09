@@ -59,38 +59,38 @@ export default function SingGames({
     day: [],
   });
 
-  const addValue = async (newCard: any) => {
-    const saveData = Object.assign({}, newCard, { data: currentDate });
-    await setDoc(collection(db, "karty"), {
-      ...saveData,
-    });
-  };
+  // const addValue = async (newCard: any) => {
+  //   const saveData = Object.assign({}, newCard, { data: currentDate });
+  //   await setDoc(collection(db, "karty"), {
+  //     ...saveData,
+  //   });
+  // };
 
-  const updateValue = async (currentDate: any, section: any) => {
-    const q = query(
-      collection(db, "karty"),
-      or(where("sing", "==", section), where("data", "==", currentDate))
-    );
+  // const updateValue = async (currentDate: any, section: any) => {
+  //   const q = query(
+  //     collection(db, "karty"),
+  //     or(where("sing", "==", section), where("data", "==", currentDate))
+  //   );
 
-    const querySnapshot2 = await getDocs(q);
-    querySnapshot2.forEach((doc) => {
-      const id = doc.data().karta;
-      if (!id) {
-        const cardRandom = Math.floor(Math.random() * data.allCards.length + 1);
-        const newCard = data.allCards[cardRandom];
-        addValue(newCard);
-        setSelectedCard(newCard);
-      } else {
-        setSelectedCard(data.allCards[id]);
-      }
-    });
-  };
+  //   const querySnapshot2 = await getDocs(q);
+  //   querySnapshot2.forEach((doc) => {
+  //     const id = doc.data().karta;
+  //     if (!id) {
+  //       const cardRandom = Math.floor(Math.random() * data.allCards.length + 1);
+  //       const newCard = data.allCards[cardRandom];
+  //       addValue(newCard);
+  //       setSelectedCard(newCard);
+  //     } else {
+  //       setSelectedCard(data.allCards[id]);
+  //     }
+  //   });
+  // };
 
-  useEffect(() => {
-    if (data) {
-      updateValue(currentDate, section);
-    }
-  }, [data, updateValue, currentDate, section]);
+  // useEffect(() => {
+  //   if (data) {
+  //     updateValue(currentDate, section);
+  //   }
+  // }, [data, updateValue, currentDate, section]);
 
   // useEffect(() => {
   //   const entries = getDataTest(currentDate);
