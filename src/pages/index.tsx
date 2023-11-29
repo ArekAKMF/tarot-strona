@@ -21,7 +21,7 @@ export default function Home() {
         />
       </Container>
       <GameTypesView />
-      <OwnFortune />
+      {/* <OwnFortune /> */}
       <SingTypeView />
     </>
   );

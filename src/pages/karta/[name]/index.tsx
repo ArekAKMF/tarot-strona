@@ -14,20 +14,17 @@ import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 import Head from "next/head";
 
-import { Cards } from "@/components/cards";
-import { Hero } from "@/components/hero";
-import { Breadcrumbs } from "@/components/breadcrumb";
 import { Checkerboard } from "@/components/checkerboard";
-
 import { gamesType, horoscop } from "@/utils/gameTypes";
-import { cards } from "@/utils/cards";
 
 export default function Home() {
   const [activeElement, setActiveElement] = useState({ name: "", desc: "" });
   const [selectedCard, setSelectedCard] = useState<any>({});
   const [actualDate, setActualDate] = useState<any>("");
+  const [sing, setSing] = useState<any>("");
 
   const router = useRouter();
+
 
   const getDate = () => {
     const date = new Date();
@@ -45,9 +42,11 @@ export default function Home() {
 
     console.log("wybrany ", selected);
 
+    setSing(selected)
+
     const ns = gamesType.map((el) => el.name);
 
-    console.log(ns, "ns");
+    // console.log(ns, "ns");
 
     const selectedRow = horoscop.find(
       (el) => el.name.toLowerCase() == selected
@@ -55,12 +54,14 @@ export default function Home() {
 
     if (selectedRow) setActiveElement(selectedRow);
 
-    const cardRandom = Math.floor(Math.random() * cards.length + 1);
+    // const cardRandom = Math.floor(Math.random() * cards.length + 1);
 
-    cards[cardRandom];
+    // cards[cardRandom];
     setActualDate(getDate());
-    setSelectedCard(cards[cardRandom]);
-  }, [router?.asPath]);
+
+    // setSelectedCard(cards[cardRandom]);
+  }, [router?.asPath, setSing]);
+
 
   // const generateHeader = (val: string) => (
   //   <Heading

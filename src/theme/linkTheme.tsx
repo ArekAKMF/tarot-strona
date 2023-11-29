@@ -96,6 +96,7 @@ const linkTheme = defineStyleConfig({
       padding:0,
       margin:0,
       fontSize: "0.875em",
+      whiteSpace: "wrap"
     },
     singLink:{
       padding:0,

@@ -1,6 +1,7 @@
 import React from "react";
 import { Heading, Image, Link } from "@chakra-ui/react";
 import { Box, Card, CardHeader, WrapItem } from "@chakra-ui/react";
+import { useMediaQuery } from "@chakra-ui/react";
 
 interface CheckerboardProps {
   image: string;
@@ -9,19 +10,35 @@ interface CheckerboardProps {
 }
 
 export const Checkerboard = ({ image, title, url }: CheckerboardProps) => {
+  const [isLargerThan800] = useMediaQuery("(max-width: 1200px)");
+  const [isMobile] = useMediaQuery("(max-width: 840px)");
+  const sizeRow = isMobile ? "xl" : isLargerThan800 ? "lg" : "sm";
+
   return (
-    <WrapItem>
+    <Box
+      marginBottom="5px"
+      w="100%"
+      border="1px solid #eee"
+      _hover={{
+        background: "#015497",
+      }}
+    >
       <Link
         variant="empty"
         href={url}
         textDecoration="none!important"
         padding="0"
+        border="0"
+        w="100%"
       >
         <Card
-          width="sm"
           padding="1em"
           background="transparent"
           borderRadius="0"
+          border="0"
+          justifyContent="center"
+          alignItems="center"
+          
           _hover={{
             background: "#015497",
             h3: {
@@ -35,7 +52,7 @@ export const Checkerboard = ({ image, title, url }: CheckerboardProps) => {
         >
           <Image
             src={image}
-            alt="Dan Abramov"
+            alt=""
             objectFit="cover"
             alignItems="center"
             justifyContent="center"
@@ -56,6 +73,6 @@ export const Checkerboard = ({ image, title, url }: CheckerboardProps) => {
           </Heading>
         </Card>
       </Link>
-    </WrapItem>
+    </Box>
   );
 };

@@ -36,9 +36,8 @@ export const useGameType = () => {
           selected = gt.split("-")[0];
           currentDate = day + "-" + gt.split("-")[2] + "-" + gt.split("-")[3];
         }
-
         horoscope = horoscop.find((el) => {
-          if (el.name.toLocaleLowerCase() === selected) {
+          if (el.url.toLocaleLowerCase() === selected) {
             layoutCard = 2;
             return el;
           }

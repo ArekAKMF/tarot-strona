@@ -24,6 +24,10 @@ export const PageTitle = ({
       <Head>
         <title>{seotitle ? seotitle : title}</title>
         <meta name="description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={seotitle ? seotitle : title} />
+        <meta property="og:description" content={description} />
+        <meta name="twitter:card" content="summary" />
       </Head>
       <Box marginBottom="1.5em" paddingTop="2em" paddingBottom="2em">
         {!disableTitle && (
