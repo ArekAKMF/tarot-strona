@@ -1,6 +1,6 @@
 import React from "react";
 import { Heading, Image, Link } from "@chakra-ui/react";
-import { Box, Card, CardHeader, WrapItem } from "@chakra-ui/react";
+import { Box, Card } from "@chakra-ui/react";
 import { useMediaQuery } from "@chakra-ui/react";
 
 interface CheckerboardProps {
