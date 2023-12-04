@@ -1,14 +1,10 @@
+"use client";
+
 import { Checkerboard } from "@/components/checkerboard";
 import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
 import { horoscop } from "@/utils/gameTypes";
-import { useMediaQuery } from "@chakra-ui/react";
 
 export default function SingTypeView() {
-  const [isLargerThan800] = useMediaQuery("(max-width: 1200px)");
-  const [isMobile] = useMediaQuery("(max-width: 840px)");
-  const sizeRow = isLargerThan800 ? 2 : 3;
-  const mobile = isMobile ? 1 : sizeRow;
-  const rowSize = `repeat(${mobile}, 1fr)`;
 
   return (
     <Container maxW="8xl">
