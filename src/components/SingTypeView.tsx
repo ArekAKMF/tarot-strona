@@ -4,15 +4,9 @@ import { Checkerboard } from "@/components/checkerboard";
 import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
 import { horoscop } from "@/utils/gameTypes";
 
-const currentDate = () => {
-  const cd = new Date();
-  var day = cd.getDate();
-  var month = cd.getMonth() + 1;
-  var year = cd.getFullYear();
-  return day + "-" + month + "-" + year;
-};
 
-export default function SingTypeView() {
+
+export default function SingTypeView({ day }: any) {
   return (
     <Container maxW="8xl">
       <Heading as="h2" variant="sectionTitle">
@@ -25,7 +19,7 @@ export default function SingTypeView() {
               key={index}
               image="../../logo-biale.png"
               title={el.name}
-              url={`/${el.url.toLowerCase()}-${currentDate()}`}
+              url={`/${el.url.toLowerCase()}-${day}`}
             />
           );
         })}
