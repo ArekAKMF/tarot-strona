@@ -1,3 +1,4 @@
+"use client";
 import { PageTitle } from "@/components/pageTitle";
 import { WithSubnavigation } from "@/components/navigation";
 import { Container } from "@chakra-ui/react";

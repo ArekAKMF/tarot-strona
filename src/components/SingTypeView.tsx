@@ -1,11 +1,6 @@
-"use client";
-
 import { Checkerboard } from "@/components/checkerboard";
 import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
 import { horoscop } from "@/utils/gameTypes";
-
-
-
 export default function SingTypeView({ day }: any) {
   return (
     <Container maxW="8xl">
