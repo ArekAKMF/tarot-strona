@@ -31,27 +31,26 @@ export const GamesTypeContainer = ({
       title={title}
       variant="link"
     >
-      {/* <Link href={url} title={title} variant="link"> */}
       <Flex
         display="flex"
-        flexDirection={index % 2 ? "row-reverse" : "row"}
         alignItems="center"
         justifyContent="flex-start"
         maxW="8xl"
         flexWrap="nowrap"
         margin="0 auto"
-        height="500px"
+        flexDirection={["column", "column", index % 2 ? "row-reverse" : "row", index % 2 ? "row-reverse" : "row", index % 2 ? "row-reverse" : "row", index % 2 ? "row-reverse" : "row"]}
       >
-        <Image
-          src={image}
-          alt="Dan Abramov"
-          objectFit="cover"
-          alignItems="center"
-          justifyContent="center"
-          padding="8px"
-          width={["auto", "auto", "500px", "500px", "500px", "500px"]}
-          height="500px"
-        />
+        <Box w={["auto", "auto", "70%", "70%", "70%", "70%"]}>
+          <Image
+            src={image}
+            alt={title}
+            objectFit="cover"
+            alignItems="center"
+            justifyContent="center"
+            padding="8px"
+            width="100%"
+          />
+        </Box>
         <Box>
           <Flex
             flexDirection="column"
@@ -66,9 +65,7 @@ export const GamesTypeContainer = ({
               marginBottom="0.5em"
               padding="0 0 0 10px"
             >
-              {/* <Link href={url} title={title} variant="link"> */}
-                {title}
-              {/* </Link> */}
+              {title}
             </Heading>
             <Box>
               <Text
@@ -84,7 +81,6 @@ export const GamesTypeContainer = ({
           </Flex>
         </Box>
       </Flex>
-      {/* </Link> */}
     </Box>
   );
 };

@@ -67,7 +67,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "II",
-    url: "najwyzsza-kaplanka",
+    url: "najwyzszakaplanka",
   },
   {
     name: "Cesarzowa",
@@ -136,7 +136,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "V",
-    url: "najwyzsza-kaplanka",
+    url: "najwyzszykaplan",
   },
   {
     name: "Kochankowie",
@@ -252,7 +252,7 @@ export const cards = [
     logo: [""],
     cardType: "1",
     cardId: "X",
-    url: "kolo-fortuny",
+    url: "kolofortuny",
   },
   {
     name: "Sprawiedliwość",
@@ -530,7 +530,7 @@ export const cards = [
     images: ["as-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
-    url:"as-rozdzek"
+    url:"asrozdzek"
   },
   {
     name: "Dwójka Różdżek",
@@ -552,7 +552,7 @@ export const cards = [
     images: ["2-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
-    url:"2-rozdzek"
+    url:"2rozdzek"
   },
   {
     name: "Trójka Różdżek",
@@ -574,7 +574,7 @@ export const cards = [
     images: ["3-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
-    url:"3-rozdzek"
+    url:"3rozdzek"
   },
   {
     name: "Czwórka Różdżek",
@@ -596,7 +596,7 @@ export const cards = [
     images: ["4-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
-    url:"4-rozdzek"
+    url:"4rozdzek"
   },
   {
     name: "Piątka Różdżek",
@@ -618,7 +618,7 @@ export const cards = [
     images: ["5-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
-    url:"5-rozdzek"
+    url:"5rozdzek"
   },
   {
     name: "Szóstka Różdżek",
@@ -640,7 +640,7 @@ export const cards = [
     images: ["6-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
-    url:"6-rozdzek"
+    url:"6rozdzek"
   },
   {
     name: "Siódemka Różdżek",
@@ -662,7 +662,7 @@ export const cards = [
     images: ["7-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
-    url:"7-rozdzek"
+    url:"7rozdzek"
   },
   {
     name: "Ósemka Różdżek",
@@ -684,7 +684,7 @@ export const cards = [
     images: ["8-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
-    url:"8-rozdzek"
+    url:"8rozdzek"
   },
   {
     name: "Dziewiątka Różdżek",
@@ -706,7 +706,7 @@ export const cards = [
     images: ["9-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
-    url:"9-rozdzek"
+    url:"9rozdzek"
   },
   {
     name: "Dziesiątka Różdżek",
@@ -728,7 +728,7 @@ export const cards = [
     images: ["10-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
-    url:"10-rozdzek"
+    url:"10rozdzek"
   },
   {
     name: "Walet Różdżek",
@@ -750,7 +750,7 @@ export const cards = [
     images: ["walet-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
-    url:"walet-rozdzek"
+    url:"waletrozdzek"
   },
   {
     name: "Rycerz Różdżek",
@@ -772,7 +772,7 @@ export const cards = [
     images: ["rycerz-rozdzki.jpg"],
     logo: [""],
     cardType: "2",
-    url:"rycerz-rozdzek"
+    url:"rycerzrozdzek"
   },
   {
     name: "Królowa Różdżek",
@@ -794,7 +794,7 @@ export const cards = [
     images: ["krolowa-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
-    url:"krolowa-rozdzek"
+    url:"krolowarozdzek"
   },
   {
     name: "Król Różdżek",
@@ -816,7 +816,7 @@ export const cards = [
     images: ["krol-rozdzek.jpg"],
     logo: [""],
     cardType: "2",
-    url:"krol-rozdzek"
+    url:"krolrozdzek"
   },
   {
     name: "As Pucharów",
@@ -838,7 +838,7 @@ export const cards = [
     images: ["as-pucharow.jpg"],
     logo: [""],
     cardType: "2",
-    url:"as-pucharow"
+    url:"aspucharow"
   },
   {
     name: "Dwójka Pucharów",
@@ -860,7 +860,7 @@ export const cards = [
     images: ["2-pucharow.jpg"],
     logo: [""],
     cardType: "2",
-    url:"2-pucharow"
+    url:"2pucharow"
   },
   {
     name: "Trójka Pucharów",
@@ -882,7 +882,7 @@ export const cards = [
     images: ["3-pucharow.jpg"],
     logo: [""],
     cardType: "2",
-    url:"3-pucharow"
+    url:"3pucharow"
   },
   {
     name: "Czwórka Pucharów",
@@ -904,7 +904,7 @@ export const cards = [
     images: ["4-pucharow.jpg"],
     logo: [""],
     cardType: "2",
-    url:"4-pucharow"
+    url:"4pucharow"
   },
   {
     name: "Piątka Pucharów",
@@ -926,7 +926,7 @@ export const cards = [
     images: ["5-pucharow.jpg"],
     logo: [""],
     cardType: "2",
-    url:"5-pucharow"
+    url:"5pucharow"
   },
   {
     name: "Szóstka Pucharów",
@@ -948,7 +948,7 @@ export const cards = [
     images: ["6-pucharow.jpg"],
     logo: [""],
     cardType: "2",
-    url:"6-pucharow"
+    url:"6pucharow"
   },
   {
     name: "Siódemka Pucharów",
@@ -970,7 +970,7 @@ export const cards = [
     images: ["7-pucharow.jpg"],
     logo: [""],
     cardType: "2",
-    url:"7-pucharow"
+    url:"7pucharow"
   },
 
   {
@@ -993,7 +993,7 @@ export const cards = [
     images: ["8-pucharow.jpg"],
     logo: [""],
     cardType: "2",
-    url:"8-pucharow"
+    url:"8pucharow"
   },
 
   {
@@ -1016,7 +1016,7 @@ export const cards = [
     images: ["9-pucharow.jpg"],
     logo: [""],
     cardType: "2",
-    url:"9-pucharow"
+    url:"9pucharow"
   },
   {
     name: "Dziesiątka Pucharów",
@@ -1038,7 +1038,7 @@ export const cards = [
     images: ["10-pucharow.jpg"],
     logo: [""],
     cardType: "2",
-    url:"10-pucharow"
+    url:"10pucharow"
   },
   {
     name: "Walet Pucharów",
@@ -1060,7 +1060,7 @@ export const cards = [
     images: ["walet-pucharow.jpg"],
     logo: [""],
     cardType: "2",
-    url:"walet-pucharow"
+    url:"waletpucharow"
   },
   {
     name: "Rycerz Pucharów",
@@ -1082,7 +1082,7 @@ export const cards = [
     images: ["rycerz-pucharow.jpg"],
     logo: [""],
     cardType: "2",
-    url:"rycerz-pucharow"
+    url:"rycerzpucharow"
   },
   {
     name: "Królowa Pucharów",
@@ -1104,7 +1104,7 @@ export const cards = [
     images: ["krolowa-pucharow.jpg"],
     logo: [""],
     cardType: "2",
-    url:"krolowa-pucharow"
+    url:"krolowapucharow"
   },
   {
     name: "Król Pucharów",
@@ -1126,7 +1126,7 @@ export const cards = [
     images: ["krol-pucharow.jpg"],
     logo: [""],
     cardType: "2",
-    url:"krol-pucharow"
+    url:"krolpucharow"
   },
   {
     name: "As Mieczy",
@@ -1148,7 +1148,7 @@ export const cards = [
     images: ["as-mieczy.jpg"],
     logo: [""],
     cardType: "2",
-    url:"as-mieczy"
+    url:"asmieczy"
   },
   {
     name: "Dwójka Mieczy",
@@ -1170,7 +1170,7 @@ export const cards = [
     images: ["2-mieczy.jpg"],
     logo: [""],
     cardType: "2",
-    url:"2-mieczy"
+    url:"2mieczy"
   },
   {
     name: "Trójka Mieczy",
@@ -1192,7 +1192,7 @@ export const cards = [
     images: ["3-mieczy.jpg"],
     logo: [""],
     cardType: "2",
-    url:"3-mieczy"
+    url:"3mieczy"
   },
   {
     name: "Czwórka Mieczy",
@@ -1214,7 +1214,7 @@ export const cards = [
     images: ["4-mieczy.jpg"],
     logo: [""],
     cardType: "2",
-    url:"4-mieczy"
+    url:"4mieczy"
   },
   {
     name: "Piątka Mieczy",
@@ -1236,7 +1236,7 @@ export const cards = [
     images: ["5-mieczy.jpg"],
     logo: [""],
     cardType: "2",
-    url:"5-mieczy"
+    url:"5mieczy"
   },
   {
     name: "Szóstka Mieczy",
@@ -1258,7 +1258,7 @@ export const cards = [
     images: ["6-mieczy.jpg"],
     logo: [""],
     cardType: "2",
-    url:"6-mieczy"
+    url:"6mieczy"
   },
   {
     name: "Siódemka Mieczy",
@@ -1280,7 +1280,7 @@ export const cards = [
     images: ["7-mieczy.jpg"],
     logo: [""],
     cardType: "2",
-    url:"7-mieczy"
+    url:"7mieczy"
   },
 
   {
@@ -1303,7 +1303,7 @@ export const cards = [
     images: ["8-mieczy.jpg"],
     logo: [""],
     cardType: "2",
-    url:"8-mieczy"
+    url:"8mieczy"
   },
   {
     name: "Dziewiątka Mieczy",
@@ -1325,7 +1325,7 @@ export const cards = [
     images: ["9-mieczy.jpg"],
     logo: [""],
     cardType: "2",
-    url:"9-mieczy"
+    url:"9mieczy"
   },
   {
     name: "Dziesiątka Mieczy",
@@ -1347,7 +1347,7 @@ export const cards = [
     images: ["10-mieczy.jpg"],
     logo: [""],
     cardType: "2",
-    url:"10-mieczy"
+    url:"10mieczy"
   },
   {
     name: "Walet Mieczy",
@@ -1369,7 +1369,7 @@ export const cards = [
     images: ["walet-mieczy.jpg"],
     logo: [""],
     cardType: "2",
-    url:"walet-mieczy"
+    url:"waletmieczy"
   },
 
   {
@@ -1392,7 +1392,7 @@ export const cards = [
     images: ["rycerz-mieczy.jpg"],
     logo: [""],
     cardType: "2",
-    url:"rycerz-mieczy"
+    url:"rycerzmieczy"
   },
   {
     name: "Królowa Mieczy",
@@ -1414,7 +1414,7 @@ export const cards = [
     images: ["krolowa-mieczy.jpg"],
     logo: [""],
     cardType: "2",
-    url:"krolowa-mieczy"
+    url:"krolowamieczy"
   },
   {
     name: "Król Mieczy",
@@ -1436,7 +1436,7 @@ export const cards = [
     images: ["krol-mieczy.jpg"],
     logo: [""],
     cardType: "2",
-    url:"krol-mieczy"
+    url:"krolmieczy"
   },
   {
     name: "As Pentagramów",
@@ -1458,7 +1458,7 @@ export const cards = [
     images: ["as-pentagram.jpg"],
     logo: [""],
     cardType: "2",
-    url:"as-pentagram"
+    url:"aspentagram"
   },
 
   {
@@ -1481,7 +1481,7 @@ export const cards = [
     images: ["2-pentagram.jpg"],
     logo: [""],
     cardType: "2",
-    url:"2-pentagram"
+    url:"2pentagram"
   },
   {
     name: "Trójka Pentagramów",
@@ -1503,7 +1503,7 @@ export const cards = [
     images: ["3-pentagram.jpg"],
     logo: [""],
     cardType: "2",
-    url:"3-pentagram"
+    url:"3pentagram"
   },
   {
     name: "Czwórka Pentagramów",
@@ -1525,7 +1525,7 @@ export const cards = [
     images: ["4-pentagram.jpg"],
     logo: [""],
     cardType: "2",
-    url:"4-pentagram"
+    url:"4pentagram"
   },
   {
     name: "Piątka Pentagramów",
@@ -1547,7 +1547,7 @@ export const cards = [
     images: ["5-pentagram.jpg"],
     logo: [""],
     cardType: "2",
-    url:"5-pentagram"
+    url:"5pentagram"
   },
   {
     name: "Szóstka Pentagramów",
@@ -1569,7 +1569,7 @@ export const cards = [
     images: ["6-pentagram.jpg"],
     logo: [""],
     cardType: "2",
-    url:"6-pentagram"
+    url:"6pentagram"
   },
   {
     name: "Siódemka Pentagramów",
@@ -1591,7 +1591,7 @@ export const cards = [
     images: ["7-pentagram.jpg"],
     logo: [""],
     cardType: "2",
-    url:"7-pentagram"
+    url:"7pentagram"
   },
   {
     name: "Ósemka Pentagramów",
@@ -1613,7 +1613,7 @@ export const cards = [
     images: ["8-pentagram.jpg"],
     logo: [""],
     cardType: "2",
-    url:"8-pentagram"
+    url:"8pentagram"
   },
   {
     name: "Dziewiątka Pentagramów",
@@ -1635,7 +1635,7 @@ export const cards = [
     images: ["9-pentagram.jpg"],
     logo: [""],
     cardType: "2",
-    url:"9-pentagram"
+    url:"9pentagram"
   },
   {
     name: "Dziesiątka Pentagramów",
@@ -1657,7 +1657,7 @@ export const cards = [
     images: ["10-pentagram.jpg"],
     logo: [""],
     cardType: "2",
-    url:"10-pentagram"
+    url:"10pentagram"
   },
   {
     name: "Walet Pentagramów",
@@ -1679,7 +1679,7 @@ export const cards = [
     images: ["walet-pentagram.jpg"],
     logo: [""],
     cardType: "2",
-    url:"walet-pentagram"
+    url:"waletpentagram"
   },
   {
     name: "Rycerz Pentagramów",
@@ -1701,7 +1701,7 @@ export const cards = [
     images: ["rycerz-pentagram.jpg"],
     logo: [""],
     cardType: "2",
-    url:"rucerz-pentagram"
+    url:"rucerzpentagram"
   },
   {
     name: "Królowa Pentagramów",
@@ -1723,7 +1723,7 @@ export const cards = [
     images: ["krolowa-pentagram.jpg"],
     logo: [""],
     cardType: "2",
-    url:"krolowa-pentagram"
+    url:"krolowapentagram"
   },
   {
     name: "Król Pentagramów",
@@ -1745,6 +1745,6 @@ export const cards = [
     images: ["krol-pentagram.jpg"],
     logo: [""],
     cardType: "2",
-    url:"krol-pentagram"
+    url:"krolpentagram"
   },
 ];
