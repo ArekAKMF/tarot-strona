@@ -1,4 +1,4 @@
-"use client";
+
 import { PageTitle } from "@/components/pageTitle";
 import { WithSubnavigation } from "@/components/navigation";
 import { Container } from "@chakra-ui/react";
@@ -6,17 +6,7 @@ import GameTypesView from "@/components/GameTypesView";
 import SingTypeView from "@/components/SingTypeView";
 import OwnFortune from "@/components/ownFortune";
 
-const currentDate = () => {
-  const cd = new Date();
-  var day = cd.getDate();
-  var month = cd.getMonth() + 1;
-  var year = cd.getFullYear();
-  return day + "-" + month + "-" + year;
-};
-
 export default function Home() {
-
-
   return (
     <>
       <WithSubnavigation />
@@ -33,7 +23,7 @@ export default function Home() {
       </Container>
       <GameTypesView />
       {/* <OwnFortune /> */}
-      <SingTypeView day={currentDate()} />
+      <SingTypeView />
     </>
   );
 }
