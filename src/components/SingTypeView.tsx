@@ -12,7 +12,7 @@ const currentDate = () => {
   return day + "-" + month + "-" + year;
 };
 
-export default function SingTypeView({ day }: any) {
+export default function SingTypeView() {
 
   const [activeDate, setActiveDate] = useState('')
 
