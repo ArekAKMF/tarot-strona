@@ -39,6 +39,13 @@ const headingTheme = defineStyle({
     title: {
       ...h3Font,
     },
+
+    orderTitle: {
+      ...h3Font,
+      fontsize: "20px !important",
+      marginTop: "0!important",
+
+    }
   },
 
   defaultProps: {

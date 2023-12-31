@@ -57,7 +57,7 @@ export default function Home() {
         <Heading
           as="h3"
           variant="title"
-          marginTop="0"
+          marginTop="20px"
           textDecoration="none!important"
           marginBottom="0.5em"
         >
@@ -69,7 +69,7 @@ export default function Home() {
         <Heading
           as="h3"
           variant="title"
-          marginTop="0"
+          marginTop="20px"
           textDecoration="none!important"
           marginBottom="0.5em"
         >
@@ -81,7 +81,7 @@ export default function Home() {
         <Heading
           as="h3"
           variant="title"
-          marginTop="0"
+          marginTop="20px"
           textDecoration="none!important"
           marginBottom="0.5em"
         >
