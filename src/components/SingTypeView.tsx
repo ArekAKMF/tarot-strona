@@ -9,7 +9,10 @@ const currentDate = () => {
   var day = cd.getDate();
   var month = cd.getMonth() + 1;
   var year = cd.getFullYear();
-  return day + "-" + month + "-" + year;
+
+  const nMonth = month < 10 ? "0" + month : month;
+  const nDay = day < 10 ? "0" + day : day;
+  return nDay + "-" + nMonth + "-" + year;
 };
 
 export default function SingTypeView() {

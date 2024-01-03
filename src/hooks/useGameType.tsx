@@ -28,11 +28,7 @@ export const useGameType = () => {
       if (!selectedGame) {
         let selected = gt;
         if (gt.includes("-")) {
-          const day =
-            parseInt(gt.split("-")[1]) < 10
-              ? "0" + gt.split("-")[1]
-              : gt.split("-")[1];
-
+          const day = gt.split("-")[1];
           selected = gt.split("-")[0];
           currentDate = day + "-" + gt.split("-")[2] + "-" + gt.split("-")[3];
         }

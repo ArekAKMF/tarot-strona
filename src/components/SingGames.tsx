@@ -20,7 +20,6 @@ export default function SingGames({
     setData();
   }, [getDataFromFirebase, title, currentDate, data])
 
-
   return (
     <Container maxW="8xl">
       <PageTitle
