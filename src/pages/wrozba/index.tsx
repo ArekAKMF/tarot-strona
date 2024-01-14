@@ -170,6 +170,7 @@ export default function Home() {
                         <option value="generally">Ogólna</option>
                         <option value="love">Miłość</option>
                         <option value="work">Praca</option>
+                        <option value="health">Zdrowie</option>
                       </Select>
                     </FormControl>
 
