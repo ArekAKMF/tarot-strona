@@ -9,6 +9,20 @@ const textTheme = defineStyle({
 
   variants: {
 
+    fieldError: {
+      color:"#E53E3E",
+      fontSize:"16px",
+      lineHeight:"20px",
+      marginTop:"10px",
+    },
+
+    offertText: {
+      fontSize:"18px",
+      lineHeight:"26px",
+      marginTop:"10px",
+      fontWeight:"normal"
+    }
+
   },
 
   defaultProps: {

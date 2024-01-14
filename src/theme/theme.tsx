@@ -6,6 +6,7 @@ import linkTheme from "./linkTheme";
 
 import { Montserrat } from "next/font/google";
 import { Open_Sans } from "next/font/google";
+import textTheme from "./textTheme";
 const monserat = Montserrat({
   subsets: ["cyrillic", "latin"],
   weight: ["400", "500", "600", "700", "800"],
@@ -27,12 +28,14 @@ const theme = extendTheme({
   fonts: {
     heading: fontMonserat,
     body: fontOpenSans,
+    text: fontOpenSans,
   },
   ...colorsTheme,
   components: {
     Button: buttonTheme,
     Heading: headingTheme,
     Link: linkTheme,
+    Text: textTheme
   },
 });
 
