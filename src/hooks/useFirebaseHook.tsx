@@ -26,7 +26,7 @@ const useFirebaseHook = () => {
 
   const sendDataToFirebase = async (data: any) => {
     try {
-      const directory = `${data.sing}-${data.data}-${data.lang}`;
+      const directory = `${data.sing}-${data.data}`;
       await setDoc(doc(db, "karty", directory), data);
     } catch (error) {
       console.error("Błąd podczas przekazywania danych do Firebase:", error);
