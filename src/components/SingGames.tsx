@@ -16,7 +16,7 @@ export default function SingGames({
   const { data, loading, error, getDataFromFirebase } = useFirebaseHook();
   useEffect(() => {
     const setData = () => {
-      getDataFromFirebase({ section: title, currentDate, lang: formContactActive })
+      getDataFromFirebase({ section: title, currentDate })
       data && setSelectedCard(data);
     }
     setData();
