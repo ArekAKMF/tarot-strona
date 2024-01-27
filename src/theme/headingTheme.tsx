@@ -49,6 +49,12 @@ const headingTheme = defineStyle({
       textAlign: "left",
       fontSize:"30px",
       lineHeight:"34px",
+    },
+
+    footerTitle: {
+      textAlign: "center",
+      fontSize:"20px",
+      lineHeight:"24px",
     }
   },
 

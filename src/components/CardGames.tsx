@@ -7,19 +7,18 @@ import {
   AlertDescription,
 } from "@chakra-ui/react";
 import { PageTitle } from "@/components/pageTitle";
-
 import React, { useState } from "react";
 import { Cards } from "@/components/cards";
 import { cards as cardslist } from "@/utils/cards";
 import { useData } from "@/hooks/useData";
+import { getLangText, getListSing } from '@/const/utils'
 
 export default function CardGames({ title, description, gameType }: any) {
-  let cartToTest = cardslist;
-  const [cardTemp, setCardTemp] = useState<any>(useData().allCards);
+  let cartToTest = getListSing(cardslist).cards;
+  const [cardTemp, setCardTemp] = useState<any>(getListSing(useData()?.allCards)?.cards);
   const [selectedCard, setSelectedCard] = useState<any>([]);
-
   const generateGameCards = () => {
-    const cardCout = gameType.length || 0;
+    const cardCout = gameType?.length || 0;
     const sc = [];
     let i = 0;
 
@@ -51,15 +50,14 @@ export default function CardGames({ title, description, gameType }: any) {
         borderRadius="25"
       >
         <AlertDescription maxWidth="lg">
-          Przed przystąpieniem do rozkładania kart należy się wyciszyć można
-          zapalić świeczkę i zastanowić nad zadanym pytaniem.
+          {getLangText('cardgamesDescription')}
           <Box maxW="200" margin="10px auto 0 auto">
             <Button
               colorScheme="blue"
               size="lg"
               onClick={() => generateGameCards()}
             >
-              Rozłóż karty
+              {getLangText('cardgamesActionButton')}
             </Button>
           </Box>
         </AlertDescription>

@@ -21,6 +21,15 @@ export const PageTitle = ({
   disableTitle = false,
   imageUrl = '',
 }: PageTitleProps) => {
+
+  const styles: any = imageUrl.length === 0 ? {
+    'margin-bottom': "1.5em",
+    'padding-top': "2em",
+    'padding-bottom': "2em",
+  } : {
+    'padding-top': "2em",
+  }
+
   return (
     <>
       <Head>
@@ -31,7 +40,7 @@ export const PageTitle = ({
         <meta property="og:description" content={description} />
         <meta name="twitter:card" content="summary" />
       </Head>
-      <Box marginBottom="1.5em" paddingTop="2em" paddingBottom="2em">
+      <Box style={{ ...styles }}>
         {!disableTitle && imageUrl.length == 0 && (
           <>
             <Heading as="h1" variant="pageTitle" textAlign="center">
@@ -46,7 +55,7 @@ export const PageTitle = ({
           <Box border="2px solid #eee" borderRadius="5px">
             <Image
               src={'../../karty/' + imageUrl}
-              alt="Dan Abramov"
+              alt=""
               objectFit="cover"
               alignItems="center"
               justifyContent="center"
@@ -64,7 +73,7 @@ export const PageTitle = ({
                 <Divider margin="1rem 0" />
               </>
             )}
-            <Text
+            {description?.length && (<Text
               fontSize={{
                 base: "1.125em",
                 sm: "1.0625em",
@@ -72,12 +81,13 @@ export const PageTitle = ({
               fontWeight="600"
               fontFamily={"var(--chakra-fonts-heading)"}
               textAlign="center"
+              padding="1em"
             >
               {description}
-            </Text>
+            </Text>)}
           </Box>
         </Flex>)}
-        {imageUrl.length == 0 && (<Text
+        {imageUrl.length == 0 && description?.length > 0 && (<Text
           fontSize={{
             base: "1.125em",
             sm: "1.0625em",

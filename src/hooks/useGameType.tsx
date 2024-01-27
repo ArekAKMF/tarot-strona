@@ -1,8 +1,9 @@
 "use client";
-
 import { useMemo } from "react";
 import { useRouter } from "next/router";
 import { gamesType, horoscop } from "@/utils/gameTypes";
+import { getListSing } from '@/const/utils'
+const staticUrl = ['wrozba', 'wahrsagung', 'divination', 'divinazione', 'adivinación', 'waarzeggerij', 'divination']
 
 export const useGameType = () => {
   const router = useRouter();
@@ -15,9 +16,10 @@ export const useGameType = () => {
 
   if (router) {
     if (router?.asPath) {
+
       const gt =
         router?.asPath.split("/")[router?.asPath.split("/").length - 1];
-      selectedGame = gamesType.find((el) => {
+      selectedGame = getListSing(gamesType).find((el: any) => {
         if (el.url.includes(gt)) {
           gameId = el?.type;
           layoutCard = 1;
@@ -25,19 +27,24 @@ export const useGameType = () => {
         }
       });
 
+
       if (!selectedGame) {
-        let selected = gt;
-        if (gt.includes("-")) {
-          const day = gt.split("-")[1];
-          selected = gt.split("-")[0];
-          currentDate = day + "-" + gt.split("-")[2] + "-" + gt.split("-")[3];
-        }
-        horoscope = horoscop.find((el) => {
-          if (el.url.toLocaleLowerCase() === selected) {
-            layoutCard = 2;
-            return el;
+        if (staticUrl.includes(gt)) {
+          layoutCard = 3;
+        } else {
+          let selected = gt;
+          if (gt.includes("-")) {
+            const day = gt.split("-")[1];
+            selected = gt.split("-")[0];
+            currentDate = day + "-" + gt.split("-")[2] + "-" + gt.split("-")[3];
           }
-        });
+          horoscope = getListSing(horoscop).find((el: any) => {
+            if (el.url.toLocaleLowerCase() === selected) {
+              layoutCard = 2;
+              return el;
+            }
+          });
+        }
       }
     }
   }
@@ -48,7 +55,7 @@ export const useGameType = () => {
       horoscope,
       layoutCard,
       currentDate,
-      sg: gamesType?.filter((item: any) => {
+      sg: getListSing(gamesType)?.filter((item: any) => {
         if (gameId !== "") {
           if (item.type == gameId) {
             return item;

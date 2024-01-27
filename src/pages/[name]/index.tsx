@@ -2,7 +2,9 @@ import { WithSubnavigation } from "@/components/navigation";
 import React from "react";
 import CardGames from "@/components/CardGames";
 import SingGames from "@/components/SingGames";
+import OwnGameCards from '@/components/OwnGameCards'
 import { useGameType } from "@/hooks/useGameType";
+import Footer from '@/components/Footer'
 
 export default function Home() {
   const game = useGameType();
@@ -24,6 +26,10 @@ export default function Home() {
           section={game.horoscope.section}
         />
       )}
+      {game.layoutCard === 3 && (
+        <OwnGameCards />
+      )}
+      <Footer />
     </>
   );
 }

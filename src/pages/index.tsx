@@ -5,6 +5,8 @@ import { Container } from "@chakra-ui/react";
 import GameTypesView from "@/components/GameTypesView";
 import SingTypeView from "@/components/SingTypeView";
 import OwnFortune from "@/components/ownFortune";
+import Footer from '@/components/Footer'
+import { getLangText } from '@/const/utils'
 
 export default function Home() {
   return (
@@ -12,18 +14,15 @@ export default function Home() {
       <WithSubnavigation />
       <Container maxW="8xl">
         <PageTitle
-          title="Tarot mistyczny"
-          description="
-          Witaj w fascynującym świecie Tarota - tajemniczej sztuki odczytywania kart, która jest zarówno źródłem mądrości, jak i inspiracją do odkrywania mistycyzmu. Nasza strona zaprasza Cię do głębokiej podróży przez karty Tarota, gdzie archetypy, symbole i intuicja łączą się w jedno, by rzucić światło na przeszłość, teraźniejszość i przyszłość.
-          Tarot to narzędzie, które przekracza granice czasu i przestrzeni. To magiczne karty, które pomagają nam lepiej zrozumieć siebie i otaczający nas świat. Jako przewodnicy na tej mistycznej drodze, jesteśmy tutaj, by pomóc Ci odkryć ukryte tajemnice swojego życia oraz lepiej zrozumieć to, co przynosi przyszłość.
-          Przyjrzyj się uważnie kartom, zgłębiaj ich znaczenie, a w miarę jak poznasz tę sztukę, zobaczysz, jak można ją wykorzystać do przewidywania przyszłości. Tarot to lustrzane odbicie twojego wnętrza i mistyczna mapa, która pomoże Ci w nawigowaniu przez nieznane lądy.
-              "
+          title={getLangText("pageName")}
+          description={getLangText("frontPageDescription")}
           disableTitle={true}
         />
       </Container>
       <GameTypesView />
       {/* <OwnFortune /> */}
       <SingTypeView />
+      <Footer />
     </>
   );
 }

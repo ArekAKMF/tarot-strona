@@ -17,6 +17,7 @@ import {
 } from "firebase/firestore";
 import db from "@/firebase/config";
 import { useData } from "@/hooks/useData";
+import { getLangText, getListSing } from '@/const/utils'
 
 const useGetData = async (currentDate: any, section: any) => {
   const cardList = useData();
@@ -30,14 +31,14 @@ const useGetData = async (currentDate: any, section: any) => {
 
   const querySnapshot2 = await getDocs(q);
   if (querySnapshot2.empty) {
-    const cardRandom = Math.floor(Math.random() * cardList.allCards.length + 1);
-    const newCard = cardList.allCards[cardRandom];
+    const cardRandom = Math.floor(Math.random() * getListSing(cardList.allCards).cards.length + 1);
+    const newCard = getListSing(cardList.allCards).cards[cardRandom];
     selected = newCard;
   } else {
     querySnapshot2.forEach((doc) => {
       const id = doc.data().karta;
       if (id) {
-        selected = cardList.allCards[id];
+        selected = getListSing(cardList.allCards).cards[id];
       }
     });
   }
@@ -47,6 +48,5 @@ const useGetData = async (currentDate: any, section: any) => {
 
 export default async function useHookGetData(currentDate: string, section: string) {
   const data = await useGetData(currentDate, section);
-  console.log(data, "data");
   return data;
 }

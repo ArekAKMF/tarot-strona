@@ -51,7 +51,7 @@ export const Checkerboard = ({ image, title, url }: CheckerboardProps) => {
           }}
         >
           <Image
-            src={image}
+            src={image.includes("data") ? `${image}` : image}
             alt=""
             objectFit="cover"
             alignItems="center"

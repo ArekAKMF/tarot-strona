@@ -3,13 +3,6 @@ import {
   Container,
   Text,
   Heading,
-  Highlight,
-  Button,
-  Wrap,
-  Link,
-  Flex,
-  Box,
-  Image,
 } from "@chakra-ui/react";
 import { PageTitle } from "@/components/pageTitle";
 import { WithSubnavigation } from "@/components/navigation";
@@ -18,6 +11,7 @@ import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 import { cards } from "@/utils/cards";
 import SingTypeView from "@/components/SingTypeView";
+import { getLangText, getListSing } from '@/const/utils'
 
 export default function Home() {
 
@@ -36,7 +30,7 @@ export default function Home() {
     if (router?.asPath) {
       const selected =
         router?.asPath.split("/")[2];
-      const activeEl = cards.find((el) => el.url === selected);
+      const activeEl = getListSing(cards)?.cards?.find((el: any) => el.url === selected);
       setSelectedCard(activeEl);
     }
   }, [router?.asPath]);
@@ -61,7 +55,7 @@ export default function Home() {
           textDecoration="none!important"
           marginBottom="0.5em"
         >
-          Miłość
+          {getLangText('cardSingLove')}
         </Heading>
         <Text fontSize="lg" padding="10px 0">
           {selectedCard?.love[0]}
@@ -73,7 +67,7 @@ export default function Home() {
           textDecoration="none!important"
           marginBottom="0.5em"
         >
-          Zdrowie
+          {getLangText('cardSingHealt')}
         </Heading>
         <Text fontSize="lg" padding="10px 0">
           {selectedCard?.health[0]}
@@ -85,17 +79,11 @@ export default function Home() {
           textDecoration="none!important"
           marginBottom="0.5em"
         >
-          Praca
+          {getLangText('cardSingWork')}
         </Heading>
         <Text fontSize="lg" padding="10px 0">
           {selectedCard?.jobs[0]}
         </Text>
-
-
-        <Heading as="h2" variant="sectionTitle">
-          Zamów własne czytanie
-        </Heading>
-
 
       </Container>
       <SingTypeView />

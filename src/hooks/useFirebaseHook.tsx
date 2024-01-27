@@ -16,6 +16,7 @@ import {
   addDoc,
 } from "firebase/firestore";
 import { useData } from "@/hooks/useData";
+import { getLangText, getListSing } from '@/const/utils'
 
 const useFirebaseHook = () => {
   const cardList = useData();
@@ -25,7 +26,7 @@ const useFirebaseHook = () => {
 
   const sendDataToFirebase = async (data: any) => {
     try {
-      const directory = `${data.sing}-${data.data}`;
+      const directory = `${data.sing}-${data.data}-${data.lang}`;
       await setDoc(doc(db, "karty", directory), data);
     } catch (error) {
       console.error("Błąd podczas przekazywania danych do Firebase:", error);
@@ -37,7 +38,8 @@ const useFirebaseHook = () => {
       collection(db, "karty"),
       and(
         where("sing", "==", data.section),
-        where("data", "==", data.currentDate)
+        where("data", "==", data.currentDate),
+        where("lang", "==", data.lang)
       )
     );
 
@@ -45,20 +47,21 @@ const useFirebaseHook = () => {
       const querySnapshot2 = await getDocs(q);
 
       if (querySnapshot2.empty) {
-        const cardCount = cardList.allCards.length + 1;
+        const cardCount = getListSing(cardList.allCards).cards.length + 1;
         const cardRandom = Math.floor(Math.random() * cardCount);
-        const newCard = cardList.allCards[cardRandom];
+        const newCard = getListSing(cardList.allCards).cards[cardRandom];
         setData(newCard);
         sendDataToFirebase({
           data: data.currentDate,
           sing: data.section,
           karta: newCard.name,
+          lang: data.lang,
         });
       } else {
         querySnapshot2.forEach((doc) => {
           const id = doc.data().karta;
           if (id) {
-            const selected = cardList?.allCards?.find((el) => el.name === id);
+            const selected = getListSing(cardList?.allCards).cards?.find((el: any) => el.name === id);
             selected && setData(selected);
           }
         });

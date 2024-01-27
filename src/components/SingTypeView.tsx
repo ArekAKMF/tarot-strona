@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { Checkerboard } from "@/components/checkerboard";
 import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
 import { horoscop } from "@/utils/gameTypes";
+import { getLangText, getListSing } from '@/const/utils'
 
 const currentDate = () => {
   const cd = new Date();
@@ -16,9 +17,7 @@ const currentDate = () => {
 };
 
 export default function SingTypeView() {
-
   const [activeDate, setActiveDate] = useState('')
-
   useEffect(() => {
     if (activeDate === '') {
       setActiveDate(currentDate())
@@ -27,14 +26,14 @@ export default function SingTypeView() {
   return (
     <Container maxW="8xl">
       <Heading as="h2" variant="sectionTitle">
-        Karta dnia dla znaków zodiaku
+        {getLangText("cardTypeSing")}
       </Heading>
       <SimpleGrid autoColumns="true" columns={[1, 2, 3]}>
-        {horoscop.map((el: any, index: number) => {
+        {getListSing(horoscop).map((el: any, index: number) => {
           return (
             <Checkerboard
               key={index}
-              image="../../logo-biale.png"
+              image={el?.image ? el.image : "../../logo-biale.png"}
               title={el.name}
               url={`/${el.url.toLowerCase()}-${activeDate}`}
             />
