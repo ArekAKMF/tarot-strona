@@ -54,7 +54,6 @@ const useFirebaseHook = () => {
           data: data.currentDate,
           sing: data.section,
           karta: newCard.name,
-          lang: data.lang,
         });
       } else {
         querySnapshot2.forEach((doc) => {
