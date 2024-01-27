@@ -39,7 +39,6 @@ const useFirebaseHook = () => {
       and(
         where("sing", "==", data.section),
         where("data", "==", data.currentDate),
-        where("lang", "==", data.lang)
       )
     );
 
@@ -61,7 +60,7 @@ const useFirebaseHook = () => {
         querySnapshot2.forEach((doc) => {
           const id = doc.data().karta;
           if (id) {
-            const selected = getListSing(cardList?.allCards).cards?.find((el: any) => el.name === id);
+            const selected = getListSing(cardList?.allCards)?.cards?.find((el: any) => el.name === id);
             selected && setData(selected);
           }
         });

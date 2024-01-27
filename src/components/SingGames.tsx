@@ -17,6 +17,10 @@ export default function SingGames({
   useEffect(() => {
     const setData = () => {
       getDataFromFirebase({ section: title, currentDate, lang: formContactActive })
+
+
+      console.log(data, 'data')
+
       data && setSelectedCard(data);
     }
     setData();
