@@ -10,10 +10,6 @@ interface CheckerboardProps {
 }
 
 export const Checkerboard = ({ image, title, url }: CheckerboardProps) => {
-  const [isLargerThan800] = useMediaQuery("(max-width: 1200px)");
-  const [isMobile] = useMediaQuery("(max-width: 840px)");
-  const sizeRow = isMobile ? "xl" : isLargerThan800 ? "lg" : "sm";
-
   return (
     <Box
       marginBottom="5px"

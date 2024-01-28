@@ -1,5 +1,3 @@
-'use client';
-
 import React from "react";
 import { GamesTypeContainer } from "@/components/gamesTypeContainer";
 import { SimpleGrid, Heading, Container } from "@chakra-ui/react";

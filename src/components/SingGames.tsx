@@ -1,10 +1,8 @@
-'use client'
 import { Container, Text, Heading } from "@chakra-ui/react";
 import { PageTitle } from "@/components/pageTitle";
-
 import React, { useState, useEffect } from "react";
 import useFirebaseHook from '@/hooks/useFirebaseHook';
-import { getLangText, formContactActive } from '@/const/utils'
+import { getLangText } from '@/const/utils'
 
 export default function SingGames({
   title,

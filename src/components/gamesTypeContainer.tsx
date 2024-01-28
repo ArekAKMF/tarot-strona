@@ -16,8 +16,6 @@ export const GamesTypeContainer = ({
   title,
   url,
   desc,
-  bg,
-  index,
 }: GamesTypeContainerProps) => {
   return (
     <Box
