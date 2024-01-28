@@ -22,15 +22,11 @@ const getListSing = (list: any, lang = "pl") => {
 
 
 const getGameText = (list: any, text: string, lang = "pl") => {
-
     const selectedList = formContactActive !== "" && formContactActive !== undefined
         ? formContactActive
         : lang;
     return list[selectedList][text];
-
 }
-
-
 
 export {
     cookiesName,

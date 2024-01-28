@@ -2280,6 +2280,1280 @@ export const cards = {
         "url": "world"
       }
       ,
+      {
+        name: "Ace of Wands",
+        love: [
+          "The Ace of Wands card in the context of love symbolizes the beginning of new possibilities, the development of feelings, or emotional involvement. It signifies the appearance of a new person in your life or the growth of an existing relationship. It's a sign that brings hope, excitement, and inspiration in the realm of love. Be open to new emotions and relationships.",
+        ],
+        health: [
+          "The Ace of Wands card in the context of health symbolizes the beginning of health improvement or the discovery of new treatment methods. It indicates the potential for transformation and regeneration. It's a sign that your health can improve, or you may find new paths to health and well-being. Be open to new possibilities and explore health on different levels.",
+        ],
+        jobs: [
+          "The Ace of Wands card in the context of work symbolizes new professional opportunities, inspiration for action, or the beginning of a project. It indicates the potential for success, creativity, and the possibility of realizing your career aspirations. It's a sign that you should be open to new challenges and opportunities at work. Use your skills and commitment to achieve your goal.",
+        ],
+        desc: [
+          "The Ace of Wands card symbolizes the beginning, potential, and inspiration. It's a sign that you have many opportunities for development, creativity, and achievements ahead of you. Open yourself to new ideas, experiments, and the discovery of your true potential. This card brings energy, enthusiasm, and hope.",
+        ],
+        day: [
+          "The Ace of Wands card brings new possibilities, creativity, and inspiration for the day. It's time to use your talents and abilities, take on new challenges, and grow in various aspects of life. Today, be open to new ideas, adventures, and opportunities.",
+        ],
+        images: ["as-rozdzek.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "asrozdzek"
+      },
+      {
+        name: "Two of Wands",
+        love: [
+          "The Two of Wands card in the context of love symbolizes partnership, cooperation, or balance in a relationship. It signifies harmony, mutual support, and growth in the relationship. It's a sign that your relationships can thrive and grow through teamwork and communication. Be prepared for cooperation and action in partnership.",
+        ],
+        health: [
+          "The Two of Wands card in the context of health symbolizes balance, harmony, or the need for collaboration to improve health. It indicates that health may require a holistic approach, considering both the body, mind, and spirit. It's a sign that balance and collaboration can bring improvements to health.",
+        ],
+        jobs: [
+          "The Two of Wands card in the context of work symbolizes cooperation, balance, or the need for mutual support in the workplace. It indicates that achieving professional success requires collaboration and communication with others. It's a sign that you should be ready for teamwork, negotiations, and building harmonious professional relationships.",
+        ],
+        desc: [
+          "The Two of Wands card symbolizes balance, cooperation, and partnership. It's a sign that achieving goals requires joint efforts and mutual support. Open yourself to collaboration with others, negotiations, and the ability to find compromises. This card brings harmony and growth.",
+        ],
+        day: [
+          "The Two of Wands card brings balance, cooperation, and the need for mutual support for the day. It's time to negotiate, communicate, and build relationships with others. Today, be ready for teamwork and actions that benefit both you and others.",
+        ],
+        images: ["2-rozdzek.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "2rozdzek"
+      },
+      {
+        name: "Three of Wands",
+        love: [
+          "The Three of Wands card in the context of love symbolizes growth, expansion, or the potential for developing a new relationship. It indicates that your relationships have the potential to flourish and expand. It's a sign that you should be open to new romantic experiences and ready for emotional development.",
+        ],
+        health: [
+          "The Three of Wands card in the context of health symbolizes progress, growth, or the need for health development. It means that your health can positively evolve and reach new levels. It's a sign that you should take actions that support your physical, emotional, and spiritual development.",
+        ],
+        jobs: [
+          "The Three of Wands card in the context of work symbolizes professional development, expansion, or the potential for career growth. It means that your professional development has the potential to grow and reach new heights. It's a sign that you should be open to new opportunities, training, or the development of your skills.",
+        ],
+        desc: [
+          "The Three of Wands card symbolizes development, expansion, and progress. It's a sign that you are on the path to achieving your goals and developing in various areas of life. Be open to new opportunities, acquire knowledge, and act with determination. This card brings positive changes and growth.",
+        ],
+        day: [
+          "The Three of Wands card brings development, progress, and the possibility of growth for the day. It's time to open up to new possibilities, acquire new skills, and work towards achieving your goals. Today, be ready for positive changes and development in various aspects of life.",
+        ],
+        images: ["3-rozdzek.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "3rozdzek"
+      },
+      {
+        name: "Four of Wands",
+        love: [
+          "The Four of Wands card in the context of love symbolizes stability, foundations, or a sense of security in a relationship. It indicates that your relationship is based on solid foundations and provides you with emotional security. It's a sign that your relationships can develop in a stable and lasting way.",
+        ],
+        health: [
+          "The Four of Wands card in the context of health symbolizes stability, balance, or the need for health care. It means that your health is on a good path to maintaining stability and balance. It's a sign that you should continue practicing a healthy lifestyle and taking care of your body and mind.",
+        ],
+        jobs: [
+          "The Four of Wands card in the context of work symbolizes professional stability, security, or the need to maintain stability in your career. It means that your professional situation is stable and secure. It's a sign that you should appreciate your achievements and continue maintaining a solid foundation at work.",
+        ],
+        desc: [
+          "The Four of Wands card symbolizes stability, foundations, and security. It's a sign that you are on a solid foundation and can rely on stability in various areas of life. Be grateful for your achievements and continue to care for solid foundations. This card brings a sense of security and stability.",
+        ],
+        day: [
+          "The Four of Wands card brings stability, balance, and a sense of security for the day. It's time to appreciate stability and the foundations on which you build your life. Today, enjoy the peace and security provided by solid foundations. Be grateful for what you have.",
+        ],
+        images: ["4-rozdzek.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "4rozdzek"
+      },
+      {
+        name: "Five of Wands",
+        love: [
+          "The Five of Wands card in the context of love symbolizes difficulties, conflicts, or challenges in a relationship. It indicates that your relationship may currently be tense or facing difficulties. However, this does not mean that all is lost. This card encourages open and honest communication with your partner and taking actions to resolve issues and overcome challenges.",
+        ],
+        health: [
+          "The Five of Wands card in the context of health symbolizes difficulties, loss of balance, or the need to overcome health challenges. It means that you may currently be facing health or emotional difficulties. This card encourages seeking support, taking actions to improve health, and maintaining a positive approach to challenges.",
+        ],
+        jobs: [
+          "The Five of Wands card in the context of work symbolizes professional difficulties, conflicts, or uncertainty in a career. It means that you may currently be facing difficulties or conflicts at work. This card encourages flexibility, seeking solutions, and perseverance in pursuing professional goals.",
+        ],
+        desc: [
+          "The Five of Wands card symbolizes difficulties, challenges, and conflicts. It may indicate that you are currently encountering obstacles or difficulties in various areas of life. However, this does not mean you have to give up. This card encourages courage, flexibility, and perseverance in overcoming obstacles.",
+        ],
+        day: [
+          "The Five of Wands card brings difficulties, conflicts, or challenges for the day. It may be a time full of frustration or uncertainty. This card encourages a positive approach, seeking solutions, and perseverance in pursuing goals. Remember that every difficulty can be an opportunity for learning and development.",
+        ],
+        images: ["5-rozdzek.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "5rozdzek"
+      },
+      {
+        name: "Six of Wands",
+        love: [
+          "The Six of Wands card in the context of love symbolizes generosity, sharing, and abundance in a relationship. It indicates that your relationship may be full of mutual care, support, and generosity. This card encourages sharing love and experiences with your partner and appreciating the abundance present in your emotional life.",
+        ],
+        health: [
+          "The Six of Wands card in the context of health symbolizes improvement, regeneration, and health abundance. It means that you are currently enjoying better health or are on the path to full recovery. This card encourages taking care of your health, continuing healthy habits, and finding joy in good physical and mental condition.",
+        ],
+        jobs: [
+          "The Six of Wands card in the context of work symbolizes success, growth, and abundance in a career. It means that you are currently experiencing professional successes, growth, or abundance at work. This card encourages continuing good effort, utilizing your talents, and finding joy in professional achievements.",
+        ],
+        desc: [
+          "The Six of Wands card symbolizes generosity, success, and abundance. It indicates that you are currently experiencing abundance, growth, or success in various areas of life. This card encourages gratitude, sharing abundance with others, and fully utilizing your gifts and talents.",
+        ],
+        day: [
+          "The Six of Wands card brings generosity, success, and abundance for the day. It may be a time full of joy, successes, and growth. This card encourages sharing your abundance with others, appreciating small things, and finding joy in every moment.",
+        ],
+        images: ["6-rozdzek.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "6rozdzek"
+      },
+      {
+        name: "Seven of Wands",
+        love: [
+          "The Seven of Wands card in the context of love symbolizes success, perseverance, and stability in a relationship. It means that your love is strong and enduring, and your relationship is developing in a positive direction. This card encourages continuing efforts for the relationship, building trust, and striving for emotional stability.",
+        ],
+        health: [
+          "The Seven of Wands card in the context of health symbolizes stability, perseverance, and health protection. It means that you are currently enjoying stable health or have the ability to survive and regenerate. This card encourages taking care of your health, maintaining balance, and taking actions to protect and strengthen your body.",
+        ],
+        jobs: [
+          "The Seven of Wands card in the context of work symbolizes stability, perseverance, and success in a career. It means that you are currently on the right path to achieve professional stability, and your efforts will be rewarded. This card encourages continuing work, perseverance, and consistency in pursuing professional goals.",
+        ],
+        desc: [
+          "The Seven of Wands card symbolizes stability, perseverance, and success. It means that you are currently experiencing stability in various areas of life, and your efforts are being rewarded. This card encourages maintaining balance, perseverance in pursuing goals, and finding satisfaction in achievements.",
+        ],
+        day: [
+          "The Seven of Wands card brings stability, perseverance, and success for the day. It may be a time where you can rely on your determination and survival skills. This card encourages sticking to your principles, continuing efforts, and striving for success.",
+        ],
+        images: ["7-rozdzek.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "7rozdzek"
+      },
+      {
+        name: "Eight of Wands",
+        love: [
+          "The Eight of Wands card in the context of love symbolizes justice, balance, and abundance. It means that there is harmony and justice in the relationship, with both sides receiving an equal measure of love and support. This card encourages maintaining emotional balance, caring for your partner's needs, and finding joy in the abundance of love.",
+        ],
+        health: [
+          "The Eight of Wands card in the context of health symbolizes balance, harmony, and well-being. It means that you are currently enjoying good physical and emotional well-being and maintaining balance in life. This card encourages continuing healthy habits, maintaining balance in life, and finding joy in good condition.",
+        ],
+        jobs: [
+          "The Eight of Wands card in the context of work symbolizes justice, balance, and professional success. It means that you are currently enjoying balance at work, and your efforts are appropriately rewarded. This card encourages maintaining balance between work and private life, fostering relationships with colleagues, and finding satisfaction in professional achievements.",
+        ],
+        desc: [
+          "The Eight of Wands card symbolizes harmony, balance, and abundance. It means that you are currently experiencing harmony in various spheres of life and achieving the right balance in pursuing goals. This card encourages maintaining emotional, material, and spiritual balance and finding joy in the abundance surrounding you.",
+        ],
+        day: [
+          "The Eight of Wands card brings harmony, balance, and abundance for the day. It may be a time where you can enjoy peace and stability. This card encourages continuing actions in moderation, maintaining balance in life, and finding joy in the abundance surrounding you.",
+        ],
+        images: ["8-rozdzek.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "8rozdzek"
+      },
+      {
+        name: "Nine of Wands",
+        love: [
+          "The Nine of Wands card in the context of love symbolizes goal-oriented, perseverance, and determination. It means that in the relationship, you will be focused on achieving long-term goals and willing to make any effort to build lasting foundations of love. This card encourages dedicating time and energy to relationship development and achieving emotional stability.",
+        ],
+        health: [
+          "The Nine of Wands card in the context of health symbolizes perseverance, purposefulness, and determination. It means that you are currently determined to improve your health and achieve your health goals. This card encourages a consistent approach to a healthy lifestyle, regular physical activity, and striving for balance in body and mind.",
+        ],
+        jobs: [
+          "The Nine of Wands card in the context of work symbolizes the pursuit of success, ambition, and perseverance. It means that you are currently focused on achieving your professional goals and ready to put in effort and determination to accomplish them. This card encourages continuing work with determination, striving for excellence, and constant professional development.",
+        ],
+        desc: [
+          "The Nine of Wands card symbolizes perseverance, goal-oriented action, and determination. It means that you are currently determined to achieve your goals and constantly strive for development. This card encourages a consistent approach, focusing on long-term goals, and unwavering determination to succeed.",
+        ],
+        day: [
+          "The Nine of Wands card brings perseverance, goal-oriented action, and determination for the day. It may be a time when you will be focused on accomplishing your tasks and constantly working towards achieving intended results. This card encourages consistent action, maintaining motivation, and unwavering determination.",
+        ],
+        images: ["9-rozdzek.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "9rozdzek"
+      },
+      {
+        name: "Ten of Wands",
+        love: [
+          "The Ten of Wands card in the context of love symbolizes fullness, success, and completion. It means that in the relationship, you may experience emotional fulfillment and achieve success in love. This card encourages enjoying the fullness of love and appreciating the achieved results.",
+        ],
+        health: [
+          "The Ten of Wands card in the context of health symbolizes satisfaction, health, and completion. It means that you can currently enjoy good health and achieved health goals. This card encourages appreciating your health and continuing a healthy lifestyle.",
+        ],
+        jobs: [
+          "The Ten of Wands card in the context of work symbolizes fullness, success, and completion. It means that you can currently achieve success in your career and enjoy professional fulfillment. This card encourages celebrating your achievements and appreciating your success.",
+        ],
+        desc: [
+          "The Ten of Wands card symbolizes fullness, fulfillment, and completion. It means that you are currently experiencing success and achievements that bring satisfaction and fulfillment. This card encourages appreciating your accomplishments, celebrating life, and enjoying the fullness of experiences.",
+        ],
+        day: [
+          "The Ten of Wands card brings fullness, fulfillment, and completion for the day. It may be a time when you can enjoy successes, achievements, and the fulfillment of your tasks. This card encourages appreciating every moment, celebrating successes, and sharing joy with others.",
+        ],
+        images: ["10-rozdzek.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "10rozdzek"
+      },
+      {
+        name: "Page of Wands",
+        love: [
+          "The Page of Wands card in the context of love symbolizes youth, revitalization, and beginnings. It means that new energy, enthusiasm, and developmental opportunities may emerge in the relationship. This card encourages openness to new romantic experiences and exploration of emotions.",
+        ],
+        health: [
+          "The Page of Wands card in the context of health symbolizes energy, vitality, and youth. It means that you are currently enjoying good health, a full life, and the strength to take action. This card encourages taking care of your body and using your energy in a positive way.",
+        ],
+        jobs: [
+          "The Page of Wands card in the context of work symbolizes creativity, revitalization, and new possibilities. It means that a new project, idea, or opportunity for development may arise in the professional sphere. This card encourages utilizing your creativity and being open to new challenges.",
+        ],
+        desc: [
+          "The Page of Wands card symbolizes youth, revitalization, and beginnings. It means that you are currently in a phase of development, full of potential and possibilities. This card encourages openness to new experiences, exploring the world, and utilizing your creative potential.",
+        ],
+        day: [
+          "The Page of Wands card brings energy, revitalization, and new possibilities for the day. It may be a time when you can use your creativity, acquire new skills, or initiate new projects. This card encourages a positive approach to the day and utilizing its potential.",
+        ],
+        images: ["walet-rozdzek.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "waletrozdzek"
+      },
+      {
+        name: "Knight of Wands",
+        love: [
+          "The Knight of Wands card in the context of love symbolizes activity, dedication, and determination. It means that an energetic partner ready to take action and engage in the relationship may appear. This card encourages taking action and showing courage in love.",
+        ],
+        health: [
+          "The Knight of Wands card in the context of health symbolizes energy, vitality, and determination. It means that you are currently enjoying good health and have the strength to take on challenges. This card encourages physical activity, engaging in rigorous training, or health challenges.",
+        ],
+        jobs: [
+          "The Knight of Wands card in the context of work symbolizes activity, commitment, and goal pursuit. It means that you are ready for action and tackling challenges in the professional sphere. This card encourages bold action, overcoming obstacles, and realizing your professional ambitions.",
+        ],
+        desc: [
+          "The Knight of Wands card symbolizes activity, dedication, and determination. It means that you are currently ready to take action, overcome obstacles, and achieve your goals. This card encourages taking risks, acting with determination, and showing courage.",
+        ],
+        day: [
+          "The Knight of Wands card brings activity, determination, and goal pursuit for the day. It may be a time when you need to take action, overcome obstacles, and fully engage. This card encourages using your energy, boldness, and commitment in current affairs.",
+        ],
+        images: ["rycerz-rozdzki.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "rycerzrozdzek"
+      },
+      {
+        "name": "Queen of Wands",
+        "love": [
+          "The Queen of Wands card in the context of love symbolizes independence, self-assurance, and managerial abilities. It means that you are a strong, dominant figure in the relationship, or a partner with these traits may emerge. This card encourages leveraging your power and self-confidence to build a healthy and balanced relationship."
+        ],
+        "health": [
+          "The Queen of Wands card in the context of health symbolizes good physical condition, independence, and self-discipline. It means that you can independently take care of your health and take appropriate actions. This card encourages a conscious approach to a healthy lifestyle and self-care."
+        ],
+        "jobs": [
+          "The Queen of Wands card in the context of work symbolizes independence, managerial skills, and effectiveness. It means that you are a strong individual capable of making decisions and achieving professional success. This card encourages utilizing your power and managerial skills in the workplace."
+        ],
+        "desc": [
+          "The Queen of Wands card symbolizes independence, self-assurance, and managerial abilities. It means that you currently have power and control over the situation. This card encourages utilizing your self-confidence and managerial abilities in various areas of life."
+        ],
+        "day": [
+          "The Queen of Wands card brings independence, self-assurance, and managerial abilities for the day. It might be a time when you should take the lead, make decisions, and use your organizational skills. This card encourages fully utilizing your power and authority."
+        ],
+        images: ["krolowa-rozdzek.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "krolowarozdzek"
+      },
+      {
+        "name": "King of Wands",
+        "love": [
+          "The King of Wands card in the context of love symbolizes self-assurance, power, and responsibility. It means that you are ready to take leadership in the relationship and make decisions. This card may indicate the emergence of a partner with a strong personality and dominant character. It encourages using your power and resourcefulness in building a healthy relationship."
+        ],
+        "health": [
+          "The King of Wands card in the context of health symbolizes good physical condition, power, and control over your health. It means that you are strong and independent in taking care of your health. This card encourages a responsible approach to your health and making decisions for its improvement."
+        ],
+        "jobs": [
+          "The King of Wands card in the context of work symbolizes leadership, power, and professional competence. It means that you are capable of taking a leadership position and making responsible decisions in the professional sphere. This card encourages using your power and managerial skills at work."
+        ],
+        "desc": [
+          "The King of Wands card symbolizes self-assurance, power, and control. It means that you currently possess the strength and abilities to make decisions and achieve success. This card encourages using your self-confidence and power to accomplish your goals."
+        ],
+        "day": [
+          "The King of Wands card brings self-assurance, power, and control for the day. It might be a time when you will be making decisions and acting as a leader. This card encourages using your authority and managerial skills throughout the day."
+        ],
+        images: ["krol-rozdzek.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "krolrozdzek"
+      }
+      ,
+      {
+        "name": "Ace of Cups",
+        "love": [
+          "The Ace of Cups card in the context of love symbolizes new emotions, emotional potential, and the beginning of a relationship or deeper emotional connections. It means that you can expect the emergence of a new partner or the development of an existing relationship on a deeper level. This card encourages opening up to love and emotional connections."
+        ],
+        "health": [
+          "The Ace of Cups card in the context of health symbolizes emotional well-being and good feelings. It means that you are in harmony with yourself and have strong emotional support. This card encourages taking care of your emotions and relationships, contributing to your health and well-being."
+        ],
+        "jobs": [
+          "The Ace of Cups card in the context of work symbolizes new opportunities and creative potential. It means that you can expect new projects, inspiring tasks, or professional offers that fulfill your emotional and creative needs. This card encourages using your creativity and intuition at work."
+        ],
+        "desc": [
+          "The Ace of Cups card symbolizes new emotions, emotional potential, and creative energy. It means that you are open to new experiences and ready to develop your emotional side. This card encourages exploring your feelings and expressing them in a creative way."
+        ],
+        "day": [
+          "The Ace of Cups card brings new emotions, inspiration, and opportunities for the day. It might be a time when you experience deeper emotions, creative impulses, or connections with other people. This card encourages opening up to new possibilities and enjoying the joy of life."
+        ],
+        images: ["as-pucharow.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "aspucharow"
+      }
+      ,
+      {
+        "name": "Two of Cups",
+        "love": [
+          "The Two of Cups card in the context of love symbolizes harmony and cooperation in a relationship. It means that there is a good emotional connection and mutual support between partners. This card encourages building deeper emotional bonds and caring for shared goals."
+        ],
+        "health": [
+          "The Two of Cups card in the context of health symbolizes emotional harmony and well-being. It means that you are in good mental health and derive joy from harmonious relationships. This card encourages taking care of your emotions and creating positive bonds with others."
+        ],
+        "jobs": [
+          "The Two of Cups card in the context of work symbolizes cooperation and professional partnership. It means that you have good relationships with colleagues and coworkers, bringing benefits and successes. This card encourages collaboration and creating harmonious relationships in the workplace."
+        ],
+        "desc": [
+          "The Two of Cups card symbolizes emotional harmony and cooperation. It means that you are in harmony with yourself and others, leading to harmonious relationships. This card encourages building bonds based on collaboration and mutual support."
+        ],
+        "day": [
+          "The Two of Cups card brings harmony and tranquility for the day. It might be a time when you enjoy good relationships with others and experience mutual support. This card encourages finding joy in harmonious relationships and creating positive experiences."
+        ],
+        images: ["2-pucharow.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "2pucharow"
+      }
+      ,
+      {
+        "name": "Three of Cups",
+        "love": [
+          "The Three of Cups card in the context of love symbolizes emotional abundance and happiness in a relationship. It means that your relationships are full of love, joy, and harmony. This card encourages appreciating and nurturing closeness in the relationship and sharing emotions with your partner."
+        ],
+        "health": [
+          "The Three of Cups card in the context of health symbolizes emotional well-being and the harmony of body and mind. It means that your mental and emotional health is in good condition, contributing to overall well-being. This card encourages maintaining emotional balance and taking care of yourself."
+        ],
+        "jobs": [
+          "The Three of Cups card in the context of work symbolizes professional satisfaction and good relationships with colleagues. It means that you derive joy from your work and have positive relationships with others in the workplace. This card encourages continuing good cooperation and creating a positive work environment."
+        ],
+        "desc": [
+          "The Three of Cups card symbolizes emotional abundance and joy. It means that you have many reasons for joy and satisfaction in life. This card encourages appreciating the present moments and taking pleasure in experiencing love and joy."
+        ],
+        "day": [
+          "The Three of Cups card brings joy and abundance for the day. It might be a time full of love, joy, and satisfaction. This card encourages sharing positive emotions with others and enjoying the present moments."
+        ],
+        images: ["3-pucharow.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "3pucharow"
+      }
+      ,
+      {
+        "name": "Four of Cups",
+        "love": [
+          "The Four of Cups card in the context of love symbolizes emotional stability and a sense of security in a relationship. It means that you have solid emotional foundations and a close bond with your partner. This card encourages building trust and a lasting relationship."
+        ],
+        "health": [
+          "The Four of Cups card in the context of health symbolizes the harmony of body and mind and emotional well-being. It means that you have balance in your health and feel satisfaction with your well-being. This card encourages maintaining healthy habits and taking care of yourself."
+        ],
+        "jobs": [
+          "The Four of Cups card in the context of work symbolizes professional stability and satisfaction with your work. It means that you feel secure and content with your current professional status. This card encourages continuing development and finding satisfaction in your work."
+        ],
+        "desc": [
+          "The Four of Cups card symbolizes emotional stability and a sense of security. It means that you have confidence and solid emotional foundations. This card encourages enjoying tranquility and harmony in life."
+        ],
+        "day": [
+          "The Four of Cups card brings emotional stability and a sense of security for the day. It might be a time full of peace, harmony, and contentment. This card encourages enjoying the moment and appreciating stability in life."
+        ],
+        images: ["4-pucharow.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "4pucharow"
+      }
+      ,
+      {
+        "name": "Five of Cups",
+        "love": [
+          "The Five of Cups card in the context of love may indicate difficulties, disappointment, or loss in a relationship. It can point to conflicts, sadness, or lack of satisfaction in the relationship. This card encourages facing emotions and seeking solutions to regain balance."
+        ],
+        "health": [
+          "The Five of Cups card in the context of health may signify a lowered mood, sadness, or loss of energy. It can indicate emotional difficulties or health issues that may affect well-being. This card encourages seeking support and emotional renewal."
+        ],
+        "jobs": [
+          "The Five of Cups card in the context of work may indicate professional difficulties, disappointment, or stagnation. It can point to conflicts in the workplace, dissatisfaction with the job, or difficulties in finding employment. This card encourages reflecting on personal needs and exploring new opportunities."
+        ],
+        "desc": [
+          "The Five of Cups card symbolizes emotional difficulties, disappointment, or loss. It may be a transitional time where you need to confront challenges and feel a sense of loss. This card encourages accepting changes and seeking support in difficult times."
+        ],
+        "day": [
+          "The Five of Cups card brings emotional difficulties or disappointment for the day. It might be a time when you need to face challenges and negative emotions. This card encourages patience, self-reflection, and seeking support."
+        ],
+        images: ["5-pucharow.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "5pucharow"
+      }
+      ,
+      {
+        "name": "Six of Cups",
+        "love": [
+          "The Six of Cups card in the context of love symbolizes emotional abundance, happiness, and giving love. It can indicate harmony and satisfaction in a relationship, mutual support, and joy from closeness and intimacy. This card encourages expressing love and appreciating relationships."
+        ],
+        "health": [
+          "The Six of Cups card in the context of health signifies emotional well-being, balance, and satisfaction. It may indicate healthy relationships and emotional harmony. This card encourages taking care of your emotions and finding joy in life."
+        ],
+        "jobs": [
+          "The Six of Cups card in the context of work symbolizes professional satisfaction, harmony within the team, and a positive work atmosphere. It may mean appreciation and recognition of your skills and satisfaction with your job. This card encourages continuing well-started projects and finding joy in achievements."
+        ],
+        "desc": [
+          "The Six of Cups card symbolizes abundance, joy, and satisfaction. It brings positive emotions and contentment with life. This card encourages sharing your successes and showing kindness to others."
+        ],
+        "day": [
+          "The Six of Cups card brings joy, abundance, and harmony for the day. It's a time when you can enjoy positive emotions and experience satisfaction. This card encourages appreciating and sharing goodness with others."
+        ],
+        images: ["6-pucharow.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "6pucharow"
+      }
+      ,
+      {
+        "name": "Seven of Cups",
+        "love": [
+          "The Seven of Cups card in the context of love symbolizes mutual trust, loyalty, and building a lasting emotional bond. It may indicate deep feelings and stability in a relationship. This card encourages openness and honesty in relationships."
+        ],
+        "health": [
+          "The Seven of Cups card in the context of health signifies emotional balance and inner satisfaction. It may indicate good mental well-being and positive results in therapy or self-improvement. This card encourages taking care of your emotions and mental health."
+        ],
+        "jobs": [
+          "The Seven of Cups card in the context of work symbolizes satisfaction with your job and appreciation for your efforts. It may indicate professional stability and good relationships with colleagues. This card encourages continuing professional development and finding joy in achievements."
+        ],
+        "desc": [
+          "The Seven of Cups card symbolizes rewards, satisfaction, and joy. It brings a sense of fulfillment and satisfaction with past achievements. This card encourages appreciation and enjoying well-deserved rewards."
+        ],
+        "day": [
+          "The Seven of Cups card brings harmony, peace, and joy for the day. It's a time when you can enjoy a good sense of well-being and satisfaction with life. This card encourages celebration and gratitude for all positive experiences."
+        ],
+        images: ["7-pucharow.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "7pucharow"
+      }
+      ,
+      {
+        "name": "Eight of Cups",
+        "love": [
+          "The Eight of Cups card in the context of love symbolizes abundance of emotions, love, and harmony in a relationship. It may indicate deep emotional involvement and satisfaction in a partnership. This card encourages sharing love and generosity towards the other person."
+        ],
+        "health": [
+          "The Eight of Cups card in the context of health signifies good mental and emotional well-being. It may indicate internal healing, discovering balance, and harmony. This card encourages taking care of your emotions and mental health."
+        ],
+        "jobs": [
+          "The Eight of Cups card in the context of work symbolizes satisfaction and joy in your job. It may indicate appreciation for your professional achievements and contentment with your current work situation. This card encourages continuing positive career development."
+        ],
+        "desc": [
+          "The Eight of Cups card symbolizes abundance, happiness, and fulfillment. It brings a sense of satisfaction with life and rewards for your efforts. This card encourages enjoying well-deserved rewards and appreciating your prosperity."
+        ],
+        "day": [
+          "The Eight of Cups card brings joy, abundance, and harmony for the day. It's a time when you can feel satisfaction and contentment with what you have and have achieved. This card encourages gratitude and celebrating abundance in your life."
+        ],
+        images: ["8-pucharow.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "8pucharow"
+      }
+      ,
+      {
+        "name": "Nine of Cups",
+        "love": [
+          "The Nine of Cups card in the context of love symbolizes emotional stability and harmony in a relationship. It may indicate long-lasting and balanced feelings, full of understanding and support. This card encourages building a lasting relationship based on trust and deep emotional connection."
+        ],
+        "health": [
+          "The Nine of Cups card in the context of health signifies good mental and emotional well-being. It may indicate emotional balance and stability, which are beneficial for health. This card encourages taking care of your emotions and finding joy in life."
+        ],
+        "jobs": [
+          "The Nine of Cups card in the context of work symbolizes satisfaction with your current professional situation. It may indicate contentment with your job and achieving financial stability. This card encourages appreciating professional successes and finding joy in your work."
+        ],
+        "desc": [
+          "The Nine of Cups card symbolizes abundance, joy, and satisfaction. It brings a sense of fulfillment and abundance in life. This card encourages appreciating what you have and sharing your joy with others."
+        ],
+        "day": [
+          "The Nine of Cups card brings a sense of satisfaction, joy, and abundance for the day. It's a time when you can enjoy your achievements and make the most of prosperity in your life. This card encourages celebration and gratitude for abundance."
+        ],
+        images: ["9-pucharow.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "9pucharow"
+      }
+      ,
+      {
+        "name": "Ten of Cups",
+        "love": [
+          "The Ten of Cups card in the context of love symbolizes fullness and emotional happiness in a relationship. It signifies deep contentment and fulfillment in the partnership. It may also indicate joy derived from love and a harmonious partnership. This card encourages celebrating love and appreciating the happiness it brings."
+        ],
+        "health": [
+          "The Ten of Cups card in the context of health signifies excellent mental and emotional well-being. It may indicate mental health, balance, and satisfaction with life. This card encourages taking care of your emotions and finding joy in experiencing the fullness of life."
+        ],
+        "jobs": [
+          "The Ten of Cups card in the context of work symbolizes success, fulfillment, and professional satisfaction. It signifies achieving financial stability and satisfaction with your job. It may also indicate an abundance of professional opportunities and successful career development. This card encourages celebrating professional achievements and enjoying success."
+        ],
+        "desc": [
+          "The Ten of Cups card symbolizes fullness, fulfillment, and abundance. It brings a sense of satisfaction and contentment with life. This card encourages appreciating all aspects of your life and finding joy in the abundance it brings."
+        ],
+        "day": [
+          "The Ten of Cups card brings a sense of fulfillment and abundance for the day. It's a time when you can enjoy life, perceive the beauty around you, and appreciate all the good things happening. This card encourages celebration and gratitude for the fullness of the day."
+        ],
+        images: ["10-pucharow.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "10pucharow"
+      },
+      {
+        "name": "Page of Cups",
+        "love": [
+          "The Page of Cups card in the context of love symbolizes new emotions, romance, and courtship. It may indicate the emergence of youthful feelings, infatuation, or love at first sight. This card encourages expressing emotions and being open to new romantic possibilities."
+        ],
+        "health": [
+          "The Page of Cups card in the context of health signifies emotional tenderness and sensitivity. It may indicate the need to nurture your emotional state and take care of your mental health. This card encourages self-care and attending to your emotions."
+        ],
+        "jobs": [
+          "The Page of Cups card in the context of work symbolizes creative and emotional energy. It signifies openness to new professional opportunities and enthusiastic engagement in work. This card encourages exploring your passions and utilizing your intuition in your professional life."
+        ],
+        "desc": [
+          "The Page of Cups card symbolizes youthful energy, emotions, and creativity. It brings freshness and enthusiasm to life. This card encourages opening up to new experiences, exploring your feelings, and expressing your creativity."
+        ],
+        "day": [
+          "The Page of Cups card brings freshness and enthusiasm for the day. It's a time when you can derive joy from simple pleasures, express your emotions, and be open to new experiences. This card encourages exploring the world around you and enjoying a youthful spirit."
+        ],
+        images: ["walet-pucharow.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "waletpucharow"
+      }
+      ,
+      {
+        "name": "Knight of Cups",
+        "love": [
+          "The Knight of Cups card in the context of love symbolizes romance, devotion, and dedication. It signifies that a person or situation associated with romantic feelings may enter your life. This card encourages deep emotional connection and readiness to make sacrifices for love."
+        ],
+        "health": [
+          "The Knight of Cups card in the context of health signifies emotional sensitivity and intuition. It may indicate the need to listen to your emotions and needs regarding health. This card encourages taking care of your emotions and adopting an intuitive approach to self-care."
+        ],
+        "jobs": [
+          "The Knight of Cups card in the context of work symbolizes emotional involvement and loyalty. It signifies being engaged in work that holds deep meaning for you and dedicating yourself to projects with devotion. This card encourages using your intuition and emotions in your professional life."
+        ],
+        "desc": [
+          "The Knight of Cups card symbolizes a romantic spirit, emotional involvement, and intuition. It brings a message of the emergence of a situation or person that will bring deep emotions and romantic experiences. This card encourages dedicating yourself to love and following your intuition."
+        ],
+        "day": [
+          "The Knight of Cups card brings a romantic and sensitive mood for the day. It's a time when you may feel deep emotions and dedication toward others. This card encourages expressing your love and care for those close to you."
+        ],
+        images: ["rycerz-pucharow.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "rycerzpucharow"
+      }
+      ,
+      {
+        "name": "Queen of Cups",
+        "love": [
+          "The Queen of Cups card in the context of love symbolizes emotional maturity, empathy, and care. It suggests that in romantic relationships, you are ready to express your feelings, provide support, and take care of the other person. This card encourages using your intuition and empathy in matters of love."
+        ],
+        "health": [
+          "The Queen of Cups card in the context of health signifies emotional harmony and self-care. It may indicate the need to take care of your body, mind, and soul. This card encourages attending to your emotions and approaching health with empathy and care."
+        ],
+        "jobs": [
+          "The Queen of Cups card in the context of work symbolizes empathy, intuition, and care for others. It suggests that in your work, you can be an excellent listener, a supportive colleague, or a leader who cares for the well-being of the team. This card encourages using your empathic and intuitive skills in your professional life."
+        ],
+        "desc": [
+          "The Queen of Cups card symbolizes emotional maturity, compassion, and harmony. It brings a message of the need to use your empathy and intuition in various aspects of life. This card encourages caring for others and maintaining inner harmony."
+        ],
+        "day": [
+          "The Queen of Cups card brings an atmosphere of care, empathy, and harmony for the day. It's a time when you can show compassion and exceptional care for others. This card encourages providing support and care in your surroundings."
+        ],
+        images: ["krolowa-pucharow.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "krolowapucharow"
+      }
+      ,
+      {
+        "name": "King of Cups",
+        "love": [
+          "The King of Cups card in the context of love symbolizes emotional maturity, stability, and generosity. It indicates that in romantic relationships, you are ready to offer love, support, and generosity to the other person. This card encourages building lasting and harmonious relationships."
+        ],
+        "health": [
+          "The King of Cups card in the context of health signifies emotional stability and well-being. It may indicate harmony in the body, mind, and soul, and the need to take care of your emotions and mental health. This card encourages self-care and using your resources to achieve balance."
+        ],
+        "jobs": [
+          "The King of Cups card in the context of work symbolizes emotional maturity, generosity, and stability. It suggests that in the professional sphere, you are responsible, supportive, and generous to others. This card encourages using your emotional skills to build lasting relationships with colleagues."
+        ],
+        "desc": [
+          "The King of Cups card symbolizes emotional maturity, generosity, and stability. It brings a message of the need to use your intuition, compassion, and supportive skills for others. This card encourages building harmonious relationships and offering your help to others."
+        ],
+        "day": [
+          "The King of Cups card brings an atmosphere of emotional maturity, stability, and generosity for the day. It's a time when you can demonstrate responsibility, supportive actions, and generosity toward others. This card encourages building lasting relationships and sharing goodness."
+        ],
+        images: ["krol-pucharow.jpg"],
+        logo: [""],
+        cardType: "2",
+        url: "krolpucharow"
+      }
+      ,
+      {
+        "name": "Ace of Swords",
+        "love": [
+          "The Ace of Swords card in the context of love symbolizes new beginnings, breakthroughs, and clarity of thought. It suggests that in the realm of emotions, you can expect a fresh approach, clarity, and intellectual understanding. This card encourages openness to new possibilities and seeking truth in relationships."
+        ],
+        "health": [
+          "The Ace of Swords card in the context of health signifies mental sharpness, logical thinking, and clarity in decision-making. It may indicate the need for critical thinking and analyzing your health condition. This card encourages a conscious approach to your body and mind."
+        ],
+        "jobs": [
+          "The Ace of Swords card in the context of work symbolizes new ideas, clarity of thought, and the beginning of something new. It suggests that in the professional sphere, you can expect inspiration, intellectual growth, and new opportunities. This card encourages creativity and using your intellect in your work."
+        ],
+        "desc": [
+          "The Ace of Swords card symbolizes new beginnings, clarity of thought, and the start of something significant. It brings a message of the need for sharp thinking, analysis, and a logical approach to situations. This card encourages new ideas and conscious decision-making."
+        ],
+        "day": [
+          "The Ace of Swords card brings an atmosphere of new beginnings, clarity of thought, and intellectual activity for the day. It's a time when you can expect new inspirations, creativity, and intellectual growth. This card encourages a conscious approach and harnessing the power of the mind."
+        ],
+        "images": ["as-mieczy.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "asmieczy"
+      }
+      ,
+      {
+        "name": "Two of Swords",
+        "love": [
+          "The Two of Swords card in the context of love symbolizes decisions, choices, and intellectual balance. It indicates that in the realm of emotions, there might be a need to make a choice or decision regarding a relationship. This card encourages emotional balance and a logical approach to relationships."
+        ],
+        "health": [
+          "The Two of Swords card in the context of health signifies the need for balance and harmony between the body and mind. It may indicate the need to find emotional and mental balance for maintaining good health. This card encourages awareness of your health condition and seeking equilibrium."
+        ],
+        "jobs": [
+          "The Two of Swords card in the context of work symbolizes career choices, intellectual balance, and situational analysis. It suggests that in the professional sphere, there might be a need to make a decision regarding your career or find a balance between different aspects of work. This card encourages a thoughtful approach and careful analysis of the professional situation."
+        ],
+        "desc": [
+          "The Two of Swords card symbolizes choices, balance, and situational analysis. It brings a message of the need to make a choice or decision that will impact your life. This card encourages a balanced approach, considering different options, and careful analysis before taking action."
+        ],
+        "day": [
+          "The Two of Swords card brings an atmosphere of choices, balance, and analysis for the day. It's a time when you may need to make a choice or find balance between different aspects of life. This card encourages a thoughtful approach, emotional equilibrium, and logical thinking."
+        ],
+        "images": ["2-mieczy.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "2mieczy"
+      }
+      ,
+      {
+        "name": "Three of Swords",
+        "love": [
+          "The Three of Swords card in the context of love may signify conflicts, difficulties, and disappointment in a relationship. It could indicate challenging decisions, confrontations, or conflicts that may impact the relationship. This card encourages sincere and open dialogue and the search for solutions in difficult situations."
+        ],
+        "health": [
+          "The Three of Swords card in the context of health may signal conflicts, stress, and emotional difficulties that can affect one's well-being. It may indicate the need to resolve emotional challenges, work on relieving stress, and find balance. This card encourages openness to help and support and seeking solutions."
+        ],
+        "jobs": [
+          "The Three of Swords card in the context of work may indicate conflicts, difficulties, and stressful situations in the workplace. It may point to confrontations, misunderstandings, or communication problems that require resolution. This card encourages dealing with difficulties in a constructive way, seeking compromises, and building effective communication."
+        ],
+        "desc": [
+          "The Three of Swords card symbolizes conflicts, difficulties, and challenges. It brings a message of the difficulties you need to overcome or confrontations that will arise in your life. This card encourages courage, honesty, and seeking constructive solutions in challenging situations."
+        ],
+        "day": [
+          "The Three of Swords card brings an atmosphere of conflicts, difficulties, and challenges for the day. It's a time when you may encounter difficulties, confrontations, or misunderstandings. This card encourages maintaining calm, sincere dialogue, and seeking constructive solutions."
+        ],
+        "images": ["3-mieczy.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "3mieczy"
+      }
+      ,
+      {
+        "name": "Four of Swords",
+        "love": [
+          "The Four of Swords card in the context of love may indicate conflicts, discord, and a lack of harmony in a relationship. It may point to difficulties in understanding each other, emotional wounds, or challenging situations affecting the relationship. This card encourages sincere communication, conflict resolution, and building trust."
+        ],
+        "health": [
+          "The Four of Swords card in the context of health may signal stress, emotional burden, and lack of balance. It may point to internal conflicts affecting health and well-being. This card encourages self-care, seeking support, and emotional balance."
+        ],
+        "jobs": [
+          "The Four of Swords card in the context of work may signify conflicts, discord, and difficulties in the professional environment. It may indicate a lack of harmony, misunderstandings, or stressful situations hindering work. This card encourages seeking solutions, communication, and building effective collaboration."
+        ],
+        "desc": [
+          "The Four of Swords symbolizes conflicts, discord, and difficulties. It brings a message about situations that require confrontation, finding solutions, or abandoning certain thought patterns. This card encourages openness to change, facing difficulties courageously, and building inner harmony."
+        ],
+        "day": [
+          "The Four of Swords card brings an atmosphere of conflicts, discord, and challenges for the day. It's a time when you may encounter challenges, confrontations, or misunderstandings. This card encourages maintaining calm, reflection, and seeking constructive solutions."
+        ],
+        "images": ["4-mieczy.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "4mieczy"
+      }
+      ,
+      {
+        "name": "Five of Swords",
+        "love": [
+          "The Five of Swords card in the context of love may signify betrayal, conflict, and separation. It could indicate painful situations leading to the breakdown of a relationship or feelings of hurt and disappointment. This card encourages sincere analysis of the situation and making decisions that serve your well-being."
+        ],
+        "health": [
+          "The Five of Swords card in the context of health may signal stress, loss of energy, and emotional difficulties. It may indicate internal conflicts negatively impacting health and well-being. This card encourages self-care, seeking support, and taking actions to improve one's health."
+        ],
+        "jobs": [
+          "The Five of Swords card in the context of work may indicate conflicts, difficulties, and losses. It may point to situations where you experience disappointment, hurt, or loss. This card encourages courage and determination in overcoming obstacles, learning from mistakes, and exploring new career opportunities."
+        ],
+        "desc": [
+          "The Five of Swords card symbolizes painful situations, separation, and betrayal. It brings a message of difficulties that affect emotional and mental experiences. This card encourages honesty with oneself, letting go of the past, and opening up to new possibilities."
+        ],
+        "day": [
+          "The Five of Swords card brings an atmosphere of conflicts, betrayal, and difficulties for the day. It's a time when you may experience emotional disappointment or a sense of loss. This card encourages accepting changes, seeking support, and prioritizing your own well-being."
+        ],
+        "images": ["5-mieczy.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "5mieczy"
+      }
+      ,
+      {
+        "name": "Six of Swords",
+        "love": [
+          "The Six of Swords card in the context of love may signify the end of difficulties and leaving a toxic relationship. It could indicate liberation and regaining freedom after a period of struggle and conflict. This card encourages learning from experiences and opening up to new, healthy relationships."
+        ],
+        "health": [
+          "The Six of Swords card in the context of health may signal an improvement in emotional and mental well-being. It may indicate moving away from toxic situations that have negatively impacted health. This card encourages caring for one's well-being and taking actions that contribute to health improvement."
+        ],
+        "jobs": [
+          "The Six of Swords card in the context of work may indicate the end of difficulties and resolution of conflicts. It may point to solving professional problems and progress in your career. This card encourages continuing efforts, maintaining optimism, and using gained experiences."
+        ],
+        "desc": [
+          "The Six of Swords card symbolizes liberation and the end of difficulties. It brings a message of moving away from conflicts, struggles, and toxic situations. This card encourages using these experiences as a source of learning and development and opening up to new possibilities."
+        ],
+        "day": [
+          "The Six of Swords card brings an atmosphere of liberation and the end of difficulties for the day. It's a time when you may feel relief and experience an improvement in the situation. This card encourages seizing this moment, celebrating achievements, and looking forward to the future with optimism."
+        ],
+        "images": ["6-mieczy.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "6mieczy"
+      }
+      ,
+      {
+        "name": "Seven of Swords",
+        "love": [
+          "The Seven of Swords card in the context of love may signify conflicts, arguments, and difficulties in a relationship. It could indicate tensions and disagreements that require resolution. This card encourages open and honest communication and finding compromises in the relationship."
+        ],
+        "health": [
+          "The Seven of Swords card in the context of health may signal stress, tension, and emotional difficulties. It may indicate the need to resolve conflicts and negative situations that impact health negatively. This card encourages seeking support and taking actions to alleviate stress."
+        ],
+        "jobs": [
+          "The Seven of Swords card in the context of work may indicate conflicts, tensions, and difficulties in the workplace. It may point to situations where decision-making and problem-solving are necessary. This card encourages maintaining calmness, using a logical approach, and seeking solutions."
+        ],
+        "desc": [
+          "The Seven of Swords card symbolizes conflicts, arguments, and difficulties. It brings a message of the need to resolve problems and negative situations. This card encourages openness to dialogue, communication, and finding ways to overcome conflicts."
+        ],
+        "day": [
+          "The Seven of Swords card brings an atmosphere of tension and conflicts for the day. It's a time when you may encounter difficulties and challenges. This card encourages maintaining calm, analyzing the situation, and making thoughtful decisions."
+        ],
+        "images": ["7-mieczy.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "7mieczy"
+      }
+      ,
+      {
+        "name": "Eight of Swords",
+        "love": [
+          "The Eight of Swords card in the context of love may signify the end of a difficult period and liberation from negative patterns. It could indicate a breakup, emotional hurt, or relationship difficulties. This card encourages accepting changes and focusing on self-realization."
+        ],
+        "health": [
+          "The Eight of Swords card in the context of health may symbolize a state of emotional or mental exhaustion. It may indicate the need for rest, regeneration, and liberation from stressful situations. This card encourages caring for mental and emotional health."
+        ],
+        "jobs": [
+          "The Eight of Swords card in the context of work may indicate the end of a challenging stage or situation. It may point to the completion of a project, changes in the workplace, or leaving a negative environment. This card encourages openness to new possibilities and taking actions for professional development."
+        ],
+        "desc": [
+          "The Eight of Swords card symbolizes the end of difficulties, liberation from negative situations, and regaining freedom. It brings a message of the need to let go of the past and focus on the future. This card encourages accepting changes, rising to a new level, and embracing optimism."
+        ],
+        "day": [
+          "The Eight of Swords card brings the energy of conclusion and liberation for the day. It's a time when you can rid yourself of the past, abandon negative thoughts, and focus on the future. This card encourages taking actions for personal growth and transformation."
+        ],
+        "images": ["8-mieczy.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "8mieczy"
+      }
+      ,
+      {
+        "name": "Nine of Swords",
+        "love": [
+          "The Nine of Swords card in the context of love may signify the end of a difficult relationship or connection. It could indicate feelings of betrayal, deception, or emotional pain. This card encourages cleansing from the past and opening up to new, healthier relationships."
+        ],
+        "health": [
+          "The Nine of Swords card in the context of health may symbolize stress, anxiety, and emotional traumas. It may indicate the need for therapeutic support or work on emotional healing. This card encourages taking care of mental and emotional health."
+        ],
+        "jobs": [
+          "The Nine of Swords card in the context of work may indicate difficulties, tension, or conflicts in the workplace. It may point to feelings of threat, dissatisfaction, or professional frustration. This card encourages reflection on the situation and seeking solutions to regain peace and harmony at work."
+        ],
+        "desc": [
+          "The Nine of Swords card symbolizes pain, betrayal, anxiety, and emotional difficulties. It brings a message of the need to let go of negative thoughts and beliefs and open up to new possibilities. This card encourages working on inner demons and freeing oneself from the past."
+        ],
+        "day": [
+          "The Nine of Swords card brings the energy of difficulties and challenges for the day. It's a time when you may feel overwhelmed, but it's important not to lose hope and seek ways to cope with difficulties. This card encourages courage, reflection, and seeking support from loved ones."
+        ],
+        "images": ["9-mieczy.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "9mieczy"
+      }
+      ,
+      {
+        "name": "Ten of Swords",
+        "love": [
+          "The Ten of Swords card in the context of love may signify the end of a difficult relationship or connection. It brings a message of conclusion, separation, or the breakdown of feelings. It may also signal that it's time to break free from negative patterns and toxic relationships to make room for new possibilities and rebuilding."
+        ],
+        "health": [
+          "The Ten of Swords card in the context of health may symbolize a crisis, emotional exhaustion, or health difficulties. It may indicate the need for urgent medical care or therapeutic support. This card encourages self-help, seeking support, and taking actions to improve health."
+        ],
+        "jobs": [
+          "The Ten of Swords card in the context of work may signify the end, job loss, or the closure of a professional situation. It may point to a period of difficulties and uncertainty. This card encourages accepting change, professional rebuilding, and opening up to new opportunities."
+        ],
+        "desc": [
+          "The Ten of Swords card symbolizes the end, conclusion, and tragedy. It brings a message of reaching the bottom, but at the same time reminds that the sun rises after the darkest clouds. This card can also be a sign of liberation from negative thoughts and emotions, allowing the start of a new chapter."
+        ],
+        "day": [
+          "The Ten of Swords card brings the energy of conclusion and transformation for the day. It's a time for reflecting on the past and freeing oneself from toxic elements of life. This card encourages taking actions to end certain situations and open new doors."
+        ],
+        "images": ["10-mieczy.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "10mieczy"
+      }
+      ,
+      {
+        "name": "Page of Swords",
+        "love": [
+          "The Page of Swords card in the context of love may indicate a young person entering your emotional life. It could symbolize flirting, the beginning of a new romance, or an intriguing relationship. This card encourages openness to new love experiences and curiosity about potential partners."
+        ],
+        "health": [
+          "The Page of Swords card in the context of health may point to youth, energy, and vitality. It may indicate a dynamic period, physical activity, or quick reactions to health changes. This card encourages taking care of your body, developing healthy habits, and taking actions to maintain good health."
+        ],
+        "jobs": [
+          "The Page of Swords card in the context of work may signify a young employee, student, or someone starting a professional career. It may symbolize energy, creativity, and a desire to acquire new skills. This card encourages active engagement in work, learning, and developing professional abilities."
+        ],
+        "desc": [
+          "The Page of Swords card symbolizes youth, intellectual energy, and curiosity about the world. It brings a message of new ideas, exploring new areas of knowledge, and developing skills. This card can also be a sign of impulsivity and the need for caution in decision-making."
+        ],
+        "day": [
+          "The Page of Swords card brings the energy of youth, discovery, and exploration for the day. It's a time for getting to know new things, developing skills, and having a fresh perspective on the world. This card encourages mental activity, gaining knowledge, and openness to new opportunities."
+        ],
+        "images": ["walet-mieczy.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "waletmieczy"
+      }
+      ,
+      {
+        "name": "Knight of Swords",
+        "love": [
+          "The Knight of Swords card in the context of love symbolizes a dynamic and intellectual approach to relationships. It may indicate the emergence of a new person with a lively mind and full of energy, bringing new perspectives and inspirations. This card encourages communication, logical thinking, and taking action in the relationship."
+        ],
+        "health": [
+          "The Knight of Swords card in the context of health may indicate the need for a rational and logical approach to health matters. It may symbolize the necessity of consulting with experts, undergoing diagnostic tests, or seeking relevant information. This card encourages making informed decisions and adopting an analytical approach to health."
+        ],
+        "jobs": [
+          "The Knight of Swords card in the context of work represents a dynamic approach to professional tasks. It may signify the arrival of new projects, intellectual challenges, or the opportunity for rapid progress in one's career. This card encourages boldness, creativity, and taking initiative in the workplace."
+        ],
+        "desc": [
+          "The Knight of Swords card symbolizes dynamic energy, intellect, and courage. It brings a message of the need for logical thinking, making quick decisions, and acting with determination. This card may also symbolize conflicts, rivalry, or the fight for truth. It points to the need for maintaining a balance between intellect and emotions."
+        ],
+        "day": [
+          "The Knight of Swords card brings the energy of action, haste, and discovering new possibilities for the day. It can be a time of intense thinking, making quick decisions, and taking a logical approach to problems. This card encourages courage and readiness to face challenges."
+        ],
+        "images": ["rycerz-mieczy.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "rycerzmieczy"
+      }
+      ,
+      {
+        "name": "Queen of Swords",
+        "love": [
+          "The Queen of Swords card in the context of love symbolizes intelligence, sharpness of mind, and clarity in relationships. The person represented by this card may be intellectual, practical, and logical. It may indicate the need for communication and expressing one's needs in the relationship. This card encourages developing emotional intelligence and making wise decisions in love."
+        ],
+        "health": [
+          "The Queen of Swords card in the context of health may indicate the need for an intellectual approach to health matters. It may suggest delving into information, consulting with medical professionals, and making informed decisions about health. This card encourages a sensible and rational approach to taking care of one's health."
+        ],
+        "jobs": [
+          "The Queen of Swords card in the context of work symbolizes intellect, analytical skills, and communication abilities. The person represented by this card may be an expert in their field, well-organized, and effective. It may suggest the need to make decisions based on logic and rational thinking. This card encourages using intellect and analytical skills in work."
+        ],
+        "desc": [
+          "The Queen of Swords card symbolizes intelligence, sharpness of mind, logical thinking, and a sharp tongue. It brings a message about the need for analysis, evaluation, and making wise decisions. This card may indicate the presence of a strong and independent woman who uses her intelligence to achieve goals."
+        ],
+        "day": [
+          "The Queen of Swords card brings intellectual energy, a sharp mind, and clarity of thought for the day. It's a time for problem-solving, making decisions based on logic, and focusing on efficiency. This card encourages using intelligence and analytical skills to achieve success."
+        ],
+        "images": ["krolowa-mieczy.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "krolowamieczy"
+      }
+      ,
+      {
+        "name": "King of Swords",
+        "love": [
+          "The King of Swords card in the context of love signifies a strong, wise, and dominant masculine energy. It may indicate the appearance of a stable and responsible partner or the development of an intellectual relationship. This card also symbolizes the ability to make tough decisions and use a logical approach in relationships."
+        ],
+        "health": [
+          "The King of Swords card in the context of health points to the need for using intellectual and analytical skills to improve health. It may indicate the necessity of consulting with medical experts, making fact-based decisions, and consistently following doctors' recommendations."
+        ],
+        "jobs": [
+          "The King of Swords card in the context of work represents a strong, competent, and determined leader. It may indicate professional achievements, the ability to make decisions, and manage situations. This card symbolizes the ability to analyze problems and take strategic actions."
+        ],
+        "desc": [
+          "The King of Swords card symbolizes power, intellect, and justice. It brings a message about a strong and wise person who has the ability for logical thinking and decision-making. This card may also indicate the need to maintain a balance between reason and emotions and the importance of justice and fairness."
+        ],
+        "day": [
+          "The King of Swords card brings the energy of logical thinking and decision-making for the day. It's a time of concentration, analysis, and problem-solving. This card encourages using intellect and analytical abilities to achieve goals."
+        ],
+        "images": ["krol-mieczy.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "krolmieczy"
+      }
+      ,
+      {
+        "name": "Ace of Pentacles",
+        "love": [
+          "The Ace of Pentacles card in the context of love symbolizes new beginnings and potential in relationships. It brings the energy of a relationship full of passion, abundant in possibilities, and signifies emotional growth. It's an excellent time to invest in your relationships and open up to new romantic opportunities."
+        ],
+        "health": [
+          "The Ace of Pentacles card in the context of health is a sign of new beginnings and potential in health and well-being. It brings the energy of health, vitality, and growth. It's an excellent time to start taking care of your body and mind, adopt healthy habits, and develop a positive approach to a healthy lifestyle."
+        ],
+        "jobs": [
+          "The Ace of Pentacles card in the context of work signifies potential and new opportunities in the professional sphere. It brings the energy of success, abundance, and career development. It's an excellent time to invest in your skills, professional growth, and take on new challenges."
+        ],
+        "desc": [
+          "The Ace of Pentacles symbolizes beginnings, potential, and possibilities. It brings a message about new opportunities, creativity, and manifestation. This card encourages action and utilizing available resources to achieve success and fulfillment."
+        ],
+        "day": [
+          "The Ace of Pentacles card brings the energy of new beginnings and potential for the day. It's a time to focus on your goals, invest in your skills, and plan for the future. This card encourages taking initiative and seizing the opportunities that come your way."
+        ],
+        "images": ["as-pentagram.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "aspentagram"
+      }
+      ,
+      {
+        "name": "Two of Pentacles",
+        "love": [
+          "The Two of Pentacles card in the context of love symbolizes harmony, balance, and partnership. It brings a message about the need for cooperation, compromise, and building stable foundations in a relationship. This card may indicate the development of a relationship and mutual support leading to emotional growth."
+        ],
+        "health": [
+          "The Two of Pentacles card in the context of health reflects the need to maintain balance and harmony. It may indicate the necessity of maintaining a healthy lifestyle, a balanced diet, and physical activity. This card encourages taking care of the body and mind to achieve balance and well-being."
+        ],
+        "jobs": [
+          "The Two of Pentacles card in the context of work signifies balance between work and personal life. It brings a message about the need to find harmony between professional responsibilities and personal life. This card may indicate the possibility of finding balance between career and time for oneself and loved ones."
+        ],
+        "desc": [
+          "The Two of Pentacles symbolizes balance, harmony, and stability. It brings a message about the necessity of maintaining balance in all areas of life. This card encourages taking care of stable foundations and a healthy balance in actions, thoughts, and relationships."
+        ],
+        "day": [
+          "The Two of Pentacles card brings the energy of harmony and balance for the day. It may be a time dedicated to finding balance in life, both in the professional and personal spheres. This card encourages planning and organizing the day to ensure harmonious functioning and satisfaction."
+        ],
+        "images": ["2-pentagram.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "2pentagram"
+      }
+      ,
+      {
+        "name": "Three of Pentacles",
+        "love": [
+          "The Three of Pentacles card in the context of love signifies the beginning of a stable and grounded relationship. It may symbolize the construction of a solid emotional foundation, trust, and cooperation. This card encourages investing time and energy in the development of the relationship and caring for the material and practical aspects of the partnership."
+        ],
+        "health": [
+          "The Three of Pentacles card in the context of health may indicate good physical and emotional health. It brings a message about the need to maintain a balance between the body and mind and to sustain a healthy lifestyle. This card encourages regular routines and practices that promote well-being."
+        ],
+        "jobs": [
+          "The Three of Pentacles card in the context of work symbolizes stability and progress in the career. It may indicate acquiring new skills, promotion, or rewards for hard work. This card encourages continuing efforts, focusing on professional goals, and seizing opportunities that arise."
+        ],
+        "desc": [
+          "The Three of Pentacles symbolizes development, success, and material achievements. It brings a message about rewards for past efforts and opportunities for the development of future projects. This card encourages utilizing your potential, building lasting foundations, and enjoying the fruits of your labor."
+        ],
+        "day": [
+          "The Three of Pentacles card brings the energy of progress and success for the day. It's an excellent time to focus on achieving goals, increasing productivity, and celebrating achievements. This card encourages acting with determination and the ability to transform your plans into reality."
+        ],
+        "images": ["3-pentagram.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "3pentagram"
+      }
+      ,
+      {
+        "name": "Four of Pentacles",
+        "love": [
+          "The Four of Pentacles card in the context of love may indicate a focus on material aspects and financial security in the relationship. It may also symbolize tensions related to money and the need for balance between the pursuit of material success and nurturing the emotional bond."
+        ],
+        "health": [
+          "The Four of Pentacles card in the context of health may suggest the need to maintain a balance between work and rest. It may also signal the importance of paying attention to physical and emotional health to avoid exhaustion and stress."
+        ],
+        "jobs": [
+          "The Four of Pentacles card in the context of work signifies a focus on financial stability and professional security. It may indicate the need to maintain a balance between work and personal life and exercise caution in taking financial risks."
+        ],
+        "desc": [
+          "The Four of Pentacles symbolizes material stability, security, and protection. It brings a message about the necessity of taking care of your resources, managing finances, and maintaining a balance between the pursuit of material success and emotional satisfaction."
+        ],
+        "day": [
+          "The Four of Pentacles card brings the energy of stability, harmony, and security for the day. It's a good time to manage your finances, take care of your resources, and build stable foundations in various areas of life."
+        ],
+        "images": ["4-pentagram.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "4pentagram"
+      }
+      ,
+      {
+        "name": "Five of Pentacles",
+        "love": [
+          "The Five of Pentacles card in the context of love may indicate difficulties and uncertainty in the relationship. It may point to feelings of loneliness, lack of support, or separation. This card encourages opening up to help and communication to overcome challenges and rebuild the bond with a partner."
+        ],
+        "health": [
+          "The Five of Pentacles card in the context of health may symbolize a period of illness, weakness, or health difficulties. It may indicate the need for medical care or support. This card encourages taking care of your health and seeking help where necessary."
+        ],
+        "jobs": [
+          "The Five of Pentacles card in the context of work may signify financial difficulties or a lack of professional stability. It may indicate job loss or setbacks in the career. This card encourages patience, seeking alternative solutions, and focusing on skill development."
+        ],
+        "desc": [
+          "The Five of Pentacles symbolizes material difficulties, a lack of resources, and a sense of poverty. It brings a message about a time of trial, but at the same time, it encourages taking actions to improve the situation. This card reminds you of the necessity of seeking support, both internally and externally."
+        ],
+        "day": [
+          "The Five of Pentacles card brings the energy of challenges and scarcity for the day. It might be a time of financial, emotional, or material challenges. This card encourages mastering the situation, focusing on basic needs, and finding ways to overcome obstacles."
+        ],
+        "images": ["5-pentagram.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "5pentagram"
+      }
+      ,
+      {
+        "name": "Six of Pentacles",
+        "love": [
+          "The Six of Pentacles card in the context of love symbolizes the need for balance and mutual care in a relationship. It brings a message about the importance of cooperation, support, and sharing responsibilities. This card emphasizes the significance of taking care of yourself and your partner to maintain harmony and stability in the relationship."
+        ],
+        "health": [
+          "The Six of Pentacles card in the context of health brings a message about finding balance and harmony in the health sphere. It may indicate the need to take care of your body and mind through healthy eating habits, regular physical activity, and relaxation practices. This card encourages self-care and creating healthy routines."
+        ],
+        "jobs": [
+          "The Six of Pentacles card in the context of work symbolizes a balance between effort and reward. It brings a message about the ability to manage finances and work in a sustainable way. This card encourages appreciating your own work, finding satisfaction in achievements, and maintaining a balance between professional and personal life."
+        ],
+        "desc": [
+          "The Six of Pentacles symbolizes harmony, balance, and abundance. It brings a message about achieving material and spiritual stability through work and dedication. This card emphasizes the need for sharing your resources with others and receiving support and recognition from others."
+        ],
+        "day": [
+          "The Six of Pentacles card brings the energy of harmony and balance for the day. It might be a time of abundance and satisfaction with achievements, as well as sharing your successes with others. This card encourages adopting practices that help you maintain balance and harmony in various areas of life."
+        ],
+        "images": ["6-pentagram.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "6pentagram"
+      }
+      ,
+      {
+        "name": "Seven of Pentacles",
+        "love": [
+          "The Seven of Pentacles card in the context of love symbolizes working on the relationship or partnership. It may indicate the need to invest time, effort, and attention in love development. This card encourages building stability and balance in the relationship and appreciating and nurturing each other."
+        ],
+        "health": [
+          "The Seven of Pentacles card in the context of health may suggest the need to pay attention to your body and health. It may indicate the necessity of making lifestyle changes to improve well-being. This card encourages regular self-care and taking actions to strengthen your health."
+        ],
+        "jobs": [
+          "The Seven of Pentacles card in the context of work symbolizes effort, hard work, and perseverance. It may indicate the need to invest time and energy in your professional goals. This card encourages continuing effort and commitment to work, as it will bring rewards and achievements."
+        ],
+        "desc": [
+          "The Seven of Pentacles symbolizes effort, development, and fruitful work. It brings a message about appreciating the results of your hard work and finding satisfaction in achievements. This card encourages continuing effort and striving for excellence."
+        ],
+        "day": [
+          "The Seven of Pentacles card brings the energy of work, skill development, and long-term effort for the day. It is a time to pay attention to your goals, take steps toward their achievement, and appreciate the progress you make. This card encourages perseverance and patience in pursuing success."
+        ],
+        "images": ["7-pentagram.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "7pentagram"
+      }
+      ,
+      {
+        "name": "Eight of Pentacles",
+        "love": [
+          "The Eight of Pentacles card in the context of love signifies an increase in stability and security in a relationship. It may indicate the development and strengthening of the partnership. This card encourages investing time, attention, and effort in the relationship to achieve long-lasting and enduring connections."
+        ],
+        "health": [
+          "The Eight of Pentacles card in the context of health symbolizes a state of balance and health stability. It may suggest that your efforts in self-care are yielding results. This card encourages continuing healthy habits, taking care of yourself, and maintaining physical and emotional balance."
+        ],
+        "jobs": [
+          "The Eight of Pentacles card in the context of work denotes stability, success, and professional growth. It may indicate the achievement of intended goals, a well-deserved reward, or recognition for your efforts. This card encourages continuing the well-commenced work and developing your professional potential."
+        ],
+        "desc": [
+          "The Eight of Pentacles symbolizes a state of stability, security, and abundance. It brings a message about enjoying the fruits of your labor and achieving a level of self-assurance and stability. This card can also be a sign of good organization, balance, and harmony in life."
+        ],
+        "day": [
+          "The Eight of Pentacles card brings the energy of stability and abundance for the day. It may be a time when you enjoy the results of your efforts and appreciate your achievements. This card encourages continuing work in harmony with your values and celebrating small successes."
+        ],
+        "images": ["8-pentagram.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "8pentagram"
+      }
+      ,
+      {
+        "name": "Nine of Pentacles",
+        "love": [
+          "The Nine of Pentacles card in the context of love symbolizes stability, prosperity, and contentment in a relationship. It brings a message of achieving harmony and fulfillment in the partnership. It may be a sign of mutual support, good communication, and building a future together."
+        ],
+        "health": [
+          "The Nine of Pentacles card in the context of health signifies well-being, health, and stability. It brings a message of achieving balance and harmony in health. It may be a sign of long-term care for your body and mind and adopting beneficial health practices."
+        ],
+        "jobs": [
+          "The Nine of Pentacles card in the context of work symbolizes success, achievements, and professional stability. It brings a message of achieving goals and enjoying a good financial situation. This card encourages continuing effort and maintaining a balance between work and personal life."
+        ],
+        "desc": [
+          "The Nine of Pentacles represents abundance, prosperity, and tranquility. It brings a message of achieving success and fulfillment in various aspects of life. This card can also be a sign of appreciation and satisfaction with your own efforts."
+        ],
+        "day": [
+          "The Nine of Pentacles card brings the energy of stability, abundance, and self-improvement for the day. It may be a time when you can enjoy the fruits of your labor and take satisfaction in the results achieved. This card encourages continuing effort and maintaining balance in different areas of life."
+        ],
+        "images": ["9-pentagram.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "9pentagram"
+      }
+      ,
+      {
+        "name": "Ten of Pentacles",
+        "love": [
+          "The Ten of Pentacles card in the context of love signifies abundance, stability, and fulfillment in a relationship. It brings a message of harmony, satisfaction, and mutual support. It may also symbolize material success translating into happiness and contentment in the partnership."
+        ],
+        "health": [
+          "The Ten of Pentacles card in the context of health symbolizes good health, full energy, and a sense of vitality. It brings a message of achieving balance and stability in health. This card encourages taking care of your body and mind and enjoying good health."
+        ],
+        "jobs": [
+          "The Ten of Pentacles card in the context of work denotes professional success, financial stability, and satisfaction with your work. It brings a message of achieving a high level of professionalism and a solid position in the job market. This card encourages continuing professional development and finding joy in achievements."
+        ],
+        "desc": [
+          "The Ten of Pentacles symbolizes abundance, prosperity, and luxury. It brings a message of achieving material stability and fulfillment. This card may be a sign of the completion of a certain stage where hardships and efforts have borne fruit."
+        ],
+        "day": [
+          "The Ten of Pentacles card brings the energy of stability and abundance for the day. It's a time to appreciate and enjoy the resources you have. This card encourages sharing your wealth with others and using it to create positive changes in your life."
+        ],
+        "images": ["10-pentagram.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "10pentagram"
+      }
+      ,
+      {
+        "name": "Page of Pentacles",
+        "love": [
+          "The Page of Pentacles card in the context of love symbolizes youth, enthusiasm, and new beginnings. It may indicate the appearance of a new person in your life or the development of feelings in an existing relationship. This card encourages exploring love and finding joy in romantic discoveries."
+        ],
+        "health": [
+          "The Page of Pentacles card in the context of health may indicate energy and vitality. It may suggest positive changes in health or the need to take care of your body and physical condition. This card encourages physical activity, a healthy lifestyle, and nurturing your well-being."
+        ],
+        "jobs": [
+          "The Page of Pentacles card in the context of work may signify the beginning of new projects, opportunities for professional development, or the arrival of a young employee or collaborator. This card brings the energy of creativity, enthusiasm, and commitment. It encourages taking on new challenges and developing your skills."
+        ],
+        "desc": [
+          "The Page of Pentacles symbolizes youth, beginnings, creativity, and potential. It brings a message of new possibilities, growth, and discovering your talent. This card encourages harnessing your energy and engaging in projects that bring joy and fulfillment."
+        ],
+        "day": [
+          "The Page of Pentacles card brings the energy of youth, exploration, and engagement for the day. It may be a time of new beginnings, creativity, and exploration. This card encourages taking action, seeking new opportunities, and finding joy in life."
+        ],
+        "images": ["walet-pentagram.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "waletpentagram"
+      }
+      ,
+      {
+        "name": "Knight of Pentacles",
+        "love": [
+          "The Knight of Pentacles card in the context of love symbolizes new romances, passion, and energy. It may indicate the appearance of a new person in your life or dynamic changes in an existing relationship. This card encourages exploring emotions, taking courageous actions, and being ready for new romantic experiences."
+        ],
+        "health": [
+          "The Knight of Pentacles card in the context of health may indicate energy, vital strength, and dynamic action. It may suggest the need for physical activity, maintaining fitness, and taking on health challenges. This card encourages taking actions to improve health and recognizing the benefits of an active lifestyle."
+        ],
+        "jobs": [
+          "The Knight of Pentacles card in the context of work symbolizes energy, ambition, and commitment. It may indicate the appearance of new professional opportunities, promotions, or a project that requires your commitment. This card encourages taking on challenges, utilizing your potential, and striving for success."
+        ],
+        "desc": [
+          "The Knight of Pentacles represents energy, movement, and action. It brings a message of dynamic changes, development, and progress. This card also symbolizes responsibility, enthusiasm, and the ability to achieve goals. It suggests taking matters into your own hands and taking concrete steps toward success."
+        ],
+        "day": [
+          "The Knight of Pentacles card brings the energy of an active and productive day. It may be a time to focus on your goals, take actions, and seize the opportunities you encounter. This card encourages using your energy and determination to bring positive results."
+        ],
+        "images": ["rycerz-pentagram.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "rycerzpentagram"
+      }
+      ,
+      {
+        "name": "Queen of Pentacles",
+        "love": [
+          "The Queen of Pentacles card in the context of love symbolizes stability, abundance, and care in a relationship. It brings a message of mature approach to relationships, taking care of your partner, and creating a harmonious environment. This card encourages showing generosity, warmth, and mutual support in love."
+        ],
+        "health": [
+          "The Queen of Pentacles card in the context of health represents taking care of your body, a healthy lifestyle, and well-being. It brings a message of the need for balance, proper diet, and regular physical activity. This card encourages taking care of your health and long-term planning to maintain good condition."
+        ],
+        "jobs": [
+          "The Queen of Pentacles card in the context of work symbolizes success, stability, and good management. It brings a message of achieving professional goals, attention to details, and effective resource management. This card encourages using your skills to be a responsible leader and creating a predictable work environment."
+        ],
+        "desc": [
+          "The Queen of Pentacles symbolizes maturity, abundance, and the ability to manage resources. It brings a message of financial stability, success, and management skills. This card emphasizes the need for responsibility, hard work, and consistency in achieving goals."
+        ],
+        "day": [
+          "The Queen of Pentacles card brings the energy of stability and abundance for the day. It's a time to focus on tasks, manage finances, and take care of your resources. This card encourages planning, organization, and reaping the benefits of working towards long-term goals."
+        ],
+        "images": ["krolowa-pentagram.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "krolowapentagram"
+      }
+      ,
+      {
+        "name": "King of Pentacles",
+        "love": [
+          "The King of Pentacles card in the context of love symbolizes stability, self-assurance, and trust in a relationship. It brings a message of mature love, solidity, and responsibility. It may indicate the appearance of a partner who is independent, practical, and loyal. This card encourages building lasting and harmonious relationships."
+        ],
+        "health": [
+          "The King of Pentacles card in the context of health is a sign of health and vitality. It brings a message of the need to take care of your body and maintain good fitness. It may suggest adopting healthy habits and practicing self-discipline. This card encourages physical activity and taking care of your well-being."
+        ],
+        "jobs": [
+          "The King of Pentacles card in the context of work signifies success, stability, and professionalism. It brings a message of achieving a high professional position, a well-developed financial structure, and management skills. This card encourages striving for excellence in work and using your skills to achieve success."
+        ],
+        "desc": [
+          "The King of Pentacles symbolizes wealth, material success, and stability. It brings a message of power that can be experienced through management skills and responsibility. This card emphasizes the need for balance between work and personal life and the ability to enjoy the fruits of your labor."
+        ],
+        "day": [
+          "The King of Pentacles card brings the energy of stability and prosperity for the day. It may be a time to focus on material goals, manage finances, and invest in your future security. This card encourages making pragmatic decisions and taking advantage of opportunities that arise."
+        ],
+        "images": ["krol-pentagram.jpg"],
+        "logo": [""],
+        "cardType": "2",
+        "url": "krolpentagram"
+      }
+
     ]
   }
 };
