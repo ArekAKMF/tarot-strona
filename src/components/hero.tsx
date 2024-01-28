@@ -1,11 +1,8 @@
 import React from "react";
-import { Text, Heading, Image, Link } from "@chakra-ui/react";
+import { Text, Heading } from "@chakra-ui/react";
 import {
   Card,
-  CardHeader,
   CardBody,
-  CardFooter,
-  Flex,
   Box,
 } from "@chakra-ui/react";
 

@@ -1,4 +1,3 @@
-'use client';
 import React from "react";
 import {
     Container,
@@ -13,7 +12,7 @@ import {
     ListItem,
     OrderedList,
 } from "@chakra-ui/react";
-import { PageTitle } from "@/components/pageTitle";console.log
+import { PageTitle } from "@/components/pageTitle";
 import { useForm, SubmitHandler } from "react-hook-form"
 import { getGameText } from '@/const/utils'
 import ownGameText from '@/const/ownGameText'

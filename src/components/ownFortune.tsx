@@ -1,4 +1,3 @@
-'use client';
 import React from "react";
 import { Heading, Container } from "@chakra-ui/react";
 import { getLangText } from '@/const/utils'

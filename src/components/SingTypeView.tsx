@@ -1,4 +1,3 @@
-"use client";
 import React, { useEffect, useState } from 'react'
 import { Checkerboard } from "@/components/checkerboard";
 import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
