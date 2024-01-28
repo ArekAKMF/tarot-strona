@@ -3555,5 +3555,20 @@ export const cards = {
       }
 
     ]
+  },
+  de: {
+    cards: [],
+  },
+  fr: {
+    cards: [],
+  },
+  it: {
+    carss: [],
+  },
+  es: {
+    cards: [],
+  },
+  nl: {
+    cards: [],
   }
 };
