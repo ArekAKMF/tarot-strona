@@ -1,6 +1,17 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Locale, i18n } from '../../i18n.config'
+
+
+export async function generateStaticParams() {
+  return i18n.locales.map(locale => ({ lang: locale }))
+}
+
+
 export default function Document() {
+
+
+
   return (
     <Html lang="pl">
       <Head>
