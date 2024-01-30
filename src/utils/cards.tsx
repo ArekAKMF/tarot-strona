@@ -3563,7 +3563,7 @@ export const cards = {
     cards: [],
   },
   it: {
-    carss: [],
+    cards: [],
   },
   es: {
     cards: [],
