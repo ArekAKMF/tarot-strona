@@ -10,7 +10,6 @@ i18n
     .use(initReactI18next)
     .init({
         resources,
-        fallbackLng:"pl",
         interpolation: {
             escapeValue: false
         }

@@ -20,7 +20,6 @@ export const GamesTypeContainer = ({
   return (
     <Box
       margin="0"
-
       width="100%"
       key={url}
       as={Link}
@@ -49,7 +48,7 @@ export const GamesTypeContainer = ({
             width="100%"
           />
         </Box>
-        <Box maxW="60%">
+        <Box maxW={["100%", "100%", "100%", "60%" , "60%" , "60%"]}>
           <Flex
             flexDirection="column"
             alignItems="flex-start"
