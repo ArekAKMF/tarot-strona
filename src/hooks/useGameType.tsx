@@ -2,11 +2,15 @@
 import { useMemo } from "react";
 import { useRouter } from "next/router";
 import { gamesType, horoscop } from "@/utils/gameTypes";
-import { getListSing } from '@/const/utils'
+import { useTranslation } from 'react-i18next';
 const staticUrl = ['wrozba', 'wahrsagung', 'divination', 'divinazione', 'adivinación', 'waarzeggerij', 'divination']
 
 export const useGameType = () => {
   const router = useRouter();
+  const { t, i18n } = useTranslation();
+
+  const gamesTypeList = gamesType[i18n.language];
+  const horoscopList = horoscop[i18n.language];
 
   let selectedGame: any;
   let gameId: any;
@@ -19,7 +23,7 @@ export const useGameType = () => {
 
       const gt =
         router?.asPath.split("/")[router?.asPath.split("/").length - 1];
-      selectedGame = getListSing(gamesType).find((el: any) => {
+      selectedGame = gamesTypeList.find((el: any) => {
         if (el.url.includes(gt)) {
           gameId = el?.type;
           layoutCard = 1;
@@ -38,7 +42,7 @@ export const useGameType = () => {
             selected = gt.split("-")[0];
             currentDate = day + "-" + gt.split("-")[2] + "-" + gt.split("-")[3];
           }
-          horoscope = getListSing(horoscop).find((el: any) => {
+          horoscope = horoscopList.find((el: any) => {
             if (el.url.toLocaleLowerCase() === selected) {
               layoutCard = 2;
               return el;
@@ -55,7 +59,7 @@ export const useGameType = () => {
       horoscope,
       layoutCard,
       currentDate,
-      sg: getListSing(gamesType)?.filter((item: any) => {
+      sg: gamesType[i18n.language]?.filter((item: any) => {
         if (gameId !== "") {
           if (item.type == gameId) {
             return item;
@@ -63,5 +67,5 @@ export const useGameType = () => {
         }
       }),
     };
-  }, [gameId, horoscope, layoutCard, selectedGame, currentDate]);
+  }, [gameId, horoscope, layoutCard, selectedGame, currentDate, i18n]);
 };

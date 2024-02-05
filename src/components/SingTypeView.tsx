@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Checkerboard } from "@/components/checkerboard";
 import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
 import { horoscop } from "@/utils/gameTypes";
-import { getLangText, getListSing } from '@/const/utils'
+import { useTranslation } from 'react-i18next';
 
 const currentDate = () => {
   const cd = new Date();
@@ -16,7 +16,10 @@ const currentDate = () => {
 };
 
 export default function SingTypeView() {
+  const { t, i18n } = useTranslation();
   const [activeDate, setActiveDate] = useState('')
+  const gameList = horoscop[i18n.language];
+
   useEffect(() => {
     if (activeDate === '') {
       setActiveDate(currentDate())
@@ -25,10 +28,10 @@ export default function SingTypeView() {
   return (
     <Container maxW="8xl">
       <Heading as="h2" variant="sectionTitle">
-        {getLangText("cardTypeSing")}
+        {t("cardTypeSing")}
       </Heading>
       <SimpleGrid autoColumns="true" columns={[1, 2, 3]}>
-        {getListSing(horoscop).map((el: any, index: number) => {
+        {gameList.map((el: any, index: number) => {
           return (
             <Checkerboard
               key={index}

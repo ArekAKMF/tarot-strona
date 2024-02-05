@@ -7,13 +7,14 @@ import {
 import { PageTitle } from "@/components/pageTitle";
 import { WithSubnavigation } from "@/components/navigation";
 import { useRouter } from "next/router";
-
 import React, { useState, useEffect } from "react";
 import { cards } from "@/utils/cards";
 import SingTypeView from "@/components/SingTypeView";
-import { getLangText, getListSing } from '@/const/utils'
+import { useTranslation } from 'react-i18next';
 
 export default function Home() {
+
+  const { t, i18n } = useTranslation();
 
   const [selectedCard, setSelectedCard] = useState<any>({
     love: [],
@@ -30,10 +31,10 @@ export default function Home() {
     if (router?.asPath) {
       const selected =
         router?.asPath.split("/")[2];
-      const activeEl = getListSing(cards)?.cards?.find((el: any) => el.url === selected);
+      const activeEl = cards[i18n.language]?.cards?.find((el: any) => el.url === selected);
       setSelectedCard(activeEl);
     }
-  }, [router?.asPath]);
+  }, [router?.asPath, i18n]);
 
   return (
     <>
@@ -55,7 +56,7 @@ export default function Home() {
           textDecoration="none!important"
           marginBottom="0.5em"
         >
-          {getLangText('cardSingLove')}
+          {t('cardSingLove')}
         </Heading>
         <Text fontSize="lg" padding="10px 0">
           {selectedCard?.love[0]}
@@ -67,7 +68,7 @@ export default function Home() {
           textDecoration="none!important"
           marginBottom="0.5em"
         >
-          {getLangText('cardSingHealt')}
+          {t('cardSingHealt')}
         </Heading>
         <Text fontSize="lg" padding="10px 0">
           {selectedCard?.health[0]}
@@ -79,7 +80,7 @@ export default function Home() {
           textDecoration="none!important"
           marginBottom="0.5em"
         >
-          {getLangText('cardSingWork')}
+          {t('cardSingWork')}
         </Heading>
         <Text fontSize="lg" padding="10px 0">
           {selectedCard?.jobs[0]}

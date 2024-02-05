@@ -11,11 +11,13 @@ import React, { useState } from "react";
 import { Cards } from "@/components/cards";
 import { cards as cardslist } from "@/utils/cards";
 import { useData } from "@/hooks/useData";
-import { getLangText, getListSing } from '@/const/utils'
+import { useTranslation } from 'react-i18next';
 
 export default function CardGames({ title, description, gameType }: any) {
-  let cartToTest = getListSing(cardslist).cards;
-  const [cardTemp, setCardTemp] = useState<any>(getListSing(useData()?.allCards)?.cards);
+  const { t, i18n } = useTranslation();
+  let cartToTest = cardslist[i18n.language].cards;
+  const cards = useData();
+  const [cardTemp, setCardTemp] = useState<any>((cards?.allCards[i18n.language])?.cards);
   const [selectedCard, setSelectedCard] = useState<any>([]);
   const generateGameCards = () => {
     const cardCout = gameType?.length || 0;
@@ -50,14 +52,14 @@ export default function CardGames({ title, description, gameType }: any) {
         borderRadius="25"
       >
         <AlertDescription maxWidth="lg">
-          {getLangText('cardgamesDescription')}
+          {t('cardgamesDescription')}
           <Box maxW="200" margin="10px auto 0 auto">
             <Button
               colorScheme="blue"
               size="lg"
               onClick={() => generateGameCards()}
             >
-              {getLangText('cardgamesActionButton')}
+              {t('cardgamesActionButton')}
             </Button>
           </Box>
         </AlertDescription>

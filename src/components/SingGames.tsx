@@ -2,7 +2,7 @@ import { Container, Text, Heading } from "@chakra-ui/react";
 import { PageTitle } from "@/components/pageTitle";
 import React, { useState, useEffect } from "react";
 import useFirebaseHook from '@/hooks/useFirebaseHook';
-import { getLangText } from '@/const/utils'
+import { useTranslation } from 'react-i18next';
 
 export default function SingGames({
   title,
@@ -10,6 +10,9 @@ export default function SingGames({
   currentDate,
   section,
 }: any) {
+
+  const { t, i18n } = useTranslation();
+
   const [selectedCard, setSelectedCard] = useState<any>();
   const { data, loading, error, getDataFromFirebase } = useFirebaseHook();
   useEffect(() => {
@@ -20,7 +23,7 @@ export default function SingGames({
     setData();
   }, [getDataFromFirebase, title, currentDate, data])
 
-  const pageTitleActive = `${getLangText("cardSingTitleLine1")} "${selectedCard?.name}" ${getLangText("cardSingTitleLine2")} ${title} ${getLangText("cardSingTitleLine3")} ${currentDate}`;
+  const pageTitleActive = `${t("cardSingTitleLine1")} "${selectedCard?.name}" ${t("cardSingTitleLine2")} ${title} ${t("cardSingTitleLine3")} ${currentDate}`;
 
   return (
     <Container maxW="8xl" marginBottom="24px">
@@ -52,7 +55,7 @@ export default function SingGames({
         textDecoration="none!important"
         marginBottom="0.5em"
       >
-        {getLangText("cardSingLove")}
+        {t("cardSingLove")}
       </Heading>
       <Text fontSize="lg" padding="10px 0" marginBottom="20px">
         {selectedCard?.love}
@@ -64,7 +67,7 @@ export default function SingGames({
         textDecoration="none!important"
         marginBottom="0.5em"
       >
-        {getLangText("cardSingHealt")}
+        {t("cardSingHealt")}
       </Heading>
       <Text fontSize="lg" padding="10px 0" marginBottom="20px">
         {selectedCard?.health}
@@ -76,7 +79,7 @@ export default function SingGames({
         textDecoration="none!important"
         marginBottom="0.5em"
       >
-        {getLangText("cardSingWork")}
+        {t("cardSingWork")}
       </Heading>
       <Text fontSize="lg" padding="10px 0" marginBottom="20px">
         {selectedCard?.jobs}

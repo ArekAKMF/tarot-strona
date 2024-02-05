@@ -1,4 +1,5 @@
 // useFirebaseHook.js
+'use client';
 import { useState, useEffect } from "react";
 import db from "@/firebase/config";
 import {
@@ -16,10 +17,11 @@ import {
   addDoc,
 } from "firebase/firestore";
 import { useData } from "@/hooks/useData";
-import { getLangText, getListSing } from '@/const/utils'
+import { useTranslation } from 'react-i18next';
 
 const useFirebaseHook = () => {
   const cardList = useData();
+  const { t, i18n } = useTranslation();
   const [data, setData] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -46,9 +48,9 @@ const useFirebaseHook = () => {
       const querySnapshot2 = await getDocs(q);
 
       if (querySnapshot2.empty) {
-        const cardCount = getListSing(cardList.allCards).cards.length + 1;
+        const cardCount = cardList.allCards[i18n.language].cards.length + 1;
         const cardRandom = Math.floor(Math.random() * cardCount);
-        const newCard = getListSing(cardList.allCards).cards[cardRandom];
+        const newCard = cardList.allCards[i18n.language].cards[cardRandom];
         setData(newCard);
         sendDataToFirebase({
           data: data.currentDate,
@@ -59,7 +61,7 @@ const useFirebaseHook = () => {
         querySnapshot2.forEach((doc) => {
           const id = doc.data().karta;
           if (id) {
-            const selected = getListSing(cardList?.allCards)?.cards?.find((el: any) => el.name === id);
+            const selected = cardList?.allCards[i18n.language]?.cards?.find((el: any) => el.name === id);
             selected && setData(selected);
           }
         });

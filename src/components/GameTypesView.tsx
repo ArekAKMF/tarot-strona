@@ -2,7 +2,6 @@ import React from "react";
 import { GamesTypeContainer } from "@/components/gamesTypeContainer";
 import { SimpleGrid, Heading, Container } from "@chakra-ui/react";
 import { gamesType } from "@/utils/gameTypes";
-import { getLangText, getListSing } from '@/const/utils'
 import { useTranslation } from 'react-i18next';
 
 export default function GameTypesView() {

@@ -6,16 +6,14 @@ import GameTypesView from "@/components/GameTypesView";
 import SingTypeView from "@/components/SingTypeView";
 import OwnFortune from "@/components/ownFortune";
 import Footer from '@/components/Footer'
-import { getLangText } from '@/const/utils'
 import { useTranslation } from 'react-i18next';
 import Seo from '@/components/Seo'
 
 export default function Home() {
-
   const { t } = useTranslation();
   return (
     <>
-    <Seo title={"djjddjd"} description={"00000"} />
+    <Seo title={t("pageName")} description={"00000"} />
       <WithSubnavigation />
       <Container maxW="8xl">
         <PageTitle
@@ -25,7 +23,7 @@ export default function Home() {
         />
       </Container>
       <GameTypesView />
-      {/* <SingTypeView /> */}
+      <SingTypeView />
       {/* <Footer /> */}
     </>
   );
