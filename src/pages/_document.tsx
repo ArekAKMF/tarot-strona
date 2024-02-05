@@ -86,7 +86,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        {process.env.NODE_ENV === "production" && <SpeedInsights />}
+         <SpeedInsights />
       </body>
     </Html>
   );

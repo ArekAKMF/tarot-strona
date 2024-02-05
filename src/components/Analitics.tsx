@@ -24,7 +24,7 @@ export default function Analitics() {
         </>
     );
 
-    const analiticScript = process.env.NODE_ENV === "production" && showScript;
+    const analiticScript = showScript;
 
     return <>{analiticScript}</>;
 }
