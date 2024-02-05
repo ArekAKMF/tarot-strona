@@ -12,6 +12,7 @@ import { Cards } from "@/components/cards";
 import { cards as cardslist } from "@/utils/cards";
 import { useData } from "@/hooks/useData";
 import { useTranslation } from 'react-i18next';
+import Seo from '@/components/Seo'
 
 export default function CardGames({ title, description, gameType }: any) {
   const { t, i18n } = useTranslation();
@@ -39,6 +40,7 @@ export default function CardGames({ title, description, gameType }: any) {
 
   return (
     <Container maxW="8xl">
+      <Seo title={title} description={description} />
       <PageTitle title={title} description={description} />
       <Alert
         status="success"
