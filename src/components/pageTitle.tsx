@@ -1,6 +1,6 @@
+"use client";
 import React from "react";
 import { Box, Divider, Heading, Text, Flex, Image, } from "@chakra-ui/react";
-import Head from "next/head";
 
 interface PageTitleProps {
   title: string;
@@ -23,23 +23,15 @@ export const PageTitle = ({
 }: PageTitleProps) => {
 
   const styles: any = imageUrl.length === 0 ? {
-    'margin-bottom': "1.5em",
-    'padding-top': "2em",
-    'padding-bottom': "2em",
+    'marginBottom': "1.5em",
+    'paddingTop': "2em",
+    'paddingBottom': "2em",
   } : {
-    'padding-top': "2em",
+    'paddingTop': "2em",
   }
 
   return (
     <>
-      <Head>
-        <title>{seotitle ? seotitle : title}</title>
-        <meta name="description" content={description} />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content={seotitle ? seotitle : title} />
-        <meta property="og:description" content={description} />
-        <meta name="twitter:card" content="summary" />
-      </Head>
       <Box style={{ ...styles }}>
         {!disableTitle && imageUrl.length == 0 && (
           <>

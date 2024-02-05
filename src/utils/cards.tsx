@@ -1,4 +1,4 @@
-export const cards = {
+export const cards:any = {
   pl: {
     cards: [{
       name: "Błazen",
@@ -3571,4 +3571,4 @@ export const cards = {
   nl: {
     cards: [],
   }
-};
+} as const;

@@ -1,4 +1,4 @@
-export const gamesType = {
+export const gamesType: any = {
   pl: [
     {
       type: "1",
@@ -892,11 +892,9 @@ export const gamesType = {
       ]
     }
   ],
+} as const;
 
-};
-
-export const horoscop = {
-
+export const horoscop: any = {
   pl: [
     {
       name: "Baran",
@@ -983,14 +981,14 @@ export const horoscop = {
         "name": "Taurus",
         "url": "taurus",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADgUlEQVR4nM2ay29NURTGf0WLgWdQVEOFCYmBDmj5F5AWjUaQmHhNqt5EYiDCRGIgGhMMvOoRz4GBhJIm3hWEkWdiQCkSpS9XVnwn2ZG26e3de9/7JTs5ac/5vrXPWXs99r4Ar4CfwHvgPnAIWAjkk3vIBxbJxgeyuRW4Y/98CaS6GW+BNUBetq3nnw1rgXc92NqQ3DgUmAiUAduBJuema8CoLE5iFHDdsadJNs6VzWZ7r29gMdCsh+8Bw4iP4dI2Gz4Dlf31kMnAGxFdiuxmecAVab+WLRlhOvBNhOansbBemi3ANF+ky0X6FRhDeIyVlmlW+ya/IeI6wuOotG6GIJ8JdABdQCnhUCqNdmBGKJGDelOWOAcE4B8o7pS0gsFC8AcJrQvAv0HcH4ERBEalE01KPPJOdaJjBZFwwcmyPt7cSOCpOM8TOeO+kPBjlQr9hT37RFzPs1FBTJRw4maWLIek8fwQrbMWcTwDJpAljJYrpJx66AiwQuHaDBusYdezgJXKRUkdl7iTcWUdC4DGHkrs3kajns0ZlAKnlcj6Ogm79xQwmxzABOCiY1wncAuoAeaoZhqkzm6ceoha4LbuTZ6zKDg+W5NY4hR21irvleF9hU1sn1pV4/iiHigqah03MpcqyoBrEnDWcbcaImGHI7rVI6+1r8nL2UZgVEisU67lG0vF36XdkiAoBn7ojfn8Et19mRTwPUOX7RHnJHCG8L16fSit+U50yqSuSicAtEqz3CdxElUsXMbCfmme9EVo8b5NCzydPOFDt1PaY33uoFjGjo0GaS/zQVYnso3ExyZpH/ZB9lBkVifFRrmz2ZEx3oss5vpIUCht24XPGEkYLCA+BkvbbMgYbTkwkd8+yJpzwLU++SB7lMXFPs/nYj8hMutBYmOztI/5IFv9/zldRNyV9ipfftqhcsHKhtglSrvP9ZkcgVkhFwsHnCM/bygT6S81WKFRpJYhpRbCK66KuD7woWies3t5OYRAidPqWjsaCjudVndKKJFqZwfFNgp8o0rcf3QdFLs1GRPb48nN8rQF1CVu+ypRkEwmWTPWY/cXxc6a+APsIjKWOWumVaE5nTwzTiH2l7MmqsgSSpxolmxiN6i0KFcyLdAo1N+26GdJ7ib25ZALOx3MlzEdaRwrtCvZed3uwRPMXawuOq4fhtkJlvUzNuzaqlgrAO0er23BXwnvNsCEKAi3AAAAAElFTkSuQmCC",
-      
+
         "desc": "Taurus is a stable and practical zodiac sign. Individuals born under this sign are persevering, independent, and have a strong sense of values. They are loyal and steadfast in holding onto their beliefs."
       },
       {
         "name": "Gemini",
         "url": "gemini",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACO0lEQVR4nO3azYtNcRzH8dcMlkZkFmpSQ9khz4aFP0AWsmLBQh4WpKZYUojSiI3HImxkhQ0LdjJYjJUd03haXIpo1oN++t46nZkzjY47bvq967c49/7u+T1833f1/cAQ3uMM1mGG9qcTq3Ea7/AsffgCPwvjC+5gN3q0D/OxA7fwqbTn3wfpQB8GMFKakMYwbqMfm9A9DZvuwhrsx3W8wlhpX8mic9gQZxjHMhzC3ahO+WDNqg3iBk7iILZhI5ZgURx4bkHVOfHcG9+vxRbswTFcxmN8rFhzFA9wGKuqNj+Zi0uxMyr2aIKytmJ8wxNcwN449EwtYEFh0eO4gvtRpdd4i68xfhRuND03QtehuOGbcUnN96WKTSvNhdv1fVMmH6SCXJG6ZLUqyGrVJatVQVarLlmtCrJadclqVZDVqktWq4KsVl2yWhVkteqS1aogq1WXrFYFWa26ZLUqyGrVJatVQVarLlmtCrJadfkv1OotLDwQLebUan4ZredGtKJHC/Oa7eoPeBOxi9TSvhot7ua81Pr+68zCeuzDxWjif5+GwMDnCCecxS4sj/DClOmMDMgRPCzdaDkHkha6hKMRwNmMFRHPWBhxja7Ce9PzvPh+cWRItuIATkQcZHCS2Eiq5r2Il6SDjaMjMiTno+zFH49FoOVaVCVFi2ZrPd0R4OmPQM/wBAcbCa37mrmUcsypEc5vj2hRu9ATlU8RrHLVnqcJ6U+XsiOnsPJPUzf/iJQ4SiG5FJZLwbOnvwCLgWWqTsz8GQAAAABJRU5ErkJggg==",
-      
+
         "desc": "Gemini is a zodiac sign full of diversity. Individuals born under this sign are intelligent, sociable, and curious. They have a lively imagination and enjoy making connections with other people."
       },
       {
@@ -1003,56 +1001,56 @@ export const horoscop = {
         "name": "Leo",
         "url": "leo",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADgklEQVR4nN2aS0hVURSGv6uQkTezgiYR9LCEoDKpSVkQYi8alUGjKIIGQRBBQQ8rgwYRJEXQQ6KgQSpZEUGTMoQkqEGNvPaghz1IM6m0h9mLHf+BTYT3vPb12g8HLvfstf697t5n7X+tcyEzKAWqgZtACujVldJ31RqTlUgAlUAb8Mvn1Qaskm1WYBJw25rgc+AosAQoBvJ1Fes7c6/dGt8CTBzsIOYDHZrQC2AjkOvDLgdYDTyVbRewiEHCQqBPE2nUrx4USeCSfPTJZ8a301tN4HDEfZ4D1MhXp3xnBAnrmWjURKIix1qZlkwlgEoRtofcTgNts5fyvRLHSFgpdr0D/xvkuxXHKLVSrJ/sFBS5yn6GowSH2C+SIw45joljn0OOPxLDkCx1yLFMHDcccvBQJEUOOYotCeMMPSIxGcYVkuIwXM7gneTDHHKMEMcnhxy8E8lYhxwTLO3mDM9E4lJGlInjrkMObolkgUOOreI47pCD0yLZ5JDjmjjWOuRgi0hOOvI/DuhXUhmNQ5QoEFMQucBe+b+IYxi5/UZkM2L2XWBlRVN5RkYFUKuT1XQ/PgOPgbO652mhQ8SLGvltiupoGtDso/vhrUhHjAfjHD0b/VFX2tTK3dZEdwKzrA6I+bzLCsK71sQQRL5V4xyMuhJeEHVpdNRIjfECMWo4aqF2Xr7uAXlRnHnbqc5nrZxjBfNTP0RY7JCf91K9oVFhbacginYU8Fq220JyrwB+AN+B5URErSZjnomg2C3bqyFszTP3QfbbiQHeQzYzwuH4JKDdeKsuP0dM+BihUMqT7dcANiZZ3Jddc9SHO65AkgELoISkh7F5AIwhRsSxtVoDynOToaYSM07JuTnsgmKPbI2PdJgHfNN406mMHeVW+jX7N0j67ZRtutcBw6XVXPfD8HpV9T4PRDPmgmyu+xhfpbEpx00Liiz53JBmZQqsIMzLmSk+dJTnezEZQJlF2KHDbrYyU1I93yprO3X5rBnWafwdMogi1QLpZLxpZU726bNBNpsZBJSrJm9Vt69Hn0+EeM/3SIFMZ4jjiwIx3cMhjd7/JZBUBOWQVaiNoBwKgEKyBGGVQ6HKg1fZ9BePphDK4XJcrSFXyqE+zcoUAlc0ttuHcsg4/qUcSqUaTI93LnDA+l9Ld1zdRlcr4wnUgS5TObp8Rxkb/lYOpiVrXrKe0b20+A2eGDQdGcXhGgAAAABJRU5ErkJggg==",
-      
+
         "desc": "Leo is a self-assured and strong zodiac sign. Individuals born under this sign are bold, generous, and creative. They have a natural gift for leadership and usually attract the attention of others."
       },
       {
         "name": "Virgo",
         "url": "virgo",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFUlEQVR4nNWaXUgUURiGH03sxygSilBv7Je8KIq6EYJCIvBGCiqki+giEQyqi7qIsroJoqiLCqysu4ggWgoiCooo+zFciKCbIgiLMu2PitD+Ng680mFZV+fb2dnZD2TXc97nzPvNzM6Z+c7A/7gPJIFFjB7jgUPAR2AA2AeU5pELFHeBFPAdWJtFNw3oltb/uwKU54ELHG5vHdbgv4F1GTSTgR5pXgErgEagX20XgJIQuZyiDfgL/ACWeO1uQxe14RdAjde3EPiivp1p41m5UOKgBn/mHfbNanMbnpeBadQO+Jm2A7YE4JYScpQBj2VgB1DpnQbrs3DHpOnSkajy9vhYuCQwLuxkGjT4a6BT36+OwkwB+qRtBjoMXAt5iKR3dfkD1I2BaZH+rU6XoFyvLjyhRruXSGKMjDs1nubIbSTkWO4ZWhOAa82Ru07IUesZmh6Aq8qR688wJbwH3gBNGGKCN0EGjeFEcuXa0+4EBoFlFNCQhWvWHPNLR+Wk+tx9YUEMWbgabw7aqr4K4J3a6qM2ZOUS+ryc1n9A7Z1RG7JyKeArMDOtf676+oI+AhQykT0jaJ6rf3GUhqzcN2DqCJpz0rRGacjKnc6iaZPmTJSGrNzqLJpV0tyO0pCVq8yiGf7Bv4zSUD64Smk+xcWQlSuXZiguhqxchVfxiYUhK1frVWRiYcjKNUjzMC6GrNxuaY7HxZCVS0izKS6GLNwk3b44zaw4GLJyG9TfHRdDVi7hFQ5jYcjCzVf9wNXLquNgyMqdV98pw7ixSWSBqpZDmhALbsjClQK31H7CMGbohqzcXrW55boZhjFDN2Th6lXXSo2yJBiZIQs3x1tuOGIYK3RDFq5OtV73/VoYC0D3tOIbFTco8x/0eROYSJFFGfDZOyqXijEJtxbzxEviaD6WrPMVzuhK4IaXQMpyi14o8275er9X+kypyr4N2KX/zxLzeJC253v1soB7zvCfxwfi/vvo0pJ3hyqGmSrqPUpmO0UeTUqkT+uKRRslwB0l80gv5RRtVOsUdMm410mKOmZrbnEXiKzxDxPhnJetqZ3mAAAAAElFTkSuQmCC",
-      
+
         "desc": "Virgo is a detail-oriented zodiac sign. Individuals born under this sign are practical, precise, and organized. They have analytical abilities and value order in their surroundings."
       },
       {
         "name": "Libra",
         "url": "libra",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACD0lEQVR4nO2YTUtWQRiGr1y4yAohEQkhcJMuIlqkJLlr50oKKhSlRWAEZS20XAluTH9CiIJU/yB0E/GaH7gQpSAX7jQKgkjKEj9j4FZmI/ie95nxg7lgNoc5131mzpw5MwOJRCKROAGUAfeAYWACWAT+qCzq2rDquLpHjgZgDNgCdg5YXN1R4AZHgBrgg/dwq8A74AlQD1QBJSpVutahOqvefe+B6sNqRCvwWw/yA+gBSvO4/6wa/E2Ov8ADItPv9eYr9XhWzgCDnq+PSLxQ4D99tFY0A2tydxKY28A2sAk0BfDfkns7kH9vTH9Vjz0KFQI8VsaShp05Awr4CJwiHEXApLJeWstL9VNzr/wK4bmqhrhZ8Zyl+L7E08RjRpltltK3krqfWSyeKfO1pfSLpHXE47oyP1tKd//gF4hHpTJXLKWbkhYTj2JlblhKVyQ9TzzKlPnTUvpJ0mvEo1aZ85bSEUndajUWHcocspS2SOp2eLGYUuYdS6lb8/yKOLzqvO/jtLW8T/Kc1kOhKFKGy+oNEeDWW98V0EU4nitjWSvuIDR6+xHTsSvuyu0OJm4SmG712DrQbuh9KKdzPyUSPd4e+w1QXoCr3FuU7mhoZWIuj7Oo/YqbXSoyZF/yZsNCyriTzRo15GKGhlzWhq3Q/FyG7EQikUjYsGAwjx92GfePeo5zyRm91EQikUiQF/8BKsY0lZCkNVsAAAAASUVORK5CYII=",
-      
+
         "desc": "Libra is a zodiac sign striving for harmony and balance. Individuals born under this sign are fair, sociable, and capable of compromises. They have the ability to assess situations and resolve disputes."
       },
       {
         "name": "Scorpio",
         "url": "scorpio",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACXElEQVR4nO2aO2gVQRSGP42oARUUYzTYaGGRQkFtJAgBIUUqHyhIGi0MvkAsxE47QSKEdBZKsBKrkDRpg49CMWp8gyKiIBoRLERU1MjAf+EYbu69Ozt7nZX5YeGyc77Z85idvexZgFvAJLCJ+loEnAc+AR+Bs8D8ArlMug7MAF+A3TXslgO3ZWuPUWBhAVxmuWwNaPKfwN4qNkuAu7J5DXQDvcC0zl0F5gXkcukY8Bv4Cmw2592FrunCL4C1Zmwj8Fljp2bN58sF0TlN/sSU/aDOuQtvqML0KgE/ZiXgUAZuK4G1ALgjB04CK8wy2FeDG5TNTVWiw2S8Ec5tNi2hg9mhyd8Cl/R7rA6zDHgv2/3ARQ+unwI0aXaXX0BnA0y/7N9puWTl3mjjCaozJpCRBhm3NB7m5PoIrO3GoV0ZuMM5uXECa51xqC0D15GTmyawFpsHZFZVAmkWF51DKZDYMpsqEltmU0Viy2yqSGyZTRWJLbOpIrFlNlUktsymisSW2VSR2DL731Tkm7igb+jzOOTLVV7NrvRgC3HIl3spbr0HW4hDvlzl5fk2D7YQh3y5y+KOerCFOOTLHRHnAip1IFtMO8P1aUobiGsQvRK7h4C6oY5vszin06aDFfx50kwt1dJywQzNYXMPeACsJnL1qAvggrlQ5X6Z0thToJ3IdQD4LofvAzvNlxKuEs809hhYReTqMsvMHR+AK+pu9Zm/NI8yNpX+iVqB42Y3m+tw90xp1AmcAIaBCVWolIFYtev+mNH9Ev0OVi+I58AaSqqpMm2/teS+/XJb8l/L6Q8jn1QSBXIh7wAAAABJRU5ErkJggg==",
-      
+
         "desc": "Scorpio is a zodiac sign full of mystery and passion. Individuals born under this sign are determined, bold, and intense. They have a strong intuition and can decipher hidden intentions of others."
       },
       {
         "name": "Sagittarius",
         "url": "sagittarius",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABN0lEQVR4nO3awQrCMAwG4P/kI5ji+z+JXvSiDgTny6gMJhTZZtqmaaL+sOvGt7RNOwb88xtZAegBPCpfBw3IVQFyh9MQgMsbxl1CVOW42m4r0QPYeITQBALeIDSDcAWhBYQbCH1AuIAQA2EeQkyEaUgKwiwkFWESkoMwB8lFmIKUIMxAShEmIBKI5hApRFOIJKIZRBrRBFIDwYIcAZzHo6X08VTinmxIJ/TgmggWZB0NhVvmUKg1nJLnSMnbrF2JV3YAtmAkpzIalchKCsYsIgVjHsHBuEEsYdwh5lYkjdVJpTLuKrH0aT+3aTZN+IahRRMTW2I7oxpaWJ3cYIixxJrHUEKfMIuhjGZnDkMFHdsMhgS2Hc0xQbA3xPcavgGoJVRocGFE7KGYzmOXnsrwg8rJO+IfGMkThtQWgt0YC3gAAAAASUVORK5CYII=",
-      
+
         "desc": "Sagittarius is a zodiac sign full of optimism and a quest for adventure. Individuals born under this sign are enthusiastic, independent, and sincere. They have strong convictions and aim for spiritual growth."
       },
       {
         "name": "Capricorn",
         "url": "capricorn",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADMUlEQVR4nO2aX2hPYRjHPzIM+024QP4zf9qFxoXCKKYUdwp3RIiWSK4wF5QWLpQbREsuxFz5c0XI/AuLaLggkv+zZGY/F7Ppqe+pt187+/3de6zOp077nffP877POc/7nOd93gHcBRqBCrJjLHAa+AG0ANeBjcBQIuI20AW0ASszaN8PqAZ+qV/q9RXYCRThmUHAYU2iA1jdQ9vhwFW17QTOA7OA0cB64L6j0COgnAio1uSSwJxu6qcCL52nvjxEjpW/VbufwBIi4KAm8AoY6JRPBz6p7ikwLo2cBHBO7f8AS/FMEfBQE9ilssnAB5Xd0CTJcC0dVb9mYDyeqdLgNvlS4Inub+XgkUyZS+pvXs07jRr8uWNqw3KUNUJrxeQswjP7HO+TLID3OSRZp/DMQkeR2gLIm+28Wa9MchSx3/kyRLLa8Uyx84EsFMGD8U5XgQeOFcmX+I2EEJtWvsSmFUJsWvkSm1YIsWnlS2xaIcSm1ZdNax5QB7zRDrVNqaiTyin02sCZkJQ82+uE0R84FpLBdK+bQFlUigR5MctKhlGvNt+B3coVlCh7Y7npPcAXtbF8c2UUijRJ3syQ+k2q/6iEYBgJpWoDZcp8K3JH8ipD9vSWxLP6FRnmyy44SUOvihyXvO3d1G1VXUMW8hLKQXelcwCFVmSd5FlOOJUHqluVpcy96nfCpyIzJO+9TCNgok4BzMWaiWVDhWSaa/amiE3+nWQuSznOsLKLOchMqG9rT40adJpVSPZrYEtsB1xR2YbeUqQ3GKVsoyX+5gODdd+Z5vuSzrReEAEHNPhrYI1+P85RVo36m0f0TrFzXNGuv/bFzhY7u/mm/ouJiGlOqGHX3BwcR32UB0gutY4irTrqK82gX2lKTDaFCBnpnGLdcxRqA84q7rIzlTEyxRLd1zjmZEosIGKOaDLXdF+l0PxvBiF8YE6RvongNKxDk7an7DIB2AacAZ4p9E/qvyya5J0iW9ipfr9FT9XOFfskW4DfUuIyMIA+RJEiWndB16XZ7kZKsTxMuTZOO7Tx+ewo0JxDmO6VhjQexhbpZsVV/O+KtGuvbaGHRczmXdZmk+nIl3+PiUhD/nzfxgAAAABJRU5ErkJggg==",
-      
+
         "desc": "Capricorn is a determined and ambitious zodiac sign. Individuals born under this sign are practical, responsible, and organized. They have the ability to plan and achieve success."
       },
       {
         "name": "Aquarius",
         "url": "aquarius",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA0ElEQVR4nO3XQQqCQBjF8b9b3eVBbOctukTktsO0ELpLm7yDHaGQWufOcPgkkYJczUjvBy5E34B+zMADEREREfEpBQ7AA7gB24XlnQ3QAN3kKlhGnhgoR8ETkAM7u38CWcB5Zw3UFmiBPRDxdrRnFyAhvDyRhVp7sbZFpxJbpLNFQ8k7uY1vGGVp4/0ms/F2Nm7feacaLdDYBvtF8WET+spXw4fc7YhbMU9/FF4DyJ9n5kRERGTxUjVE1BBjNUT8Nzw1xOFPqCGihigiIiLyF14rEPvhDF2iKwAAAABJRU5ErkJggg==",
-      
+
         "desc": "Aquarius is a zodiac sign full of originality and independence. Individuals born under this sign are sociable, innovative, and humanitarian. They have strong beliefs and aspire to change the world for the better."
       },
       {
         "name": "Pisces",
         "url": "pisces",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACvUlEQVR4nNWaTYhOURyHn/FdI2J4x8dmMJiNCBvRGEtmIkkRGtmMGmWSFTIhG1aKLJBomsa3bMTCyKAJ+Sgb5SsLYoyY8THvYtDR7627YTTnf87hqbt73+f3P/fe83HPvdA3t4F2oJj4FCu/1UJ2D/gBtBCfU8q+YyErAzokrCUeG5T5ASi3kq7ISMcTnonAR2Uut5a3SHyc8JxUVnMI+QTgM9ALzCEcs5TRHfLq79KZuhwqALiijMaAGQxXx/8OzAjgn6lGdMQY7vcq7FgA9wm5dxMB11fywDcgZ+h1/SGvI8bI+ItmnblNhs4GOZuIyDKFXjd03pSzhogMA7o0TFrcBuPk6pI7KoUJcqOBqz7kBNgXaxR+Gn/OyrWaBJQr/IWB65Vck0hAEfBeBZR69g/n6JQzCVdVRLWHY2mEZc9fz/KNBuu3PSSkVkW4pUV/aZJjLQlZpCJ8nqnb5KgkIdNVxBMPx1M5ppKQnIp46+F4J8dYEjJURfR4OHrkcK5guHH9oYJSHm2+DRkA3P8HGnKD/+DWyssxhISMyTxj95dOOUaTkMkq4rmH46UcbkczGQtUxC0PR7sc80jIKoMN7jNyrCQhO1TEPg/Hfjm2kZCLKmKdh2O9HOdISOHJbraHY64crtMnoVQFfPWcA9x/v8iVIwE1Cr9m4GqVawkJOGzYSbfLdYjIuDXYa4VXGPimyfVG7mhUKviRofOxnPOJyEGF7jR0FjYhDhCJkZl9X7O3rbq9eoFPwAgisFVn7kIA9yW5txCYwZnV6sIA/qrM5OiygtFg+SXCb7irjM2hAkZl9npDXI0CVZmPE0pCBBxVwHniLUaPWIurJe6OtPU/RR8nuNfgi62kZZlNtDriUZ953eAa5oVbLjzIPC/EfH9RpNvYZbsavJYug4BnGkncVw+xcZku2+0PD/zTL38CH1kMsYTSwU0AAAAASUVORK5CYII=",
-      
+
         "desc": "Pisces is a zodiac sign full of sensitivity and empathy. Individuals born under this sign are intuitive, creative, and romantic. They have the ability to feel the emotions of others and are usually devoted to their close ones."
       }
     ],
@@ -1062,84 +1060,84 @@ export const horoscop = {
         "name": "Widder",
         "url": "widder",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC/klEQVR4nNWaS0hUYRTHf40WvQzsoSEVRi16QlQYtSndZVJhbaKHQYVQVhBRuis3QdYu3WVUJlFQ9MZNOW1atCnbFCG9VmWQkJY9jSP/gS/S653bjNzvBwP3nu+c8/3PzOV73YF/GQdsAW4Cb4E+oAfoAE4CxWSf2UAD8Ex990nLDWkzjYFsBj4A/QGfb8BxIDcLBeQC9cD3YTSYxk1DJTnhOLYDO4D5QB4wHlgFnAN+yecWMDaDRViu28r9E2gGVqpv07AAqJK2lE7T/Bf71PAV2DpMh2XAJ/lfAxIZKMJyXFdOy106jP82aTX/vSnjTD2HZqwM2bH9Or2KqeX/qVOuHuUOQ6ViPgMzzHBahtY0O18H/Aa+AHOIzlzlsFzlacZelvZTdvNONyURRDQrto3otCnH2QixKxRrI9rAEPc04rM+BXivZBUR4isUazkmR4hPOPoHhrwcolMjMckIsQ8VazmikpOpqcCGxy4JsuEyLCWK+QhMICbUS9SVNGKuKuYYMWI68ENLifwQ/vnytRm8gJjRpm94VwjfPfK9QwzZKXH3Q/g+kK/N0LFjkiY2W4sVBvgVyqdXa6hYclff9PYAnypn0RlbDkpkS4BPawbmjqwzTyK7hlgpJJz9jq2xYs0rCV06SNsytXXiAecldn/AoxdlgTjiVAdsC1LL7t14wGKJfT1I2xu1LcQDEkC3BBc59iLZujO0PR4RkhK91rGVOwcb3tAk0UccW61sjXhEjURfdGyXZLMTG28olegnjq1DtjV4RIFzKjkGGK1rs03DM7qcoXaRc9TpHUmJ3+Acptk+xDuaJP4QcFjXZ/CQA474xoD1V+zZKPG22bqn6/V4yHKJfw68CFjax55Cie/Tpz+ORz9hGOUUkHr3YjYv6XQKeYnHtDuFhDnvii0tTiEX8JgGpxB7te0tdU4hR/GYaqcQLw4cgv6A0J/mG+NYUuYUshqPWeIUYsdE3lLsFDILjylwCpmKx+Q5hUzEY3KdQrLxtyhGkkfA42z38gdXb/TZD3X7HQAAAABJRU5ErkJggg==",
-      
+
         "desc": "Widder ist das erste Sternzeichen. Menschen, die unter diesem Zeichen geboren sind, sind in der Regel mutig, dynamisch und voller Energie. Sie haben eine starke Persönlichkeit und streben danach, ihre Ziele zu erreichen."
       },
       {
         "name": "Stier",
         "url": "stier",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADgUlEQVR4nM2ay29NURTGf0WLgWdQVEOFCYmBDmj5F5AWjUaQmHhNqt5EYiDCRGIgGhMMvOoRz4GBhJIm3hWEkWdiQCkSpS9XVnwn2ZG26e3de9/7JTs5ac/5vrXPWXs99r4Ar4CfwHvgPnAIWAjkk3vIBxbJxgeyuRW4Y/98CaS6GW+BNUBetq3nnw1rgXc92NqQ3DgUmAiUAduBJuema8CoLE5iFHDdsadJNs6VzWZ7r29gMdCsh+8Bw4iP4dI2Gz4Dlf31kMnAGxFdiuxmecAVab+WLRlhOvBNhOansbBemi3ANF+ky0X6FRhDeIyVlmlW+ya/IeI6wuOotG6GIJ8JdABdQCnhUCqNdmBGKJGDelOWOAcE4B8o7pS0gsFC8AcJrQvAv0HcH4ERBEalE01KPPJOdaJjBZFwwcmyPt7cSOCpOM8TOeO+kPBjlQr9hT37RFzPs1FBTJRw4maWLIek8fwQrbMWcTwDJpAljJYrpJx66AiwQuHaDBusYdezgJXKRUkdl7iTcWUdC4DGHkrs3kajns0ZlAKnlcj6Ogm79xQwmxzABOCiY1wncAuoAeaoZhqkzm6ceoha4LbuTZ6zKDg+W5NY4hR21irvleF9hU1sn1pV4/iiHigqah03MpcqyoBrEnDWcbcaImGHI7rVI6+1r8nL2UZgVEisU67lG0vF36XdkiAoBn7ojfn8Et19mRTwPUOX7RHnJHCG8L16fSit+U50yqSuSicAtEqz3CdxElUsXMbCfmme9EVo8b5NCzydPOFDt1PaY33uoFjGjo0GaS/zQVYnso3ExyZpH/ZB9lBkVifFRrmz2ZEx3oss5vpIUCht24XPGEkYLCA+BkvbbMgYbTkwkd8+yJpzwLU++SB7lMXFPs/nYj8hMutBYmOztI/5IFv9/zldRNyV9ipfftqhcsHKhtglSrvP9ZkcgVkhFwsHnCM/bygT6S81WKFRpJYhpRbCK66KuD7woWies3t5OYRAidPqWjsaCjudVndKKJFqZwfFNgp8o0rcf3QdFLs1GRPb48nN8rQF1CVu+ypRkEwmWTPWY/cXxc6a+APsIjKWOWumVaE5nTwzTiH2l7MmqsgSSpxolmxiN6i0KFcyLdAo1N+26GdJ7ib25ZALOx3MlzEdaRwrtCvZed3uwRPMXawuOq4fhtkJlvUzNuzaqlgrAO0er23BXwnvNsCEKAi3AAAAAElFTkSuQmCC",
-      
+
         "desc": "Stier ist ein stabiles und praktisches Sternzeichen. Menschen, die unter diesem Zeichen geboren sind, sind hartnäckig, unabhängig und haben ein starkes Selbstwertgefühl. Sie sind loyal und halten treu an ihren Überzeugungen fest."
       },
       {
         "name": "Zwillinge",
         "url": "zwillinge",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACO0lEQVR4nO3azYtNcRzH8dcMlkZkFmpSQ9khz4aFP0AWsmLBQh4WpKZYUojSiI3HImxkhQ0LdjJYjJUd03haXIpo1oN++t46nZkzjY47bvq967c49/7u+T1833f1/cAQ3uMM1mGG9qcTq3Ea7/AsffgCPwvjC+5gN3q0D/OxA7fwqbTn3wfpQB8GMFKakMYwbqMfm9A9DZvuwhrsx3W8wlhpX8mic9gQZxjHMhzC3ahO+WDNqg3iBk7iILZhI5ZgURx4bkHVOfHcG9+vxRbswTFcxmN8rFhzFA9wGKuqNj+Zi0uxMyr2aIKytmJ8wxNcwN449EwtYEFh0eO4gvtRpdd4i68xfhRuND03QtehuOGbcUnN96WKTSvNhdv1fVMmH6SCXJG6ZLUqyGrVJatVQVarLlmtCrJadclqVZDVqktWq4KsVl2yWhVkteqS1aogq1WXrFYFWa26ZLUqyGrVJatVQVarLlmtCrJadfkv1OotLDwQLebUan4ZredGtKJHC/Oa7eoPeBOxi9TSvhot7ua81Pr+68zCeuzDxWjif5+GwMDnCCecxS4sj/DClOmMDMgRPCzdaDkHkha6hKMRwNmMFRHPWBhxja7Ce9PzvPh+cWRItuIATkQcZHCS2Eiq5r2Il6SDjaMjMiTno+zFH49FoOVaVCVFi2ZrPd0R4OmPQM/wBAcbCa37mrmUcsypEc5vj2hRu9ATlU8RrHLVnqcJ6U+XsiOnsPJPUzf/iJQ4SiG5FJZLwbOnvwCLgWWqTsz8GQAAAABJRU5ErkJggg==",
-     
+
         "desc": "Zwillinge sind ein vielseitiges Sternzeichen. Menschen, die unter diesem Zeichen geboren sind, sind intelligent, gesellig und neugierig. Sie haben eine lebhafte Vorstellungskraft und knüpfen gerne Kontakte zu anderen Menschen."
       },
       {
         "name": "Krebs",
         "url": "krebs",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADzElEQVR4nO2aW4iNURTHf3PGHOMeCW9uL2LGeKTILUm555KEkpLjNsMLg0TSNORSpig8MIgXT7wqlzdkBsMMQ7k8oCEz4zKTZrSn/6ftazjf7ZxPOf/66nTO3muvtfda/72+tQ7kkEMOmcRgYDawC7gC3AFeAR+BNqATaAaagMfAdaAKWAdMAPKJCT2BucBZ4KUUDfMYgy8DK4DCTCufB8wCLgKfXYq0ADeBo8AqYDIwChgoow36A0OAImAeUAZUAw0uWebUjgPFURtQKBd46FrwLlAuxRIh1xgOpIBbrjVuABPDGpAvA95agt8AO4ERZA5mY6pcp34VGBtE2EygzhJ0T/5bQPbQV+TRLB3agX1A0stk48engQ5Nfg4sV3zEhaHAKeCHdHoAlPxtQokVeN+BPV6tzwCSwDIRy1Og1RU7X0Uq3eKDBtUG9ceIsBho9Ejbh7rzlgPAEaBXPPp3MV+lpWQNsEWb2gfoDYwRu9VY485EwJqRotJy6/VplMvTmC+as59/BIstI6b6mDdNKZAhpznEjKQVE2aX/WKj5j4BehAjllkxkQh4cT+UDHOyseGSlNgcQkaZZJzzw+et+nxBv4W9a+qlRBjKHycZRq/AfG5u/0UhlHBSkH4hZPSz3nk883kf7cBWXZ7OuIqAPp4xQyp98Ln5bYPGOsbE4VpFbtcKw+eOMQt9KnFB88wJhw3281HweUpzn/lM9x36rQ1Bv48kY0nUfN4l0COSIoxOualfbNLcBmcDL+oLE9hBUSoZ5l3cDxZZLm3c1CumWynK/KzxeRpUWMak0pSI8nUSTqnpYFZo0CMSljGdctNSbU5fPUUKbCcmOmRE4l8yxIFhvWceLuIG250yzucBUSDCqFZW26KnThS75G/MWC0lzHEGxbZ0yVs2sNTyzfwo+DwuFFhVFPOyEprP48QCMUGbzxSlWz6PGxXa2ValKnlB+TxuJNQusNP4lJXGe+bzLKK3OgGmpPUbzCkc9lgk+yOfZwnjrPeid38atFrlSXcvxBOfZxg9gb2WW9enqwlPsCp7ppB8UoXluJCnzsALy61Pec1IkqrmtVspSLniJVtIAiuB+5Z31Ppk118Yq6aLI+izmjIm+DOFkcBuV8PpNbA2iibqJLXF7Ni5pYvULBwGRrliNXnuudaokQGRN0yL1bhsci3YqBe17bpkxwPDgAGaV6hG6WhgCrAGOKbNMGRiy/qk3G0GWUChAvByN0YFeRrVOZsTY7OpyzVK1Eg9AVzTnwTeWw3Ob+qtmx79bZVNd6j9PSguxXPI4X/AT9ojlRaCVXXkAAAAAElFTkSuQmCC",
-      
+
         "desc": "Krebs ist ein emotional geladenes Sternzeichen. Menschen, die unter diesem Zeichen geboren sind, sind sensibel, fürsorglich und familiär. Sie besitzen eine gut entwickelte Intuition und können die Gefühle anderer lesen."
       },
       {
         "name": "Löwe",
         "url": "lowe",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADgklEQVR4nN2aS0hVURSGv6uQkTezgiYR9LCEoDKpSVkQYi8alUGjKIIGQRBBQQ8rgwYRJEXQQ6KgQSpZEUGTMoQkqEGNvPaghz1IM6m0h9mLHf+BTYT3vPb12g8HLvfstf697t5n7X+tcyEzKAWqgZtACujVldJ31RqTlUgAlUAb8Mvn1Qaskm1WYBJw25rgc+AosAQoBvJ1Fes7c6/dGt8CTBzsIOYDHZrQC2AjkOvDLgdYDTyVbRewiEHCQqBPE2nUrx4USeCSfPTJZ8a301tN4HDEfZ4D1MhXp3xnBAnrmWjURKIix1qZlkwlgEoRtofcTgNts5fyvRLHSFgpdr0D/xvkuxXHKLVSrJ/sFBS5yn6GowSH2C+SIw45joljn0OOPxLDkCx1yLFMHDcccvBQJEUOOYotCeMMPSIxGcYVkuIwXM7gneTDHHKMEMcnhxy8E8lYhxwTLO3mDM9E4lJGlInjrkMObolkgUOOreI47pCD0yLZ5JDjmjjWOuRgi0hOOvI/DuhXUhmNQ5QoEFMQucBe+b+IYxi5/UZkM2L2XWBlRVN5RkYFUKuT1XQ/PgOPgbO652mhQ8SLGvltiupoGtDso/vhrUhHjAfjHD0b/VFX2tTK3dZEdwKzrA6I+bzLCsK71sQQRL5V4xyMuhJeEHVpdNRIjfECMWo4aqF2Xr7uAXlRnHnbqc5nrZxjBfNTP0RY7JCf91K9oVFhbacginYU8Fq220JyrwB+AN+B5URErSZjnomg2C3bqyFszTP3QfbbiQHeQzYzwuH4JKDdeKsuP0dM+BihUMqT7dcANiZZ3Jddc9SHO65AkgELoISkh7F5AIwhRsSxtVoDynOToaYSM07JuTnsgmKPbI2PdJgHfNN406mMHeVW+jX7N0j67ZRtutcBw6XVXPfD8HpV9T4PRDPmgmyu+xhfpbEpx00Liiz53JBmZQqsIMzLmSk+dJTnezEZQJlF2KHDbrYyU1I93yprO3X5rBnWafwdMogi1QLpZLxpZU726bNBNpsZBJSrJm9Vt69Hn0+EeM/3SIFMZ4jjiwIx3cMhjd7/JZBUBOWQVaiNoBwKgEKyBGGVQ6HKg1fZ9BePphDK4XJcrSFXyqE+zcoUAlc0ttuHcsg4/qUcSqUaTI93LnDA+l9Ld1zdRlcr4wnUgS5TObp8Rxkb/lYOpiVrXrKe0b20+A2eGDQdGcXhGgAAAABJRU5ErkJggg==",
-      
+
         "desc": "Löwe ist ein selbstbewusstes und kraftvolles Sternzeichen. Menschen, die unter diesem Zeichen geboren sind, sind mutig, großzügig und kreativ. Sie haben eine natürliche Führungsqualität und ziehen in der Regel die Aufmerksamkeit anderer auf sich."
       },
       {
         "name": "Jungfrau",
         "url": "jungfrau",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFUlEQVR4nNWaXUgUURiGH03sxygSilBv7Je8KIq6EYJCIvBGCiqki+giEQyqi7qIsroJoqiLCqysu4ggWgoiCooo+zFciKCbIgiLMu2PitD+Ng680mFZV+fb2dnZD2TXc97nzPvNzM6Z+c7A/7gPJIFFjB7jgUPAR2AA2AeU5pELFHeBFPAdWJtFNw3oltb/uwKU54ELHG5vHdbgv4F1GTSTgR5pXgErgEagX20XgJIQuZyiDfgL/ACWeO1uQxe14RdAjde3EPiivp1p41m5UOKgBn/mHfbNanMbnpeBadQO+Jm2A7YE4JYScpQBj2VgB1DpnQbrs3DHpOnSkajy9vhYuCQwLuxkGjT4a6BT36+OwkwB+qRtBjoMXAt5iKR3dfkD1I2BaZH+rU6XoFyvLjyhRruXSGKMjDs1nubIbSTkWO4ZWhOAa82Ru07IUesZmh6Aq8qR688wJbwH3gBNGGKCN0EGjeFEcuXa0+4EBoFlFNCQhWvWHPNLR+Wk+tx9YUEMWbgabw7aqr4K4J3a6qM2ZOUS+ryc1n9A7Z1RG7JyKeArMDOtf676+oI+AhQykT0jaJ6rf3GUhqzcN2DqCJpz0rRGacjKnc6iaZPmTJSGrNzqLJpV0tyO0pCVq8yiGf7Bv4zSUD64Smk+xcWQlSuXZiguhqxchVfxiYUhK1frVWRiYcjKNUjzMC6GrNxuaY7HxZCVS0izKS6GLNwk3b44zaw4GLJyG9TfHRdDVi7hFQ5jYcjCzVf9wNXLquNgyMqdV98pw7ixSWSBqpZDmhALbsjClQK31H7CMGbohqzcXrW55boZhjFDN2Th6lXXSo2yJBiZIQs3x1tuOGIYK3RDFq5OtV73/VoYC0D3tOIbFTco8x/0eROYSJFFGfDZOyqXijEJtxbzxEviaD6WrPMVzuhK4IaXQMpyi14o8275er9X+kypyr4N2KX/zxLzeJC253v1soB7zvCfxwfi/vvo0pJ3hyqGmSrqPUpmO0UeTUqkT+uKRRslwB0l80gv5RRtVOsUdMm410mKOmZrbnEXiKzxDxPhnJetqZ3mAAAAAElFTkSuQmCC",
-      
+
         "desc": "Jungfrau ist ein auf Details fokussiertes Sternzeichen. Menschen, die unter diesem Zeichen geboren sind, sind praktisch, genau und ordentlich. Sie besitzen analytische Fähigkeiten und legen Wert auf Ordnung in ihrer Umgebung."
       },
       {
         "name": "Waage",
         "url": "waage",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACD0lEQVR4nO2YTUtWQRiGr1y4yAohEQkhcJMuIlqkJLlr50oKKhSlRWAEZS20XAluTH9CiIJU/yB0E/GaH7gQpSAX7jQKgkjKEj9j4FZmI/ie95nxg7lgNoc5131mzpw5MwOJRCKROAGUAfeAYWACWAT+qCzq2rDquLpHjgZgDNgCdg5YXN1R4AZHgBrgg/dwq8A74AlQD1QBJSpVutahOqvefe+B6sNqRCvwWw/yA+gBSvO4/6wa/E2Ov8ADItPv9eYr9XhWzgCDnq+PSLxQ4D99tFY0A2tydxKY28A2sAk0BfDfkns7kH9vTH9Vjz0KFQI8VsaShp05Awr4CJwiHEXApLJeWstL9VNzr/wK4bmqhrhZ8Zyl+L7E08RjRpltltK3krqfWSyeKfO1pfSLpHXE47oyP1tKd//gF4hHpTJXLKWbkhYTj2JlblhKVyQ9TzzKlPnTUvpJ0mvEo1aZ85bSEUndajUWHcocspS2SOp2eLGYUuYdS6lb8/yKOLzqvO/jtLW8T/Kc1kOhKFKGy+oNEeDWW98V0EU4nitjWSvuIDR6+xHTsSvuyu0OJm4SmG712DrQbuh9KKdzPyUSPd4e+w1QXoCr3FuU7mhoZWIuj7Oo/YqbXSoyZF/yZsNCyriTzRo15GKGhlzWhq3Q/FyG7EQikUjYsGAwjx92GfePeo5zyRm91EQikUiQF/8BKsY0lZCkNVsAAAAASUVORK5CYII=",
-      
+
         "desc": "Waage ist ein Sternzeichen, das nach Harmonie und Gleichgewicht strebt. Menschen, die unter diesem Zeichen geboren sind, sind gerecht, gesellig und kompromissbereit. Sie haben die Fähigkeit, Situationen zu beurteilen und Streitigkeiten zu lösen."
       },
       {
         "name": "Skorpion",
         "url": "skorpion",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACXElEQVR4nO2aO2gVQRSGP42oARUUYzTYaGGRQkFtJAgBIUUqHyhIGi0MvkAsxE47QSKEdBZKsBKrkDRpg49CMWp8gyKiIBoRLERU1MjAf+EYbu69Ozt7nZX5YeGyc77Z85idvexZgFvAJLCJ+loEnAc+AR+Bs8D8ArlMug7MAF+A3TXslgO3ZWuPUWBhAVxmuWwNaPKfwN4qNkuAu7J5DXQDvcC0zl0F5gXkcukY8Bv4Cmw2592FrunCL4C1Zmwj8Fljp2bN58sF0TlN/sSU/aDOuQtvqML0KgE/ZiXgUAZuK4G1ALgjB04CK8wy2FeDG5TNTVWiw2S8Ec5tNi2hg9mhyd8Cl/R7rA6zDHgv2/3ARQ+unwI0aXaXX0BnA0y/7N9puWTl3mjjCaozJpCRBhm3NB7m5PoIrO3GoV0ZuMM5uXECa51xqC0D15GTmyawFpsHZFZVAmkWF51DKZDYMpsqEltmU0Viy2yqSGyZTRWJLbOpIrFlNlUktsymisSW2VSR2DL731Tkm7igb+jzOOTLVV7NrvRgC3HIl3spbr0HW4hDvlzl5fk2D7YQh3y5y+KOerCFOOTLHRHnAip1IFtMO8P1aUobiGsQvRK7h4C6oY5vszin06aDFfx50kwt1dJywQzNYXMPeACsJnL1qAvggrlQ5X6Z0thToJ3IdQD4LofvAzvNlxKuEs809hhYReTqMsvMHR+AK+pu9Zm/NI8yNpX+iVqB42Y3m+tw90xp1AmcAIaBCVWolIFYtev+mNH9Ev0OVi+I58AaSqqpMm2/teS+/XJb8l/L6Q8jn1QSBXIh7wAAAABJRU5ErkJggg==",
-      
+
         "desc": "Skorpion ist ein Sternzeichen voller Geheimnisse und Leidenschaft. Menschen, die unter diesem Zeichen geboren sind, sind entschlossen, mutig und intensiv. Sie haben eine starke Intuition und können die verborgenen Absichten anderer verstehen."
       },
       {
         "name": "Schütze",
         "url": "schutze",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABN0lEQVR4nO3awQrCMAwG4P/kI5ji+z+JXvSiDgTny6gMJhTZZtqmaaL+sOvGt7RNOwb88xtZAegBPCpfBw3IVQFyh9MQgMsbxl1CVOW42m4r0QPYeITQBALeIDSDcAWhBYQbCH1AuIAQA2EeQkyEaUgKwiwkFWESkoMwB8lFmIKUIMxAShEmIBKI5hApRFOIJKIZRBrRBFIDwYIcAZzHo6X08VTinmxIJ/TgmggWZB0NhVvmUKg1nJLnSMnbrF2JV3YAtmAkpzIalchKCsYsIgVjHsHBuEEsYdwh5lYkjdVJpTLuKrH0aT+3aTZN+IahRRMTW2I7oxpaWJ3cYIixxJrHUEKfMIuhjGZnDkMFHdsMhgS2Hc0xQbA3xPcavgGoJVRocGFE7KGYzmOXnsrwg8rJO+IfGMkThtQWgt0YC3gAAAAASUVORK5CYII=",
-      
+
         "desc": "Schütze ist ein optimistisches und abenteuerlustiges Sternzeichen. Menschen, die unter diesem Zeichen geboren sind, sind enthusiastisch, unabhängig und aufrichtig. Sie haben starke Überzeugungen und streben nach spiritueller Entwicklung."
       },
       {
         "name": "Steinbock",
         "url": "steinbock",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADMUlEQVR4nO2aX2hPYRjHPzIM+024QP4zf9qFxoXCKKYUdwp3RIiWSK4wF5QWLpQbREsuxFz5c0XI/AuLaLggkv+zZGY/F7Ppqe+pt187+/3de6zOp077nffP877POc/7nOd93gHcBRqBCrJjLHAa+AG0ANeBjcBQIuI20AW0ASszaN8PqAZ+qV/q9RXYCRThmUHAYU2iA1jdQ9vhwFW17QTOA7OA0cB64L6j0COgnAio1uSSwJxu6qcCL52nvjxEjpW/VbufwBIi4KAm8AoY6JRPBz6p7ikwLo2cBHBO7f8AS/FMEfBQE9ilssnAB5Xd0CTJcC0dVb9mYDyeqdLgNvlS4Inub+XgkUyZS+pvXs07jRr8uWNqw3KUNUJrxeQswjP7HO+TLID3OSRZp/DMQkeR2gLIm+28Wa9MchSx3/kyRLLa8Uyx84EsFMGD8U5XgQeOFcmX+I2EEJtWvsSmFUJsWvkSm1YIsWnlS2xaIcSm1ZdNax5QB7zRDrVNqaiTyin02sCZkJQ82+uE0R84FpLBdK+bQFlUigR5MctKhlGvNt+B3coVlCh7Y7npPcAXtbF8c2UUijRJ3syQ+k2q/6iEYBgJpWoDZcp8K3JH8ipD9vSWxLP6FRnmyy44SUOvihyXvO3d1G1VXUMW8hLKQXelcwCFVmSd5FlOOJUHqluVpcy96nfCpyIzJO+9TCNgok4BzMWaiWVDhWSaa/amiE3+nWQuSznOsLKLOchMqG9rT40adJpVSPZrYEtsB1xR2YbeUqQ3GKVsoyX+5gODdd+Z5vuSzrReEAEHNPhrYI1+P85RVo36m0f0TrFzXNGuv/bFzhY7u/mm/ouJiGlOqGHX3BwcR32UB0gutY4irTrqK82gX2lKTDaFCBnpnGLdcxRqA84q7rIzlTEyxRLd1zjmZEosIGKOaDLXdF+l0PxvBiF8YE6RvongNKxDk7an7DIB2AacAZ4p9E/qvyya5J0iW9ipfr9FT9XOFfskW4DfUuIyMIA+RJEiWndB16XZ7kZKsTxMuTZOO7Tx+ewo0JxDmO6VhjQexhbpZsVV/O+KtGuvbaGHRczmXdZmk+nIl3+PiUhD/nzfxgAAAABJRU5ErkJggg==",
-      
+
         "desc": "Steinbock ist ein entschlossenes und ehrgeiziges Sternzeichen. Menschen, die unter diesem Zeichen geboren sind, sind praktisch, verantwortungsbewusst und organisiert. Sie haben die Fähigkeit zu planen und Erfolg zu haben."
       },
       {
         "name": "Wassermann",
         "url": "wassermann",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA0ElEQVR4nO3XQQqCQBjF8b9b3eVBbOctukTktsO0ELpLm7yDHaGQWufOcPgkkYJczUjvBy5E34B+zMADEREREfEpBQ7AA7gB24XlnQ3QAN3kKlhGnhgoR8ETkAM7u38CWcB5Zw3UFmiBPRDxdrRnFyAhvDyRhVp7sbZFpxJbpLNFQ8k7uY1vGGVp4/0ms/F2Nm7feacaLdDYBvtF8WET+spXw4fc7YhbMU9/FF4DyJ9n5kRERGTxUjVE1BBjNUT8Nzw1xOFPqCGihigiIiLyF14rEPvhDF2iKwAAAABJRU5ErkJggg==",
-      
+
         "desc": "Wassermann ist ein Sternzeichen voller Originalität und Unabhängigkeit. Menschen, die unter diesem Zeichen geboren sind, sind gesellig, innovativ und humanitär. Sie haben starke Überzeugungen und streben nach einer positiven Veränderung in der Welt."
       },
       {
         "name": "Fische",
         "url": "fische",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACvUlEQVR4nNWaTYhOURyHn/FdI2J4x8dmMJiNCBvRGEtmIkkRGtmMGmWSFTIhG1aKLJBomsa3bMTCyKAJ+Sgb5SsLYoyY8THvYtDR7627YTTnf87hqbt73+f3P/fe83HPvdA3t4F2oJj4FCu/1UJ2D/gBtBCfU8q+YyErAzokrCUeG5T5ASi3kq7ISMcTnonAR2Uut5a3SHyc8JxUVnMI+QTgM9ALzCEcs5TRHfLq79KZuhwqALiijMaAGQxXx/8OzAjgn6lGdMQY7vcq7FgA9wm5dxMB11fywDcgZ+h1/SGvI8bI+ItmnblNhs4GOZuIyDKFXjd03pSzhogMA7o0TFrcBuPk6pI7KoUJcqOBqz7kBNgXaxR+Gn/OyrWaBJQr/IWB65Vck0hAEfBeBZR69g/n6JQzCVdVRLWHY2mEZc9fz/KNBuu3PSSkVkW4pUV/aZJjLQlZpCJ8nqnb5KgkIdNVxBMPx1M5ppKQnIp46+F4J8dYEjJURfR4OHrkcK5guHH9oYJSHm2+DRkA3P8HGnKD/+DWyssxhISMyTxj95dOOUaTkMkq4rmH46UcbkczGQtUxC0PR7sc80jIKoMN7jNyrCQhO1TEPg/Hfjm2kZCLKmKdh2O9HOdISOHJbraHY64crtMnoVQFfPWcA9x/v8iVIwE1Cr9m4GqVawkJOGzYSbfLdYjIuDXYa4VXGPimyfVG7mhUKviRofOxnPOJyEGF7jR0FjYhDhCJkZl9X7O3rbq9eoFPwAgisFVn7kIA9yW5txCYwZnV6sIA/qrM5OiygtFg+SXCb7irjM2hAkZl9npDXI0CVZmPE0pCBBxVwHniLUaPWIurJe6OtPU/RR8nuNfgi62kZZlNtDriUZ953eAa5oVbLjzIPC/EfH9RpNvYZbsavJYug4BnGkncVw+xcZku2+0PD/zTL38CH1kMsYTSwU0AAAAASUVORK5CYII=",
-      
+
         "desc": "Fische sind ein Sternzeichen voller Sensibilität und Empathie. Menschen, die unter diesem Zeichen geboren sind, sind intuitiv, kreativ und romantisch. Sie haben die Fähigkeit, die Emotionen anderer zu spüren, und sind in der Regel ihren Lieben treu ergeben."
       }
     ],
@@ -1149,84 +1147,84 @@ export const horoscop = {
         "name": "Bélier",
         "url": "belier",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC/klEQVR4nNWaS0hUYRTHf40WvQzsoSEVRi16QlQYtSndZVJhbaKHQYVQVhBRuis3QdYu3WVUJlFQ9MZNOW1atCnbFCG9VmWQkJY9jSP/gS/S653bjNzvBwP3nu+c8/3PzOV73YF/GQdsAW4Cb4E+oAfoAE4CxWSf2UAD8Ex990nLDWkzjYFsBj4A/QGfb8BxIDcLBeQC9cD3YTSYxk1DJTnhOLYDO4D5QB4wHlgFnAN+yecWMDaDRViu28r9E2gGVqpv07AAqJK2lE7T/Bf71PAV2DpMh2XAJ/lfAxIZKMJyXFdOy106jP82aTX/vSnjTD2HZqwM2bH9Or2KqeX/qVOuHuUOQ6ViPgMzzHBahtY0O18H/Aa+AHOIzlzlsFzlacZelvZTdvNONyURRDQrto3otCnH2QixKxRrI9rAEPc04rM+BXivZBUR4isUazkmR4hPOPoHhrwcolMjMckIsQ8VazmikpOpqcCGxy4JsuEyLCWK+QhMICbUS9SVNGKuKuYYMWI68ENLifwQ/vnytRm8gJjRpm94VwjfPfK9QwzZKXH3Q/g+kK/N0LFjkiY2W4sVBvgVyqdXa6hYclff9PYAnypn0RlbDkpkS4BPawbmjqwzTyK7hlgpJJz9jq2xYs0rCV06SNsytXXiAecldn/AoxdlgTjiVAdsC1LL7t14wGKJfT1I2xu1LcQDEkC3BBc59iLZujO0PR4RkhK91rGVOwcb3tAk0UccW61sjXhEjURfdGyXZLMTG28olegnjq1DtjV4RIFzKjkGGK1rs03DM7qcoXaRc9TpHUmJ3+Acptk+xDuaJP4QcFjXZ/CQA474xoD1V+zZKPG22bqn6/V4yHKJfw68CFjax55Cie/Tpz+ORz9hGOUUkHr3YjYv6XQKeYnHtDuFhDnvii0tTiEX8JgGpxB7te0tdU4hR/GYaqcQLw4cgv6A0J/mG+NYUuYUshqPWeIUYsdE3lLsFDILjylwCpmKx+Q5hUzEY3KdQrLxtyhGkkfA42z38gdXb/TZD3X7HQAAAABJRU5ErkJggg==",
-      
+
         "desc": "Bélier est le premier signe du zodiaque. Les personnes nées sous ce signe sont généralement courageuses, dynamiques et pleines d'énergie. Elles ont une personnalité forte et cherchent à atteindre leurs objectifs."
       },
       {
         "name": "Taureau",
         "url": "taureau",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADgUlEQVR4nM2ay29NURTGf0WLgWdQVEOFCYmBDmj5F5AWjUaQmHhNqt5EYiDCRGIgGhMMvOoRz4GBhJIm3hWEkWdiQCkSpS9XVnwn2ZG26e3de9/7JTs5ac/5vrXPWXs99r4Ar4CfwHvgPnAIWAjkk3vIBxbJxgeyuRW4Y/98CaS6GW+BNUBetq3nnw1rgXc92NqQ3DgUmAiUAduBJuema8CoLE5iFHDdsadJNs6VzWZ7r29gMdCsh+8Bw4iP4dI2Gz4Dlf31kMnAGxFdiuxmecAVab+WLRlhOvBNhOansbBemi3ANF+ky0X6FRhDeIyVlmlW+ya/IeI6wuOotG6GIJ8JdABdQCnhUCqNdmBGKJGDelOWOAcE4B8o7pS0gsFC8AcJrQvAv0HcH4ERBEalE01KPPJOdaJjBZFwwcmyPt7cSOCpOM8TOeO+kPBjlQr9hT37RFzPs1FBTJRw4maWLIek8fwQrbMWcTwDJpAljJYrpJx66AiwQuHaDBusYdezgJXKRUkdl7iTcWUdC4DGHkrs3kajns0ZlAKnlcj6Ogm79xQwmxzABOCiY1wncAuoAeaoZhqkzm6ceoha4LbuTZ6zKDg+W5NY4hR21irvleF9hU1sn1pV4/iiHigqah03MpcqyoBrEnDWcbcaImGHI7rVI6+1r8nL2UZgVEisU67lG0vF36XdkiAoBn7ojfn8Et19mRTwPUOX7RHnJHCG8L16fSit+U50yqSuSicAtEqz3CdxElUsXMbCfmme9EVo8b5NCzydPOFDt1PaY33uoFjGjo0GaS/zQVYnso3ExyZpH/ZB9lBkVifFRrmz2ZEx3oss5vpIUCht24XPGEkYLCA+BkvbbMgYbTkwkd8+yJpzwLU++SB7lMXFPs/nYj8hMutBYmOztI/5IFv9/zldRNyV9ipfftqhcsHKhtglSrvP9ZkcgVkhFwsHnCM/bygT6S81WKFRpJYhpRbCK66KuD7woWies3t5OYRAidPqWjsaCjudVndKKJFqZwfFNgp8o0rcf3QdFLs1GRPb48nN8rQF1CVu+ypRkEwmWTPWY/cXxc6a+APsIjKWOWumVaE5nTwzTiH2l7MmqsgSSpxolmxiN6i0KFcyLdAo1N+26GdJ7ib25ZALOx3MlzEdaRwrtCvZed3uwRPMXawuOq4fhtkJlvUzNuzaqlgrAO0er23BXwnvNsCEKAi3AAAAAElFTkSuQmCC",
-      
+
         "desc": "Le Taureau est un signe du zodiaque stable et pratique. Les personnes nées sous ce signe sont persévérantes, indépendantes et ont une forte estime de soi. Elles sont loyales et restent fidèles à leurs convictions."
       },
       {
         "name": "Gémeaux",
         "url": "gemeaux",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACO0lEQVR4nO3azYtNcRzH8dcMlkZkFmpSQ9khz4aFP0AWsmLBQh4WpKZYUojSiI3HImxkhQ0LdjJYjJUd03haXIpo1oN++t46nZkzjY47bvq967c49/7u+T1833f1/cAQ3uMM1mGG9qcTq3Ea7/AsffgCPwvjC+5gN3q0D/OxA7fwqbTn3wfpQB8GMFKakMYwbqMfm9A9DZvuwhrsx3W8wlhpX8mic9gQZxjHMhzC3ahO+WDNqg3iBk7iILZhI5ZgURx4bkHVOfHcG9+vxRbswTFcxmN8rFhzFA9wGKuqNj+Zi0uxMyr2aIKytmJ8wxNcwN449EwtYEFh0eO4gvtRpdd4i68xfhRuND03QtehuOGbcUnN96WKTSvNhdv1fVMmH6SCXJG6ZLUqyGrVJatVQVarLlmtCrJadclqVZDVqktWq4KsVl2yWhVkteqS1aogq1WXrFYFWa26ZLUqyGrVJatVQVarLlmtCrJadfkv1OotLDwQLebUan4ZredGtKJHC/Oa7eoPeBOxi9TSvhot7ua81Pr+68zCeuzDxWjif5+GwMDnCCecxS4sj/DClOmMDMgRPCzdaDkHkha6hKMRwNmMFRHPWBhxja7Ce9PzvPh+cWRItuIATkQcZHCS2Eiq5r2Il6SDjaMjMiTno+zFH49FoOVaVCVFi2ZrPd0R4OmPQM/wBAcbCa37mrmUcsypEc5vj2hRu9ATlU8RrHLVnqcJ6U+XsiOnsPJPUzf/iJQ4SiG5FJZLwbOnvwCLgWWqTsz8GQAAAABJRU5ErkJggg==",
-      
+
         "desc": "Les Gémeaux sont un signe du zodiaque plein de diversité. Les personnes nées sous ce signe sont intelligentes, sociables et curieuses. Elles ont une imagination vive et aiment établir des contacts avec les autres."
       },
       {
         "name": "Cancer",
         "url": "cancer",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADzElEQVR4nO2aW4iNURTHf3PGHOMeCW9uL2LGeKTILUm555KEkpLjNsMLg0TSNORSpig8MIgXT7wqlzdkBsMMQ7k8oCEz4zKTZrSn/6ftazjf7ZxPOf/66nTO3muvtfda/72+tQ7kkEMOmcRgYDawC7gC3AFeAR+BNqATaAaagMfAdaAKWAdMAPKJCT2BucBZ4KUUDfMYgy8DK4DCTCufB8wCLgKfXYq0ADeBo8AqYDIwChgoow36A0OAImAeUAZUAw0uWebUjgPFURtQKBd46FrwLlAuxRIh1xgOpIBbrjVuABPDGpAvA95agt8AO4ERZA5mY6pcp34VGBtE2EygzhJ0T/5bQPbQV+TRLB3agX1A0stk48engQ5Nfg4sV3zEhaHAKeCHdHoAlPxtQokVeN+BPV6tzwCSwDIRy1Og1RU7X0Uq3eKDBtUG9ceIsBho9Ejbh7rzlgPAEaBXPPp3MV+lpWQNsEWb2gfoDYwRu9VY485EwJqRotJy6/VplMvTmC+as59/BIstI6b6mDdNKZAhpznEjKQVE2aX/WKj5j4BehAjllkxkQh4cT+UDHOyseGSlNgcQkaZZJzzw+et+nxBv4W9a+qlRBjKHycZRq/AfG5u/0UhlHBSkH4hZPSz3nk883kf7cBWXZ7OuIqAPp4xQyp98Ln5bYPGOsbE4VpFbtcKw+eOMQt9KnFB88wJhw3281HweUpzn/lM9x36rQ1Bv48kY0nUfN4l0COSIoxOualfbNLcBmcDL+oLE9hBUSoZ5l3cDxZZLm3c1CumWynK/KzxeRpUWMak0pSI8nUSTqnpYFZo0CMSljGdctNSbU5fPUUKbCcmOmRE4l8yxIFhvWceLuIG250yzucBUSDCqFZW26KnThS75G/MWC0lzHEGxbZ0yVs2sNTyzfwo+DwuFFhVFPOyEprP48QCMUGbzxSlWz6PGxXa2ValKnlB+TxuJNQusNP4lJXGe+bzLKK3OgGmpPUbzCkc9lgk+yOfZwnjrPeid38atFrlSXcvxBOfZxg9gb2WW9enqwlPsCp7ppB8UoXluJCnzsALy61Pec1IkqrmtVspSLniJVtIAiuB+5Z31Ppk118Yq6aLI+izmjIm+DOFkcBuV8PpNbA2iibqJLXF7Ni5pYvULBwGRrliNXnuudaokQGRN0yL1bhsci3YqBe17bpkxwPDgAGaV6hG6WhgCrAGOKbNMGRiy/qk3G0GWUChAvByN0YFeRrVOZsTY7OpyzVK1Eg9AVzTnwTeWw3Ob+qtmx79bZVNd6j9PSguxXPI4X/AT9ojlRaCVXXkAAAAAElFTkSuQmCC",
-      
+
         "desc": "Le Cancer est un signe du zodiaque plein d'émotions. Les personnes nées sous ce signe sont sensibles, attentionnées et attachées à leur famille. Elles ont une intuition développée et savent lire les émotions des autres."
       },
       {
         "name": "Lion",
         "url": "lion",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADgklEQVR4nN2aS0hVURSGv6uQkTezgiYR9LCEoDKpSVkQYi8alUGjKIIGQRBBQQ8rgwYRJEXQQ6KgQSpZEUGTMoQkqEGNvPaghz1IM6m0h9mLHf+BTYT3vPb12g8HLvfstf697t5n7X+tcyEzKAWqgZtACujVldJ31RqTlUgAlUAb8Mvn1Qaskm1WYBJw25rgc+AosAQoBvJ1Fes7c6/dGt8CTBzsIOYDHZrQC2AjkOvDLgdYDTyVbRewiEHCQqBPE2nUrx4USeCSfPTJZ8a301tN4HDEfZ4D1MhXp3xnBAnrmWjURKIix1qZlkwlgEoRtofcTgNts5fyvRLHSFgpdr0D/xvkuxXHKLVSrJ/sFBS5yn6GowSH2C+SIw45joljn0OOPxLDkCx1yLFMHDcccvBQJEUOOYotCeMMPSIxGcYVkuIwXM7gneTDHHKMEMcnhxy8E8lYhxwTLO3mDM9E4lJGlInjrkMObolkgUOOreI47pCD0yLZ5JDjmjjWOuRgi0hOOvI/DuhXUhmNQ5QoEFMQucBe+b+IYxi5/UZkM2L2XWBlRVN5RkYFUKuT1XQ/PgOPgbO652mhQ8SLGvltiupoGtDso/vhrUhHjAfjHD0b/VFX2tTK3dZEdwKzrA6I+bzLCsK71sQQRL5V4xyMuhJeEHVpdNRIjfECMWo4aqF2Xr7uAXlRnHnbqc5nrZxjBfNTP0RY7JCf91K9oVFhbacginYU8Fq220JyrwB+AN+B5URErSZjnomg2C3bqyFszTP3QfbbiQHeQzYzwuH4JKDdeKsuP0dM+BihUMqT7dcANiZZ3Jddc9SHO65AkgELoISkh7F5AIwhRsSxtVoDynOToaYSM07JuTnsgmKPbI2PdJgHfNN406mMHeVW+jX7N0j67ZRtutcBw6XVXPfD8HpV9T4PRDPmgmyu+xhfpbEpx00Liiz53JBmZQqsIMzLmSk+dJTnezEZQJlF2KHDbrYyU1I93yprO3X5rBnWafwdMogi1QLpZLxpZU726bNBNpsZBJSrJm9Vt69Hn0+EeM/3SIFMZ4jjiwIx3cMhjd7/JZBUBOWQVaiNoBwKgEKyBGGVQ6HKg1fZ9BePphDK4XJcrSFXyqE+zcoUAlc0ttuHcsg4/qUcSqUaTI93LnDA+l9Ld1zdRlcr4wnUgS5TObp8Rxkb/lYOpiVrXrKe0b20+A2eGDQdGcXhGgAAAABJRU5ErkJggg==",
-      
+
         "desc": "Le Lion est un signe du zodiaque plein de confiance en soi et de force. Les personnes nées sous ce signe sont courageuses, généreuses et créatives. Elles ont un don naturel pour le leadership et attirent généralement l'attention des autres."
       },
       {
         "name": "Vierge",
         "url": "vierge",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFUlEQVR4nNWaXUgUURiGH03sxygSilBv7Je8KIq6EYJCIvBGCiqki+giEQyqi7qIsroJoqiLCqysu4ggWgoiCooo+zFciKCbIgiLMu2PitD+Ng680mFZV+fb2dnZD2TXc97nzPvNzM6Z+c7A/7gPJIFFjB7jgUPAR2AA2AeU5pELFHeBFPAdWJtFNw3oltb/uwKU54ELHG5vHdbgv4F1GTSTgR5pXgErgEagX20XgJIQuZyiDfgL/ACWeO1uQxe14RdAjde3EPiivp1p41m5UOKgBn/mHfbNanMbnpeBadQO+Jm2A7YE4JYScpQBj2VgB1DpnQbrs3DHpOnSkajy9vhYuCQwLuxkGjT4a6BT36+OwkwB+qRtBjoMXAt5iKR3dfkD1I2BaZH+rU6XoFyvLjyhRruXSGKMjDs1nubIbSTkWO4ZWhOAa82Ru07IUesZmh6Aq8qR688wJbwH3gBNGGKCN0EGjeFEcuXa0+4EBoFlFNCQhWvWHPNLR+Wk+tx9YUEMWbgabw7aqr4K4J3a6qM2ZOUS+ryc1n9A7Z1RG7JyKeArMDOtf676+oI+AhQykT0jaJ6rf3GUhqzcN2DqCJpz0rRGacjKnc6iaZPmTJSGrNzqLJpV0tyO0pCVq8yiGf7Bv4zSUD64Smk+xcWQlSuXZiguhqxchVfxiYUhK1frVWRiYcjKNUjzMC6GrNxuaY7HxZCVS0izKS6GLNwk3b44zaw4GLJyG9TfHRdDVi7hFQ5jYcjCzVf9wNXLquNgyMqdV98pw7ixSWSBqpZDmhALbsjClQK31H7CMGbohqzcXrW55boZhjFDN2Th6lXXSo2yJBiZIQs3x1tuOGIYK3RDFq5OtV73/VoYC0D3tOIbFTco8x/0eROYSJFFGfDZOyqXijEJtxbzxEviaD6WrPMVzuhK4IaXQMpyi14o8275er9X+kypyr4N2KX/zxLzeJC253v1soB7zvCfxwfi/vvo0pJ3hyqGmSrqPUpmO0UeTUqkT+uKRRslwB0l80gv5RRtVOsUdMm410mKOmZrbnEXiKzxDxPhnJetqZ3mAAAAAElFTkSuQmCC",
-      
+
         "desc": "La Vierge est un signe du zodiaque axé sur les détails. Les personnes nées sous ce signe sont pratiques, précises et bien organisées. Elles ont des compétences analytiques et veillent à l'ordre dans leur environnement."
       },
       {
         "name": "Balance",
         "url": "balance",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACD0lEQVR4nO2YTUtWQRiGr1y4yAohEQkhcJMuIlqkJLlr50oKKhSlRWAEZS20XAluTH9CiIJU/yB0E/GaH7gQpSAX7jQKgkjKEj9j4FZmI/ie95nxg7lgNoc5131mzpw5MwOJRCKROAGUAfeAYWACWAT+qCzq2rDquLpHjgZgDNgCdg5YXN1R4AZHgBrgg/dwq8A74AlQD1QBJSpVutahOqvefe+B6sNqRCvwWw/yA+gBSvO4/6wa/E2Ov8ADItPv9eYr9XhWzgCDnq+PSLxQ4D99tFY0A2tydxKY28A2sAk0BfDfkns7kH9vTH9Vjz0KFQI8VsaShp05Awr4CJwiHEXApLJeWstL9VNzr/wK4bmqhrhZ8Zyl+L7E08RjRpltltK3krqfWSyeKfO1pfSLpHXE47oyP1tKd//gF4hHpTJXLKWbkhYTj2JlblhKVyQ9TzzKlPnTUvpJ0mvEo1aZ85bSEUndajUWHcocspS2SOp2eLGYUuYdS6lb8/yKOLzqvO/jtLW8T/Kc1kOhKFKGy+oNEeDWW98V0EU4nitjWSvuIDR6+xHTsSvuyu0OJm4SmG712DrQbuh9KKdzPyUSPd4e+w1QXoCr3FuU7mhoZWIuj7Oo/YqbXSoyZF/yZsNCyriTzRo15GKGhlzWhq3Q/FyG7EQikUjYsGAwjx92GfePeo5zyRm91EQikUiQF/8BKsY0lZCkNVsAAAAASUVORK5CYII=",
-      
+
         "desc": "La Balance est un signe du zodiaque qui recherche l'harmonie et l'équilibre. Les personnes nées sous ce signe sont justes, sociables et capables de compromis. Elles ont la capacité d'évaluer les situations et de résoudre des conflits."
       },
       {
         "name": "Scorpion",
         "url": "scorpion",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACXElEQVR4nO2aO2gVQRSGP42oARUUYzTYaGGRQkFtJAgBIUUqHyhIGi0MvkAsxE47QSKEdBZKsBKrkDRpg49CMWp8gyKiIBoRLERU1MjAf+EYbu69Ozt7nZX5YeGyc77Z85idvexZgFvAJLCJ+loEnAc+AR+Bs8D8ArlMug7MAF+A3TXslgO3ZWuPUWBhAVxmuWwNaPKfwN4qNkuAu7J5DXQDvcC0zl0F5gXkcukY8Bv4Cmw2592FrunCL4C1Zmwj8Fljp2bN58sF0TlN/sSU/aDOuQtvqML0KgE/ZiXgUAZuK4G1ALgjB04CK8wy2FeDG5TNTVWiw2S8Ec5tNi2hg9mhyd8Cl/R7rA6zDHgv2/3ARQ+unwI0aXaXX0BnA0y/7N9puWTl3mjjCaozJpCRBhm3NB7m5PoIrO3GoV0ZuMM5uXECa51xqC0D15GTmyawFpsHZFZVAmkWF51DKZDYMpsqEltmU0Viy2yqSGyZTRWJLbOpIrFlNlUktsymisSW2VSR2DL731Tkm7igb+jzOOTLVV7NrvRgC3HIl3spbr0HW4hDvlzl5fk2D7YQh3y5y+KOerCFOOTLHRHnAip1IFtMO8P1aUobiGsQvRK7h4C6oY5vszin06aDFfx50kwt1dJywQzNYXMPeACsJnL1qAvggrlQ5X6Z0thToJ3IdQD4LofvAzvNlxKuEs809hhYReTqMsvMHR+AK+pu9Zm/NI8yNpX+iVqB42Y3m+tw90xp1AmcAIaBCVWolIFYtev+mNH9Ev0OVi+I58AaSqqpMm2/teS+/XJb8l/L6Q8jn1QSBXIh7wAAAABJRU5ErkJggg==",
-      
+
         "desc": "Le Scorpion est un signe du zodiaque plein de mystère et de passion. Les personnes nées sous ce signe sont déterminées, courageuses et intenses. Elles ont une forte intuition et peuvent lire les intentions cachées des autres."
       },
       {
         "name": "Sagittaire",
         "url": "sagittaire",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABN0lEQVR4nO3awQrCMAwG4P/kI5ji+z+JXvSiDgTny6gMJhTZZtqmaaL+sOvGt7RNOwb88xtZAegBPCpfBw3IVQFyh9MQgMsbxl1CVOW42m4r0QPYeITQBALeIDSDcAWhBYQbCH1AuIAQA2EeQkyEaUgKwiwkFWESkoMwB8lFmIKUIMxAShEmIBKI5hApRFOIJKIZRBrRBFIDwYIcAZzHo6X08VTinmxIJ/TgmggWZB0NhVvmUKg1nJLnSMnbrF2JV3YAtmAkpzIalchKCsYsIgVjHsHBuEEsYdwh5lYkjdVJpTLuKrH0aT+3aTZN+IahRRMTW2I7oxpaWJ3cYIixxJrHUEKfMIuhjGZnDkMFHdsMhgS2Hc0xQbA3xPcavgGoJVRocGFE7KGYzmOXnsrwg8rJO+IfGMkThtQWgt0YC3gAAAAASUVORK5CYII=",
-      
+
         "desc": "Le Sagittaire est un signe du zodiaque plein d'optimisme et de recherche d'aventure. Les personnes nées sous ce signe sont enthousiastes, indépendantes et sincères. Elles ont des convictions fortes et aspirent au développement spirituel."
       },
       {
         "name": "Capricorne",
         "url": "capricorne",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADMUlEQVR4nO2aX2hPYRjHPzIM+024QP4zf9qFxoXCKKYUdwp3RIiWSK4wF5QWLpQbREsuxFz5c0XI/AuLaLggkv+zZGY/F7Ppqe+pt187+/3de6zOp077nffP877POc/7nOd93gHcBRqBCrJjLHAa+AG0ANeBjcBQIuI20AW0ASszaN8PqAZ+qV/q9RXYCRThmUHAYU2iA1jdQ9vhwFW17QTOA7OA0cB64L6j0COgnAio1uSSwJxu6qcCL52nvjxEjpW/VbufwBIi4KAm8AoY6JRPBz6p7ikwLo2cBHBO7f8AS/FMEfBQE9ilssnAB5Xd0CTJcC0dVb9mYDyeqdLgNvlS4Inub+XgkUyZS+pvXs07jRr8uWNqw3KUNUJrxeQswjP7HO+TLID3OSRZp/DMQkeR2gLIm+28Wa9MchSx3/kyRLLa8Uyx84EsFMGD8U5XgQeOFcmX+I2EEJtWvsSmFUJsWvkSm1YIsWnlS2xaIcSm1ZdNax5QB7zRDrVNqaiTyin02sCZkJQ82+uE0R84FpLBdK+bQFlUigR5MctKhlGvNt+B3coVlCh7Y7npPcAXtbF8c2UUijRJ3syQ+k2q/6iEYBgJpWoDZcp8K3JH8ipD9vSWxLP6FRnmyy44SUOvihyXvO3d1G1VXUMW8hLKQXelcwCFVmSd5FlOOJUHqluVpcy96nfCpyIzJO+9TCNgok4BzMWaiWVDhWSaa/amiE3+nWQuSznOsLKLOchMqG9rT40adJpVSPZrYEtsB1xR2YbeUqQ3GKVsoyX+5gODdd+Z5vuSzrReEAEHNPhrYI1+P85RVo36m0f0TrFzXNGuv/bFzhY7u/mm/ouJiGlOqGHX3BwcR32UB0gutY4irTrqK82gX2lKTDaFCBnpnGLdcxRqA84q7rIzlTEyxRLd1zjmZEosIGKOaDLXdF+l0PxvBiF8YE6RvongNKxDk7an7DIB2AacAZ4p9E/qvyya5J0iW9ipfr9FT9XOFfskW4DfUuIyMIA+RJEiWndB16XZ7kZKsTxMuTZOO7Tx+ewo0JxDmO6VhjQexhbpZsVV/O+KtGuvbaGHRczmXdZmk+nIl3+PiUhD/nzfxgAAAABJRU5ErkJggg==",
-      
+
         "desc": "Le Capricorne est un signe du zodiaque déterminé et ambitieux. Les personnes nées sous ce signe sont pratiques, responsables et organisées. Elles ont la capacité de planifier et d'atteindre le succès."
       },
       {
         "name": "Verseau",
         "url": "verseau",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA0ElEQVR4nO3XQQqCQBjF8b9b3eVBbOctukTktsO0ELpLm7yDHaGQWufOcPgkkYJczUjvBy5E34B+zMADEREREfEpBQ7AA7gB24XlnQ3QAN3kKlhGnhgoR8ETkAM7u38CWcB5Zw3UFmiBPRDxdrRnFyAhvDyRhVp7sbZFpxJbpLNFQ8k7uY1vGGVp4/0ms/F2Nm7feacaLdDYBvtF8WET+spXw4fc7YhbMU9/FF4DyJ9n5kRERGTxUjVE1BBjNUT8Nzw1xOFPqCGihigiIiLyF14rEPvhDF2iKwAAAABJRU5ErkJggg==",
-      
+
         "desc": "Le Verseau est un signe du zodiaque plein d'originalité et d'indépendance. Les personnes nées sous ce signe sont sociables, innovantes et humanitaires. Elles ont des convictions fortes et aspirent à changer le monde pour le mieux."
       },
       {
         "name": "Poissons",
         "url": "poissons",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACvUlEQVR4nNWaTYhOURyHn/FdI2J4x8dmMJiNCBvRGEtmIkkRGtmMGmWSFTIhG1aKLJBomsa3bMTCyKAJ+Sgb5SsLYoyY8THvYtDR7627YTTnf87hqbt73+f3P/fe83HPvdA3t4F2oJj4FCu/1UJ2D/gBtBCfU8q+YyErAzokrCUeG5T5ASi3kq7ISMcTnonAR2Uut5a3SHyc8JxUVnMI+QTgM9ALzCEcs5TRHfLq79KZuhwqALiijMaAGQxXx/8OzAjgn6lGdMQY7vcq7FgA9wm5dxMB11fywDcgZ+h1/SGvI8bI+ItmnblNhs4GOZuIyDKFXjd03pSzhogMA7o0TFrcBuPk6pI7KoUJcqOBqz7kBNgXaxR+Gn/OyrWaBJQr/IWB65Vck0hAEfBeBZR69g/n6JQzCVdVRLWHY2mEZc9fz/KNBuu3PSSkVkW4pUV/aZJjLQlZpCJ8nqnb5KgkIdNVxBMPx1M5ppKQnIp46+F4J8dYEjJURfR4OHrkcK5guHH9oYJSHm2+DRkA3P8HGnKD/+DWyssxhISMyTxj95dOOUaTkMkq4rmH46UcbkczGQtUxC0PR7sc80jIKoMN7jNyrCQhO1TEPg/Hfjm2kZCLKmKdh2O9HOdISOHJbraHY64crtMnoVQFfPWcA9x/v8iVIwE1Cr9m4GqVawkJOGzYSbfLdYjIuDXYa4VXGPimyfVG7mhUKviRofOxnPOJyEGF7jR0FjYhDhCJkZl9X7O3rbq9eoFPwAgisFVn7kIA9yW5txCYwZnV6sIA/qrM5OiygtFg+SXCb7irjM2hAkZl9npDXI0CVZmPE0pCBBxVwHniLUaPWIurJe6OtPU/RR8nuNfgi62kZZlNtDriUZ953eAa5oVbLjzIPC/EfH9RpNvYZbsavJYug4BnGkncVw+xcZku2+0PD/zTL38CH1kMsYTSwU0AAAAASUVORK5CYII=",
-      
+
         "desc": "Les Poissons sont un signe du zodiaque plein de sensibilité et d'empathie. Les personnes nées sous ce signe sont intuitives, créatives et romantiques. Elles ont la capacité de ressentir les émotions des autres et sont généralement dévouées envers leurs proches."
       }
     ],
@@ -1236,84 +1234,84 @@ export const horoscop = {
         "name": "Aries",
         "url": "aries",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC/klEQVR4nNWaS0hUYRTHf40WvQzsoSEVRi16QlQYtSndZVJhbaKHQYVQVhBRuis3QdYu3WVUJlFQ9MZNOW1atCnbFCG9VmWQkJY9jSP/gS/S653bjNzvBwP3nu+c8/3PzOV73YF/GQdsAW4Cb4E+oAfoAE4CxWSf2UAD8Ex990nLDWkzjYFsBj4A/QGfb8BxIDcLBeQC9cD3YTSYxk1DJTnhOLYDO4D5QB4wHlgFnAN+yecWMDaDRViu28r9E2gGVqpv07AAqJK2lE7T/Bf71PAV2DpMh2XAJ/lfAxIZKMJyXFdOy106jP82aTX/vSnjTD2HZqwM2bH9Or2KqeX/qVOuHuUOQ6ViPgMzzHBahtY0O18H/Aa+AHOIzlzlsFzlacZelvZTdvNONyURRDQrto3otCnH2QixKxRrI9rAEPc04rM+BXivZBUR4isUazkmR4hPOPoHhrwcolMjMckIsQ8VazmikpOpqcCGxy4JsuEyLCWK+QhMICbUS9SVNGKuKuYYMWI68ENLifwQ/vnytRm8gJjRpm94VwjfPfK9QwzZKXH3Q/g+kK/N0LFjkiY2W4sVBvgVyqdXa6hYclff9PYAnypn0RlbDkpkS4BPawbmjqwzTyK7hlgpJJz9jq2xYs0rCV06SNsytXXiAecldn/AoxdlgTjiVAdsC1LL7t14wGKJfT1I2xu1LcQDEkC3BBc59iLZujO0PR4RkhK91rGVOwcb3tAk0UccW61sjXhEjURfdGyXZLMTG28olegnjq1DtjV4RIFzKjkGGK1rs03DM7qcoXaRc9TpHUmJ3+Acptk+xDuaJP4QcFjXZ/CQA474xoD1V+zZKPG22bqn6/V4yHKJfw68CFjax55Cie/Tpz+ORz9hGOUUkHr3YjYv6XQKeYnHtDuFhDnvii0tTiEX8JgGpxB7te0tdU4hR/GYaqcQLw4cgv6A0J/mG+NYUuYUshqPWeIUYsdE3lLsFDILjylwCpmKx+Q5hUzEY3KdQrLxtyhGkkfA42z38gdXb/TZD3X7HQAAAABJRU5ErkJggg==",
-      
+
         "desc": "Aries es el primer signo del zodíaco. Las personas nacidas bajo este signo suelen ser valientes, dinámicas y llenas de energía. Tienen una personalidad fuerte y buscan alcanzar sus metas."
       },
       {
         "name": "Taurus",
         "url": "taurus",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADgUlEQVR4nM2ay29NURTGf0WLgWdQVEOFCYmBDmj5F5AWjUaQmHhNqt5EYiDCRGIgGhMMvOoRz4GBhJIm3hWEkWdiQCkSpS9XVnwn2ZG26e3de9/7JTs5ac/5vrXPWXs99r4Ar4CfwHvgPnAIWAjkk3vIBxbJxgeyuRW4Y/98CaS6GW+BNUBetq3nnw1rgXc92NqQ3DgUmAiUAduBJuema8CoLE5iFHDdsadJNs6VzWZ7r29gMdCsh+8Bw4iP4dI2Gz4Dlf31kMnAGxFdiuxmecAVab+WLRlhOvBNhOansbBemi3ANF+ky0X6FRhDeIyVlmlW+ya/IeI6wuOotG6GIJ8JdABdQCnhUCqNdmBGKJGDelOWOAcE4B8o7pS0gsFC8AcJrQvAv0HcH4ERBEalE01KPPJOdaJjBZFwwcmyPt7cSOCpOM8TOeO+kPBjlQr9hT37RFzPs1FBTJRw4maWLIek8fwQrbMWcTwDJpAljJYrpJx66AiwQuHaDBusYdezgJXKRUkdl7iTcWUdC4DGHkrs3kajns0ZlAKnlcj6Ogm79xQwmxzABOCiY1wncAuoAeaoZhqkzm6ceoha4LbuTZ6zKDg+W5NY4hR21irvleF9hU1sn1pV4/iiHigqah03MpcqyoBrEnDWcbcaImGHI7rVI6+1r8nL2UZgVEisU67lG0vF36XdkiAoBn7ojfn8Et19mRTwPUOX7RHnJHCG8L16fSit+U50yqSuSicAtEqz3CdxElUsXMbCfmme9EVo8b5NCzydPOFDt1PaY33uoFjGjo0GaS/zQVYnso3ExyZpH/ZB9lBkVifFRrmz2ZEx3oss5vpIUCht24XPGEkYLCA+BkvbbMgYbTkwkd8+yJpzwLU++SB7lMXFPs/nYj8hMutBYmOztI/5IFv9/zldRNyV9ipfftqhcsHKhtglSrvP9ZkcgVkhFwsHnCM/bygT6S81WKFRpJYhpRbCK66KuD7woWies3t5OYRAidPqWjsaCjudVndKKJFqZwfFNgp8o0rcf3QdFLs1GRPb48nN8rQF1CVu+ypRkEwmWTPWY/cXxc6a+APsIjKWOWumVaE5nTwzTiH2l7MmqsgSSpxolmxiN6i0KFcyLdAo1N+26GdJ7ib25ZALOx3MlzEdaRwrtCvZed3uwRPMXawuOq4fhtkJlvUzNuzaqlgrAO0er23BXwnvNsCEKAi3AAAAAElFTkSuQmCC",
-      
+
         "desc": "Tauro es un signo del zodíaco estable y práctico. Las personas nacidas bajo este signo son persistentes, independientes y tienen un fuerte sentido de valores. Son leales y se aferran fielmente a sus creencias."
       },
       {
         "name": "Gemini",
         "url": "gemini",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACO0lEQVR4nO3azYtNcRzH8dcMlkZkFmpSQ9khz4aFP0AWsmLBQh4WpKZYUojSiI3HImxkhQ0LdjJYjJUd03haXIpo1oN++t46nZkzjY47bvq967c49/7u+T1833f1/cAQ3uMM1mGG9qcTq3Ea7/AsffgCPwvjC+5gN3q0D/OxA7fwqbTn3wfpQB8GMFKakMYwbqMfm9A9DZvuwhrsx3W8wlhpX8mic9gQZxjHMhzC3ahO+WDNqg3iBk7iILZhI5ZgURx4bkHVOfHcG9+vxRbswTFcxmN8rFhzFA9wGKuqNj+Zi0uxMyr2aIKytmJ8wxNcwN449EwtYEFh0eO4gvtRpdd4i68xfhRuND03QtehuOGbcUnN96WKTSvNhdv1fVMmH6SCXJG6ZLUqyGrVJatVQVarLlmtCrJadclqVZDVqktWq4KsVl2yWhVkteqS1aogq1WXrFYFWa26ZLUqyGrVJatVQVarLlmtCrJadfkv1OotLDwQLebUan4ZredGtKJHC/Oa7eoPeBOxi9TSvhot7ua81Pr+68zCeuzDxWjif5+GwMDnCCecxS4sj/DClOmMDMgRPCzdaDkHkha6hKMRwNmMFRHPWBhxja7Ce9PzvPh+cWRItuIATkQcZHCS2Eiq5r2Il6SDjaMjMiTno+zFH49FoOVaVCVFi2ZrPd0R4OmPQM/wBAcbCa37mrmUcsypEc5vj2hRu9ATlU8RrHLVnqcJ6U+XsiOnsPJPUzf/iJQ4SiG5FJZLwbOnvwCLgWWqTsz8GQAAAABJRU5ErkJggg==",
-      
+
         "desc": "Géminis es un signo del zodíaco lleno de diversidad. Las personas nacidas bajo este signo son inteligentes, sociables y curiosas. Tienen una imaginación viva y disfrutan haciendo conexiones con otras personas."
       },
       {
         "name": "Cancer",
         "url": "cancer",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADzElEQVR4nO2aW4iNURTHf3PGHOMeCW9uL2LGeKTILUm555KEkpLjNsMLg0TSNORSpig8MIgXT7wqlzdkBsMMQ7k8oCEz4zKTZrSn/6ftazjf7ZxPOf/66nTO3muvtfda/72+tQ7kkEMOmcRgYDawC7gC3AFeAR+BNqATaAaagMfAdaAKWAdMAPKJCT2BucBZ4KUUDfMYgy8DK4DCTCufB8wCLgKfXYq0ADeBo8AqYDIwChgoow36A0OAImAeUAZUAw0uWebUjgPFURtQKBd46FrwLlAuxRIh1xgOpIBbrjVuABPDGpAvA95agt8AO4ERZA5mY6pcp34VGBtE2EygzhJ0T/5bQPbQV+TRLB3agX1A0stk48engQ5Nfg4sV3zEhaHAKeCHdHoAlPxtQokVeN+BPV6tzwCSwDIRy1Og1RU7X0Uq3eKDBtUG9ceIsBho9Ejbh7rzlgPAEaBXPPp3MV+lpWQNsEWb2gfoDYwRu9VY485EwJqRotJy6/VplMvTmC+as59/BIstI6b6mDdNKZAhpznEjKQVE2aX/WKj5j4BehAjllkxkQh4cT+UDHOyseGSlNgcQkaZZJzzw+et+nxBv4W9a+qlRBjKHycZRq/AfG5u/0UhlHBSkH4hZPSz3nk883kf7cBWXZ7OuIqAPp4xQyp98Ln5bYPGOsbE4VpFbtcKw+eOMQt9KnFB88wJhw3281HweUpzn/lM9x36rQ1Bv48kY0nUfN4l0COSIoxOualfbNLcBmcDL+oLE9hBUSoZ5l3cDxZZLm3c1CumWynK/KzxeRpUWMak0pSI8nUSTqnpYFZo0CMSljGdctNSbU5fPUUKbCcmOmRE4l8yxIFhvWceLuIG250yzucBUSDCqFZW26KnThS75G/MWC0lzHEGxbZ0yVs2sNTyzfwo+DwuFFhVFPOyEprP48QCMUGbzxSlWz6PGxXa2ValKnlB+TxuJNQusNP4lJXGe+bzLKK3OgGmpPUbzCkc9lgk+yOfZwnjrPeid38atFrlSXcvxBOfZxg9gb2WW9enqwlPsCp7ppB8UoXluJCnzsALy61Pec1IkqrmtVspSLniJVtIAiuB+5Z31Ppk118Yq6aLI+izmjIm+DOFkcBuV8PpNbA2iibqJLXF7Ni5pYvULBwGRrliNXnuudaokQGRN0yL1bhsci3YqBe17bpkxwPDgAGaV6hG6WhgCrAGOKbNMGRiy/qk3G0GWUChAvByN0YFeRrVOZsTY7OpyzVK1Eg9AVzTnwTeWw3Ob+qtmx79bZVNd6j9PSguxXPI4X/AT9ojlRaCVXXkAAAAAElFTkSuQmCC",
-      
+
         "desc": "Cáncer es un signo del zodíaco lleno de emociones. Las personas nacidas bajo este signo son sensibles, protectoras y están vinculadas a la familia. Tienen una intuición bien desarrollada y pueden leer las emociones de los demás."
       },
       {
         "name": "Leo",
         "url": "leo",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADgklEQVR4nN2aS0hVURSGv6uQkTezgiYR9LCEoDKpSVkQYi8alUGjKIIGQRBBQQ8rgwYRJEXQQ6KgQSpZEUGTMoQkqEGNvPaghz1IM6m0h9mLHf+BTYT3vPb12g8HLvfstf697t5n7X+tcyEzKAWqgZtACujVldJ31RqTlUgAlUAb8Mvn1Qaskm1WYBJw25rgc+AosAQoBvJ1Fes7c6/dGt8CTBzsIOYDHZrQC2AjkOvDLgdYDTyVbRewiEHCQqBPE2nUrx4USeCSfPTJZ8a301tN4HDEfZ4D1MhXp3xnBAnrmWjURKIix1qZlkwlgEoRtofcTgNts5fyvRLHSFgpdr0D/xvkuxXHKLVSrJ/sFBS5yn6GowSH2C+SIw45joljn0OOPxLDkCx1yLFMHDcccvBQJEUOOYotCeMMPSIxGcYVkuIwXM7gneTDHHKMEMcnhxy8E8lYhxwTLO3mDM9E4lJGlInjrkMObolkgUOOreI47pCD0yLZ5JDjmjjWOuRgi0hOOvI/DuhXUhmNQ5QoEFMQucBe+b+IYxi5/UZkM2L2XWBlRVN5RkYFUKuT1XQ/PgOPgbO652mhQ8SLGvltiupoGtDso/vhrUhHjAfjHD0b/VFX2tTK3dZEdwKzrA6I+bzLCsK71sQQRL5V4xyMuhJeEHVpdNRIjfECMWo4aqF2Xr7uAXlRnHnbqc5nrZxjBfNTP0RY7JCf91K9oVFhbacginYU8Fq220JyrwB+AN+B5URErSZjnomg2C3bqyFszTP3QfbbiQHeQzYzwuH4JKDdeKsuP0dM+BihUMqT7dcANiZZ3Jddc9SHO65AkgELoISkh7F5AIwhRsSxtVoDynOToaYSM07JuTnsgmKPbI2PdJgHfNN406mMHeVW+jX7N0j67ZRtutcBw6XVXPfD8HpV9T4PRDPmgmyu+xhfpbEpx00Liiz53JBmZQqsIMzLmSk+dJTnezEZQJlF2KHDbrYyU1I93yprO3X5rBnWafwdMogi1QLpZLxpZU726bNBNpsZBJSrJm9Vt69Hn0+EeM/3SIFMZ4jjiwIx3cMhjd7/JZBUBOWQVaiNoBwKgEKyBGGVQ6HKg1fZ9BePphDK4XJcrSFXyqE+zcoUAlc0ttuHcsg4/qUcSqUaTI93LnDA+l9Ld1zdRlcr4wnUgS5TObp8Rxkb/lYOpiVrXrKe0b20+A2eGDQdGcXhGgAAAABJRU5ErkJggg==",
-      
+
         "desc": "Leo es un signo del zodíaco lleno de confianza en sí mismo y fuerza. Las personas nacidas bajo este signo son valientes, generosas y creativas. Tienen un don natural para el liderazgo y generalmente atraen la atención de los demás."
       },
       {
         "name": "Virgo",
         "url": "virgo",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFUlEQVR4nNWaXUgUURiGH03sxygSilBv7Je8KIq6EYJCIvBGCiqki+giEQyqi7qIsroJoqiLCqysu4ggWgoiCooo+zFciKCbIgiLMu2PitD+Ng680mFZV+fb2dnZD2TXc97nzPvNzM6Z+c7A/7gPJIFFjB7jgUPAR2AA2AeU5pELFHeBFPAdWJtFNw3oltb/uwKU54ELHG5vHdbgv4F1GTSTgR5pXgErgEagX20XgJIQuZyiDfgL/ACWeO1uQxe14RdAjde3EPiivp1p41m5UOKgBn/mHfbNanMbnpeBadQO+Jm2A7YE4JYScpQBj2VgB1DpnQbrs3DHpOnSkajy9vhYuCQwLuxkGjT4a6BT36+OwkwB+qRtBjoMXAt5iKR3dfkD1I2BaZH+rU6XoFyvLjyhRruXSGKMjDs1nubIbSTkWO4ZWhOAa82Ru07IUesZmh6Aq8qR688wJbwH3gBNGGKCN0EGjeFEcuXa0+4EBoFlFNCQhWvWHPNLR+Wk+tx9YUEMWbgabw7aqr4K4J3a6qM2ZOUS+ryc1n9A7Z1RG7JyKeArMDOtf676+oI+AhQykT0jaJ6rf3GUhqzcN2DqCJpz0rRGacjKnc6iaZPmTJSGrNzqLJpV0tyO0pCVq8yiGf7Bv4zSUD64Smk+xcWQlSuXZiguhqxchVfxiYUhK1frVWRiYcjKNUjzMC6GrNxuaY7HxZCVS0izKS6GLNwk3b44zaw4GLJyG9TfHRdDVi7hFQ5jYcjCzVf9wNXLquNgyMqdV98pw7ixSWSBqpZDmhALbsjClQK31H7CMGbohqzcXrW55boZhjFDN2Th6lXXSo2yJBiZIQs3x1tuOGIYK3RDFq5OtV73/VoYC0D3tOIbFTco8x/0eROYSJFFGfDZOyqXijEJtxbzxEviaD6WrPMVzuhK4IaXQMpyi14o8275er9X+kypyr4N2KX/zxLzeJC253v1soB7zvCfxwfi/vvo0pJ3hyqGmSrqPUpmO0UeTUqkT+uKRRslwB0l80gv5RRtVOsUdMm410mKOmZrbnEXiKzxDxPhnJetqZ3mAAAAAElFTkSuQmCC",
-      
+
         "desc": "Virgo es un signo del zodíaco orientado a los detalles. Las personas nacidas bajo este signo son prácticas, precisas y organizadas. Tienen habilidades analíticas y mantienen el orden en su entorno."
       },
       {
         "name": "Libra",
         "url": "libra",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACD0lEQVR4nO2YTUtWQRiGr1y4yAohEQkhcJMuIlqkJLlr50oKKhSlRWAEZS20XAluTH9CiIJU/yB0E/GaH7gQpSAX7jQKgkjKEj9j4FZmI/ie95nxg7lgNoc5131mzpw5MwOJRCKROAGUAfeAYWACWAT+qCzq2rDquLpHjgZgDNgCdg5YXN1R4AZHgBrgg/dwq8A74AlQD1QBJSpVutahOqvefe+B6sNqRCvwWw/yA+gBSvO4/6wa/E2Ov8ADItPv9eYr9XhWzgCDnq+PSLxQ4D99tFY0A2tydxKY28A2sAk0BfDfkns7kH9vTH9Vjz0KFQI8VsaShp05Awr4CJwiHEXApLJeWstL9VNzr/wK4bmqhrhZ8Zyl+L7E08RjRpltltK3krqfWSyeKfO1pfSLpHXE47oyP1tKd//gF4hHpTJXLKWbkhYTj2JlblhKVyQ9TzzKlPnTUvpJ0mvEo1aZ85bSEUndajUWHcocspS2SOp2eLGYUuYdS6lb8/yKOLzqvO/jtLW8T/Kc1kOhKFKGy+oNEeDWW98V0EU4nitjWSvuIDR6+xHTsSvuyu0OJm4SmG712DrQbuh9KKdzPyUSPd4e+w1QXoCr3FuU7mhoZWIuj7Oo/YqbXSoyZF/yZsNCyriTzRo15GKGhlzWhq3Q/FyG7EQikUjYsGAwjx92GfePeo5zyRm91EQikUiQF/8BKsY0lZCkNVsAAAAASUVORK5CYII=",
-      
+
         "desc": "Libra es un signo del zodíaco que busca la armonía y el equilibrio. Las personas nacidas bajo este signo son justas, sociables y capaces de comprometerse. Tienen la capacidad de evaluar situaciones y resolver conflictos."
       },
       {
         "name": "Scorpio",
         "url": "scorpio",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACXElEQVR4nO2aO2gVQRSGP42oARUUYzTYaGGRQkFtJAgBIUUqHyhIGi0MvkAsxE47QSKEdBZKsBKrkDRpg49CMWp8gyKiIBoRLERU1MjAf+EYbu69Ozt7nZX5YeGyc77Z85idvexZgFvAJLCJ+loEnAc+AR+Bs8D8ArlMug7MAF+A3TXslgO3ZWuPUWBhAVxmuWwNaPKfwN4qNkuAu7J5DXQDvcC0zl0F5gXkcukY8Bv4Cmw2592FrunCL4C1Zmwj8Fljp2bN58sF0TlN/sSU/aDOuQtvqML0KgE/ZiXgUAZuK4G1ALgjB04CK8wy2FeDG5TNTVWiw2S8Ec5tNi2hg9mhyd8Cl/R7rA6zDHgv2/3ARQ+unwI0aXaXX0BnA0y/7N9puWTl3mjjCaozJpCRBhm3NB7m5PoIrO3GoV0ZuMM5uXECa51xqC0D15GTmyawFpsHZFZVAmkWF51DKZDYMpsqEltmU0Viy2yqSGyZTRWJLbOpIrFlNlUktsymisSW2VSR2DL731Tkm7igb+jzOOTLVV7NrvRgC3HIl3spbr0HW4hDvlzl5fk2D7YQh3y5y+KOerCFOOTLHRHnAip1IFtMO8P1aUobiGsQvRK7h4C6oY5vszin06aDFfx50kwt1dJywQzNYXMPeACsJnL1qAvggrlQ5X6Z0thToJ3IdQD4LofvAzvNlxKuEs809hhYReTqMsvMHR+AK+pu9Zm/NI8yNpX+iVqB42Y3m+tw90xp1AmcAIaBCVWolIFYtev+mNH9Ev0OVi+I58AaSqqpMm2/teS+/XJb8l/L6Q8jn1QSBXIh7wAAAABJRU5ErkJggg==",
-      
+
         "desc": "Escorpio es un signo del zodíaco lleno de misterio y pasión. Las personas nacidas bajo este signo son decididas, valientes e intensas. Tienen una fuerte intuición y pueden descifrar las intenciones ocultas de los demás."
       },
       {
         "name": "Sagittarius",
         "url": "sagittarius",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABN0lEQVR4nO3awQrCMAwG4P/kI5ji+z+JXvSiDgTny6gMJhTZZtqmaaL+sOvGt7RNOwb88xtZAegBPCpfBw3IVQFyh9MQgMsbxl1CVOW42m4r0QPYeITQBALeIDSDcAWhBYQbCH1AuIAQA2EeQkyEaUgKwiwkFWESkoMwB8lFmIKUIMxAShEmIBKI5hApRFOIJKIZRBrRBFIDwYIcAZzHo6X08VTinmxIJ/TgmggWZB0NhVvmUKg1nJLnSMnbrF2JV3YAtmAkpzIalchKCsYsIgVjHsHBuEEsYdwh5lYkjdVJpTLuKrH0aT+3aTZN+IahRRMTW2I7oxpaWJ3cYIixxJrHUEKfMIuhjGZnDkMFHdsMhgS2Hc0xQbA3xPcavgGoJVRocGFE7KGYzmOXnsrwg8rJO+IfGMkThtQWgt0YC3gAAAAASUVORK5CYII=",
-      
+
         "desc": "Sagitario es un signo del zodíaco lleno de optimismo y búsqueda de aventuras. Las personas nacidas bajo este signo son entusiastas, independientes y sinceras. Tienen fuertes creencias y buscan el crecimiento espiritual."
       },
       {
         "name": "Capricorn",
         "url": "capricorn",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADMUlEQVR4nO2aX2hPYRjHPzIM+024QP4zf9qFxoXCKKYUdwp3RIiWSK4wF5QWLpQbREsuxFz5c0XI/AuLaLggkv+zZGY/F7Ppqe+pt187+/3de6zOp077nffP877POc/7nOd93gHcBRqBCrJjLHAa+AG0ANeBjcBQIuI20AW0ASszaN8PqAZ+qV/q9RXYCRThmUHAYU2iA1jdQ9vhwFW17QTOA7OA0cB64L6j0COgnAio1uSSwJxu6qcCL52nvjxEjpW/VbufwBIi4KAm8AoY6JRPBz6p7ikwLo2cBHBO7f8AS/FMEfBQE9ilssnAB5Xd0CTJcC0dVb9mYDyeqdLgNvlS4Inub+XgkUyZS+pvXs07jRr8uWNqw3KUNUJrxeQswjP7HO+TLID3OSRZp/DMQkeR2gLIm+28Wa9MchSx3/kyRLLa8Uyx84EsFMGD8U5XgQeOFcmX+I2EEJtWvsSmFUJsWvkSm1YIsWnlS2xaIcSm1ZdNax5QB7zRDrVNqaiTyin02sCZkJQ82+uE0R84FpLBdK+bQFlUigR5MctKhlGvNt+B3coVlCh7Y7npPcAXtbF8c2UUijRJ3syQ+k2q/6iEYBgJpWoDZcp8K3JH8ipD9vSWxLP6FRnmyy44SUOvihyXvO3d1G1VXUMW8hLKQXelcwCFVmSd5FlOOJUHqluVpcy96nfCpyIzJO+9TCNgok4BzMWaiWVDhWSaa/amiE3+nWQuSznOsLKLOchMqG9rT40adJpVSPZrYEtsB1xR2YbeUqQ3GKVsoyX+5gODdd+Z5vuSzrReEAEHNPhrYI1+P85RVo36m0f0TrFzXNGuv/bFzhY7u/mm/ouJiGlOqGHX3BwcR32UB0gutY4irTrqK82gX2lKTDaFCBnpnGLdcxRqA84q7rIzlTEyxRLd1zjmZEosIGKOaDLXdF+l0PxvBiF8YE6RvongNKxDk7an7DIB2AacAZ4p9E/qvyya5J0iW9ipfr9FT9XOFfskW4DfUuIyMIA+RJEiWndB16XZ7kZKsTxMuTZOO7Tx+ewo0JxDmO6VhjQexhbpZsVV/O+KtGuvbaGHRczmXdZmk+nIl3+PiUhD/nzfxgAAAABJRU5ErkJggg==",
-      
+
         "desc": "Capricornio es un signo del zodíaco determinado y ambicioso. Las personas nacidas bajo este signo son prácticas, responsables y organizadas. Tienen la habilidad de planificar y lograr el éxito."
       },
       {
         "name": "Aquarius",
         "url": "aquarius",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA0ElEQVR4nO3XQQqCQBjF8b9b3eVBbOctukTktsO0ELpLm7yDHaGQWufOcPgkkYJczUjvBy5E34B+zMADEREREfEpBQ7AA7gB24XlnQ3QAN3kKlhGnhgoR8ETkAM7u38CWcB5Zw3UFmiBPRDxdrRnFyAhvDyRhVp7sbZFpxJbpLNFQ8k7uY1vGGVp4/0ms/F2Nm7feacaLdDYBvtF8WET+spXw4fc7YhbMU9/FF4DyJ9n5kRERGTxUjVE1BBjNUT8Nzw1xOFPqCGihigiIiLyF14rEPvhDF2iKwAAAABJRU5ErkJggg==",
-      
+
         "desc": "Acuario es un signo del zodíaco lleno de originalidad e independencia. Las personas nacidas bajo este signo son sociales, innovadoras y humanitarias. Tienen fuertes creencias y buscan cambiar el mundo para mejorarlo."
       },
       {
         "name": "Pisces",
         "url": "pisces",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACvUlEQVR4nNWaTYhOURyHn/FdI2J4x8dmMJiNCBvRGEtmIkkRGtmMGmWSFTIhG1aKLJBomsa3bMTCyKAJ+Sgb5SsLYoyY8THvYtDR7627YTTnf87hqbt73+f3P/fe83HPvdA3t4F2oJj4FCu/1UJ2D/gBtBCfU8q+YyErAzokrCUeG5T5ASi3kq7ISMcTnonAR2Uut5a3SHyc8JxUVnMI+QTgM9ALzCEcs5TRHfLq79KZuhwqALiijMaAGQxXx/8OzAjgn6lGdMQY7vcq7FgA9wm5dxMB11fywDcgZ+h1/SGvI8bI+ItmnblNhs4GOZuIyDKFXjd03pSzhogMA7o0TFrcBuPk6pI7KoUJcqOBqz7kBNgXaxR+Gn/OyrWaBJQr/IWB65Vck0hAEfBeBZR69g/n6JQzCVdVRLWHY2mEZc9fz/KNBuu3PSSkVkW4pUV/aZJjLQlZpCJ8nqnb5KgkIdNVxBMPx1M5ppKQnIp46+F4J8dYEjJURfR4OHrkcK5guHH9oYJSHm2+DRkA3P8HGnKD/+DWyssxhISMyTxj95dOOUaTkMkq4rmH46UcbkczGQtUxC0PR7sc80jIKoMN7jNyrCQhO1TEPg/Hfjm2kZCLKmKdh2O9HOdISOHJbraHY64crtMnoVQFfPWcA9x/v8iVIwE1Cr9m4GqVawkJOGzYSbfLdYjIuDXYa4VXGPimyfVG7mhUKviRofOxnPOJyEGF7jR0FjYhDhCJkZl9X7O3rbq9eoFPwAgisFVn7kIA9yW5txCYwZnV6sIA/qrM5OiygtFg+SXCb7irjM2hAkZl9npDXI0CVZmPE0pCBBxVwHniLUaPWIurJe6OtPU/RR8nuNfgi62kZZlNtDriUZ953eAa5oVbLjzIPC/EfH9RpNvYZbsavJYug4BnGkncVw+xcZku2+0PD/zTL38CH1kMsYTSwU0AAAAASUVORK5CYII=",
-      
+
         "desc": "Piscis es un signo del zodíaco lleno de sensibilidad y empatía. Las personas nacidas bajo este signo son intuitivas, creativas y románticas. Tienen la capacidad de sentir las emociones de los demás y generalmente son devotas a sus seres queridos."
       }
     ],
@@ -1322,84 +1320,84 @@ export const horoscop = {
       "name": "Aries",
       "url": "aries",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC/klEQVR4nNWaS0hUYRTHf40WvQzsoSEVRi16QlQYtSndZVJhbaKHQYVQVhBRuis3QdYu3WVUJlFQ9MZNOW1atCnbFCG9VmWQkJY9jSP/gS/S653bjNzvBwP3nu+c8/3PzOV73YF/GQdsAW4Cb4E+oAfoAE4CxWSf2UAD8Ex990nLDWkzjYFsBj4A/QGfb8BxIDcLBeQC9cD3YTSYxk1DJTnhOLYDO4D5QB4wHlgFnAN+yecWMDaDRViu28r9E2gGVqpv07AAqJK2lE7T/Bf71PAV2DpMh2XAJ/lfAxIZKMJyXFdOy106jP82aTX/vSnjTD2HZqwM2bH9Or2KqeX/qVOuHuUOQ6ViPgMzzHBahtY0O18H/Aa+AHOIzlzlsFzlacZelvZTdvNONyURRDQrto3otCnH2QixKxRrI9rAEPc04rM+BXivZBUR4isUazkmR4hPOPoHhrwcolMjMckIsQ8VazmikpOpqcCGxy4JsuEyLCWK+QhMICbUS9SVNGKuKuYYMWI68ENLifwQ/vnytRm8gJjRpm94VwjfPfK9QwzZKXH3Q/g+kK/N0LFjkiY2W4sVBvgVyqdXa6hYclff9PYAnypn0RlbDkpkS4BPawbmjqwzTyK7hlgpJJz9jq2xYs0rCV06SNsytXXiAecldn/AoxdlgTjiVAdsC1LL7t14wGKJfT1I2xu1LcQDEkC3BBc59iLZujO0PR4RkhK91rGVOwcb3tAk0UccW61sjXhEjURfdGyXZLMTG28olegnjq1DtjV4RIFzKjkGGK1rs03DM7qcoXaRc9TpHUmJ3+Acptk+xDuaJP4QcFjXZ/CQA474xoD1V+zZKPG22bqn6/V4yHKJfw68CFjax55Cie/Tpz+ORz9hGOUUkHr3YjYv6XQKeYnHtDuFhDnvii0tTiEX8JgGpxB7te0tdU4hR/GYaqcQLw4cgv6A0J/mG+NYUuYUshqPWeIUYsdE3lLsFDILjylwCpmKx+Q5hUzEY3KdQrLxtyhGkkfA42z38gdXb/TZD3X7HQAAAABJRU5ErkJggg==",
-      
+
       "desc": "Aries is het eerste teken van de dierenriem. Mensen geboren onder dit teken zijn meestal moedig, dynamisch en vol energie. Ze hebben een sterke persoonlijkheid en streven ernaar hun doelen te bereiken."
     },
     {
       "name": "Taurus",
       "url": "taurus",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADgUlEQVR4nM2ay29NURTGf0WLgWdQVEOFCYmBDmj5F5AWjUaQmHhNqt5EYiDCRGIgGhMMvOoRz4GBhJIm3hWEkWdiQCkSpS9XVnwn2ZG26e3de9/7JTs5ac/5vrXPWXs99r4Ar4CfwHvgPnAIWAjkk3vIBxbJxgeyuRW4Y/98CaS6GW+BNUBetq3nnw1rgXc92NqQ3DgUmAiUAduBJuema8CoLE5iFHDdsadJNs6VzWZ7r29gMdCsh+8Bw4iP4dI2Gz4Dlf31kMnAGxFdiuxmecAVab+WLRlhOvBNhOansbBemi3ANF+ky0X6FRhDeIyVlmlW+ya/IeI6wuOotG6GIJ8JdABdQCnhUCqNdmBGKJGDelOWOAcE4B8o7pS0gsFC8AcJrQvAv0HcH4ERBEalE01KPPJOdaJjBZFwwcmyPt7cSOCpOM8TOeO+kPBjlQr9hT37RFzPs1FBTJRw4maWLIek8fwQrbMWcTwDJpAljJYrpJx66AiwQuHaDBusYdezgJXKRUkdl7iTcWUdC4DGHkrs3kajns0ZlAKnlcj6Ogm79xQwmxzABOCiY1wncAuoAeaoZhqkzm6ceoha4LbuTZ6zKDg+W5NY4hR21irvleF9hU1sn1pV4/iiHigqah03MpcqyoBrEnDWcbcaImGHI7rVI6+1r8nL2UZgVEisU67lG0vF36XdkiAoBn7ojfn8Et19mRTwPUOX7RHnJHCG8L16fSit+U50yqSuSicAtEqz3CdxElUsXMbCfmme9EVo8b5NCzydPOFDt1PaY33uoFjGjo0GaS/zQVYnso3ExyZpH/ZB9lBkVifFRrmz2ZEx3oss5vpIUCht24XPGEkYLCA+BkvbbMgYbTkwkd8+yJpzwLU++SB7lMXFPs/nYj8hMutBYmOztI/5IFv9/zldRNyV9ipfftqhcsHKhtglSrvP9ZkcgVkhFwsHnCM/bygT6S81WKFRpJYhpRbCK66KuD7woWies3t5OYRAidPqWjsaCjudVndKKJFqZwfFNgp8o0rcf3QdFLs1GRPb48nN8rQF1CVu+ypRkEwmWTPWY/cXxc6a+APsIjKWOWumVaE5nTwzTiH2l7MmqsgSSpxolmxiN6i0KFcyLdAo1N+26GdJ7ib25ZALOx3MlzEdaRwrtCvZed3uwRPMXawuOq4fhtkJlvUzNuzaqlgrAO0er23BXwnvNsCEKAi3AAAAAElFTkSuQmCC",
-      
+
       "desc": "Stier is een stabiel en praktisch teken van de dierenriem. Mensen geboren onder dit teken zijn volhardend, onafhankelijk en hebben een sterk gevoel van waarden. Ze zijn loyaal en houden stevig vast aan hun overtuigingen."
     },
     {
       "name": "Gemini",
       "url": "gemini",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACO0lEQVR4nO3azYtNcRzH8dcMlkZkFmpSQ9khz4aFP0AWsmLBQh4WpKZYUojSiI3HImxkhQ0LdjJYjJUd03haXIpo1oN++t46nZkzjY47bvq967c49/7u+T1833f1/cAQ3uMM1mGG9qcTq3Ea7/AsffgCPwvjC+5gN3q0D/OxA7fwqbTn3wfpQB8GMFKakMYwbqMfm9A9DZvuwhrsx3W8wlhpX8mic9gQZxjHMhzC3ahO+WDNqg3iBk7iILZhI5ZgURx4bkHVOfHcG9+vxRbswTFcxmN8rFhzFA9wGKuqNj+Zi0uxMyr2aIKytmJ8wxNcwN449EwtYEFh0eO4gvtRpdd4i68xfhRuND03QtehuOGbcUnN96WKTSvNhdv1fVMmH6SCXJG6ZLUqyGrVJatVQVarLlmtCrJadclqVZDVqktWq4KsVl2yWhVkteqS1aogq1WXrFYFWa26ZLUqyGrVJatVQVarLlmtCrJadfkv1OotLDwQLebUan4ZredGtKJHC/Oa7eoPeBOxi9TSvhot7ua81Pr+68zCeuzDxWjif5+GwMDnCCecxS4sj/DClOmMDMgRPCzdaDkHkha6hKMRwNmMFRHPWBhxja7Ce9PzvPh+cWRItuIATkQcZHCS2Eiq5r2Il6SDjaMjMiTno+zFH49FoOVaVCVFi2ZrPd0R4OmPQM/wBAcbCa37mrmUcsypEc5vj2hRu9ATlU8RrHLVnqcJ6U+XsiOnsPJPUzf/iJQ4SiG5FJZLwbOnvwCLgWWqTsz8GQAAAABJRU5ErkJggg==",
-      
+
       "desc": "Tweelingen is een teken van de dierenriem vol diversiteit. Mensen geboren onder dit teken zijn intelligent, sociaal en nieuwsgierig. Ze hebben een levendige verbeelding en genieten van het leggen van verbindingen met andere mensen."
     },
     {
       "name": "Cancer",
       "url": "cancer",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADzElEQVR4nO2aW4iNURTHf3PGHOMeCW9uL2LGeKTILUm555KEkpLjNsMLg0TSNORSpig8MIgXT7wqlzdkBsMMQ7k8oCEz4zKTZrSn/6ftazjf7ZxPOf/66nTO3muvtfda/72+tQ7kkEMOmcRgYDawC7gC3AFeAR+BNqATaAaagMfAdaAKWAdMAPKJCT2BucBZ4KUUDfMYgy8DK4DCTCufB8wCLgKfXYq0ADeBo8AqYDIwChgoow36A0OAImAeUAZUAw0uWebUjgPFURtQKBd46FrwLlAuxRIh1xgOpIBbrjVuABPDGpAvA95agt8AO4ERZA5mY6pcp34VGBtE2EygzhJ0T/5bQPbQV+TRLB3agX1A0stk48engQ5Nfg4sV3zEhaHAKeCHdHoAlPxtQokVeN+BPV6tzwCSwDIRy1Og1RU7X0Uq3eKDBtUG9ceIsBho9Ejbh7rzlgPAEaBXPPp3MV+lpWQNsEWb2gfoDYwRu9VY485EwJqRotJy6/VplMvTmC+as59/BIstI6b6mDdNKZAhpznEjKQVE2aX/WKj5j4BehAjllkxkQh4cT+UDHOyseGSlNgcQkaZZJzzw+et+nxBv4W9a+qlRBjKHycZRq/AfG5u/0UhlHBSkH4hZPSz3nk883kf7cBWXZ7OuIqAPp4xQyp98Ln5bYPGOsbE4VpFbtcKw+eOMQt9KnFB88wJhw3281HweUpzn/lM9x36rQ1Bv48kY0nUfN4l0COSIoxOualfbNLcBmcDL+oLE9hBUSoZ5l3cDxZZLm3c1CumWynK/KzxeRpUWMak0pSI8nUSTqnpYFZo0CMSljGdctNSbU5fPUUKbCcmOmRE4l8yxIFhvWceLuIG250yzucBUSDCqFZW26KnThS75G/MWC0lzHEGxbZ0yVs2sNTyzfwo+DwuFFhVFPOyEprP48QCMUGbzxSlWz6PGxXa2ValKnlB+TxuJNQusNP4lJXGe+bzLKK3OgGmpPUbzCkc9lgk+yOfZwnjrPeid38atFrlSXcvxBOfZxg9gb2WW9enqwlPsCp7ppB8UoXluJCnzsALy61Pec1IkqrmtVspSLniJVtIAiuB+5Z31Ppk118Yq6aLI+izmjIm+DOFkcBuV8PpNbA2iibqJLXF7Ni5pYvULBwGRrliNXnuudaokQGRN0yL1bhsci3YqBe17bpkxwPDgAGaV6hG6WhgCrAGOKbNMGRiy/qk3G0GWUChAvByN0YFeRrVOZsTY7OpyzVK1Eg9AVzTnwTeWw3Ob+qtmx79bZVNd6j9PSguxXPI4X/AT9ojlRaCVXXkAAAAAElFTkSuQmCC",
-      
+
       "desc": "Kreeft is een teken van de dierenriem vol emoties. Mensen geboren onder dit teken zijn gevoelig, zorgzaam en gehecht aan familie. Ze hebben een goed ontwikkelde intuïtie en kunnen de emoties van anderen lezen."
     },
     {
       "name": "Leo",
       "url": "leo",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADgklEQVR4nN2aS0hVURSGv6uQkTezgiYR9LCEoDKpSVkQYi8alUGjKIIGQRBBQQ8rgwYRJEXQQ6KgQSpZEUGTMoQkqEGNvPaghz1IM6m0h9mLHf+BTYT3vPb12g8HLvfstf697t5n7X+tcyEzKAWqgZtACujVldJ31RqTlUgAlUAb8Mvn1Qaskm1WYBJw25rgc+AosAQoBvJ1Fes7c6/dGt8CTBzsIOYDHZrQC2AjkOvDLgdYDTyVbRewiEHCQqBPE2nUrx4USeCSfPTJZ8a301tN4HDEfZ4D1MhXp3xnBAnrmWjURKIix1qZlkwlgEoRtofcTgNts5fyvRLHSFgpdr0D/xvkuxXHKLVSrJ/sFBS5yn6GowSH2C+SIw45joljn0OOPxLDkCx1yLFMHDcccvBQJEUOOYotCeMMPSIxGcYVkuIwXM7gneTDHHKMEMcnhxy8E8lYhxwTLO3mDM9E4lJGlInjrkMObolkgUOOreI47pCD0yLZ5JDjmjjWOuRgi0hOOvI/DuhXUhmNQ5QoEFMQucBe+b+IYxi5/UZkM2L2XWBlRVN5RkYFUKuT1XQ/PgOPgbO652mhQ8SLGvltiupoGtDso/vhrUhHjAfjHD0b/VFX2tTK3dZEdwKzrA6I+bzLCsK71sQQRL5V4xyMuhJeEHVpdNRIjfECMWo4aqF2Xr7uAXlRnHnbqc5nrZxjBfNTP0RY7JCf91K9oVFhbacginYU8Fq220JyrwB+AN+B5URErSZjnomg2C3bqyFszTP3QfbbiQHeQzYzwuH4JKDdeKsuP0dM+BihUMqT7dcANiZZ3Jddc9SHO65AkgELoISkh7F5AIwhRsSxtVoDynOToaYSM07JuTnsgmKPbI2PdJgHfNN406mMHeVW+jX7N0j67ZRtutcBw6XVXPfD8HpV9T4PRDPmgmyu+xhfpbEpx00Liiz53JBmZQqsIMzLmSk+dJTnezEZQJlF2KHDbrYyU1I93yprO3X5rBnWafwdMogi1QLpZLxpZU726bNBNpsZBJSrJm9Vt69Hn0+EeM/3SIFMZ4jjiwIx3cMhjd7/JZBUBOWQVaiNoBwKgEKyBGGVQ6HKg1fZ9BePphDK4XJcrSFXyqE+zcoUAlc0ttuHcsg4/qUcSqUaTI93LnDA+l9Ld1zdRlcr4wnUgS5TObp8Rxkb/lYOpiVrXrKe0b20+A2eGDQdGcXhGgAAAABJRU5ErkJggg==",
-      
+
       "desc": "Leeuw is een teken van de dierenriem vol zelfvertrouwen en kracht. Mensen geboren onder dit teken zijn moedig, vrijgevig en creatief. Ze hebben een natuurlijk talent voor leiderschap en trekken meestal de aandacht van anderen aan."
     },
     {
       "name": "Virgo",
       "url": "virgo",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFUlEQVR4nNWaXUgUURiGH03sxygSilBv7Je8KIq6EYJCIvBGCiqki+giEQyqi7qIsroJoqiLCqysu4ggWgoiCooo+zFciKCbIgiLMu2PitD+Ng680mFZV+fb2dnZD2TXc97nzPvNzM6Z+c7A/7gPJIFFjB7jgUPAR2AA2AeU5pELFHeBFPAdWJtFNw3oltb/uwKU54ELHG5vHdbgv4F1GTSTgR5pXgErgEagX20XgJIQuZyiDfgL/ACWeO1uQxe14RdAjde3EPiivp1p41m5UOKgBn/mHfbNanMbnpeBadQO+Jm2A7YE4JYScpQBj2VgB1DpnQbrs3DHpOnSkajy9vhYuCQwLuxkGjT4a6BT36+OwkwB+qRtBjoMXAt5iKR3dfkD1I2BaZH+rU6XoFyvLjyhRruXSGKMjDs1nubIbSTkWO4ZWhOAa82Ru07IUesZmh6Aq8qR688wJbwH3gBNGGKCN0EGjeFEcuXa0+4EBoFlFNCQhWvWHPNLR+Wk+tx9YUEMWbgabw7aqr4K4J3a6qM2ZOUS+ryc1n9A7Z1RG7JyKeArMDOtf676+oI+AhQykT0jaJ6rf3GUhqzcN2DqCJpz0rRGacjKnc6iaZPmTJSGrNzqLJpV0tyO0pCVq8yiGf7Bv4zSUD64Smk+xcWQlSuXZiguhqxchVfxiYUhK1frVWRiYcjKNUjzMC6GrNxuaY7HxZCVS0izKS6GLNwk3b44zaw4GLJyG9TfHRdDVi7hFQ5jYcjCzVf9wNXLquNgyMqdV98pw7ixSWSBqpZDmhALbsjClQK31H7CMGbohqzcXrW55boZhjFDN2Th6lXXSo2yJBiZIQs3x1tuOGIYK3RDFq5OtV73/VoYC0D3tOIbFTco8x/0eROYSJFFGfDZOyqXijEJtxbzxEviaD6WrPMVzuhK4IaXQMpyi14o8275er9X+kypyr4N2KX/zxLzeJC253v1soB7zvCfxwfi/vvo0pJ3hyqGmSrqPUpmO0UeTUqkT+uKRRslwB0l80gv5RRtVOsUdMm410mKOmZrbnEXiKzxDxPhnJetqZ3mAAAAAElFTkSuQmCC",
-      
+
       "desc": "Maagd is een op details gericht teken van de dierenriem. Mensen geboren onder dit teken zijn praktisch, nauwkeurig en georganiseerd. Ze hebben analytische vaardigheden en handhaven orde in hun omgeving."
     },
     {
       "name": "Libra",
       "url": "libra",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACD0lEQVR4nO2YTUtWQRiGr1y4yAohEQkhcJMuIlqkJLlr50oKKhSlRWAEZS20XAluTH9CiIJU/yB0E/GaH7gQpSAX7jQKgkjKEj9j4FZmI/ie95nxg7lgNoc5131mzpw5MwOJRCKROAGUAfeAYWACWAT+qCzq2rDquLpHjgZgDNgCdg5YXN1R4AZHgBrgg/dwq8A74AlQD1QBJSpVutahOqvefe+B6sNqRCvwWw/yA+gBSvO4/6wa/E2Ov8ADItPv9eYr9XhWzgCDnq+PSLxQ4D99tFY0A2tydxKY28A2sAk0BfDfkns7kH9vTH9Vjz0KFQI8VsaShp05Awr4CJwiHEXApLJeWstL9VNzr/wK4bmqhrhZ8Zyl+L7E08RjRpltltK3krqfWSyeKfO1pfSLpHXE47oyP1tKd//gF4hHpTJXLKWbkhYTj2JlblhKVyQ9TzzKlPnTUvpJ0mvEo1aZ85bSEUndajUWHcocspS2SOp2eLGYUuYdS6lb8/yKOLzqvO/jtLW8T/Kc1kOhKFKGy+oNEeDWW98V0EU4nitjWSvuIDR6+xHTsSvuyu0OJm4SmG712DrQbuh9KKdzPyUSPd4e+w1QXoCr3FuU7mhoZWIuj7Oo/YqbXSoyZF/yZsNCyriTzRo15GKGhlzWhq3Q/FyG7EQikUjYsGAwjx92GfePeo5zyRm91EQikUiQF/8BKsY0lZCkNVsAAAAASUVORK5CYII=",
-      
+
       "desc": "Weegschaal is een teken van de dierenriem dat streeft naar harmonie en evenwicht. Mensen geboren onder dit teken zijn rechtvaardig, sociaal en in staat tot compromissen. Ze hebben het vermogen om situaties te beoordelen en conflicten op te lossen."
     },
     {
       "name": "Scorpio",
       "url": "scorpio",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACXElEQVR4nO2aO2gVQRSGP42oARUUYzTYaGGRQkFtJAgBIUUqHyhIGi0MvkAsxE47QSKEdBZKsBKrkDRpg49CMWp8gyKiIBoRLERU1MjAf+EYbu69Ozt7nZX5YeGyc77Z85idvexZgFvAJLCJ+loEnAc+AR+Bs8D8ArlMug7MAF+A3TXslgO3ZWuPUWBhAVxmuWwNaPKfwN4qNkuAu7J5DXQDvcC0zl0F5gXkcukY8Bv4Cmw2592FrunCL4C1Zmwj8Fljp2bN58sF0TlN/sSU/aDOuQtvqML0KgE/ZiXgUAZuK4G1ALgjB04CK8wy2FeDG5TNTVWiw2S8Ec5tNi2hg9mhyd8Cl/R7rA6zDHgv2/3ARQ+unwI0aXaXX0BnA0y/7N9puWTl3mjjCaozJpCRBhm3NB7m5PoIrO3GoV0ZuMM5uXECa51xqC0D15GTmyawFpsHZFZVAmkWF51DKZDYMpsqEltmU0Viy2yqSGyZTRWJLbOpIrFlNlUktsymisSW2VSR2DL731Tkm7igb+jzOOTLVV7NrvRgC3HIl3spbr0HW4hDvlzl5fk2D7YQh3y5y+KOerCFOOTLHRHnAip1IFtMO8P1aUobiGsQvRK7h4C6oY5vszin06aDFfx50kwt1dJywQzNYXMPeACsJnL1qAvggrlQ5X6Z0thToJ3IdQD4LofvAzvNlxKuEs809hhYReTqMsvMHR+AK+pu9Zm/NI8yNpX+iVqB42Y3m+tw90xp1AmcAIaBCVWolIFYtev+mNH9Ev0OVi+I58AaSqqpMm2/teS+/XJb8l/L6Q8jn1QSBXIh7wAAAABJRU5ErkJggg==",
-      
+
       "desc": "Schorpioen is een teken van de dierenriem vol mysterie en passie. Mensen geboren onder dit teken zijn vastberaden, moedig en intens. Ze hebben een sterke intuïtie en kunnen de verborgen bedoelingen van anderen ontcijferen."
     },
     {
       "name": "Sagittarius",
       "url": "sagittarius",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABN0lEQVR4nO3awQrCMAwG4P/kI5ji+z+JXvSiDgTny6gMJhTZZtqmaaL+sOvGt7RNOwb88xtZAegBPCpfBw3IVQFyh9MQgMsbxl1CVOW42m4r0QPYeITQBALeIDSDcAWhBYQbCH1AuIAQA2EeQkyEaUgKwiwkFWESkoMwB8lFmIKUIMxAShEmIBKI5hApRFOIJKIZRBrRBFIDwYIcAZzHo6X08VTinmxIJ/TgmggWZB0NhVvmUKg1nJLnSMnbrF2JV3YAtmAkpzIalchKCsYsIgVjHsHBuEEsYdwh5lYkjdVJpTLuKrH0aT+3aTZN+IahRRMTW2I7oxpaWJ3cYIixxJrHUEKfMIuhjGZnDkMFHdsMhgS2Hc0xQbA3xPcavgGoJVRocGFE7KGYzmOXnsrwg8rJO+IfGMkThtQWgt0YC3gAAAAASUVORK5CYII=",
-      
+
       "desc": "Boogschutter is een teken van de dierenriem vol optimisme en zoektocht naar avontuur. Mensen geboren onder dit teken zijn enthousiast, onafhankelijk en oprecht. Ze hebben sterke overtuigingen en streven naar spirituele groei."
     },
     {
       "name": "Capricorn",
       "url": "capricorn",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADMUlEQVR4nO2aX2hPYRjHPzIM+024QP4zf9qFxoXCKKYUdwp3RIiWSK4wF5QWLpQbREsuxFz5c0XI/AuLaLggkv+zZGY/F7Ppqe+pt187+/3de6zOp077nffP877POc/7nOd93gHcBRqBCrJjLHAa+AG0ANeBjcBQIuI20AW0ASszaN8PqAZ+qV/q9RXYCRThmUHAYU2iA1jdQ9vhwFW17QTOA7OA0cB64L6j0COgnAio1uSSwJxu6qcCL52nvjxEjpW/VbufwBIi4KAm8AoY6JRPBz6p7ikwLo2cBHBO7f8AS/FMEfBQE9ilssnAB5Xd0CTJcC0dVb9mYDyeqdLgNvlS4Inub+XgkUyZS+pvXs07jRr8uWNqw3KUNUJrxeQswjP7HO+TLID3OSRZp/DMQkeR2gLIm+28Wa9MchSx3/kyRLLa8Uyx84EsFMGD8U5XgQeOFcmX+I2EEJtWvsSmFUJsWvkSm1YIsWnlS2xaIcSm1ZdNax5QB7zRDrVNqaiTyin02sCZkJQ82+uE0R84FpLBdK+bQFlUigR5MctKhlGvNt+B3coVlCh7Y7npPcAXtbF8c2UUijRJ3syQ+k2q/6iEYBgJpWoDZcp8K3JH8ipD9vSWxLP6FRnmyy44SUOvihyXvO3d1G1VXUMW8hLKQXelcwCFVmSd5FlOOJUHqluVpcy96nfCpyIzJO+9TCNgok4BzMWaiWVDhWSaa/amiE3+nWQuSznOsLKLOchMqG9rT40adJpVSPZrYEtsB1xR2YbeUqQ3GKVsoyX+5gODdd+Z5vuSzrReEAEHNPhrYI1+P85RVo36m0f0TrFzXNGuv/bFzhY7u/mm/ouJiGlOqGHX3BwcR32UB0gutY4irTrqK82gX2lKTDaFCBnpnGLdcxRqA84q7rIzlTEyxRLd1zjmZEosIGKOaDLXdF+l0PxvBiF8YE6RvongNKxDk7an7DIB2AacAZ4p9E/qvyya5J0iW9ipfr9FT9XOFfskW4DfUuIyMIA+RJEiWndB16XZ7kZKsTxMuTZOO7Tx+ewo0JxDmO6VhjQexhbpZsVV/O+KtGuvbaGHRczmXdZmk+nIl3+PiUhD/nzfxgAAAABJRU5ErkJggg==",
-      
+
       "desc": "Steenbok is een vastberaden en ambitieus teken van de dierenriem. Mensen geboren onder dit teken zijn praktisch, verantwoordelijk en georganiseerd. Ze hebben het vermogen om te plannen en succes te behalen."
     },
     {
       "name": "Aquarius",
       "url": "aquarius",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA0ElEQVR4nO3XQQqCQBjF8b9b3eVBbOctukTktsO0ELpLm7yDHaGQWufOcPgkkYJczUjvBy5E34B+zMADEREREfEpBQ7AA7gB24XlnQ3QAN3kKlhGnhgoR8ETkAM7u38CWcB5Zw3UFmiBPRDxdrRnFyAhvDyRhVp7sbZFpxJbpLNFQ8k7uY1vGGVp4/0ms/F2Nm7feacaLdDYBvtF8WET+spXw4fc7YhbMU9/FF4DyJ9n5kRERGTxUjVE1BBjNUT8Nzw1xOFPqCGihigiIiLyF14rEPvhDF2iKwAAAABJRU5ErkJggg==",
-      
+
       "desc": "Waterman is een teken van de dierenriem vol originaliteit en onafhankelijkheid. Mensen geboren onder dit teken zijn sociaal, innovatief en humanitair. Ze hebben sterke overtuigingen en streven naar positieve verandering in de wereld."
     },
     {
       "name": "Pisces",
       "url": "pisces",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACvUlEQVR4nNWaTYhOURyHn/FdI2J4x8dmMJiNCBvRGEtmIkkRGtmMGmWSFTIhG1aKLJBomsa3bMTCyKAJ+Sgb5SsLYoyY8THvYtDR7627YTTnf87hqbt73+f3P/fe83HPvdA3t4F2oJj4FCu/1UJ2D/gBtBCfU8q+YyErAzokrCUeG5T5ASi3kq7ISMcTnonAR2Uut5a3SHyc8JxUVnMI+QTgM9ALzCEcs5TRHfLq79KZuhwqALiijMaAGQxXx/8OzAjgn6lGdMQY7vcq7FgA9wm5dxMB11fywDcgZ+h1/SGvI8bI+ItmnblNhs4GOZuIyDKFXjd03pSzhogMA7o0TFrcBuPk6pI7KoUJcqOBqz7kBNgXaxR+Gn/OyrWaBJQr/IWB65Vck0hAEfBeBZR69g/n6JQzCVdVRLWHY2mEZc9fz/KNBuu3PSSkVkW4pUV/aZJjLQlZpCJ8nqnb5KgkIdNVxBMPx1M5ppKQnIp46+F4J8dYEjJURfR4OHrkcK5guHH9oYJSHm2+DRkA3P8HGnKD/+DWyssxhISMyTxj95dOOUaTkMkq4rmH46UcbkczGQtUxC0PR7sc80jIKoMN7jNyrCQhO1TEPg/Hfjm2kZCLKmKdh2O9HOdISOHJbraHY64crtMnoVQFfPWcA9x/v8iVIwE1Cr9m4GqVawkJOGzYSbfLdYjIuDXYa4VXGPimyfVG7mhUKviRofOxnPOJyEGF7jR0FjYhDhCJkZl9X7O3rbq9eoFPwAgisFVn7kIA9yW5txCYwZnV6sIA/qrM5OiygtFg+SXCb7irjM2hAkZl9npDXI0CVZmPE0pCBBxVwHniLUaPWIurJe6OtPU/RR8nuNfgi62kZZlNtDriUZ953eAa5oVbLjzIPC/EfH9RpNvYZbsavJYug4BnGkncVw+xcZku2+0PD/zTL38CH1kMsYTSwU0AAAAASUVORK5CYII=",
-      
+
       "desc": "Vissen is een teken van de dierenriem vol gevoeligheid en empathie. Mensen geboren onder dit teken zijn intuïtief, creatief en romantisch. Ze hebben het vermogen om de emoties van anderen te voelen en zijn meestal toegewijd aan hun dierbaren."
     }
   ],
@@ -1408,85 +1406,85 @@ export const horoscop = {
       "name": "Ariete",
       "url": "ariete",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC/klEQVR4nNWaS0hUYRTHf40WvQzsoSEVRi16QlQYtSndZVJhbaKHQYVQVhBRuis3QdYu3WVUJlFQ9MZNOW1atCnbFCG9VmWQkJY9jSP/gS/S653bjNzvBwP3nu+c8/3PzOV73YF/GQdsAW4Cb4E+oAfoAE4CxWSf2UAD8Ex990nLDWkzjYFsBj4A/QGfb8BxIDcLBeQC9cD3YTSYxk1DJTnhOLYDO4D5QB4wHlgFnAN+yecWMDaDRViu28r9E2gGVqpv07AAqJK2lE7T/Bf71PAV2DpMh2XAJ/lfAxIZKMJyXFdOy106jP82aTX/vSnjTD2HZqwM2bH9Or2KqeX/qVOuHuUOQ6ViPgMzzHBahtY0O18H/Aa+AHOIzlzlsFzlacZelvZTdvNONyURRDQrto3otCnH2QixKxRrI9rAEPc04rM+BXivZBUR4isUazkmR4hPOPoHhrwcolMjMckIsQ8VazmikpOpqcCGxy4JsuEyLCWK+QhMICbUS9SVNGKuKuYYMWI68ENLifwQ/vnytRm8gJjRpm94VwjfPfK9QwzZKXH3Q/g+kK/N0LFjkiY2W4sVBvgVyqdXa6hYclff9PYAnypn0RlbDkpkS4BPawbmjqwzTyK7hlgpJJz9jq2xYs0rCV06SNsytXXiAecldn/AoxdlgTjiVAdsC1LL7t14wGKJfT1I2xu1LcQDEkC3BBc59iLZujO0PR4RkhK91rGVOwcb3tAk0UccW61sjXhEjURfdGyXZLMTG28olegnjq1DtjV4RIFzKjkGGK1rs03DM7qcoXaRc9TpHUmJ3+Acptk+xDuaJP4QcFjXZ/CQA474xoD1V+zZKPG22bqn6/V4yHKJfw68CFjax55Cie/Tpz+ORz9hGOUUkHr3YjYv6XQKeYnHtDuFhDnvii0tTiEX8JgGpxB7te0tdU4hR/GYaqcQLw4cgv6A0J/mG+NYUuYUshqPWeIUYsdE3lLsFDILjylwCpmKx+Q5hUzEY3KdQrLxtyhGkkfA42z38gdXb/TZD3X7HQAAAABJRU5ErkJggg==",
-      
+
       "desc": "Ariete è il primo segno dello zodiaco. Le persone nate sotto questo segno sono solitamente coraggiose, dinamiche e piene di energia. Hanno una forte personalità e cercano di raggiungere i loro obiettivi."
     },
     {
       "name": "Toro",
       "url": "toro",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADgUlEQVR4nM2ay29NURTGf0WLgWdQVEOFCYmBDmj5F5AWjUaQmHhNqt5EYiDCRGIgGhMMvOoRz4GBhJIm3hWEkWdiQCkSpS9XVnwn2ZG26e3de9/7JTs5ac/5vrXPWXs99r4Ar4CfwHvgPnAIWAjkk3vIBxbJxgeyuRW4Y/98CaS6GW+BNUBetq3nnw1rgXc92NqQ3DgUmAiUAduBJuema8CoLE5iFHDdsadJNs6VzWZ7r29gMdCsh+8Bw4iP4dI2Gz4Dlf31kMnAGxFdiuxmecAVab+WLRlhOvBNhOansbBemi3ANF+ky0X6FRhDeIyVlmlW+ya/IeI6wuOotG6GIJ8JdABdQCnhUCqNdmBGKJGDelOWOAcE4B8o7pS0gsFC8AcJrQvAv0HcH4ERBEalE01KPPJOdaJjBZFwwcmyPt7cSOCpOM8TOeO+kPBjlQr9hT37RFzPs1FBTJRw4maWLIek8fwQrbMWcTwDJpAljJYrpJx66AiwQuHaDBusYdezgJXKRUkdl7iTcWUdC4DGHkrs3kajns0ZlAKnlcj6Ogm79xQwmxzABOCiY1wncAuoAeaoZhqkzm6ceoha4LbuTZ6zKDg+W5NY4hR21irvleF9hU1sn1pV4/iiHigqah03MpcqyoBrEnDWcbcaImGHI7rVI6+1r8nL2UZgVEisU67lG0vF36XdkiAoBn7ojfn8Et19mRTwPUOX7RHnJHCG8L16fSit+U50yqSuSicAtEqz3CdxElUsXMbCfmme9EVo8b5NCzydPOFDt1PaY33uoFjGjo0GaS/zQVYnso3ExyZpH/ZB9lBkVifFRrmz2ZEx3oss5vpIUCht24XPGEkYLCA+BkvbbMgYbTkwkd8+yJpzwLU++SB7lMXFPs/nYj8hMutBYmOztI/5IFv9/zldRNyV9ipfftqhcsHKhtglSrvP9ZkcgVkhFwsHnCM/bygT6S81WKFRpJYhpRbCK66KuD7woWies3t5OYRAidPqWjsaCjudVndKKJFqZwfFNgp8o0rcf3QdFLs1GRPb48nN8rQF1CVu+ypRkEwmWTPWY/cXxc6a+APsIjKWOWumVaE5nTwzTiH2l7MmqsgSSpxolmxiN6i0KFcyLdAo1N+26GdJ7ib25ZALOx3MlzEdaRwrtCvZed3uwRPMXawuOq4fhtkJlvUzNuzaqlgrAO0er23BXwnvNsCEKAi3AAAAAElFTkSuQmCC",
-      
+
       "desc": "Il Toro è un segno dello zodiaco stabile e pratico. Le persone nate sotto questo segno sono persistenti, indipendenti e hanno un forte senso dei valori. Sono leali e rimangono fedeli alle loro convinzioni."
     },
     {
       "name": "Gemelli",
       "url": "gemelli",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACO0lEQVR4nO3azYtNcRzH8dcMlkZkFmpSQ9khz4aFP0AWsmLBQh4WpKZYUojSiI3HImxkhQ0LdjJYjJUd03haXIpo1oN++t46nZkzjY47bvq967c49/7u+T1833f1/cAQ3uMM1mGG9qcTq3Ea7/AsffgCPwvjC+5gN3q0D/OxA7fwqbTn3wfpQB8GMFKakMYwbqMfm9A9DZvuwhrsx3W8wlhpX8mic9gQZxjHMhzC3ahO+WDNqg3iBk7iILZhI5ZgURx4bkHVOfHcG9+vxRbswTFcxmN8rFhzFA9wGKuqNj+Zi0uxMyr2aIKytmJ8wxNcwN449EwtYEFh0eO4gvtRpdd4i68xfhRuND03QtehuOGbcUnN96WKTSvNhdv1fVMmH6SCXJG6ZLUqyGrVJatVQVarLlmtCrJadclqVZDVqktWq4KsVl2yWhVkteqS1aogq1WXrFYFWa26ZLUqyGrVJatVQVarLlmtCrJadfkv1OotLDwQLebUan4ZredGtKJHC/Oa7eoPeBOxi9TSvhot7ua81Pr+68zCeuzDxWjif5+GwMDnCCecxS4sj/DClOmMDMgRPCzdaDkHkha6hKMRwNmMFRHPWBhxja7Ce9PzvPh+cWRItuIATkQcZHCS2Eiq5r2Il6SDjaMjMiTno+zFH49FoOVaVCVFi2ZrPd0R4OmPQM/wBAcbCa37mrmUcsypEc5vj2hRu9ATlU8RrHLVnqcJ6U+XsiOnsPJPUzf/iJQ4SiG5FJZLwbOnvwCLgWWqTsz8GQAAAABJRU5ErkJggg==",
-      
+
       "desc": "Gemelli è un segno dello zodiaco ricco di diversità. Le persone nate sotto questo segno sono intelligenti, socievoli e curiose. Hanno un'immaginazione vivida e godono di fare connessioni con altre persone."
     },
     {
       "name": "Cancro",
       "url": "cancro",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADzElEQVR4nO2aW4iNURTHf3PGHOMeCW9uL2LGeKTILUm555KEkpLjNsMLg0TSNORSpig8MIgXT7wqlzdkBsMMQ7k8oCEz4zKTZrSn/6ftazjf7ZxPOf/66nTO3muvtfda/72+tQ7kkEMOmcRgYDawC7gC3AFeAR+BNqATaAaagMfAdaAKWAdMAPKJCT2BucBZ4KUUDfMYgy8DK4DCTCufB8wCLgKfXYq0ADeBo8AqYDIwChgoow36A0OAImAeUAZUAw0uWebUjgPFURtQKBd46FrwLlAuxRIh1xgOpIBbrjVuABPDGpAvA95agt8AO4ERZA5mY6pcp34VGBtE2EygzhJ0T/5bQPbQV+TRLB3agX1A0stk48engQ5Nfg4sV3zEhaHAKeCHdHoAlPxtQokVeN+BPV6tzwCSwDIRy1Og1RU7X0Uq3eKDBtUG9ceIsBho9Ejbh7rzlgPAEaBXPPp3MV+lpWQNsEWb2gfoDYwRu9VY485EwJqRotJy6/VplMvTmC+as59/BIstI6b6mDdNKZAhpznEjKQVE2aX/WKj5j4BehAjllkxkQh4cT+UDHOyseGSlNgcQkaZZJzzw+et+nxBv4W9a+qlRBjKHycZRq/AfG5u/0UhlHBSkH4hZPSz3nk883kf7cBWXZ7OuIqAPp4xQyp98Ln5bYPGOsbE4VpFbtcKw+eOMQt9KnFB88wJhw3281HweUpzn/lM9x36rQ1Bv48kY0nUfN4l0COSIoxOualfbNLcBmcDL+oLE9hBUSoZ5l3cDxZZLm3c1CumWynK/KzxeRpUWMak0pSI8nUSTqnpYFZo0CMSljGdctNSbU5fPUUKbCcmOmRE4l8yxIFhvWceLuIG250yzucBUSDCqFZW26KnThS75G/MWC0lzHEGxbZ0yVs2sNTyzfwo+DwuFFhVFPOyEprP48QCMUGbzxSlWz6PGxXa2ValKnlB+TxuJNQusNP4lJXGe+bzLKK3OgGmpPUbzCkc9lgk+yOfZwnjrPeid38atFrlSXcvxBOfZxg9gb2WW9enqwlPsCp7ppB8UoXluJCnzsALy61Pec1IkqrmtVspSLniJVtIAiuB+5Z31Ppk118Yq6aLI+izmjIm+DOFkcBuV8PpNbA2iibqJLXF7Ni5pYvULBwGRrliNXnuudaokQGRN0yL1bhsci3YqBe17bpkxwPDgAGaV6hG6WhgCrAGOKbNMGRiy/qk3G0GWUChAvByN0YFeRrVOZsTY7OpyzVK1Eg9AVzTnwTeWw3Ob+qtmx79bZVNd6j9PSguxXPI4X/AT9ojlRaCVXXkAAAAAElFTkSuQmCC",
-      
+
       "desc": "Il Cancro è un segno dello zodiaco ricco di emozioni. Le persone nate sotto questo segno sono sensibili, protettive e legate alla famiglia. Hanno un'intuizione ben sviluppata e sanno leggere le emozioni degli altri."
     },
     {
       "name": "Leone",
       "url": "leone",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADgklEQVR4nN2aS0hVURSGv6uQkTezgiYR9LCEoDKpSVkQYi8alUGjKIIGQRBBQQ8rgwYRJEXQQ6KgQSpZEUGTMoQkqEGNvPaghz1IM6m0h9mLHf+BTYT3vPb12g8HLvfstf697t5n7X+tcyEzKAWqgZtACujVldJ31RqTlUgAlUAb8Mvn1Qaskm1WYBJw25rgc+AosAQoBvJ1Fes7c6/dGt8CTBzsIOYDHZrQC2AjkOvDLgdYDTyVbRewiEHCQqBPE2nUrx4USeCSfPTJZ8a301tN4HDEfZ4D1MhXp3xnBAnrmWjURKIix1qZlkwlgEoRtofcTgNts5fyvRLHSFgpdr0D/xvkuxXHKLVSrJ/sFBS5yn6GowSH2C+SIw45joljn0OOPxLDkCx1yLFMHDcccvBQJEUOOYotCeMMPSIxGcYVkuIwXM7gneTDHHKMEMcnhxy8E8lYhxwTLO3mDM9E4lJGlInjrkMObolkgUOOreI47pCD0yLZ5JDjmjjWOuRgi0hOOvI/DuhXUhmNQ5QoEFMQucBe+b+IYxi5/UZkM2L2XWBlRVN5RkYFUKuT1XQ/PgOPgbO652mhQ8SLGvltiupoGtDso/vhrUhHjAfjHD0b/VFX2tTK3dZEdwKzrA6I+bzLCsK71sQQRL5V4xyMuhJeEHVpdNRIjfECMWo4aqF2Xr7uAXlRnHnbqc5nrZxjBfNTP0RY7JCf91K9oVFhbacginYU8Fq220JyrwB+AN+B5URErSZjnomg2C3bqyFszTP3QfbbiQHeQzYzwuH4JKDdeKsuP0dM+BihUMqT7dcANiZZ3Jddc9SHO65AkgELoISkh7F5AIwhRsSxtVoDynOToaYSM07JuTnsgmKPbI2PdJgHfNN406mMHeVW+jX7N0j67ZRtutcBw6XVXPfD8HpV9T4PRDPmgmyu+xhfpbEpx00Liiz53JBmZQqsIMzLmSk+dJTnezEZQJlF2KHDbrYyU1I93yprO3X5rBnWafwdMogi1QLpZLxpZU726bNBNpsZBJSrJm9Vt69Hn0+EeM/3SIFMZ4jjiwIx3cMhjd7/JZBUBOWQVaiNoBwKgEKyBGGVQ6HKg1fZ9BePphDK4XJcrSFXyqE+zcoUAlc0ttuHcsg4/qUcSqUaTI93LnDA+l9Ld1zdRlcr4wnUgS5TObp8Rxkb/lYOpiVrXrKe0b20+A2eGDQdGcXhGgAAAABJRU5ErkJggg==",
-      
+
       "desc": "Il Leone è un segno dello zodiaco pieno di fiducia in sé e forza. Le persone nate sotto questo segno sono coraggiose, generose e creative. Hanno un talento naturale per il leadership e di solito attirano l'attenzione degli altri."
     },
     {
       "name": "Vergine",
       "url": "vergine",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFUlEQVR4nNWaXUgUURiGH03sxygSilBv7Je8KIq6EYJCIvBGCiqki+giEQyqi7qIsroJoqiLCqysu4ggWgoiCooo+zFciKCbIgiLMu2PitD+Ng680mFZV+fb2dnZD2TXc97nzPvNzM6Z+c7A/7gPJIFFjB7jgUPAR2AA2AeU5pELFHeBFPAdWJtFNw3oltb/uwKU54ELHG5vHdbgv4F1GTSTgR5pXgErgEagX20XgJIQuZyiDfgL/ACWeO1uQxe14RdAjde3EPiivp1p41m5UOKgBn/mHfbNanMbnpeBadQO+Jm2A7YE4JYScpQBj2VgB1DpnQbrs3DHpOnSkajy9vhYuCQwLuxkGjT4a6BT36+OwkwB+qRtBjoMXAt5iKR3dfkD1I2BaZH+rU6XoFyvLjyhRruXSGKMjDs1nubIbSTkWO4ZWhOAa82Ru07IUesZmh6Aq8qR688wJbwH3gBNGGKCN0EGjeFEcuXa0+4EBoFlFNCQhWvWHPNLR+Wk+tx9YUEMWbgabw7aqr4K4J3a6qM2ZOUS+ryc1n9A7Z1RG7JyKeArMDOtf676+oI+AhQykT0jaJ6rf3GUhqzcN2DqCJpz0rRGacjKnc6iaZPmTJSGrNzqLJpV0tyO0pCVq8yiGf7Bv4zSUD64Smk+xcWQlSuXZiguhqxchVfxiYUhK1frVWRiYcjKNUjzMC6GrNxuaY7HxZCVS0izKS6GLNwk3b44zaw4GLJyG9TfHRdDVi7hFQ5jYcjCzVf9wNXLquNgyMqdV98pw7ixSWSBqpZDmhALbsjClQK31H7CMGbohqzcXrW55boZhjFDN2Th6lXXSo2yJBiZIQs3x1tuOGIYK3RDFq5OtV73/VoYC0D3tOIbFTco8x/0eROYSJFFGfDZOyqXijEJtxbzxEviaD6WrPMVzuhK4IaXQMpyi14o8275er9X+kypyr4N2KX/zxLzeJC253v1soB7zvCfxwfi/vvo0pJ3hyqGmSrqPUpmO0UeTUqkT+uKRRslwB0l80gv5RRtVOsUdMm410mKOmZrbnEXiKzxDxPhnJetqZ3mAAAAAElFTkSuQmCC",
-      
+
       "desc": "La Vergine è un segno dello zodiaco orientato ai dettagli. Le persone nate sotto questo segno sono pratiche, precise e organizzate. Hanno abilità analitiche e mantengono l'ordine nel loro ambiente."
     },
     {
       "name": "Bilancia",
       "url": "bilancia",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACD0lEQVR4nO2YTUtWQRiGr1y4yAohEQkhcJMuIlqkJLlr50oKKhSlRWAEZS20XAluTH9CiIJU/yB0E/GaH7gQpSAX7jQKgkjKEj9j4FZmI/ie95nxg7lgNoc5131mzpw5MwOJRCKROAGUAfeAYWACWAT+qCzq2rDquLpHjgZgDNgCdg5YXN1R4AZHgBrgg/dwq8A74AlQD1QBJSpVutahOqvefe+B6sNqRCvwWw/yA+gBSvO4/6wa/E2Ov8ADItPv9eYr9XhWzgCDnq+PSLxQ4D99tFY0A2tydxKY28A2sAk0BfDfkns7kH9vTH9Vjz0KFQI8VsaShp05Awr4CJwiHEXApLJeWstL9VNzr/wK4bmqhrhZ8Zyl+L7E08RjRpltltK3krqfWSyeKfO1pfSLpHXE47oyP1tKd//gF4hHpTJXLKWbkhYTj2JlblhKVyQ9TzzKlPnTUvpJ0mvEo1aZ85bSEUndajUWHcocspS2SOp2eLGYUuYdS6lb8/yKOLzqvO/jtLW8T/Kc1kOhKFKGy+oNEeDWW98V0EU4nitjWSvuIDR6+xHTsSvuyu0OJm4SmG712DrQbuh9KKdzPyUSPd4e+w1QXoCr3FuU7mhoZWIuj7Oo/YqbXSoyZF/yZsNCyriTzRo15GKGhlzWhq3Q/FyG7EQikUjYsGAwjx92GfePeo5zyRm91EQikUiQF/8BKsY0lZCkNVsAAAAASUVORK5CYII=",
-      
+
       "desc": "La Bilancia è un segno dello zodiaco che cerca l'armonia e l'equilibrio. Le persone nate sotto questo segno sono giuste, socievoli e capaci di compromessi. Hanno la capacità di valutare le situazioni e risolvere i conflitti."
     },
     {
       "name": "Scorpione",
       "url": "scorpione",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACXElEQVR4nO2aO2gVQRSGP42oARUUYzTYaGGRQkFtJAgBIUUqHyhIGi0MvkAsxE47QSKEdBZKsBKrkDRpg49CMWp8gyKiIBoRLERU1MjAf+EYbu69Ozt7nZX5YeGyc77Z85idvexZgFvAJLCJ+loEnAc+AR+Bs8D8ArlMug7MAF+A3TXslgO3ZWuPUWBhAVxmuWwNaPKfwN4qNkuAu7J5DXQDvcC0zl0F5gXkcukY8Bv4Cmw2592FrunCL4C1Zmwj8Fljp2bN58sF0TlN/sSU/aDOuQtvqML0KgE/ZiXgUAZuK4G1ALgjB04CK8wy2FeDG5TNTVWiw2S8Ec5tNi2hg9mhyd8Cl/R7rA6zDHgv2/3ARQ+unwI0aXaXX0BnA0y/7N9puWTl3mjjCaozJpCRBhm3NB7m5PoIrO3GoV0ZuMM5uXECa51xqC0D15GTmyawFpsHZFZVAmkWF51DKZDYMpsqEltmU0Viy2yqSGyZTRWJLbOpIrFlNlUktsymisSW2VSR2DL731Tkm7igb+jzOOTLVV7NrvRgC3HIl3spbr0HW4hDvlzl5fk2D7YQh3y5y+KOerCFOOTLHRHnAip1IFtMO8P1aUobiGsQvRK7h4C6oY5vszin06aDFfx50kwt1dJywQzNYXMPeACsJnL1qAvggrlQ5X6Z0thToJ3IdQD4LofvAzvNlxKuEs809hhYReTqMsvMHR+AK+pu9Zm/NI8yNpX+iVqB42Y3m+tw90xp1AmcAIaBCVWolIFYtev+mNH9Ev0OVi+I58AaSqqpMm2/teS+/XJb8l/L6Q8jn1QSBXIh7wAAAABJRU5ErkJggg==",
-      
+
       "desc": "Lo Scorpione è un segno dello zodiaco pieno di mistero e passione. Le persone nate sotto questo segno sono decise, coraggiose e intense. Hanno una forte intuizione e sanno decifrare le intenzioni nascoste degli altri."
     },
     {
       "name": "Sagittario",
       "url": "sagittario",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABN0lEQVR4nO3awQrCMAwG4P/kI5ji+z+JXvSiDgTny6gMJhTZZtqmaaL+sOvGt7RNOwb88xtZAegBPCpfBw3IVQFyh9MQgMsbxl1CVOW42m4r0QPYeITQBALeIDSDcAWhBYQbCH1AuIAQA2EeQkyEaUgKwiwkFWESkoMwB8lFmIKUIMxAShEmIBKI5hApRFOIJKIZRBrRBFIDwYIcAZzHo6X08VTinmxIJ/TgmggWZB0NhVvmUKg1nJLnSMnbrF2JV3YAtmAkpzIalchKCsYsIgVjHsHBuEEsYdwh5lYkjdVJpTLuKrH0aT+3aTZN+IahRRMTW2I7oxpaWJ3cYIixxJrHUEKfMIuhjGZnDkMFHdsMhgS2Hc0xQbA3xPcavgGoJVRocGFE7KGYzmOXnsrwg8rJO+IfGMkThtQWgt0YC3gAAAAASUVORK5CYII=",
-      
+
       "desc": "Il Sagittario è un segno dello zodiaco pieno di ottimismo e ricerca di avventure. Le persone nate sotto questo segno sono entusiaste, indipendenti e sincere. Hanno forti convinzioni e cercano la crescita spirituale."
     },
     {
       "name": "Capricorno",
       "url": "capricorno",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADMUlEQVR4nO2aX2hPYRjHPzIM+024QP4zf9qFxoXCKKYUdwp3RIiWSK4wF5QWLpQbREsuxFz5c0XI/AuLaLggkv+zZGY/F7Ppqe+pt187+/3de6zOp077nffP877POc/7nOd93gHcBRqBCrJjLHAa+AG0ANeBjcBQIuI20AW0ASszaN8PqAZ+qV/q9RXYCRThmUHAYU2iA1jdQ9vhwFW17QTOA7OA0cB64L6j0COgnAio1uSSwJxu6qcCL52nvjxEjpW/VbufwBIi4KAm8AoY6JRPBz6p7ikwLo2cBHBO7f8AS/FMEfBQE9ilssnAB5Xd0CTJcC0dVb9mYDyeqdLgNvlS4Inub+XgkUyZS+pvXs07jRr8uWNqw3KUNUJrxeQswjP7HO+TLID3OSRZp/DMQkeR2gLIm+28Wa9MchSx3/kyRLLa8Uyx84EsFMGD8U5XgQeOFcmX+I2EEJtWvsSmFUJsWvkSm1YIsWnlS2xaIcSm1ZdNax5QB7zRDrVNqaiTyin02sCZkJQ82+uE0R84FpLBdK+bQFlUigR5MctKhlGvNt+B3coVlCh7Y7npPcAXtbF8c2UUijRJ3syQ+k2q/6iEYBgJpWoDZcp8K3JH8ipD9vSWxLP6FRnmyy44SUOvihyXvO3d1G1VXUMW8hLKQXelcwCFVmSd5FlOOJUHqluVpcy96nfCpyIzJO+9TCNgok4BzMWaiWVDhWSaa/amiE3+nWQuSznOsLKLOchMqG9rT40adJpVSPZrYEtsB1xR2YbeUqQ3GKVsoyX+5gODdd+Z5vuSzrReEAEHNPhrYI1+P85RVo36m0f0TrFzXNGuv/bFzhY7u/mm/ouJiGlOqGHX3BwcR32UB0gutY4irTrqK82gX2lKTDaFCBnpnGLdcxRqA84q7rIzlTEyxRLd1zjmZEosIGKOaDLXdF+l0PxvBiF8YE6RvongNKxDk7an7DIB2AacAZ4p9E/qvyya5J0iW9ipfr9FT9XOFfskW4DfUuIyMIA+RJEiWndB16XZ7kZKsTxMuTZOO7Tx+ewo0JxDmO6VhjQexhbpZsVV/O+KtGuvbaGHRczmXdZmk+nIl3+PiUhD/nzfxgAAAABJRU5ErkJggg==",
-      
+
       "desc": "Il Capricorno è un segno dello zodiaco determinato e ambizioso. Le persone nate sotto questo segno sono pratiche, responsabili e organizzate. Hanno la capacità di pianificare e raggiungere il successo."
     },
     {
       "name": "Acquario",
       "url": "acquario",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA0ElEQVR4nO3XQQqCQBjF8b9b3eVBbOctukTktsO0ELpLm7yDHaGQWufOcPgkkYJczUjvBy5E34B+zMADEREREfEpBQ7AA7gB24XlnQ3QAN3kKlhGnhgoR8ETkAM7u38CWcB5Zw3UFmiBPRDxdrRnFyAhvDyRhVp7sbZFpxJbpLNFQ8k7uY1vGGVp4/0ms/F2Nm7feacaLdDYBvtF8WET+spXw4fc7YhbMU9/FF4DyJ9n5kRERGTxUjVE1BBjNUT8Nzw1xOFPqCGihigiIiLyF14rEPvhDF2iKwAAAABJRU5ErkJggg==",
-      
+
       "desc": "L'Acquario è un segno dello zodiaco pieno di originalità e indipendenza. Le persone nate sotto questo segno sono socievoli, innovative e umanitarie. Hanno forti convinzioni e cercano di cambiare il mondo in meglio."
     },
     {
       "name": "Pesci",
       "url": "pesci",
       image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACvUlEQVR4nNWaTYhOURyHn/FdI2J4x8dmMJiNCBvRGEtmIkkRGtmMGmWSFTIhG1aKLJBomsa3bMTCyKAJ+Sgb5SsLYoyY8THvYtDR7627YTTnf87hqbt73+f3P/fe83HPvdA3t4F2oJj4FCu/1UJ2D/gBtBCfU8q+YyErAzokrCUeG5T5ASi3kq7ISMcTnonAR2Uut5a3SHyc8JxUVnMI+QTgM9ALzCEcs5TRHfLq79KZuhwqALiijMaAGQxXx/8OzAjgn6lGdMQY7vcq7FgA9wm5dxMB11fywDcgZ+h1/SGvI8bI+ItmnblNhs4GOZuIyDKFXjd03pSzhogMA7o0TFrcBuPk6pI7KoUJcqOBqz7kBNgXaxR+Gn/OyrWaBJQr/IWB65Vck0hAEfBeBZR69g/n6JQzCVdVRLWHY2mEZc9fz/KNBuu3PSSkVkW4pUV/aZJjLQlZpCJ8nqnb5KgkIdNVxBMPx1M5ppKQnIp46+F4J8dYEjJURfR4OHrkcK5guHH9oYJSHm2+DRkA3P8HGnKD/+DWyssxhISMyTxj95dOOUaTkMkq4rmH46UcbkczGQtUxC0PR7sc80jIKoMN7jNyrCQhO1TEPg/Hfjm2kZCLKmKdh2O9HOdISOHJbraHY64crtMnoVQFfPWcA9x/v8iVIwE1Cr9m4GqVawkJOGzYSbfLdYjIuDXYa4VXGPimyfVG7mhUKviRofOxnPOJyEGF7jR0FjYhDhCJkZl9X7O3rbq9eoFPwAgisFVn7kIA9yW5txCYwZnV6sIA/qrM5OiygtFg+SXCb7irjM2hAkZl9npDXI0CVZmPE0pCBBxVwHniLUaPWIurJe6OtPU/RR8nuNfgi62kZZlNtDriUZ953eAa5oVbLjzIPC/EfH9RpNvYZbsavJYug4BnGkncVw+xcZku2+0PD/zTL38CH1kMsYTSwU0AAAAASUVORK5CYII=",
-      
+
       "desc": "Pesci è un segno dello zodiaco pieno di sensibilità ed empatia. Le persone nate sotto questo segno sono intuitive, creative e romantiche. Hanno la capacità di percepire le emozioni degli altri e di solito sono devoti ai loro cari."
     }
   ],
-};
+} as const;

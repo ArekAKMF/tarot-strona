@@ -121,3 +121,6 @@ export const staticText: StaticText = {
   }
   
 };
+
+
+export default staticText;

@@ -1,19 +1,12 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Locale, i18n } from '../../i18n.config'
-
-
-export async function generateStaticParams() {
-  return i18n.locales.map(locale => ({ lang: locale }))
-}
-
+import { useTranslation } from 'react-i18next';
+import Analitics from '@/components/Analitics'
 
 export default function Document() {
-
-
-
+  const { i18n } = useTranslation();
   return (
-    <Html lang="pl">
+    <Html lang={i18n.language}>
       <Head>
         <link
           rel="apple-touch-icon"
@@ -88,27 +81,12 @@ export default function Document() {
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
-        <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-              page_path: window.location.pathname,
-            });
-          `,
-            }}
-          />
+        <Analitics />
       </Head>
       <body>
         <Main />
         <NextScript />
-        <SpeedInsights />
+        {process.env.NODE_ENV === "production" && <SpeedInsights />}
       </body>
     </Html>
   );

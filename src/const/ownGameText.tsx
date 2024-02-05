@@ -1,5 +1,4 @@
 const ownGameText = {
-
     pl: {
         seoPageTitle: "Prywatne czytanie",
         seoPageDescription: "Czy kiedykolwiek zastanawiałeś się, co przyniesie Ci przyszłość? Czy marzysz o jasności w swojej ścieżce życiowej? Nasza usługa odczytu kart tarota jest tu, by pomóc Ci rozwikłać tajemnice przyszłości i prowadzić Cię ku pełni życia.",

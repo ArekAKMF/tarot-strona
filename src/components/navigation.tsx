@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import {
   Box,
   Flex,
@@ -7,35 +7,11 @@ import {
   useColorModeValue,
   Link,
   Container,
-  FormLabel,
-  Select,
-  FormControl,
 } from "@chakra-ui/react";
-import Cookies from "universal-cookie";
-import { useRouter } from "next/router";
-import { getLangText, cookiesName } from '@/const/utils'
-const cookies = new Cookies();
+import { useTranslation } from 'react-i18next';
+import LanguageBox from '@/components/LanguageBox'
 export const WithSubnavigation = () => {
-  const router = useRouter();
-  const [selectedLang, setSelectedLang] = useState("pl");
-
-  const changeLanguage = (lang: string) => {
-    cookies.set(cookiesName, lang, { path: "/" });
-    router.replace('/');
-    setTimeout(() => {
-      router.reload();
-    }, 500)
-
-  };
-
-  useEffect(() => {
-    const formContactActive = cookies.get(cookiesName);
-    if (formContactActive !== undefined) {
-      setSelectedLang(formContactActive);
-    }
-
-  }, []);
-
+  const { t } = useTranslation();
 
   return (
     <Box borderBottom="2px solid #aaa">
@@ -56,13 +32,14 @@ export const WithSubnavigation = () => {
                 href="/"
                 textDecoration="none!important"
                 padding="0"
+                title={t("pageName")}
               >
                 <Flex flexDirection="row" alignItems="center" justifyContent="center">
                   <Image
                     src="../../logo-biale.png"
                     width="80px"
                     padding="0 5px"
-                    alt="Tarot mistyczny logo"
+                    alt="Logo"
                     objectFit="cover"
                   />
                   <Text
@@ -72,34 +49,14 @@ export const WithSubnavigation = () => {
                     fontSize="40px"
                     fontWeight="bold"
                   >
-                    {getLangText("pageName")}
+                    {t("pageName")}
                   </Text>
                 </Flex>
               </Link>
             </Flex>
           </Box>
           <Box>
-            <Flex flexDirection="column" justifyContent="center">
-              <FormControl as='fieldset'>
-                <FormLabel display="none" htmlFor="language">
-                  {getLangText("pageLanguage")} :
-                </FormLabel>
-                <Select
-                  placeholder=""
-                  value={selectedLang}
-                  onChange={(e) => changeLanguage(e.target.value)}
-                  id="language"
-                >
-                  <option value="en">EN</option>
-                  <option value="de">DE</option>
-                  <option value="pl">PL</option>
-                  <option value="fr">FR</option>
-                  <option value="es">ES</option>
-                  <option value="nl">NL</option>
-                  <option value="it">IT</option>
-                </Select>
-              </FormControl>
-            </Flex>
+            <LanguageBox />
           </Box>
         </Flex>
       </Container>
