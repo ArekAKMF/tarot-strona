@@ -3,6 +3,7 @@ import { PageTitle } from "@/components/pageTitle";
 import React, { useState, useEffect } from "react";
 import useFirebaseHook from '@/hooks/useFirebaseHook';
 import { useTranslation } from 'react-i18next';
+import Seo from '@/components/Seo'
 
 export default function SingGames({
   title,
@@ -27,6 +28,7 @@ export default function SingGames({
 
   return (
     <Container maxW="8xl" marginBottom="24px">
+      <Seo title={pageTitleActive} description={selectedCard?.day} />
       <PageTitle
         title={pageTitleActive}
         subtitle=""
