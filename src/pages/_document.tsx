@@ -81,12 +81,13 @@ export default function Document() {
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
-        <Analitics />
+
       </Head>
       <body>
         <Main />
         <NextScript />
-         <SpeedInsights />
+        <SpeedInsights />
+        <Analitics />
       </body>
     </Html>
   );
