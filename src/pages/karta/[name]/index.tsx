@@ -31,8 +31,8 @@ export default function Home() {
     if (router?.asPath) {
       const selected =
         router?.asPath.split("/")[2];
-      const activeEl = cards[i18n.language]?.cards?.find((el: any) => el.url === selected);
-      setSelectedCard(activeEl);
+      // const activeEl = cards[i18n.language]?.cards?.find((el: any) => el.url === selected);
+      // setSelectedCard(activeEl);
     }
   }, [router?.asPath, i18n]);
 
