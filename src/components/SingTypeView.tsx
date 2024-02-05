@@ -31,7 +31,7 @@ export default function SingTypeView() {
         {t("cardTypeSing")}
       </Heading>
       <SimpleGrid autoColumns="true" columns={[1, 2, 3]}>
-        {gameList.map((el: any, index: number) => {
+        {gameList?.map((el: any, index: number) => {
           return (
             <Checkerboard
               key={index}

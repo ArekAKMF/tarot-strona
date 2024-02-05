@@ -73,7 +73,7 @@ export default function CardGames({ title, description, gameType }: any) {
         justifyContent="center"
         alignItems="stretch"
       >
-        {selectedCard.map((el: any, index: number) => (
+        {selectedCard?.map((el: any, index: number) => (
           <Cards
             image={el.images[0]}
             title={gameType[index].name}

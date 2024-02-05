@@ -52,7 +52,7 @@ export default function OwnGameCards() {
                         {getGameText(ownGameText, 'pageTitle')}
                     </Heading>
                     <OrderedList margin="40px">
-                        {list.map((el: any, index: number) => (
+                        {list?.map((el: any, index: number) => (
                             <ListItem key={index} paddingBottom="24px">
                                 <strong>{getGameText(ownGameText, `pageLinePoint${index}`)}</strong><br />
                                 {getGameText(ownGameText, `pageLineDesc${index}`)}

@@ -6,8 +6,7 @@ import { useTranslation } from 'react-i18next';
 
 export default function GameTypesView() {
   const { t, i18n } = useTranslation();
-
-  const gameList = gamesType[i18n.language]
+  const gameList = gamesType[i18n.language];
   return (
     <>
       <Container maxW="8xl">
