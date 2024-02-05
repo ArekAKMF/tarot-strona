@@ -85,7 +85,6 @@ export default function Home() {
         <Text fontSize="lg" padding="10px 0">
           {selectedCard?.jobs[0]}
         </Text>
-
       </Container>
       <SingTypeView />
     </>
