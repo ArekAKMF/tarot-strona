@@ -86,6 +86,7 @@ export default function Document() {
         <Main />
         <NextScript />
         <Analitics />
+        <SpeedInsights />
       </body>
     </Html>
   );
