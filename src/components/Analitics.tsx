@@ -2,8 +2,7 @@ import Script from "next/script";
 
 export default function Analitics() {
 
-    // const identifier = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS;
-    const identifier = "G-2XQ0Q40HDR";
+    const identifier = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS;
     const anliticsUrl = `https://www.googletagmanager.com/gtag/js?id=${identifier}`;
 
     const showScript = (
@@ -26,7 +25,5 @@ export default function Analitics() {
         </>
     );
 
-    const analiticScript = showScript;
-
-    return <>{analiticScript}</>;
+    return <>{showScript}</>;
 }
