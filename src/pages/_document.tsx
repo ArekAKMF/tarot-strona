@@ -1,12 +1,10 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import { useTranslation } from 'react-i18next';
 import Analitics from '@/components/Analitics'
 
 export default function Document() {
-  const { i18n } = useTranslation();
   return (
-    <Html lang={i18n.language}>
+    <Html lang="pl">
       <Head>
         <link
           rel="apple-touch-icon"
