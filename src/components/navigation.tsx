@@ -55,9 +55,9 @@ export const WithSubnavigation = () => {
               </Link>
             </Flex>
           </Box>
-          <Box>
+          {/* <Box>
             <LanguageBox />
-          </Box>
+          </Box> */}
         </Flex>
       </Container>
     </Box>
